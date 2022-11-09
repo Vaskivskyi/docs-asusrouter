@@ -22,5 +22,5 @@ features:
   - title: Automate
     details: Events and services to automate your home network
 footerHtml: true
-footer: AsusRouter integration, library and webpage are maintained by @Vaskivskyi<br/><br/><a href="https://www.buymeacoffee.com/vaskivskyi" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" height="60px" /></a>
+footer: AsusRouter integration, library and webpage are maintained by @Vaskivskyi<br/><br/><a href="https://www.buymeacoffee.com/vaskivskyi" target="_blank"><img src="BuyMeACoffee.png" alt="Buy Me A Coffee" height="60px" /></a>
 ---
