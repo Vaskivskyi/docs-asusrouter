@@ -1,7 +1,9 @@
 import { navbar } from "./navbar";
 import { sidebar } from "./sidebar";
 import * as path from "path";
-import { defaultTheme } from '@vuepress/theme-default'
+import { defaultTheme } from '@vuepress/theme-default';
+import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics';
+import { sitemapPlugin } from "vuepress-plugin-sitemap2";
 
 export const domain = 'https://asusrouter.vaskivskyi.com';
 const isDevelop = !!process.env.DEVELOP_BRANCH;
@@ -51,14 +53,14 @@ const conf = {
 
   plugins: [
     [
-      '@vuepress/plugin-google-analytics',
-      {
+      googleAnalyticsPlugin({
         id: 'G-DFHSWJ3ELB',
-      },
+      }),
     ],
     [
-      'vuepress-plugin-sitemap2',
-      { hostname: domain }
+      sitemapPlugin({
+        hostname: domain,
+      }),
     ],
     [
       path.resolve(__dirname, './docs/.vuepress/defaultPageClassPlugin.ts'),
