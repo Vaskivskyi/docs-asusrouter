@@ -40,11 +40,11 @@ export const sidebar: SidebarConfig = {
                     link: "/devices/#tested-devices",
                     children: getFiles("devices/tested"),
                 },
-                {
-                    text: "Other devices",
-                    link: "/devices/#other-devices",
-                    children: getFiles("devices/other"),
-                },
+                // {
+                //     text: "Other devices",
+                //     link: "/devices/#other-devices",
+                //     children: getFiles("devices/other"),
+                // },
             ],
         },
     ],
