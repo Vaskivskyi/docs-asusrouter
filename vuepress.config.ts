@@ -4,6 +4,7 @@ import * as path from "path";
 import { defaultTheme } from '@vuepress/theme-default';
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics';
 import { sitemapPlugin } from "vuepress-plugin-sitemap2";
+import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
 
 export const domain = 'https://asusrouter.vaskivskyi.com';
 const isDevelop = !!process.env.DEVELOP_BRANCH;
@@ -64,6 +65,11 @@ const conf = {
     ],
     [
       path.resolve(__dirname, './docs/.vuepress/defaultPageClassPlugin.ts'),
+    ],
+    [
+      mdEnhancePlugin({
+        footnote: true,
+      }),
     ],
   ],
 }

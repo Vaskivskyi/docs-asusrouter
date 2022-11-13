@@ -30,4 +30,22 @@ export const sidebar: SidebarConfig = {
             children: getFiles("features"),
         },
     ],
+    "/devices/": [
+        {
+            text: "Supported devices",
+            link: "/devices/",
+            children: [
+                {
+                    text: "Tested devices",
+                    link: "/devices/#tested-devices",
+                    children: getFiles("devices/tested"),
+                },
+                // {
+                //     text: "Other devices",
+                //     link: "/devices/#other-devices",
+                //     children: getFiles("devices/other"),
+                // },
+            ],
+        },
+    ],
 };
