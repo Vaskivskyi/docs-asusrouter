@@ -7,6 +7,14 @@
 |Stock   |`=> 3.0.0.4.380.x`|
 |Merlin  |`=> 3.0.0.4.380.x`|
 
+## Binary sensor / switch
+
+### Other
+
+#### `{device}_parental_control`
+
+*[Refer to the Parental control section](parental-control.md#device-parental-control)*
+
 ## Device tracker
 
 ::: tip
@@ -137,6 +145,8 @@
     -   mac
     -   ip
     -   name
+    -   connection_type (`>= 0.12.0`)
+    -   guest (`>= 0.12.0`)
 -   Details:
 
     The event is raised when a new device is connected to the router (if it was not tracked before).
@@ -151,6 +161,8 @@
     -   mac
     -   ip
     -   name
+    -   connection_type (`>= 0.12.0`)
+    -   guest (`>= 0.12.0`)
 -   Details:
 
     The event is raised when a device is disconnected from the router.
@@ -165,6 +177,8 @@
     -   mac
     -   ip
     -   name
+    -   connection_type (`>= 0.12.0`)
+    -   guest (`>= 0.12.0`)
 -   Details:
 
     The event is raised when a device is connected to the router (if it was already tracked before).
@@ -196,3 +210,13 @@
         -   `mac` - MAC address
         -   `ip` - IP address
         -   `name` - hostname of the device
+        -   `connection_type` - type of connection (`Wired`, `2.4 GHz`, `5 GHz`) (`>= 0.12.0`)
+        -   `guest` - connected to a guest network (`>= 0.12.0`)
+
+## Service
+
+### Other
+
+#### `device_internet_access`
+
+*[Refer to the Parental control section](parental-control.md#device-internet-access)*

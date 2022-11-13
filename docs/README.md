@@ -17,7 +17,7 @@ features:
   - title: Firmware support
     details: Stock, Merlin, Merlin/GNUton
   - title: Features
-    details: 13+ groups of supported router features
+    details: 14+ groups of supported router features
   - title: Customize
     details: Use the features you want when you want, adjust them
   - title: Integrate

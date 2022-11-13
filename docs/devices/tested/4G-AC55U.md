@@ -34,6 +34,7 @@ Merlin:
 |[Load average](/features/load-average.md)|:yellow_heart: Merlin-only|`default`|
 |[Network](/features/network.md)|:green_heart: Full|interfaces:<li>`WAN`</li><li>`USB`</li><li>`WIRED`</li><li>`WLAN0` (2.4 GHz)</li><li>`WLAN1` (5 GHz)</li><li>`BRIDGE`</li>|
 |[OpenVPN](/features/openvpn.md)|:green_heart: Full|`default`|
+|[Parental control](/features/parental-control.md)|:green_heart: Full|`default`|
 |[Ports](/features/ports.md)|:green_heart: Full|`lan_speed` attributes:<li>`lan_{x}`, `x=[1,4]`</li><li>up to `1000` each</li>`wan_speed` attributes:<li>`wan_0`</li><li>up to `1000`</li>||
 |[RAM](/features/ram.md)|:green_heart: Full|`default`||
 |[Temperature](/features/temperature.md)|:yellow_heart: Merlin-only|Stock:<li>`cpu`</li>Merlin:<li>`cpu`</li><li>`2.4 GHz`</li><li>`5 GHz`</li>|
