@@ -23,6 +23,10 @@ export const navbar: NavbarConfig = [
         link: "/features/"
     },
     {
+        text: "Devices",
+        link: "/devices/"
+    },
+    {
         text: 'Support',
         children: [
             {

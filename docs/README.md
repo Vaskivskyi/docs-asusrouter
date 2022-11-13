@@ -2,15 +2,18 @@
 home: true
 title: Home
 actions:
-  - text: Get started
-    link: /guide/getting-started/
-    type: primary
   - text: Features
     link: /features/
     type: secondary
+  - text: Get started
+    link: /guide/getting-started/
+    type: primary
+  - text: Devices
+    link: /devices/
+    type: secondary
 features:
   - title: Compatibility
-    details: 26+ supported models
+    details: 32+ supported models
   - title: Firmware support
     details: Stock, Merlin, Merlin/GNUton
   - title: Features

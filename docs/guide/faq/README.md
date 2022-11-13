@@ -4,7 +4,7 @@
 
 ## AiMesh
 
-AiMesh support development is currently on hold. Development requires an additional device. You can support purchase of a device required via donate on [Buy Me a Coffee](https://www.buymeacoffee.com/vaskivskyi/w/2147)
+AiMesh support development is currently on hold. Development requires an additional device. You can support purchase of a device required via donate on [Buy Me a Coffee](https://www.buymeacoffee.com/vaskivskyi/w/2147).
 
 ## AsusRouter vs AsusWRT
 
@@ -55,7 +55,7 @@ This list contain only some of the AsusRouter features. Due to the constant deve
 
 ## Aura RGB
 
-Aura RGB support development is currently on hold. Development requires an additional device. You can support purchase of a device required via donate on [Buy Me a Coffee](https://www.buymeacoffee.com/vaskivskyi/w/2147)
+Aura RGB support development is currently on hold. Development requires an additional device. You can support purchase of a device required via donate on [Buy Me a Coffee](https://www.buymeacoffee.com/vaskivskyi/w/2147).
 
 ## Connected devices
 
@@ -75,6 +75,26 @@ This problem is connected to the device HTTP daemon - some API endpoint become u
 
 - If entities became unavailable when AsusRouter was already running, sensors will recover by themself.
 - If entities were unavailable from the AsusRouter load, you would need to manually reload integration.
+
+## Guest WLAN
+
+### Support for 5 GHz-2 and 6 GHz guest WLANs
+
+Development requires a device supporting these frequencies. You can support purchase of a device required via donate on [Buy Me a Coffee](https://www.buymeacoffee.com/vaskivskyi/w/2147).
+
+## Ports
+
+### 10 Gb/s ports
+
+10 Gb/s ports are not yet supported by AsusRouter. A compatible device is required.
+
+### DSL ports
+
+DSL ports are not yet supported by AsusRouter. A compatible device is required.
+
+### SFP+ ports
+
+SFP+ ports are not yet supported by AsusRouter. A compatible device is required.
 
 ## Router
 
