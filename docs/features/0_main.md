@@ -78,4 +78,4 @@
 
     Deprecated in version `0.11.0`.
 
-    To be removed in version `0.12.0`.
+    Removed in version `0.12.0`.
