@@ -7,6 +7,20 @@
 |Stock   |`=> 3.0.0.4.380.x`|
 |Merlin  |`=> 3.0.0.4.380.x`|
 
+## Identity
+
+Connected device identity is a base information about the device. It is exposed in the lists of devices and events. The following attributes are the part of device identity:
+
+`AsusRouter >= 0.9.0`
+
+- `mac` - MAC address of the device
+- `ip` - IP address assigned to the device
+- `name` - hostname of the device [as discribed here](/guide/faq/#hostname-device-tracker-name)
+
+`AsusRouter >= 0.12.0`
+- `connection_type` - type of the connection [`Wired`, `2.4 GHz`, `5 GHz`, `5 GHz-2`, `6 GHz`]
+- `guest` - whether device is connected to the guest network
+
 ## Binary sensor / switch
 
 ### Other
@@ -141,12 +155,7 @@
 
 `AsusRouter >= 0.10.0`
 
--   Data:
-    -   mac
-    -   ip
-    -   name
-    -   connection_type (`>= 0.12.0`)
-    -   guest (`>= 0.12.0`)
+-   Data: [`connected device identity`](#identity)
 -   Details:
 
     The event is raised when a new device is connected to the router (if it was not tracked before).
@@ -157,12 +166,7 @@
 
 `AsusRouter >= 0.11.0`
 
--   Data:
-    -   mac
-    -   ip
-    -   name
-    -   connection_type (`>= 0.12.0`)
-    -   guest (`>= 0.12.0`)
+-   Data: [`connected device identity`](#identity)
 -   Details:
 
     The event is raised when a device is disconnected from the router.
@@ -173,12 +177,7 @@
 
 `AsusRouter >= 0.11.0`
 
--   Data:
-    -   mac
-    -   ip
-    -   name
-    -   connection_type (`>= 0.12.0`)
-    -   guest (`>= 0.12.0`)
+-   Data: [`connected device identity`](#identity)
 -   Details:
 
     The event is raised when a device is connected to the router (if it was already tracked before).
@@ -206,12 +205,7 @@
     -   Type: `list(dict())`
     -   Details:
 
-        The list of all the devices currently connected to the router. Each list element is a dictionary with 3 pairs key-value:
-        -   `mac` - MAC address
-        -   `ip` - IP address
-        -   `name` - hostname of the device
-        -   `connection_type` - type of connection (`Wired`, `2.4 GHz`, `5 GHz`) (`>= 0.12.0`)
-        -   `guest` - connected to a guest network (`>= 0.12.0`)
+        The list of all the devices currently connected to the router. Each list element is a [`connected device identity`](#identity)
 
 ## Service
 
