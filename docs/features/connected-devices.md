@@ -21,6 +21,9 @@ Connected device identity is a base information about the device. It is exposed 
 - `connection_type` - type of the connection [`Wired`, `2.4 GHz`, `5 GHz`, `5 GHz-2`, `6 GHz`]
 - `guest` - whether device is connected to the guest network
 
+`AsusRouter >= 0.13.0`
+- `connected` - time, when device was connected to the router for the current session. For wireless devices, provides actual connection time. For wired devices shows time, when AsusRouter noticed it online first.
+
 ## Binary sensor / switch
 
 ### Other
@@ -44,110 +47,110 @@ Connected device identity is a base information about the device. It is exposed 
 
     Initial entity name is created based on the `host_name` attribute.
 
-#### Attributes
+    #### Attributes
 
--   ##### connection_time
+    -   ##### connection_time
 
-    -   Type: `string`
-    -   Details:
+        -   Type: `string`
+        -   Details:
 
-        This attribute is available only when the state is `true`.
+            This attribute is available only when the state is `true`.
 
--   ##### connection_type
+    -   ##### connection_type
 
-    -   Type: `string`
-    -   Possible values: `Wired`, `2.4 GHz`, `5 GHz`, `5 GHz-2`, `6 GHz`
-    -   Details:
+        -   Type: `string`
+        -   Possible values: `Wired`, `2.4 GHz`, `5 GHz`, `5 GHz-2`, `6 GHz`
+        -   Details:
 
-        This attribute is available only when the state is `true`.
+            This attribute is available only when the state is `true`.
 
--   ##### host_name
+    -   ##### host_name
 
-    -   Type: `string`
-    -   Details:
+        -   Type: `string`
+        -   Details:
 
-        This attribute is available in any state.
+            This attribute is available in any state.
 
-        Hostname is defined with the following priority:
+            Hostname is defined with the following priority:
 
-        -   device name set by user via Web UI
-        -   device name as reported by the device
-        -   device MAC address if nothing else is provided
+            -   device name set by user via Web UI
+            -   device name as reported by the device
+            -   device MAC address if nothing else is provided
 
--   ##### internet_mode
+    -   ##### internet_mode
 
-    -   Type: `string`
-    -   Possible values:
-        -   `allow` - internet access is allowed
-        -   `block` - internet access is forbiden
-        -   `time` - schedule is set
-    -   Details:
+        -   Type: `string`
+        -   Possible values:
+            -   `allow` - internet access is allowed
+            -   `block` - internet access is forbiden
+            -   `time` - schedule is set
+        -   Details:
 
-        This attribute is available only when the state is `true`.
+            This attribute is available only when the state is `true`.
 
--   ##### internet
+    -   ##### internet
 
-    -   Type: `boolean`
-    -   Details:
+        -   Type: `boolean`
+        -   Details:
 
-        Indicates, whether device is currently has internet access. This attribute is available only when the state is `true`.
+            Indicates, whether device is currently has internet access. This attribute is available only when the state is `true`.
 
--   ##### ip
+    -   ##### ip
 
-    -   Type: `string`
-    -   Details:
+        -   Type: `string`
+        -   Details:
 
-        This attribute is available only when the state is `true`.
+            This attribute is available only when the state is `true`.
 
--   ##### ip_type
+    -   ##### ip_type
 
-    -   Type: `string`
-    -   Details:
+        -   Type: `string`
+        -   Details:
 
-        This attribute is available only when the state is `true`.
+            This attribute is available only when the state is `true`.
 
--   ##### last_activity
+    -   ##### last_activity
 
-    -   Type: `string`
-    -   Details:
+        -   Type: `string`
+        -   Details:
 
-        This attribute is available only when the state is `true`.
+            This attribute is available only when the state is `true`.
 
--   ##### mac
+    -   ##### mac
 
-    -   Type: `string`
-    -   Details:
+        -   Type: `string`
+        -   Details:
 
-        This attribute is available in any state.
+            This attribute is available in any state.
 
--   ##### rssi
+    -   ##### rssi
 
-    -   Type: `int`
-    -   Details:
+        -   Type: `int`
+        -   Details:
 
-        This attribute is available only when the state is `true`.
+            This attribute is available only when the state is `true`.
 
--   ##### rx_speed
+    -   ##### rx_speed
 
-    -   Type: `float`
-    -   Details:
+        -   Type: `float`
+        -   Details:
 
-        This attribute is available only when the state is `true`.
+            This attribute is available only when the state is `true`.
 
--   ##### source_type
+    -   ##### source_type
 
-    -   Type: `string`
-    -   Value: `router`
-    -   Details:
+        -   Type: `string`
+        -   Value: `router`
+        -   Details:
 
-        This attribute is available in any state.
+            This attribute is available in any state.
 
--   ##### tx_speed
+    -   ##### tx_speed
 
-    -   Type: `float`
-    -   Details:
+        -   Type: `float`
+        -   Details:
 
-        This attribute is available only when the state is `true`.
+            This attribute is available only when the state is `true`.
 
 ## Events
 
@@ -196,16 +199,35 @@ Connected device identity is a base information about the device. It is exposed 
 
     The total number of devices connected to the router.
 
-#### Attributes
+    #### Attributes
 
--   ##### devices
+    -   ##### devices
 
-    `AsusRouter >= 0.9.0`
+        `AsusRouter >= 0.9.0`
 
-    -   Type: `list(dict())`
-    -   Details:
+        -   Type: `list[dict]`
+        -   Details:
 
-        The list of all the devices currently connected to the router. Each list element is a [`connected device identity`](#identity)
+            The list of all the devices currently connected to the router. Each list element is a [`connected device identity`](#identity).
+
+### `{device}_latest_connected`
+
+`AsusRouter >= 0.13.0`
+
+-   Default entity state: `Disabled`
+-   Type: `datetime`
+-   Details:
+
+    Datetime of the latest device connected to the router.
+
+    #### Attributes
+
+    -   ##### list
+
+        -   Type: `list[dict]`
+        -   Details:
+
+            The list of all the latest devices connected to the router. Each list element is a [`connected device identity`](#identity).
 
 ## Service
 

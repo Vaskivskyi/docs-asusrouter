@@ -24,21 +24,21 @@ Entities are created based on the `device control` option of AsusRouter. Refer t
 
     The current state of the parental control.
 
-#### Attributes
+    #### Attributes
 
--   #### list
+    -   #### list
 
-    -   Type: `list(dict())`
-    -   Details:
+        -   Type: `list(dict())`
+        -   Details:
 
-        The list of all the devices currently connected to the router. Each list element is a dictionary with 3 pairs key-value:
-        -   `mac` - MAC address
-        -   `name` - hostname of the device
-        -   `state` - state of the rule
+            The list of all the devices currently connected to the router. Each list element is a dictionary with 3 pairs key-value:
+            -   `mac` - MAC address
+            -   `name` - hostname of the device
+            -   `state` - state of the rule
 
-            Possible values:
-            -   `block` - internet access is blocked
-            -   `disable` - this rule is disabled
+                Possible values:
+                -   `block` - internet access is blocked
+                -   `disable` - this rule is disabled
 
 ## Service
 
@@ -50,42 +50,97 @@ Entities are created based on the `device control` option of AsusRouter. Refer t
 
     Add / change device internet access using parental control feature of the router.
 
-#### Attributes
+    #### Attributes
 
-::: tip Priority
+    ::: tip Priority
+    The first in this priority list is used, if many are provided:
+    - `devices`
+    - `entities`
+    - `mac` (and `name`)
+    - `entity_id`
+    :::
 
-`mac` has higher priority, if both `mac` and `device_tracker` are entered.
+    -   #### entities
 
-:::
+        -   Type: `list[entity_id]`
+        -   Details:
 
--   #### entity_id
+            List of entity ids of device_trackers.
+        -   Example:
 
-    -   Type: `string`
-    -   Details:
+            ```yaml
+            entities:
+            - device_tracker.device_1
+            - device_tracker.device_2
+            - device_tracker.device_3
+            ```
 
-        `entity_id` of device_tracker.
+    -   #### devices
 
--   #### mac
+        -   Type: `list[dict]`
+        -   Details: List of dictionaries with `mac` and `name` keys.
+        -   Example:
+            ```yaml
+            devices:
+            - mac: 01:23:45:67:89:01
+                name: Device/1
+            - mac: 01:23:45:67:89:02
+            - mac: 01:23:45:67:89:03
+                name: Device/3
+            ```
 
-    -   Type: `string`
-    -   Details:
+    -   #### state
 
-        MAC address of device.
+        -   Type: `string`
+        -   Possible values:
+            -   `block` - internet access is blocked
+            -   `disable` - this rule is disabled
+            -   `remove` - remove the rule for this device
+        -   Details:
 
--   #### state
+            State of the rule
 
-    -   Type: `string`
-    -   Possible values:
-        -   `block` - internet access is blocked
-        -   `disable` - this rule is disabled
-        -   `remove` - remove the rule for this device
-    -   Details:
+    -   #### entity_id
 
-        State of the rule
+        ::: warning Deprecated
+        in `0.13.0`
 
--   #### name
+        To be removed in `0.15.0`
 
-    -   Type: `string`
-    -   Details:
+        Use [`entities`](#entities) instead
+        :::
 
-        Device name to be saved in parental control rules. If not selected, hostname from the entity will be used. If not selected and MAC is used, MAC will also be used as name
+        -   Type: `string`
+        -   Details:
+
+            `entity_id` of device_tracker.
+
+    -   #### mac
+
+        ::: warning Deprecated
+        in `0.13.0`
+
+        To be removed in `0.15.0`
+
+        Use [`devices`](#devices) instead
+        :::
+
+        -   Type: `string`
+        -   Details:
+
+            MAC address of device.
+
+    -   #### name
+
+        ::: warning Deprecated
+        in `0.13.0`
+
+        To be removed in `0.15.0`
+
+        Use [`devices`](#devices) instead
+        :::
+
+        -   Type: `string`
+        -   Details:
+
+            Device name to be saved in parental control rules. If not selected, hostname from the entity will be used. If not selected and MAC is used, MAC will also be used as name

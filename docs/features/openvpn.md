@@ -30,98 +30,98 @@ Entities are created based on the `device control` option of AsusRouter. Refer t
 
     The current state of the OpenVPN client `{x}`. Currently, all the devices have support for up to 5 clients.
 
-#### Attributes
+    #### Attributes
 
--   ##### auth_read
+    -   ##### auth_read
 
-    -   Type: `integer`
-    -   Details:
+        -   Type: `integer`
+        -   Details:
 
-        This attribute is available only when the state is `true`.
+            This attribute is available only when the state is `true`.
 
--   ##### error_code
+    -   ##### error_code
 
-    -   Type: `integer`
-    -   Details:
+        -   Type: `integer`
+        -   Details:
 
-        Error code. `0` - no errors detected. This attribute is available in any state.
+            Error code. `0` - no errors detected. This attribute is available in any state.
 
--   ##### local_ip
+    -   ##### local_ip
 
-    -   Type: `string`
-    -   Details:
+        -   Type: `string`
+        -   Details:
 
-        This attribute is available only when the state is `true`.
+            This attribute is available only when the state is `true`.
 
--   ##### {type}_compress_bytes
+    -   ##### {type}_compress_bytes
 
-    -   Type: `integer`
-    -   Details:
+        -   Type: `integer`
+        -   Details:
 
-        For `{type}` in [`post`, `pre`] This attribute is available only when the state is `true`.
+            For `{type}` in [`post`, `pre`] This attribute is available only when the state is `true`.
 
--   ##### {type}_decompress_bytes
+    -   ##### {type}_decompress_bytes
 
-    -   Type: `integer`
-    -   Details:
+        -   Type: `integer`
+        -   Details:
 
-        For `{type}` in [`post`, `pre`] This attribute is available only when the state is `true`.
+            For `{type}` in [`post`, `pre`] This attribute is available only when the state is `true`.
 
--   ##### public_ip
+    -   ##### public_ip
 
-    -   Type: `string`
-    -   Details:
+        -   Type: `string`
+        -   Details:
 
-        This attribute is available only when the state is `true`.
+            This attribute is available only when the state is `true`.
 
--   ##### server_auth
+    -   ##### server_auth
 
-    -   Type: `string`
-    -   Details:
+        -   Type: `string`
+        -   Details:
 
-        This attribute is available only when the state is `true`.
+            This attribute is available only when the state is `true`.
 
--   ##### server_ip
+    -   ##### server_ip
 
-    -   Type: `string`
-    -   Details:
+        -   Type: `string`
+        -   Details:
 
-        This attribute is available only when the state is `true`.
+            This attribute is available only when the state is `true`.
 
--   ##### server_port
+    -   ##### server_port
 
-    -   Type: `integer`
-    -   Details:
+        -   Type: `integer`
+        -   Details:
 
-        This attribute is available only when the state is `true`.
+            This attribute is available only when the state is `true`.
 
--   ##### status
+    -   ##### status
 
-    -   Type: `string`
-    -   Details:
+        -   Type: `string`
+        -   Details:
 
-        A string status of the client. This attribute is available in any state.
+            A string status of the client. This attribute is available in any state.
 
--   ##### {type}_read_bytes
+    -   ##### {type}_read_bytes
 
-    -   Type: `integer`
-    -   Details:
+        -   Type: `integer`
+        -   Details:
 
-        For `{type}` in [`tcp_udp`, `tun_tap`] This attribute is available only when the state is `true`.
+            For `{type}` in [`tcp_udp`, `tun_tap`] This attribute is available only when the state is `true`.
 
--   ##### {type}_write_bytes
+    -   ##### {type}_write_bytes
 
-    -   Type: `integer`
-    -   Details:
+        -   Type: `integer`
+        -   Details:
 
-        For `{type}` in [`tcp_udp`, `tun_tap`] This attribute is available only when the state is `true`.
+            For `{type}` in [`tcp_udp`, `tun_tap`] This attribute is available only when the state is `true`.
 
--   ##### update_time
+    -   ##### update_time
 
-    -   Type: `string`
-    -   Details:
+        -   Type: `string`
+        -   Details:
 
-        String with the latest time data was updated. This attribute is available only when the state is `true`.
+            String with the latest time data was updated. This attribute is available only when the state is `true`.
 
 ### `{device}_openvpn_server_{x}`
 
@@ -134,18 +134,18 @@ Entities are created based on the `device control` option of AsusRouter. Refer t
 
     The current state of the OpenVPN server `{x}`. Currently, all the devices have support for up to 2 servers.
 
-#### Attributes
+    #### Attributes
 
--   ##### client_list
+    -   ##### client_list
 
-    -   Type: `list`
-    -   Details:
+        -   Type: `list`
+        -   Details:
 
-        This attribute is available only when the state is `true`.
+            This attribute is available only when the state is `true`.
 
--   ##### routing_table
+    -   ##### routing_table
 
-    -   Type: `list`
-    -   Details:
+        -   Type: `list`
+        -   Details:
 
-        This attribute is available only when the state is `true`.
+            This attribute is available only when the state is `true`.

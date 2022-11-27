@@ -24,99 +24,99 @@ Entities are created based on the `device control` option of AsusRouter. Refer t
 
     The current state of the guest wireless network `{type}`, where `{type}` is [`2_4_ghz`, `5_ghz`, `5_ghz_2`, `6_ghz`] number `{x}`. Most of devices have 3 guest networks of each type.
 
-#### Attributes
+    #### Attributes
 
--   #### api_id
+    -   #### api_id
 
-    -   Type: service attribute
+        -   Type: service attribute
 
--   #### api_type
+    -   #### api_type
 
-    -   Type: service attribute
+        -   Type: service attribute
 
--   #### aimesh_sync
+    -   #### aimesh_sync
 
-    -   Type: `boolean`
-    -   Details:
+        -   Type: `boolean`
+        -   Details:
 
-        Whether guest network is broadcasted from each AiMesh node.
+            Whether guest network is broadcasted from each AiMesh node.
 
--   ##### auth_method
+    -   ##### auth_method
 
-    -   Type: `string`
+        -   Type: `string`
 
--   ##### bw_limit
+    -   ##### bw_limit
 
-    -   Type: `boolean`
-    -   Details:
+        -   Type: `boolean`
+        -   Details:
 
-        Whether bandwidth limit is enabled.
+            Whether bandwidth limit is enabled.
 
--   ##### bw_limit_download
+    -   ##### bw_limit_download
 
-    -   Type: `integer`
-    -   Units: `kbit/s`
-    -   Details:
+        -   Type: `integer`
+        -   Units: `kbit/s`
+        -   Details:
 
-        Download bandwidth limit. `0` - unlimited.
+            Download bandwidth limit. `0` - unlimited.
 
--   ##### bw_limit_upload
+    -   ##### bw_limit_upload
 
-    -   Type: `integer`
-    -   Units: `kbit/s`
-    -   Details:
+        -   Type: `integer`
+        -   Units: `kbit/s`
+        -   Details:
 
-        Upload bandwidth limit. `0` - unlimited.
+            Upload bandwidth limit. `0` - unlimited.
 
--   ##### expire
+    -   ##### expire
 
-    -   Type: `integer`
-    -   Units: `s`
-    -   Details:
+        -   Type: `integer`
+        -   Units: `s`
+        -   Details:
 
-        Enable guest network for a limited amount of time. `0` indicates feature being off.
+            Enable guest network for a limited amount of time. `0` indicates feature being off.
 
--   ##### expire_in
+    -   ##### expire_in
 
-    -   Type: `integer`
-    -   Units: `s`
-    -   Details:
+        -   Type: `integer`
+        -   Units: `s`
+        -   Details:
 
-        When the network will be disabled (if `expire` is set).
+            When the network will be disabled (if `expire` is set).
 
--   ##### hidden
+    -   ##### hidden
 
-    -   Type: `boolean`
+        -   Type: `boolean`
 
--   ##### lan_access
+    -   ##### lan_access
 
-    -   Type: `boolean`
+        -   Type: `boolean`
 
--   ##### maclist
+    -   ##### maclist
 
-    -   Type: `string`
+        -   Type: `string`
 
--   ##### macmode
+    -   ##### macmode
 
-    -   Type: `boolean`
-    -   Details:
+        -   Type: `boolean`
+        -   Details:
 
-        Whether MAC filter is enabled
+            Whether MAC filter is enabled
 
--   ##### password
+    -   ##### password
 
-    -   Type: `string`
-    -   Details:
+        -   Type: `string`
+        -   Details:
 
-        This attribute is only available if the `hide passwords` option is set to `false`. Refer to the [Security](../guide/configuration/security.md) section for more info on how to change this option.
+            This attribute is only available if the `hide passwords` option is set to `false`. Refer to the [Security](../guide/configuration/security.md) section for more info on how to change this option.
 
--   ##### ssid
+    -   ##### ssid
 
-    -   Type: `string`
+        -   Type: `string`
 
--   ##### wpa_encryption
+    -   ##### wpa_encryption
 
-    -   Type: `string`
+        -   Type: `string`
 
 ## Service
 
@@ -128,75 +128,75 @@ Entities are created based on the `device control` option of AsusRouter. Refer t
 
     Allows changing guest WLAN settings.
 
-#### Attributes
+    #### Attributes
 
--   #### entity_id
+    -   #### entity_id
 
-    -   Type: `string`
-    -   Details:
+        -   Type: `string`
+        -   Details:
 
-        `entity_id` of the guest WLAN.
+            `entity_id` of the guest WLAN.
 
--   ##### bw_enabled
+    -   ##### bw_enabled
 
-    -   Type: `boolean`
-    -   Details:
+        -   Type: `boolean`
+        -   Details:
 
-        Whether bandwidth limit is enabled.
+            Whether bandwidth limit is enabled.
 
--   ##### bw_dl
+    -   ##### bw_dl
 
-    -   Type: `integer`
-    -   Units: `kbit/s`
-    -   Details:
+        -   Type: `integer`
+        -   Units: `kbit/s`
+        -   Details:
 
-        Download bandwidth limit. `0` - unlimited.
+            Download bandwidth limit. `0` - unlimited.
 
--   ##### bw_ul
+    -   ##### bw_ul
 
-    -   Type: `integer`
-    -   Units: `kbit/s`
-    -   Details:
+        -   Type: `integer`
+        -   Units: `kbit/s`
+        -   Details:
 
-        Upload bandwidth limit. `0` - unlimited.
+            Upload bandwidth limit. `0` - unlimited.
 
--   #### closed
+    -   #### closed
 
-    -   Type: `boolean`
-    -   Details:
+        -   Type: `boolean`
+        -   Details:
 
-        Whether SSID should be hidden.
+            Whether SSID should be hidden.
 
--   ##### expire
+    -   ##### expire
 
-    -   Type: `integer`
-    -   Units: `s`
-    -   Details:
+        -   Type: `integer`
+        -   Units: `s`
+        -   Details:
 
-        Enable guest network for a limited amount of time. `0` indicates feature being off.
+            Enable guest network for a limited amount of time. `0` indicates feature being off.
 
--   ##### lan_access
+    -   ##### lan_access
 
-    -   Type: `boolean`
+        -   Type: `boolean`
 
--   #### password
+    -   #### password
 
-    -   Type: `string`
+        -   Type: `string`
 
--   #### ssid
+    -   #### ssid
 
-    -   Type: `string`
+        -   Type: `string`
 
--   #### state
+    -   #### state
 
-    -   Type: `boolean`
-    -   Details:
+        -   Type: `boolean`
+        -   Details:
 
-        Whether WLAN should be on.
+            Whether WLAN should be on.
 
--   #### sync_node
+    -   #### sync_node
 
-    -   Type: `boolean`
-    -   Details:
+        -   Type: `boolean`
+        -   Details:
 
-        Whether guest network is broadcasted from each AiMesh node.
+            Whether guest network is broadcasted from each AiMesh node.

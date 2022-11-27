@@ -20,19 +20,19 @@
 
     The total speed over all the connected LAN ports of the device.
 
-#### Attributes
+    #### Attributes
 
--   ##### lan_{x}
+    -   ##### lan_{x}
 
-    -   Type: `integer`
-    -   Units: `Mbit/s`
-    -   Possible values:
-        -   `0` - disconnected
-        -   `1000` - 1 Gb/s
-        -   `2500` - 2.5 Gb/s
-    -   Details:
+        -   Type: `integer`
+        -   Units: `Mbit/s`
+        -   Possible values:
+            -   `0` - disconnected
+            -   `1000` - 1 Gb/s
+            -   `2500` - 2.5 Gb/s
+        -   Details:
 
-        The speed over the LAN port `{x}`.
+            The speed over the LAN port `{x}`.
 
 ### `{device}_wan_speed`
 
@@ -45,16 +45,16 @@
 
     The total speed over all the connected WAN ports of the device.
 
-#### Attributes
+    #### Attributes
 
--   ##### wan_{x}
+    -   ##### wan_{x}
 
-    -   Type: `integer`
-    -   Units: `Mbit/s`
-    -   Possible values:
-        -   `0` - disconnected
-        -   `1000` - 1 Gb/s
-        -   `2500` - 2.5 Gb/s
-    -   Details:
+        -   Type: `integer`
+        -   Units: `Mbit/s`
+        -   Possible values:
+            -   `0` - disconnected
+            -   `1000` - 1 Gb/s
+            -   `2500` - 2.5 Gb/s
+        -   Details:
 
-        The speed over the WAN port `{x}`.
+            The speed over the WAN port `{x}`.
