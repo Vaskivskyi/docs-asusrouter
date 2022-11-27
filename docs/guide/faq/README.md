@@ -76,6 +76,8 @@ This problem is connected to the device HTTP daemon - some API endpoint become u
 - If entities became unavailable when AsusRouter was already running, sensors will recover by themself.
 - If entities were unavailable from the AsusRouter load, you would need to manually reload integration.
 
+An example automation is available here: [link](/guide/how-to/automations.html#restart-http-daemon-when-certain-api-endpoints-stop-responding)
+
 ## Guest WLAN
 
 ### Support for 5 GHz-2 and 6 GHz guest WLANs
