@@ -20,28 +20,28 @@
 
     The actual RAM utilization at the time of the poll.
 
-#### Attributes
+    #### Attributes
 
--   ##### free
+    -   ##### free
 
-    -   Type: `integer`
-    -   Units: `KB`
-    -   Details:
+        -   Type: `integer`
+        -   Units: `KB`
+        -   Details:
 
-        The actual amount of free RAM.
+            The actual amount of free RAM.
 
--   ##### total
+    -   ##### total
 
-    -   Type: `integer`
-    -   Units: `KB`
-    -   Details:
+        -   Type: `integer`
+        -   Units: `KB`
+        -   Details:
 
-        The total amount of RAM.
+            The total amount of RAM.
 
--   ##### used
+    -   ##### used
 
-    -   Type: `integer`
-    -   Units: `KB`
-    -   Details:
+        -   Type: `integer`
+        -   Units: `KB`
+        -   Details:
 
-        The actual amount of used RAM.
+            The actual amount of used RAM.

@@ -24,94 +24,94 @@ Entities are created based on the `device control` option of AsusRouter. Refer t
 
     The current state of the wireless network `{type}`, where `{type}` is [`2_4_ghz`, `5_ghz`, `5_ghz_2`, `6_ghz`].
 
-#### Attributes
+    #### Attributes
 
--   #### api_id
+    -   #### api_id
 
-    -   Type: service attribute
+        -   Type: service attribute
 
--   #### api_type
+    -   #### api_type
 
-    -   Type: service attribute
+        -   Type: service attribute
 
--   ##### auth_method
+    -   ##### auth_method
 
-    -   Type: `string`
+        -   Type: `string`
 
--   ##### channel
+    -   ##### channel
 
-    -   Type: `integer`
+        -   Type: `integer`
 
--   ##### channel_bandwidth
+    -   ##### channel_bandwidth
 
-    -   Type: `integer`
+        -   Type: `integer`
 
--   ##### chanspec
+    -   ##### chanspec
 
-    -   Type: `integer`
+        -   Type: `integer`
 
--   ##### country_code
+    -   ##### country_code
 
-    -   Type: `string`
+        -   Type: `string`
 
--   ##### gmode_check
+    -   ##### gmode_check
 
--   ##### group_key_rotation
+    -   ##### group_key_rotation
 
-    -   Type: `integer`
+        -   Type: `integer`
 
--   ##### hidden
+    -   ##### hidden
 
-    -   Type: `boolean`
+        -   Type: `boolean`
 
--   ##### maclist_x
+    -   ##### maclist_x
 
-    -   Type: `string`
+        -   Type: `string`
 
--   ##### macmode
+    -   ##### macmode
 
-    -   Type: `string`
+        -   Type: `string`
 
--   ##### mbo_enable
+    -   ##### mbo_enable
 
-    -   Type: `integer`
+        -   Type: `integer`
 
--   ##### mfp
+    -   ##### mfp
 
-    -   Type: `integer`
+        -   Type: `integer`
 
--   ##### mode
+    -   ##### mode
 
-    -   Type: `integer`
+        -   Type: `integer`
 
--   ##### password
+    -   ##### password
 
-    -   Type: `string`
-    -   Details:
+        -   Type: `string`
+        -   Details:
 
-        This attribute is only available if the `hide passwords` option is set to `false`. Refer to the [Security](../guide/configuration/security.md) section for more info on how to change this option.
+            This attribute is only available if the `hide passwords` option is set to `false`. Refer to the [Security](../guide/configuration/security.md) section for more info on how to change this option.
 
--   ##### radius_ipaddr
+    -   ##### radius_ipaddr
 
-    -   Type: `string`
+        -   Type: `string`
 
--   ##### radius_key
+    -   ##### radius_key
 
-    -   Type: `string`
+        -   Type: `string`
 
--   ##### radius_port
+    -   ##### radius_port
 
-    -   Type: `integer`
+        -   Type: `integer`
 
--   ##### ssid
+    -   ##### ssid
 
-    -   Type: `string`
+        -   Type: `string`
 
--   ##### wpa_encryption
+    -   ##### wpa_encryption
 
-    -   Type: `string`
+        -   Type: `string`
 
--   ##### xbox_optimized
+    -   ##### xbox_optimized
 
 ## Service
 
@@ -123,33 +123,33 @@ Entities are created based on the `device control` option of AsusRouter. Refer t
 
     Allows changing WLAN settings.
 
-#### Attributes
+    #### Attributes
 
--   #### entity_id
+    -   #### entity_id
 
-    -   Type: `string`
-    -   Details:
+        -   Type: `string`
+        -   Details:
 
-        `entity_id` of the WLAN.
+            `entity_id` of the WLAN.
 
--   #### closed
+    -   #### closed
 
-    -   Type: `boolean`
-    -   Details:
+        -   Type: `boolean`
+        -   Details:
 
-        Whether SSID should be hidden.
+            Whether SSID should be hidden.
 
--   #### password
+    -   #### password
 
-    -   Type: `string`
+        -   Type: `string`
 
--   #### ssid
+    -   #### ssid
 
-    -   Type: `string`
+        -   Type: `string`
 
--   #### state
+    -   #### state
 
-    -   Type: `boolean`
-    -   Details:
+        -   Type: `boolean`
+        -   Details:
 
-        Whether WLAN should be on.
+            Whether WLAN should be on.

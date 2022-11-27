@@ -21,15 +21,15 @@
 
     The total amount of traffic downloaded via `{interface}` since the last reboot of the device or traffic overflow.
 
-#### Attributes
+    #### Attributes
 
--   ##### bytes
+    -   ##### bytes
 
-    -   Type: `integer`
-    -   Units: `B`
-    -   Details:
+        -   Type: `integer`
+        -   Units: `B`
+        -   Details:
 
-        The raw traffic value as obtained from the device.
+            The raw traffic value as obtained from the device.
 
 ### `{device}_{interface}_download_speed`
 
@@ -45,15 +45,15 @@
 
     The sensor requires 2 consecutive polls of data from the device to start showing an actual state. Until then, the sensor state will be reported as `unknown`.
 
-#### Attributes
+    #### Attributes
 
--   ##### bytes
+    -   ##### bytes
 
-    -   Type: `integer`
-    -   Units: `bits/s`
-    -   Details:
+        -   Type: `integer`
+        -   Units: `bits/s`
+        -   Details:
 
-        The average speed value as calculated from the traffic.
+            The average speed value as calculated from the traffic.
 
 ### `{device}_{interface}_upload`
 
@@ -67,15 +67,15 @@
 
     The total amount of traffic uploaded via `{interface}` since the last reboot of the device or traffic overflow.
 
-#### Attributes
+    #### Attributes
 
--   ##### bytes
+    -   ##### bytes
 
-    -   Type: `integer`
-    -   Units: `B`
-    -   Details:
+        -   Type: `integer`
+        -   Units: `B`
+        -   Details:
 
-        The raw traffic value as obtained from the device.
+            The raw traffic value as obtained from the device.
 
 ### `{device}_{interface}_upload_speed`
 
@@ -91,12 +91,12 @@
 
     The sensor requires 2 consecutive polls of data from the device to start showing an actual state. Until then, the sensor state will be reported as `unknown`.
 
-#### Attributes
+    #### Attributes
 
--   ##### bytes
+    -   ##### bytes
 
-    -   Type: `integer`
-    -   Units: `bits/s`
-    -   Details:
+        -   Type: `integer`
+        -   Units: `bits/s`
+        -   Details:
 
-        The average speed value as calculated from the traffic.
+            The average speed value as calculated from the traffic.

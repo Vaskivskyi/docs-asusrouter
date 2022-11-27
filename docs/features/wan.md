@@ -18,49 +18,49 @@
 
     The status of WAN connection.
 
-#### Attributes
+    #### Attributes
 
--   ##### dns
+    -   ##### dns
 
-    -   Type: `string`
-    -   Details:
+        -   Type: `string`
+        -   Details:
 
-        DNS servers IP addresses as a single string, separated with ` ` (space).
+            DNS servers IP addresses as a single string, separated with ` ` (space).
 
--   ##### gateway
+    -   ##### gateway
 
-    -   Type: `string`
-    -   Details:
+        -   Type: `string`
+        -   Details:
 
-        Gateway IP address.
+            Gateway IP address.
 
--   ##### ip
+    -   ##### ip
 
-    -   Type: `string`
-    -   Details:
+        -   Type: `string`
+        -   Details:
 
-        WAN IP address.
+            WAN IP address.
 
--   ##### ip_type
+    -   ##### ip_type
 
-    -   Type: `string`
-    -   Details:
+        -   Type: `string`
+        -   Details:
 
-        Method of obtaining IP address.
+            Method of obtaining IP address.
 
--   ##### mask
+    -   ##### mask
 
-    -   Type: `string`
-    -   Details:
+        -   Type: `string`
+        -   Details:
 
-        WAN mask.
+            WAN mask.
 
--   ##### private_subnet
+    -   ##### private_subnet
 
-    -   Type: `integer`
-    -   Details:
+        -   Type: `integer`
+        -   Details:
 
-        An integer value whether WAN is connected to private subnet (`1`) or not (`0`).
+            An integer value whether WAN is connected to private subnet (`1`) or not (`0`).
 
 ## Sensor
 
@@ -73,42 +73,42 @@
 
     The IP address assigned to the WAN interface.
 
-#### Attributes
+    #### Attributes
 
--   ##### dns
+    -   ##### dns
 
-    -   Type: `string`
-    -   Details:
+        -   Type: `string`
+        -   Details:
 
-        DNS servers IP addresses as a single string, separated with ` ` (space).
+            DNS servers IP addresses as a single string, separated with ` ` (space).
 
--   ##### gateway
+    -   ##### gateway
 
-    -   Type: `string`
-    -   Details:
+        -   Type: `string`
+        -   Details:
 
-        Gateway IP address.
+            Gateway IP address.
 
--   ##### ip_type
+    -   ##### ip_type
 
-    -   Type: `string`
-    -   Details:
+        -   Type: `string`
+        -   Details:
 
-        Method of obtaining IP address.
+            Method of obtaining IP address.
 
--   ##### mask
+    -   ##### mask
 
-    -   Type: `string`
-    -   Details:
+        -   Type: `string`
+        -   Details:
 
-        WAN mask.
+            WAN mask.
 
--   ##### private_subnet
+    -   ##### private_subnet
 
-    -   Type: `integer`
-    -   Details:
+        -   Type: `integer`
+        -   Details:
 
-        An integer value whether WAN is connected to private subnet (`1`) or not (`0`).
+            An integer value whether WAN is connected to private subnet (`1`) or not (`0`).
 
 ### Other
 

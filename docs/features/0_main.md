@@ -70,12 +70,10 @@
 
 ### `asusrouter.service_reboot`
 
+::: danger Removed
 `AsusRouter >= 0.7.0 | < 0.12.0`
+:::
 
 -   Details:
 
     This service allows rebooting ther device.
-
-    Deprecated in version `0.11.0`.
-
-    Removed in version `0.12.0`.
