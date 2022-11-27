@@ -19,6 +19,11 @@ export const sidebar: SidebarConfig = {
             ]
         },
         {
+            text: "How To",
+            link: "/guide/how-to/",
+            children: getFiles("guide/how-to"),
+        },
+        {
             text: "FAQ",
             link: "/guide/faq/",
         },
