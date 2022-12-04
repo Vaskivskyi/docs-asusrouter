@@ -231,6 +231,34 @@ Connected device identity is a base information about the device. It is exposed 
 
 ## Service
 
+### `asusrouter.remove_trackers`
+
+`AsusRouter >= 0.14.0`
+
+-   Details:
+
+    Allows removing `device_tracker` entities. When run, the service removes selected trackers from watching. This allows users to manually remove the entities.
+
+    -   Only device_trackers for devices being offline can be removed from watching and from HA.
+    -   If device_trackers are not removed, they will be again activated on HA restart.
+
+    #### Attributes
+
+    -   #### entities
+
+        -   Type: `list[entity_id]`
+        -   Details:
+
+            List of entity ids of device_trackers.
+        -   Example:
+
+            ```yaml
+            entities:
+            - device_tracker.device_1
+            - device_tracker.device_2
+            - device_tracker.device_3
+            ```
+
 ### Other
 
 #### `device_internet_access`
