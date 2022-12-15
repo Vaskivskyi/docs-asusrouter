@@ -2,6 +2,7 @@ import { navbar } from "./navbar";
 import { sidebar } from "./sidebar";
 import * as path from "path";
 import { defaultTheme } from '@vuepress/theme-default';
+import { docsearchPlugin } from '@vuepress/plugin-docsearch';
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics';
 import { sitemapPlugin } from "vuepress-plugin-sitemap2";
 import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
@@ -53,6 +54,18 @@ const conf = {
   debug: false,
 
   plugins: [
+    [
+      docsearchPlugin({
+        apiKey: "69635b7a521270caf9878222c3ec8c44",
+        indexName: "asusrouter-vaskivskyi",
+        appId: "PQ7YIUCYH3",
+        locales: {
+          "/": {
+            placeholder: "Search",
+          },
+        },
+      }),
+    ],
     [
       googleAnalyticsPlugin({
         id: 'G-DFHSWJ3ELB',
