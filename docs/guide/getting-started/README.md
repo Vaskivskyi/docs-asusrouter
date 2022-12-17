@@ -1,5 +1,5 @@
 ---
-next: ../configuration
+next: ../configuration/
 ---
 
 # Getting started

@@ -11,28 +11,28 @@ export const domain = 'https://asusrouter.vaskivskyi.com';
 const isDevelop = !!process.env.DEVELOP_BRANCH;
 
 export function getBase() {
-  let base = '/';
-  if (isDevelop) base += 'develop/';
+  let base = "/";
+  if (isDevelop) base += "develop/";
   return base;
 }
 
-const pagePatterns = ['**/*.md', '!.vuepress', '!node_modules'];
+const pagePatterns = ["**/*.md", "!.vuepress", "!node_modules"];
 
 const conf = {
   base: getBase(),
-  title: 'AsusRouter' + ( isDevelop ? ' develop' : '' ),
-  description: 'Monitor and control your AsusWRT-powered router from Home Assistant',
+  title: "AsusRouter" + ( isDevelop ? " develop" : "" ),
+  description: "Monitor and control your AsusWRT-powered router from Home Assistant",
 
-  dest: 'dist',
-  public: 'public',
-  temp: '.temp',
-  cache: '.cache',
+  dest: "dist",
+  public: "public",
+  temp: ".temp",
+  cache: ".cache",
 
   pagePatterns,
 
   head: [
-    ['link', {
-      rel: 'manifest',
+    ["link", {
+      rel: "manifest",
       href: `${ getBase() }site.webmanifest`,
     }],
   ],
@@ -68,7 +68,7 @@ const conf = {
     ],
     [
       googleAnalyticsPlugin({
-        id: 'G-DFHSWJ3ELB',
+        id: "G-DFHSWJ3ELB",
       }),
     ],
     [
@@ -77,7 +77,7 @@ const conf = {
       }),
     ],
     [
-      path.resolve(__dirname, './docs/.vuepress/defaultPageClassPlugin.ts'),
+      path.resolve(__dirname, "./docs/.vuepress/defaultPageClassPlugin.ts"),
     ],
     [
       mdEnhancePlugin({
@@ -88,7 +88,7 @@ const conf = {
 }
 
 if(isDevelop) {
-  conf.head.push(['meta', { name: 'robots', content: 'noindex' }]);
+  conf.head.push(["meta", { name: "robots", content: "noindex" }]);
 }
 
 export default conf;
