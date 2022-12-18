@@ -8,6 +8,8 @@ AsusRouter integration and library are developed and maintained by Yevhenii Vask
 
 ### <img src="https://asusrouter.vaskivskyi.com/flags/cz.svg" height="20"> Czech
 - [@pepe59](https://github.com/pepe59)
+### <img src="https://asusrouter.vaskivskyi.com/flags/nl.svg" height="20"> Dutch
+- [@poudenes](https://github.com/poudenes)
 ### <img src="https://asusrouter.vaskivskyi.com/flags/gb.svg" height="20"> English
 - [@Vaskivskyi](https://github.com/Vaskivskyi)
 ### <img src="https://asusrouter.vaskivskyi.com/flags/fr.svg" height="20"> French

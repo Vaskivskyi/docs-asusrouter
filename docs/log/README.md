@@ -5,6 +5,10 @@
 For the full change log, click on the version number / title here or in the sidebar.
 :::
 
+## [0.15.1 📖 Dutch translation](/log/0.15.1.html)
+
+`2022-12-18`
+
 ## [0.15.0 🌡️ More temperatures and fixes](/log/0.15.0.html)
 
 `2022-12-18`
