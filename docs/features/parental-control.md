@@ -56,8 +56,6 @@ Entities are created based on the `device control` option of AsusRouter. Refer t
     The first in this priority list is used, if many are provided:
     - `devices`
     - `entities`
-    - `mac` (and `name`)
-    - `entity_id`
     :::
 
     -   #### entities
@@ -100,47 +98,47 @@ Entities are created based on the `device control` option of AsusRouter. Refer t
 
             State of the rule
 
-    -   #### entity_id
+    <details>
+    <summary>entity_id</summary>
 
-        ::: warning Deprecated
-        in `0.13.0`
+    ::: danger Removed
+    `AsusRouter >= 0.12.0 | < 0.15.0`
 
-        To be removed in `0.15.0`
+    Use [`entities`](#entities) instead
+    :::
 
-        Use [`entities`](#entities) instead
-        :::
+    -   Type: `string`
+    -   Details:
 
-        -   Type: `string`
-        -   Details:
+        `entity_id` of device_tracker.
+    </details>
 
-            `entity_id` of device_tracker.
+    <details>
+    <summary>mac</summary>
 
-    -   #### mac
+    ::: danger Removed
+    in `0.15.0`
 
-        ::: warning Deprecated
-        in `0.13.0`
+    Use [`devices`](#devices) instead
+    :::
 
-        To be removed in `0.15.0`
+    -   Type: `string`
+    -   Details:
 
-        Use [`devices`](#devices) instead
-        :::
+        MAC address of device.
+    </details>
 
-        -   Type: `string`
-        -   Details:
+    <details>
+    <summary>name</summary>
 
-            MAC address of device.
+    ::: danger Removed
+    in `0.15.0`
 
-    -   #### name
+    Use [`devices`](#devices) instead
+    :::
 
-        ::: warning Deprecated
-        in `0.13.0`
+    -   Type: `string`
+    -   Details:
 
-        To be removed in `0.15.0`
-
-        Use [`devices`](#devices) instead
-        :::
-
-        -   Type: `string`
-        -   Details:
-
-            Device name to be saved in parental control rules. If not selected, hostname from the entity will be used. If not selected and MAC is used, MAC will also be used as name
+        Device name to be saved in parental control rules. If not selected, hostname from the entity will be used. If not selected and MAC is used, MAC will also be used as name
+    </details>

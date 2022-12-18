@@ -24,6 +24,9 @@ Connected device identity is a base information about the device. It is exposed 
 `AsusRouter >= 0.13.0`
 - `connected` - time, when device was connected to the router for the current session. For wireless devices, provides actual connection time. For wired devices shows time, when AsusRouter noticed it online first.
 
+`AsusRouter >= 0.15.0`
+- `guest_id` - id of the guest network device is connected to. Can be `1`, `2` or `3` for connected devices and `0` when not connected to a guest network.
+
 ## Binary sensor / switch
 
 ### Other
