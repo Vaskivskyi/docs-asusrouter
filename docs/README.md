@@ -23,7 +23,7 @@ features:
   - title: Automate
     details: Events and services to automate your home network
   - title: Multilanguage
-    details: Supporting 7 languages
+    details: Supporting 8 languages
 footerHtml: true
 footer: AsusRouter integration, library and webpage are maintained by <a href="https://github.com/Vaskivskyi">@Vaskivskyi</a><br/><br/><a href="https://www.buymeacoffee.com/vaskivskyi" target="_blank"><img src="/BuyMeACoffee.png" alt="Buy Me A Coffee" height="60px" /></a>
 ---
