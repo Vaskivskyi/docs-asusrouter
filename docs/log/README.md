@@ -13,6 +13,10 @@ For the full change log, click on the version number / title here or in the side
 
 `2022-12-18`
 
+#### 💣 Known issues
+
+- Updating to this version might disable your current temperature sensors and create the new ones. In this case, please remove the old entities, enable the new ones and assign them entity_id's as before.
+
 #### 💥 Breaking
 
 - Deprecated in [0.13.0](/log/0.13.0.html) `entity_id`, `mac` and `name` parameters of `asusrouter.device_internet_access` service are removed
