@@ -9,6 +9,11 @@ export function getFiles(dir: string) {
     .map(file => `/${ dir }/${ file }`);
 }
 
+export function getFilesRev(dir: string) {
+    const files = getFiles(dir)
+    return files.reverse()
+}
+
 export const navbar: NavbarConfig = [
     {
         text: "Guide",
@@ -36,6 +41,14 @@ export const navbar: NavbarConfig = [
             {
                 text: "Community forum",
                 link: "https://community.home-assistant.io/t/custom-component-asusrouter-integration/416111",
+            },
+            {
+                text: "Ghange Log",
+                link: "/log/"
+            },
+            {
+                text: "Credits",
+                link: "/credits/"
             },
         ],
     },

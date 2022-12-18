@@ -84,6 +84,22 @@ An example automation is available here: [link](/guide/how-to/automations.html#r
 
 Development requires a device supporting these frequencies. You can support purchase of a device required via donate on [Buy Me a Coffee](https://www.buymeacoffee.com/vaskivskyi/w/2147).
 
+## Migration from an old version
+
+Some versions of AsusRouter might implement breaking changes, which will not allow migration from really old versions. In this case, you would need to manually update to a correct version still supporting migration before actually updating to the latest release.
+
+With the release of AsusRouter [0.15.0](https://asusrouter.vaskivskyi.com/log/0.15.0), migration from 0.5.1 and earlier has been removed.
+
+### Migration sequences
+
+- Find the step that contains your AsusRouter version (consider ranges, e.g. `0.14.0` is already included into step with versions [`0.6.0` : `0.14.3`])
+- Perform all the following steps one by one
+
+#### Steps:
+
+1. Migrate to any in [`0.6.0` : `0.14.3`]
+2. Migrate to the latest release
+
 ## Ports
 
 ### 10 Gb/s ports

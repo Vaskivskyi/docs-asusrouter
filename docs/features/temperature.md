@@ -45,3 +45,27 @@ Amount and type of temperature sensors available for your device is both device 
 -   Details:
 
     The temperature of the device 5 GHz radio module.
+
+### `{device}_temperature_5_ghz_2`
+
+`AsusRouter >= 0.15.0`
+
+-   Default entity state: `Disabled`
+-   Type: `float`
+-   Units: `°C` (native)
+-   Details:
+
+    The temperature of the device 5 GHz-2 radio module.
+
+### `{device}_temperature_6_ghz`
+
+`AsusRouter >= 0.15.0`
+
+-   Default entity state: `Disabled`
+-   Type: `float`
+-   Units: `°C` (native)
+-   Details:
+
+    The temperature of the device 6 GHz radio module.
+
+

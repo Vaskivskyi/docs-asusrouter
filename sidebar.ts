@@ -1,5 +1,5 @@
 import type { SidebarConfig } from "@vuepress/theme-default"
-import { getFiles } from "./navbar";
+import { getFiles, getFilesRev } from "./navbar";
 
 export const sidebar: SidebarConfig = {
     "/guide/": [
@@ -43,7 +43,7 @@ export const sidebar: SidebarConfig = {
                 {
                     text: "Tested devices",
                     link: "/devices/#tested-devices",
-                    children: getFiles("devices/tested"),
+                    children: getFilesRev("devices/tested"),
                 },
                 // {
                 //     text: "Other devices",
@@ -51,6 +51,21 @@ export const sidebar: SidebarConfig = {
                 //     children: getFiles("devices/other"),
                 // },
             ],
+        },
+    ],
+    "/log/": [
+        {
+            text: "Change log",
+            link: "/log/",
+            children: [
+                "/log/0.15.0.md",
+                "/log/0.14.3.md",
+                "/log/0.14.2.md",
+                "/log/0.14.1.md",
+                "/log/0.14.0.md",
+                "/log/0.13.1.md",
+                "/log/0.13.0.md",
+            ]
         },
     ],
 };
