@@ -119,6 +119,10 @@ Entities are created based on the `device control` option of AsusRouter. Refer t
 
 `AsusRouter >= 0.11.0`
 
+::: warning Control mode-only service
+This service is available only if the `device control` option of AsusRouter is set to `true`. Refer to the [Operation mode](../guide/configuration/operation-mode.md) section for more info on how to change this option.
+:::
+
 -   Details:
 
     Allows changing WLAN settings.
