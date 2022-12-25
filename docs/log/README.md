@@ -5,7 +5,7 @@
 For the full change log, click on the version number / title here or in the sidebar.
 :::
 
-## [0.16.0](/log/0.16.0.html)
+## [0.16.0 🎁 Many small improvements](/log/0.16.0.html)
 
 `2022-12-25`
 
