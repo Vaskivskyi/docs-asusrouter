@@ -5,6 +5,14 @@
 For the full change log, click on the version number / title here or in the sidebar.
 :::
 
+## [0.16.0](/log/0.16.0.html)
+
+`2022-12-25`
+
+#### 💥 Breaking
+
+- Services `asusrouter.adjust_wlan` and `asusrouter.device_internet_access` are available only in `control` mode of the integration - which would be the correct expected behaviour.
+
 ## [0.15.1 📖 Dutch translation](/log/0.15.1.html)
 
 `2022-12-18`
