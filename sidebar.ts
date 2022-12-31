@@ -43,7 +43,7 @@ export const sidebar: SidebarConfig = {
                 {
                     text: "Tested devices",
                     link: "/devices/#tested-devices",
-                    children: getFilesRev("devices/tested"),
+                    children: getFiles("devices/tested"),
                 },
                 // {
                 //     text: "Other devices",
@@ -57,17 +57,7 @@ export const sidebar: SidebarConfig = {
         {
             text: "Change log",
             link: "/log/",
-            children: [
-                "/log/0.16.0.md",
-                "/log/0.15.1.md",
-                "/log/0.15.0.md",
-                "/log/0.14.3.md",
-                "/log/0.14.2.md",
-                "/log/0.14.1.md",
-                "/log/0.14.0.md",
-                "/log/0.13.1.md",
-                "/log/0.13.0.md",
-            ]
+            children: getFilesRev("log")
         },
     ],
 };

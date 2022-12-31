@@ -98,10 +98,14 @@ Entities are created based on the `device control` option of AsusRouter. Refer t
 
     -   ##### macmode
 
-        -   Type: `boolean`
+        -   Type: `string`
+        -   Possible values:
+            -   `allow` - allow access only for devices in maclist
+            -   `deny` - deny access for devices in maclist
+            -   `disabled` - disable mac filter
         -   Details:
 
-            Whether MAC filter is enabled
+            State of the MAC filter
 
     -   ##### password
 
