@@ -5,6 +5,14 @@
 For the full change log, click on the version number / title here or in the sidebar.
 :::
 
+## [0.16.1 👨‍👧‍👦 Guest WLAN bugfix](/log/0.16.1.html)
+
+`2022-12-31`
+
+#### 💥 Breaking
+
+- `macmode` attribute of Guest WLAN switches / binary sensors changed to string instead of boolean. More details on the possible values [here](/features/guest-wlan.html#macmode)
+
 ## [0.16.0 🎁 Many small improvements](/log/0.16.0.html)
 
 `2022-12-25`
