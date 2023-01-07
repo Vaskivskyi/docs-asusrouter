@@ -1,0 +1,83 @@
+{
+    "model": "RT-AXE7800",
+    "wifi": "6e",
+    "links": {
+        "asus": "https://rog.asus.com/networking/rog-rapture-gt-axe11000-model/",
+        "amazon": "https://amzn.to/3jUr2LU"
+    },
+    "firmware": {
+        "386": true,
+        "388": true
+    },
+    "tested": {
+        "state": false,
+        "stock": [
+            
+        ],
+        "merlin": [
+            
+        ]
+    },
+    "features": {
+        "main": {
+        },
+        "connected-devices": {
+        },
+        "cpu": {
+            "cores": 4,
+            "frequency": "1.7 GHz"
+        },
+        "guest-wlan": {
+        },
+        "led": {
+        },
+        "load-average": {
+        },
+        "network": {
+        },
+        "openvpn": {
+        },
+        "parental-control": {
+        },
+        "ports": {
+            "lan": [
+                {
+                    "id": 1,
+                    "speed": 2500
+                },
+                {
+                    "id": [2, 4],
+                    "speed": 1000
+                }
+            ],
+            "lan_aggr": true,
+            "wan": [
+                {
+                    "id": 0,
+                    "speed": 1000
+                }
+            ],
+            "wan_aggr": true
+        },
+        "ram": {
+            "capacity": 512,
+            "units": "MB"
+        },
+        "temperature": {
+        },
+        "wan": {
+            "dual_wan": true
+        },
+        "wlan": {
+            "2ghz": {
+                "speed": 574
+            },
+            "5ghz": {
+                "speed": 4804
+            },
+            "6ghz": {
+                "speed": 2402
+            }
+        }
+    }
+}

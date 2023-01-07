@@ -1,0 +1,80 @@
+{
+    "model": "RT-AX89X",
+    "wifi": "6",
+    "links": {
+        "asus": "https://www.asus.com/networking-iot-servers/wifi-routers/asus-wifi-routers/rt-ax89x/",
+        "amazon": "https://amzn.to/3i55b3S"
+    },
+    "firmware": {
+        "386": true,
+        "388": false
+    },
+    "tested": {
+        "state": true,
+        "stock": [
+            
+        ],
+        "merlin": [
+            
+        ]
+    },
+    "features": {
+        "main": {
+        },
+        "connected-devices": {
+        },
+        "cpu": {
+            "cores": 4,
+            "frequency": "2.2 GHz"
+        },
+        "guest-wlan": {
+        },
+        "led": {
+        },
+        "load-average": {
+        },
+        "network": {
+        },
+        "openvpn": {
+        },
+        "parental-control": {
+        },
+        "ports": {
+            "lan": [
+                {
+                    "id": [1, 8],
+                    "speed": 1000
+                },
+                {
+                    "id": 9,
+                    "speed": 10000
+                }
+            ],
+            "lan_aggr": true,
+            "wan": [
+                {
+                    "id": 0,
+                    "speed": 1000
+                }
+            ],
+            "wan_aggr": true
+        },
+        "ram": {
+            "capacity": 1,
+            "units": "GB"
+        },
+        "temperature": {
+        },
+        "wan": {
+            "dual_wan": true
+        },
+        "wlan": {
+            "2ghz": {
+                "speed": 1148
+            },
+            "5ghz": {
+                "speed": 4804
+            }
+        }
+    }
+}

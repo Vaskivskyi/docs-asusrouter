@@ -1,5 +1,6 @@
 import type { SidebarConfig } from "@vuepress/theme-default"
-import { getFiles, getFilesRev } from "./navbar";
+import { getFiles, getFilesPushFront, getFilesRev } from "./navbar";
+import { default as deviceList } from "./docs/devices/map.json" assert { type: "json" }
 
 export const sidebar: SidebarConfig = {
     "/guide/": [
@@ -32,25 +33,14 @@ export const sidebar: SidebarConfig = {
         {
             text: "Features",
             link: "/features/",
-            children: getFiles("features"),
+            children: getFilesPushFront("features", ["main.md"]),
         },
     ],
     "/devices/": [
         {
             text: "Supported devices",
             link: "/devices/",
-            children: [
-                {
-                    text: "Tested devices",
-                    link: "/devices/#tested-devices",
-                    children: getFiles("devices/tested"),
-                },
-                // {
-                //     text: "Other devices",
-                //     link: "/devices/#other-devices",
-                //     children: getFiles("devices/other"),
-                // },
-            ],
+            children: deviceList,
         },
     ],
     "/log/": [

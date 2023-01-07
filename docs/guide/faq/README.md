@@ -4,7 +4,7 @@
 
 ## AiMesh
 
-AiMesh support development is currently on hold. Development requires an additional device. You can support purchase of a device required via donate on [Buy Me a Coffee](https://www.buymeacoffee.com/vaskivskyi/w/2147).
+AiMesh support development is currently in progress. Development and debugging requires a [compatible device](#when-the-feature-will-be-implemented).
 
 ## AsusRouter vs AsusWRT
 
@@ -55,7 +55,7 @@ This list contain only some of the AsusRouter features. Due to the constant deve
 
 ## Aura RGB
 
-Aura RGB support development is currently on hold. Development requires an additional device. You can support purchase of a device required via donate on [Buy Me a Coffee](https://www.buymeacoffee.com/vaskivskyi/w/2147).
+Aura RGB support development is currently on hold. Development and debugging requires a [compatible device](#when-the-feature-will-be-implemented).
 
 ## Connected devices
 
@@ -78,12 +78,6 @@ This problem is connected to the device HTTP daemon - some API endpoint become u
 
 An example automation is available here: [link](/guide/how-to/automations.html#restart-http-daemon-when-certain-api-endpoints-stop-responding)
 
-## Guest WLAN
-
-### Support for 5 GHz-2 and 6 GHz guest WLANs
-
-Development requires a device supporting these frequencies. You can support purchase of a device required via donate on [Buy Me a Coffee](https://www.buymeacoffee.com/vaskivskyi/w/2147).
-
 ## Migration from an old version
 
 Some versions of AsusRouter might implement breaking changes, which will not allow migration from really old versions. In this case, you would need to manually update to a correct version still supporting migration before actually updating to the latest release.
@@ -100,19 +94,31 @@ With the release of AsusRouter [0.15.0](https://asusrouter.vaskivskyi.com/log/0.
 1. Migrate to any in [`0.6.0` : `0.14.3`]
 2. Migrate to the latest release
 
+## Networks
+
+### 6 GHz WLANs
+
+AsusRouter has basic support of 6 GHz networks. Further development and debugging requires a [compatible device](#when-the-feature-will-be-implemented).
+
 ## Ports
+
+AsusRouter fully suports 100 Mb/s and 1 Gb/s ethernet ports / speeds.
+
+### 2.5 Gb/s ports
+
+2.5 Gb/s ports / speeds are fully supported by AsusRouter. There are reports from users of using 2.5 Gb/s LAN ports. Reports of using 2.5 Gb/s speeds on WAN ports are not available yet.
 
 ### 10 Gb/s ports
 
-10 Gb/s ports are not yet supported by AsusRouter. A compatible device is required.
+10 Gb/s ports / speeds are not yet supported by AsusRouter. Development and debugging requires a [compatible device](#when-the-feature-will-be-implemented).
 
 ### DSL ports
 
-DSL ports are not yet supported by AsusRouter. A compatible device is required.
+DSL ports are not yet supported by AsusRouter. Development and debugging requires a [compatible device](#when-the-feature-will-be-implemented).
 
 ### SFP+ ports
 
-SFP+ ports are not yet supported by AsusRouter. A compatible device is required.
+SFP+ ports are not yet supported by AsusRouter. Development and debugging requires a [compatible device](#when-the-feature-will-be-implemented).
 
 ## Router
 
@@ -136,3 +142,7 @@ Examples:
 -   `3.0.0.4.388_20558` for stock FW.
 -   `3.0.0.4.386.6_2` for Merlin FW.
 -   `3.0.0.4.386.04_0-gnuton` for Gnuton Merlin build.
+
+## When the feature will be implemented?
+
+If some of the features are missing from AsusRouter, this is only because no compatible device is available for development and testing. You can support purchase of a device required via donate on [Buy Me a Coffee](https://www.buymeacoffee.com/vaskivskyi/w/2147).

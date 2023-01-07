@@ -1,0 +1,87 @@
+{
+    "model": "GT-BE98",
+    "name": "ROG Rapture GT-BE98",
+    "wifi": "7",
+    "links": {
+        "asus": "https://rog.asus.com/networking/rog-rapture-gt-be98-model/",
+        "amazon": "https://amzn.to/3vGztgz"
+    },
+    "firmware": {
+        "386": false,
+        "388": true
+    },
+    "tested": {
+        "state": false,
+        "stock": [
+            
+        ],
+        "merlin": [
+            
+        ]
+    },
+    "features": {
+        "main": {
+        },
+        "connected-devices": {
+        },
+        "cpu": {
+            "cores": 4,
+            "frequency": "2.6 GHz"
+        },
+        "guest-wlan": {
+        },
+        "led": {
+        },
+        "load-average": {
+        },
+        "network": {
+        },
+        "openvpn": {
+        },
+        "parental-control": {
+        },
+        "ports": {
+            "lan": [
+                {
+                    "id": [1, 4],
+                    "speed": 1000
+                },
+                {
+                    "id": [5, 6],
+                    "speed": 10000
+                }
+            ],
+            "lan_aggr": true,
+            "wan": [
+                {
+                    "id": 0,
+                    "speed": 10000
+                }
+            ],
+            "wan_aggr": true
+        },
+        "ram": {
+            "capacity": 2,
+            "units": "GB"
+        },
+        "temperature": {
+        },
+        "wan": {
+            "dual_wan": true
+        },
+        "wlan": {
+            "2ghz": {
+                "speed": 1376
+            },
+            "5ghz": {
+                "speed": 5762
+            },
+            "5ghz2": {
+                "speed": 5762
+            },
+            "6ghz": {
+                "speed": 11525
+            }
+        }
+    }
+}

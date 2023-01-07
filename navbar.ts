@@ -2,16 +2,24 @@ import type { NavbarConfig } from "@vuepress/theme-default"
 import { resolve } from "path";
 import { readdirSync } from "fs";
 
-export function getFiles(dir: string) {
-  const base = resolve(__dirname, "docs");
+export function getFiles(dir: string, exclude: string[] = []) {
+  let base = resolve(__dirname, "docs");
   return readdirSync(resolve(base, dir))
-    .filter(file => file.endsWith(".md") && file !== "README.md")
+    .filter(file => file.endsWith(".md") && file !== "README.md" && !exclude.includes(file))
     .map(file => `/${ dir }/${ file }`);
 }
 
 export function getFilesRev(dir: string) {
-    const files = getFiles(dir)
-    return files.reverse()
+    let files = getFiles(dir);
+    return files.reverse();
+}
+
+export function getFilesPushFront(dir: string, push: string[] = []){
+    let files = getFiles(dir, push);
+    push.forEach(function(file) {
+        files.unshift(`/${ dir }/${ file }`);
+    });
+    return files;
 }
 
 export const navbar: NavbarConfig = [
