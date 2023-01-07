@@ -4,9 +4,10 @@
   "description": "Documentation for AsusRouter HA integration",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "generate": "ts-node --experimental-specifier-resolution=node generate"
   },
-  "author": "",
+  "author": "Yevhenii Vaskivskyi",
   "license": "ISC",
   "devDependencies": {
     "@types/glob": "^7.2.0",

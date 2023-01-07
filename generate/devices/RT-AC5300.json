@@ -1,0 +1,78 @@
+{
+    "model": "RT-AC5300",
+    "wifi": "5",
+    "links": {
+        "asus": "https://www.asus.com/us/networking-iot-servers/wifi-routers/asus-wifi-routers/rt-ac5300/",
+        "amazon": "https://amzn.to/3ZcJQpY"
+    },
+    "firmware": {
+        "386": true,
+        "388": false
+    },
+    "tested": {
+        "state": true,
+        "stock": [
+            
+        ],
+        "merlin": [
+            "386.7_2"
+        ]
+    },
+    "features": {
+        "main": {
+        },
+        "connected-devices": {
+        },
+        "cpu": {
+            "cores": 2
+        },
+        "guest-wlan": {
+        },
+        "led": {
+        },
+        "load-average": {
+        },
+        "network": {
+        },
+        "openvpn": {
+        },
+        "parental-control": {
+        },
+        "ports": {
+            "lan": [
+                {
+                    "id": [1, 4],
+                    "speed": 1000
+                }
+            ],
+            "lan_aggr": true,
+            "wan": [
+                {
+                    "id": 0,
+                    "speed": 1000
+                }
+            ],
+            "wan_aggr": false
+        },
+        "ram": {
+            "capacity": 512,
+            "units": "MB"
+        },
+        "temperature": {
+        },
+        "wan": {
+            "dual_wan": true
+        },
+        "wlan": {
+            "2ghz": {
+                "speed": 1000
+            },
+            "5ghz": {
+                "speed": 2167
+            },
+            "5ghz2": {
+                "speed": 2167
+            }
+        }
+    }
+}

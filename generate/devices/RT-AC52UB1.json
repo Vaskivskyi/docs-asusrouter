@@ -1,0 +1,75 @@
+{
+    "model": "RT-AC52U B1",
+    "wifi": "5",
+    "links": {
+        "asus": "https://www.asus.com/me-en/networking-iot-servers/wifi-routers/asus-wifi-routers/rt-ac52u-b1/",
+        "amazon": "https://amzn.to/3QcrCkk"
+    },
+    "firmware": {
+        "386": false,
+        "388": false
+    },
+    "tested": {
+        "state": true,
+        "stock": [
+            
+        ],
+        "merlin": [
+            
+        ]
+    },
+    "features": {
+        "main": {
+        },
+        "connected-devices": {
+        },
+        "cpu": {
+            "cores": 1
+        },
+        "guest-wlan": {
+        },
+        "led": {
+        },
+        "load-average": {
+        },
+        "network": {
+        },
+        "openvpn": {
+        },
+        "parental-control": {
+        },
+        "ports": {
+            "lan": [
+                {
+                    "id": [1, 4],
+                    "speed": 100
+                }
+            ],
+            "lan_aggr": false,
+            "wan": [
+                {
+                    "id": 0,
+                    "speed": 100
+                }
+            ],
+            "wan_aggr": false
+        },
+        "ram": {
+            "capacity": 64,
+            "units": "MB"
+        },
+        "temperature": {
+        },
+        "wan": {
+            "dual_wan": false
+        },
+        "wlan": {
+            "2ghz": {
+                "speed": 300
+            },
+            "5ghz": {
+                "speed": 433
+            }
+        }
+    }
+}

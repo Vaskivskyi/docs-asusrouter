@@ -1,0 +1,79 @@
+{
+    "model": "RT-AX92U",
+    "wifi": "6",
+    "links": {
+        "asus": "https://www.asus.com/networking-iot-servers/wifi-routers/asus-wifi-routers/rt-ax92u/techspec/",
+        "amazon": "https://amzn.to/3jJJgzt"
+    },
+    "firmware": {
+        "386": true,
+        "388": false
+    },
+    "tested": {
+        "state": true,
+        "stock": [
+            "386_46061"
+        ],
+        "merlin": [
+            
+        ]
+    },
+    "features": {
+        "main": {
+        },
+        "connected-devices": {
+        },
+        "cpu": {
+            "cores": 2,
+            "frequency": "1.8 GHz"
+        },
+        "guest-wlan": {
+        },
+        "led": {
+        },
+        "load-average": {
+        },
+        "network": {
+        },
+        "openvpn": {
+        },
+        "parental-control": {
+        },
+        "ports": {
+            "lan": [
+                {
+                    "id": [1, 4],
+                    "speed": 1000
+                }
+            ],
+            "lan_aggr": true,
+            "wan": [
+                {
+                    "id": 0,
+                    "speed": 1000
+                }
+            ],
+            "wan_aggr": true
+        },
+        "ram": {
+            "capacity": 512,
+            "units": "MB"
+        },
+        "temperature": {
+        },
+        "wan": {
+            "dual_wan": true
+        },
+        "wlan": {
+            "2ghz": {
+                "speed": 400
+            },
+            "5ghz": {
+                "speed": 867
+            },
+            "5ghz2": {
+                "speed": 4804
+            }
+        }
+    }
+}

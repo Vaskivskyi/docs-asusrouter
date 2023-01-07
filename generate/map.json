@@ -1,0 +1,62 @@
+{
+    "main": {
+        "title": "Main",
+        "link": "/features/main.md"
+    },
+    "aimesh": {
+        "title": "AiMesh",
+        "link": "/features/aimesh.md"
+    },
+    "connected-devices": {
+        "title": "Connected devices",
+        "link": "/features/connected-devices.md"
+    },
+    "cpu": {
+        "title": "CPU",
+        "link": "/features/cpu.md"
+    },
+    "guest-wlan": {
+        "title": "Guest WLAN",
+        "link": "/features/guest-wlan.md"
+    },
+    "led": {
+        "title": "LED",
+        "link": "/features/led.md"
+    },
+    "load-average": {
+        "title": "Load average",
+        "link": "/features/load-average.md"
+    },
+    "network": {
+        "title": "Network",
+        "link": "/features/network.md"
+    },
+    "openvpn": {
+        "title": "OpenVPN",
+        "link": "/features/openvpn.md"
+    },
+    "parental-control": {
+        "title": "Parental control",
+        "link": "/features/parental-control.md"
+    },
+    "ports": {
+        "title": "Ports",
+        "link": "/features/ports.md"
+    },
+    "ram": {
+        "title": "RAM",
+        "link": "/features/ram.md"
+    },
+    "temperature": {
+        "title": "Temperature",
+        "link": "/features/temperature.md"
+    },
+    "wan": {
+        "title": "WAN",
+        "link": "/features/wan.md"
+    },
+    "wlan": {
+        "title": "WLAN",
+        "link": "/features/wlan.md"
+    }
+}
