@@ -148,6 +148,7 @@ function genFeature(features: any, feature: string, fw: any) {
     const key = feature as keyof typeof map;
     let support = genFeatureSupport(features[key])
     if (fw["386"] !== true && fw["388"] !== true){
+        if (key === "aimesh") support = ":heart: Not supported";
         if (key === "led") support = ":heart: Not supported";
         if (key === "temperature") support = ":yellow_heart: Merlin-only";
     }

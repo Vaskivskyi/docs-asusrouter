@@ -5,6 +5,10 @@
 For the full change log, click on the version number / title here or in the sidebar.
 :::
 
+## [0.17.0 🚀 AiMesh support](/log/0.17.0.html)
+
+`2023-01-08`
+
 ## [0.16.1 👨‍👧‍👦 Guest WLAN bugfix](/log/0.16.1.html)
 
 `2022-12-31`
