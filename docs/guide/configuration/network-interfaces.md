@@ -8,11 +8,11 @@ next: events.md
 
 ## Options
 
-|           Option|          Type| Default|                                                                                                   Description|
-|-----------------|--------------|--------|--------------------------------------------------------------------------------------------------------------|
-|Interfaces       |`list(string)`|`[]`    |List of interfaces to monitor.<br/><br/>`WAN`, `WIRED`, `BRIDGE`, `WLAN0`, `WLAN1`, `WLAN2`, `WLAN3`, `USB`   |
-|Units for speed  |`string`      |`Mbit/s`|Units for all the speed sensonrs<br/><br/>`bit/s`, `kbit/s`, `Mbit/s`, `Gbit/s`, `B/s`, `kB/s`, `MB/s`, `GB/s`|
-|Units for traffic|`string`      |`GB`    |Units for all the traffic sensors.<br/><br/>`bit`, `kbit`, `Mbit`, `Gbit`, `B`, `kB`, `MB`, `GB`              |
+|           Option|          Type| Default|                                                                                                    Description|
+|-----------------|--------------|--------|---------------------------------------------------------------------------------------------------------------|
+|Interfaces       |`list(string)`|`[]`    |List of interfaces to monitor.<br/><br/>`WAN`, `Wired`, `Bridge`, `2.4 GHz`, `5 GHz`, `5 GHz-2`, `6 GHz`, `USB`|
+|Units for speed  |`string`      |`Mbit/s`|Units for all the speed sensonrs<br/><br/>`bit/s`, `kbit/s`, `Mbit/s`, `Gbit/s`, `B/s`, `kB/s`, `MB/s`, `GB/s` |
+|Units for traffic|`string`      |`GB`    |Units for all the traffic sensors.<br/><br/>`bit`, `kbit`, `Mbit`, `Gbit`, `B`, `kB`, `MB`, `GB`               |
 
 ## Interfaces
 
@@ -22,10 +22,10 @@ The list of available interfaces depends on the device model. In general, all th
 - `BRIDGE` - traffic routed between different interfaces.
 
 Wireless interfaces include (depending on device capabilities):
-- `WLAN0` - WiFi 2.4 GHz.
-- `WLAN1` - WiFi 5 GHz.
-- `WLAN2` - WiFi 5 GHz-2.
-- `WLAN3` - WiFi 6 GHz.
+- `2.4 GHz` - WiFi 2.4 GHz.
+- `5 GHz` - WiFi 5 GHz.
+- `5 GHz-2` - WiFi 5 GHz-2.
+- `6 GHz` - WiFi 6 GHz.
 
 Other interfaces:
 - `USB` - interface between router and connected mobile phone / USB modem.

@@ -8,14 +8,14 @@ next: network-interfaces.md
 
 ## Options
 
-|                Option|     Type|Default|                                                                                                                                                                                                          Description|
-|----------------------|---------|-------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|Caching time          |`integer`|`5`    |Time to cache data from the API endpoints<br/>Units:`seconds`                                                                                                                                                        |
-|Device trackers update|`integer`|`30`   |Time interval for devices monitoring. This value is used for both `device_tracker` entities, as well as `connected devices` sensor<br/>Units:`seconds`                                                               |
-|Consider home         |`integer`|`45`   |Time to consider device connected after the last `home` state.<br/>Units: `seconds`<br/>Refer to the section [Consider home](#consider-home)                                                                         |
-|Firmware data         |`integer`|`21600`|Interval to update the `update` entity<br/>Units: `seconds`<br/>Default value is equal `6 hours`                                                                                                                     |
-|Entities update       |`integer`|`30`   |Interval to update all the other entities<br/>Units: `seconds`<br/>Available if `Operation mode / Enable per-sensor update intervals` is set to `False`                                                              |
-|{Type} data           |`integer`|`30`   |Interval to update data fom a single {type}<br/>Units: `seconds`<br/>Available if `Operation mode / Enable per-sensor update intervals` is set to `True`<br/>Refer to the section [Entities update](#entities-update)|
+|                 Option|     Type|Default|                                                                                                                                                                                                          Description|
+|-----------------------|---------|-------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Caching time           |`integer`|`5`    |Time to cache data from the API endpoints<br/>Units:`seconds`                                                                                                                                                        |
+|Devices / AiMesh update|`integer`|`30`   |Time interval for devices and nodes monitoring. This value is used for both `device_tracker` entities, as well as `connected devices` sensor and `aimesh` sensors<br/>Units:`seconds`                                |
+|Consider home          |`integer`|`45`   |Time to consider device connected after the last `home` state.<br/>Units: `seconds`<br/>Refer to the section [Consider home](#consider-home)                                                                         |
+|Firmware data          |`integer`|`21600`|Interval to update the `update` entity<br/>Units: `seconds`<br/>Default value is equal `6 hours`                                                                                                                     |
+|Entities update        |`integer`|`30`   |Interval to update all the other entities<br/>Units: `seconds`<br/>Available if `Operation mode / Enable per-sensor update intervals` is set to `False`                                                              |
+|{Type} data            |`integer`|`30`   |Interval to update data fom a single {type}<br/>Units: `seconds`<br/>Available if `Operation mode / Enable per-sensor update intervals` is set to `True`<br/>Refer to the section [Entities update](#entities-update)|
 
 ## Consider home
 

@@ -19,6 +19,7 @@ description: "Integrate your RT-AX82U into Home Assistant with AsusRouter"
 |Features|Support|Expose details|Specifications|
 |--------|-------|--------------|--------------|
 |[Main](/features/main.md)|:green_heart: Full|`default`||
+|[AiMesh](/features/aimesh.md)|:green_heart: Full|`default`||
 |[Connected devices](/features/connected-devices.md)|:green_heart: Full|`default`||
 |[CPU](/features/cpu.md)|:green_heart: Full|`sensor.{device}_cpu` attributes:<br /><li>`core_{x}`, `x=[1,3]`</li>|1.5 GHz tri-core processor|
 |[Guest WLAN](/features/guest-wlan.md)|:green_heart: Full|`default`|<li>3x `2.4 GHz`</li><li>3x `5 GHz`</li>|

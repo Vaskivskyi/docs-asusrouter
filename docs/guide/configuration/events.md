@@ -13,3 +13,6 @@ next: security.md
 |Device connected   |`boolean`|`true` |
 |Device disconnected|`boolean`|`false`|
 |Device reconnected |`boolean`|`false`|
+|Node connected     |`boolean`|`true` |
+|Node disconnected  |`boolean`|`true` |
+|Node reconnected   |`boolean`|`true` |

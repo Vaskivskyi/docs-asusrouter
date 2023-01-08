@@ -1,11 +1,20 @@
 # Connected devices
 
-## Firmware limitations
+## Limitations
+
+<table><tr><td>
 
 |Firmware|          Versions|
 |--------|------------------|
-|Stock   |`=> 3.0.0.4.380.x`|
-|Merlin  |`=> 3.0.0.4.380.x`|
+|Stock   |`>= 3.0.0.4.380.x`|
+|Merlin  |`>= 3.0.0.4.380.x`|
+</td><td>
+
+|Device mode|    Available|
+|-----------|-------------|
+|Router     |:green_heart:|
+|AiMesh Node|:heart:      |
+</td></tr></table>
 
 ## Identity
 
@@ -22,10 +31,13 @@ Connected device identity is a base information about the device. It is exposed 
 - `guest` - whether device is connected to the guest network
 
 `AsusRouter >= 0.13.0`
-- `connected` - time, when device was connected to the router for the current session. For wireless devices, provides actual connection time. For wired devices shows time, when AsusRouter noticed it online first.
+- `connected` - time, when device was connected to the router for the current session. For wireless devices, provides actual connection time. For wired devices shows time, when AsusRouter noticed it online first
 
 `AsusRouter >= 0.15.0`
-- `guest_id` - id of the guest network device is connected to. Can be `1`, `2` or `3` for connected devices and `0` when not connected to a guest network.
+- `guest_id` - id of the guest network device is connected to. Can be `1`, `2` or `3` for connected devices and `0` when not connected to a guest network
+
+`AsusRouter >= 0.17.0`
+- `node` - MAC address of AiMesh node to which device is connected
 
 ## Binary sensor / switch
 
