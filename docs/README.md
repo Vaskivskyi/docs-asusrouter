@@ -17,7 +17,7 @@ features:
   - title: Firmware support
     details: Stock, Merlin, Merlin/GNUton
   - title: Features
-    details: 14+ groups of supported router features. Use what you want when you want, adjust
+    details: 15+ groups of supported router features. Use what you want when you want, adjust
   - title: Integrate
     details: Supported platforms - binary_sensor, button, device_tracker, light, sensor, switch, update
   - title: Automate
