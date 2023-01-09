@@ -5,7 +5,11 @@
 For the full change log, click on the version number / title here or in the sidebar.
 :::
 
-## [# 0.17.1 🐛 A bugfix](/log/0.17.1.html)
+## [0.17.2 🔨 Migration improvement](/log/0.17.2.html)
+
+`2023-01-09`
+
+## [0.17.1 🐛 A bugfix](/log/0.17.1.html)
 
 `2023-01-08`
 
