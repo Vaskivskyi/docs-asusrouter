@@ -5,6 +5,10 @@
 For the full change log, click on the version number / title here or in the sidebar.
 :::
 
+## [0.17.3 💣 A new bugfix for older devices](/log/0.17.3.html)
+
+`2023-01-09`
+
 ## [0.17.2 🔨 Migration improvement](/log/0.17.2.html)
 
 `2023-01-09`
