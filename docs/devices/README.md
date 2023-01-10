@@ -22,7 +22,7 @@ description: "Integrate your Asus router into Home Assistant with AsusRouter"
 |[GT-AXE11000](/devices/GT-AXE11000.md)|:yellow_heart: Expected to work||<a href="https://amzn.to/3Gotj9R" rel="nofollow sponsored" target="_blank">find it</a>|
 |[GT-AXE16000](/devices/GT-AXE16000.md)|:green_heart: Confirmed|Stock:<li>`3.0.0.4.388_21617-g1288c22`</li>|<a href="https://amzn.to/3vObLyZ" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AXE7800](/devices/RT-AXE7800.md)|:yellow_heart: Expected to work||<a href="https://amzn.to/3jUr2LU" rel="nofollow sponsored" target="_blank">find it</a>|
-|[ASUS ZenWiFi Pro ET12](/devices/ASUSZenWiFiProET12.md)|:yellow_heart: Expected to work||<a href="https://amzn.to/3GTz68P" rel="nofollow sponsored" target="_blank">find it</a>|
+|[ZenWiFi Pro ET12](/devices/ZenWiFiProET12.md)|:yellow_heart: Expected to work||<a href="https://amzn.to/3GTz68P" rel="nofollow sponsored" target="_blank">find it</a>|
 
 ## WiFi 6 | 802.11ax
 |Model|Status|Tested firmware|Find it on Amazon[^amazon]|
@@ -45,7 +45,7 @@ description: "Integrate your Asus router into Home Assistant with AsusRouter"
 |[TUF-AX5400](/devices/TUF-AX5400.md)|:green_heart: Confirmed|Stock:<li>`3.0.0.4.388_21224-g702a50f`</li>|<a href="https://amzn.to/3hXgzyQ" rel="nofollow sponsored" target="_blank">find it</a>|
 |[ZenWiFi AX (XT8)](/devices/ZenWiFiAX(XT8).md)|:green_heart: Confirmed|Stock:<li>`386_48706`</li>Merlin:<li>`386.7_2-gnuton1`</li>|<a href="https://amzn.to/3GuvY2L" rel="nofollow sponsored" target="_blank">find it</a>|
 |[ZenWiFi AX Mini (XD4)](/devices/ZenWiFiAXMini(XD4).md)|:green_heart: Confirmed|Stock:<li>`386_48790`</li><li>`386_49599`</li>|<a href="https://amzn.to/3hYGuGl" rel="nofollow sponsored" target="_blank">find it</a>|
-|[ASUS ZenWiFi Pro XT12](/devices/ASUSZenWiFiProXT12.md)|:green_heart: Confirmed||<a href="https://amzn.to/3im6UC5" rel="nofollow sponsored" target="_blank">find it</a>|
+|[ZenWiFi Pro XT12](/devices/ZenWiFiProXT12.md)|:green_heart: Confirmed||<a href="https://amzn.to/3im6UC5" rel="nofollow sponsored" target="_blank">find it</a>|
 
 ## WiFi 5 | 802.11ac
 |Model|Status|Tested firmware|Find it on Amazon[^amazon]|
