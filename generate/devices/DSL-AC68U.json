@@ -15,7 +15,8 @@
             "386_47534"
         ],
         "merlin": [
-            "386.04-gnuton2"
+            "386.4-gnuton2",
+            "386.7_2-gnuton1"
         ]
     },
     "features": {

@@ -248,7 +248,7 @@ export async function generateDeviceList(devices: any[]) {
                 title += " | " + device.alternative[version];
             }
         }
-        let path = "/devices/" + getModelNorm(device.model) + ".md";
+        let path = "/devices/" + getModelNorm(device.model) + ".html";
         list.push({
             "text": title,
             "link": path,

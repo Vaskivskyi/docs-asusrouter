@@ -11,9 +11,9 @@
         "388": true
     },
     "tested": {
-        "state": false,
+        "state": true,
         "stock": [
-            
+            "3.0.0.4.388_21617-g1288c22"
         ],
         "merlin": [
             
