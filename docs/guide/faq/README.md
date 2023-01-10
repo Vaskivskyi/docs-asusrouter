@@ -71,7 +71,7 @@ The following priority list is used for naming:
 
 ### LAN / WAN speed sensors become unavailable with time
 
-This problem is connected to the device HTTP daemon - some API endpoint become unavailable (also from Web UI or official mobile app). This problem can be solved restarting HTTP daemon using the [`button.{device}_restart_http_daemon`](/features/0_main.html#device-restart-http-daemon) from HA.
+This problem is connected to the device HTTP daemon - some API endpoint become unavailable (also from Web UI or official mobile app). This problem can be solved restarting HTTP daemon using the [`button.{device}_restart_http_daemon`](/features/main.html#device-restart-http-daemon) from HA.
 
 - If entities became unavailable when AsusRouter was already running, sensors will recover by themself.
 - If entities were unavailable from the AsusRouter load, you would need to manually reload integration.

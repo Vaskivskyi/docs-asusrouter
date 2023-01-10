@@ -1,5 +1,5 @@
 ---
-next: 0_main.md
+next: main.html
 ---
 
 # Features
