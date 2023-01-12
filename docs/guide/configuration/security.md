@@ -10,4 +10,4 @@ next:
 
 |        Option|     Type|Default|                                                                          Description|
 |--------------|---------|-------|-------------------------------------------------------------------------------------|
-|Hide passwords|`boolean`|`false`|Defines, whether passwords should be excluded from the entities values and attirbutes|
+|Hide passwords|`boolean`|`false`|Defines, whether passwords should be excluded from the entities values and attributes|
