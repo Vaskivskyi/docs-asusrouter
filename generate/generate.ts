@@ -8,13 +8,7 @@ export function getDeviceFilePath(model: any, tested: boolean) {
     return path.resolve(deviceBaseDir, `${ model }.md`)
 }
 
-const defaultInterfaces = ["WAN", "USB", "WIRED", "BRIDGE"];
-const codeInterfaces = {
-    "2ghz": "WLAN0",
-    "5ghz": "WLAN1",
-    "5ghz2": "WLAN2",
-    "6ghz": "WLAN3",
-}
+const defaultInterfaces = ["WAN", "USB", "Wired", "Bridge"];
 const labelInterfaces = {
     "2ghz": "2.4 GHz",
     "5ghz": "5 GHz",
@@ -79,7 +73,7 @@ function genFeatureExport(features: any, feature: string, fw: any) {
         case "network":
             let interfaces = "interfaces:"
             for (const interf in defaultInterfaces) interfaces += "<li>`" + defaultInterfaces[interf] + "`</li>";
-            for (const interf in features.wlan) interfaces += "<li>`" + codeInterfaces[interf as keyof object] + "` (" + labelInterfaces[interf as keyof object] + ")" + (interf === "6ghz" ? "[^6ghz]" : "") + "</li>";
+            for (const interf in features.wlan) interfaces += "<li>`" + labelInterfaces[interf as keyof object] + "`" + (interf === "6ghz" ? "[^6ghz]" : "") + "</li>";
             return interfaces;
         case "ports":
             let ports = "";
