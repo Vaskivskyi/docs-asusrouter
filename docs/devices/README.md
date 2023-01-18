@@ -34,7 +34,7 @@ description: "Integrate your Asus router into Home Assistant with AsusRouter"
 |[GT6](/devices/GT6.md)|:yellow_heart: Expected to work||<a href="https://amzn.to/3GmPCfR" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX55](/devices/RT-AX55.md)|:green_heart: Confirmed|Stock:<li>`3.0.0.4.386_50410`</li>|<a href="https://amzn.to/3Z2ath5" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX56U](/devices/RT-AX56U.md)|:green_heart: Confirmed|Merlin:<li>`386.7_2`</li>|<a href="https://amzn.to/3vrIeuz" rel="nofollow sponsored" target="_blank">find it</a>|
-|[RT-AX57U](/devices/RT-AX57U.md)|:yellow_heart: Expected to work||<a href="https://amzn.to/3IWnZNx" rel="nofollow sponsored" target="_blank">find it</a>|
+|[RT-AX57](/devices/RT-AX57.md)|:yellow_heart: Expected to work||<a href="https://amzn.to/3IWnZNx" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX58U](/devices/RT-AX58U.md)|:green_heart: Confirmed|Stock:<li>`386_49674`</li>Merlin:<li>`386.7_2`</li><li>`388.1_0`</li>|<a href="https://amzn.to/3jHri0L" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX59U](/devices/RT-AX59U.md)|:yellow_heart: Expected to work||<a href="https://amzn.to/3CVCVYO" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX68U](/devices/RT-AX68U.md)|:green_heart: Confirmed||<a href="https://amzn.to/3WzRwk5" rel="nofollow sponsored" target="_blank">find it</a>|
