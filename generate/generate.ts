@@ -66,7 +66,7 @@ function genFeatureExport(features: any, feature: string, fw: any) {
     const key = feature as keyof typeof features;
     switch (feature) {
         case "cpu":
-            let cpu = "`sensor.{device}_cpu` attributes:<br /><li>`core_";
+            let cpu = "`cpu` attributes:<br /><li>`core_";
             cpu += features[key].cores === 1 ? "1" : "{x}`, `x=[1," + features[key].cores + "]";
             cpu += "`</li>";
             return cpu;
