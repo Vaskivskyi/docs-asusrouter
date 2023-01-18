@@ -34,15 +34,21 @@ description: "Integrate your Asus router into Home Assistant with AsusRouter"
 |[GT6](/devices/GT6.md)|:yellow_heart: Expected to work||<a href="https://amzn.to/3GmPCfR" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX55](/devices/RT-AX55.md)|:green_heart: Confirmed|Stock:<li>`3.0.0.4.386_50410`</li>|<a href="https://amzn.to/3Z2ath5" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX56U](/devices/RT-AX56U.md)|:green_heart: Confirmed|Merlin:<li>`386.7_2`</li>|<a href="https://amzn.to/3vrIeuz" rel="nofollow sponsored" target="_blank">find it</a>|
+|[RT-AX57U](/devices/RT-AX57U.md)|:yellow_heart: Expected to work||<a href="https://amzn.to/3IWnZNx" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX58U](/devices/RT-AX58U.md)|:green_heart: Confirmed|Stock:<li>`386_49674`</li>Merlin:<li>`386.7_2`</li><li>`388.1_0`</li>|<a href="https://amzn.to/3jHri0L" rel="nofollow sponsored" target="_blank">find it</a>|
+|[RT-AX59U](/devices/RT-AX59U.md)|:yellow_heart: Expected to work||<a href="https://amzn.to/3CVCVYO" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX68U](/devices/RT-AX68U.md)|:green_heart: Confirmed||<a href="https://amzn.to/3WzRwk5" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX82U](/devices/RT-AX82U.md)|:green_heart: Confirmed|Stock:<li>`386_48664`</li><li>`386.49674`</li>|<a href="https://amzn.to/3Gv2Bxi" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX86S](/devices/RT-AX86S.md)|:green_heart: Confirmed|Stock:<li>`386_49447`</li>|<a href="https://amzn.to/3GuKac5" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX86U](/devices/RT-AX86U.md)|:green_heart: Confirmed|Stock:<li>`386_46061`</li><li>`386_48260`</li>Merlin:<li>`386.7_2`</li>|<a href="https://amzn.to/3WCBcPO" rel="nofollow sponsored" target="_blank">find it</a>|
+|[RT-AX86U Pro](/devices/RT-AX86UPro.md)|:yellow_heart: Expected to work||<a href="https://amzn.to/3ZDM41T" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX88U](/devices/RT-AX88U.md)|:green_heart: Confirmed|Stock:<li>`386_45934`</li><li>`386_48631`</li>Merlin:<li>`386.5_2`</li><li>`386.8_0`</li><li>`388.1_0`</li>|<a href="https://amzn.to/3i2VfYu" rel="nofollow sponsored" target="_blank">find it</a>|
+|[RT-AX88U Pro](/devices/RT-AX88UPro.md)|:yellow_heart: Expected to work||<a href="https://amzn.to/3QNDpFZ" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX89X](/devices/RT-AX89X.md)|:green_heart: Confirmed||<a href="https://amzn.to/3i55b3S" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX92U](/devices/RT-AX92U.md)|:green_heart: Confirmed|Stock:<li>`386_46061`</li>|<a href="https://amzn.to/3jJJgzt" rel="nofollow sponsored" target="_blank">find it</a>|
+|[TUF-AX4200](/devices/TUF-AX4200.md)|:yellow_heart: Expected to work||<a href="https://amzn.to/3kexPjC" rel="nofollow sponsored" target="_blank">find it</a>|
 |[TUF-AX5400](/devices/TUF-AX5400.md)|:green_heart: Confirmed|Stock:<li>`3.0.0.4.388_21224-g702a50f`</li>|<a href="https://amzn.to/3hXgzyQ" rel="nofollow sponsored" target="_blank">find it</a>|
+|[TUF-AX6000](/devices/TUF-AX6000.md)|:yellow_heart: Expected to work||<a href="https://amzn.to/3CXqxaG" rel="nofollow sponsored" target="_blank">find it</a>|
 |[ZenWiFi AX (XT8)](/devices/ZenWiFiAX(XT8).md)|:green_heart: Confirmed|Stock:<li>`386_48706`</li>Merlin:<li>`386.7_2-gnuton1`</li>|<a href="https://amzn.to/3GuvY2L" rel="nofollow sponsored" target="_blank">find it</a>|
 |[ZenWiFi AX Mini (XD4)](/devices/ZenWiFiAXMini(XD4).md)|:green_heart: Confirmed|Stock:<li>`386_48790`</li><li>`386_49599`</li>|<a href="https://amzn.to/3hYGuGl" rel="nofollow sponsored" target="_blank">find it</a>|
 |[ZenWiFi Pro XT12](/devices/ZenWiFiProXT12.md)|:green_heart: Confirmed||<a href="https://amzn.to/3im6UC5" rel="nofollow sponsored" target="_blank">find it</a>|
