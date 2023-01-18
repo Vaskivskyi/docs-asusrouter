@@ -21,7 +21,7 @@ description: "Integrate your RT-AC58U into Home Assistant with AsusRouter"
 |[Main](/features/main.md)|:green_heart: Full|`default`||
 |[AiMesh](/features/aimesh.md)|:heart: Not supported|`default`||
 |[Connected devices](/features/connected-devices.md)|:green_heart: Full|`default`||
-|[CPU](/features/cpu.md)|:green_heart: Full|`sensor.{device}_cpu` attributes:<br /><li>`core_1`</li>|717 MHz single-core processor|
+|[CPU](/features/cpu.md)|:green_heart: Full|`cpu` attributes:<br /><li>`core_1`</li>|717 MHz single-core processor|
 |[Guest WLAN](/features/guest-wlan.md)|:green_heart: Full|`default`|<li>3x `2.4 GHz`</li><li>3x `5 GHz`</li>|
 |[LED](/features/led.md)|:heart: Not supported|`default`||
 |[Load average](/features/load-average.md)|:yellow_heart: Merlin-only|`default`||
