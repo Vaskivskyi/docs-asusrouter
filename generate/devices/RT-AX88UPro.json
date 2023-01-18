@@ -1,19 +1,18 @@
 {
-    "model": "TUF-AX5400",
-    "name": "TUF Gaming AX5400",
+    "model": "RT-AX88U Pro",
     "wifi": "6",
     "links": {
-        "asus": "https://www.asus.com/networking-iot-servers/wifi-routers/asus-gaming-routers/tuf-gaming-ax5400/",
-        "amazon": "https://amzn.to/3hXgzyQ"
+        "asus": "https://www.asus.com/networking-iot-servers/wifi-routers/asus-gaming-routers/rt-ax88u-pro/",
+        "amazon": "https://amzn.to/3QNDpFZ"
     },
     "firmware": {
-        "386": true,
+        "386": false,
         "388": true
     },
     "tested": {
-        "state": true,
+        "state": false,
         "stock": [
-            "3.0.0.4.388_21224-g702a50f"
+            
         ],
         "merlin": [
             
@@ -27,8 +26,8 @@
         "connected-devices": {
         },
         "cpu": {
-            "cores": 3,
-            "frequency": "1.5 GHz"
+            "cores": 4,
+            "frequency": "2.0 GHz"
         },
         "guest-wlan": {
         },
@@ -47,20 +46,24 @@
                 {
                     "id": [1, 4],
                     "speed": 1000
+                },
+                {
+                    "id": 5,
+                    "speed": 2500
                 }
             ],
             "lan_aggr": true,
             "wan": [
                 {
                     "id": 0,
-                    "speed": 1000
+                    "speed": 2500
                 }
             ],
             "wan_aggr": true
         },
         "ram": {
-            "capacity": 512,
-            "units": "MB"
+            "capacity": 1,
+            "units": "GB"
         },
         "temperature": {
         },
@@ -69,7 +72,7 @@
         },
         "wlan": {
             "2ghz": {
-                "speed": 574
+                "speed": 1148
             },
             "5ghz": {
                 "speed": 4804

@@ -1,13 +1,13 @@
 ---
-title: "Asus TUF-AX5400 control from Home Assistant"
+title: "Asus TUF Gaming AX5400 control from Home Assistant"
 description: "Integrate your TUF-AX5400 into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->
 <!-- This file is auto-generated -->
 <!-- !!! -->
-# TUF-AX5400
+# TUF Gaming AX5400
 
-|TUF-AX5400|Tested / reported firmware|
+|TUF Gaming AX5400|Tested / reported firmware|
 |---|---|
 |<img src="https://asusrouter.vaskivskyi.com/devices/TUF-AX5400.png" width="300">|<b>Stock:</b><li>`3.0.0.4.388_21224-g702a50f`</li><b>Merlin:</b><li>` `</li>|
 |<li><a href="https://www.asus.com/networking-iot-servers/wifi-routers/asus-gaming-routers/tuf-gaming-ax5400/" rel="nofollow" target="_blank">Official webpage</a></li><li><a href="https://amzn.to/3hXgzyQ" rel="nofollow sponsored" target="_blank">Buy it on Amazon [^amazon]</a></li>|<li>:green_heart: Tested to work with AsusRouter</li><li><a href="https://github.com/Vaskivskyi/ha-asusrouter/issues/new/choose" rel="nofollow" target="_blank">Add you report about this device</a></li>|
