@@ -25,7 +25,7 @@ description: "Integrate your ZenWiFi AX Mini (XD4) into Home Assistant with Asus
 |[Guest WLAN](/features/guest-wlan.md)|:green_heart: Full|`default`|<li>3x `2.4 GHz`</li><li>3x `5 GHz`</li>|
 |[LED](/features/led.md)|:green_heart: Full|`default`||
 |[Load average](/features/load-average.md)|:yellow_heart: Merlin-only|`default`||
-|[Network](/features/network.md)|:green_heart: Full|interfaces:<li>`WAN`</li><li>`USB`</li><li>`WIRED`</li><li>`BRIDGE`</li><li>`WLAN0` (2.4 GHz)</li><li>`WLAN1` (5 GHz)</li>||
+|[Network](/features/network.md)|:green_heart: Full|interfaces:<li>`WAN`</li><li>`USB`</li><li>`Wired`</li><li>`Bridge`</li><li>`2.4 GHz`</li><li>`5 GHz`</li>||
 |[OpenVPN](/features/openvpn.md)|:green_heart: Full|`default`||
 |[Parental control](/features/parental-control.md)|:green_heart: Full|`default`||
 |[Ports](/features/ports.md)|:green_heart: Full|`lan_speed` attributes:<li>`lan_1`</li><li>up to `1000 Mb/s`</li>`wan_speed` attributes:<li>`wan_0`</li><li>up to `1000 Mb/s`</li>||
