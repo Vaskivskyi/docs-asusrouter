@@ -14,10 +14,11 @@ This feature is currently not available for the stock firmware with versions `38
 |Merlin  |`>= 3.0.0.4.380.x`|
 </td><td>
 
-|Device mode|    Available|
-|-----------|-------------|
-|Router     |:green_heart:|
-|AiMesh Node|:heart:      |
+| Device mode|    Available|
+|------------|-------------|
+|Router      |:green_heart:|
+|AiMesh Node |:heart:      |
+|Access point|:heart:      |
 </td></tr></table>
 
 ## Binary sensor / switch

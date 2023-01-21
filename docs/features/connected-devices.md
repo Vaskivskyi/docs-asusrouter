@@ -10,10 +10,11 @@
 |Merlin  |`>= 3.0.0.4.380.x`|
 </td><td>
 
-|Device mode|    Available|
-|-----------|-------------|
-|Router     |:green_heart:|
-|AiMesh Node|:heart:      |
+| Device mode|    Available|
+|------------|-------------|
+|Router      |:green_heart:|
+|AiMesh Node |:heart:      |
+|Access point|:green_heart:|
 </td></tr></table>
 
 ## Identity
