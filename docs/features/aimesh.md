@@ -6,14 +6,15 @@
 
 |Firmware|          Versions|
 |--------|------------------|
-|Stock   |`>= 3.0.0.4.386.x`|
-|Merlin  |`>= 3.0.0.4.386.x`|
+|Stock   |`>= 3.0.0.4.382.x`|
+|Merlin  |`>= 3.0.0.4.382.x`|
 </td><td>
 
-|Device mode|     Available|
-|-----------|--------------|
-|Router     |:green_heart: |
-|AiMesh Node|:yellow_heart:|
+| Device mode|    Available|
+|------------|-------------|
+|Router      |:green_heart:|
+|AiMesh Node |:heart:      |
+|Access point|:green_heart:|
 </td></tr></table>
 
 ## Identity

@@ -313,7 +313,7 @@ description: "Integrate your Asus router into Home Assistant with AsusRouter"
         const key = type as keyof typeof sorted;
         // console.log(sorted[type as keyof object])
         sorted[key].forEach(function(device){
-            content += "|[" + device.model + "](/devices/" + getModelNorm(device.model) + ".md)|" + (device.tested.state === true ? ":green_heart: Confirmed" : ":yellow_heart: Expected to work") + "|";
+            content += "|[" + device.model + "](/devices/" + getModelNorm(device.model) + ".md)|" + (device.tested.state === true ? "💚 Confirmed" : "💛 Expected to work") + "|";
             if (device.tested.stock.length !== 0) {
                 content += "Stock:";
                 for (const version in device.tested.stock) content += "<li>`" + device.tested.stock[version] + "`</li>";

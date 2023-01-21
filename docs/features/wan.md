@@ -10,10 +10,11 @@
 |Merlin  |`>= 3.0.0.4.386.x`|
 </td><td>
 
-|Device mode|    Available|
-|-----------|-------------|
-|Router     |:green_heart:|
-|AiMesh Node|:heart:      |
+| Device mode|    Available|
+|------------|-------------|
+|Router      |:green_heart:|
+|AiMesh Node |:heart:      |
+|Access point|:heart:      |
 </td></tr></table>
 
 ## Binary sensor
@@ -71,6 +72,51 @@
 
             An integer value whether WAN is connected to private subnet (`1`) or not (`0`).
 
+    -   ##### xdns
+
+        `AsusRouter >= 0.18.0`
+
+        -   Type: `string`
+        -   Details:
+
+            Secondary DNS servers IP addresses as a single string, separated with ` ` (space).
+
+    -   ##### xgateway
+
+        `AsusRouter >= 0.18.0`
+
+        -   Type: `string`
+        -   Details:
+
+            Secondary gateway IP address.
+
+    -   ##### xip
+
+        `AsusRouter >= 0.18.0`
+
+        -   Type: `string`
+        -   Details:
+
+            Secondary WAN IP address.
+
+    -   ##### xip_type
+
+        `AsusRouter >= 0.18.0`
+
+        -   Type: `string`
+        -   Details:
+
+            Secondary method of obtaining IP address.
+
+    -   ##### xmask
+
+        `AsusRouter >= 0.18.0`
+
+        -   Type: `string`
+        -   Details:
+
+            Secondary WAN mask.
+
 ## Sensor
 
 ### `{device}_wan_ip`
@@ -118,6 +164,51 @@
         -   Details:
 
             An integer value whether WAN is connected to private subnet (`1`) or not (`0`).
+
+    -   ##### xdns
+
+        `AsusRouter >= 0.18.0`
+
+        -   Type: `string`
+        -   Details:
+
+            Secondary DNS servers IP addresses as a single string, separated with ` ` (space).
+
+    -   ##### xgateway
+
+        `AsusRouter >= 0.18.0`
+
+        -   Type: `string`
+        -   Details:
+
+            Secondary gateway IP address.
+
+    -   ##### xip
+
+        `AsusRouter >= 0.18.0`
+
+        -   Type: `string`
+        -   Details:
+
+            Secondary WAN IP address.
+
+    -   ##### xip_type
+
+        `AsusRouter >= 0.18.0`
+
+        -   Type: `string`
+        -   Details:
+
+            Secondary method of obtaining IP address.
+
+    -   ##### xmask
+
+        `AsusRouter >= 0.18.0`
+
+        -   Type: `string`
+        -   Details:
+
+            Secondary WAN mask.
 
 ### Other
 

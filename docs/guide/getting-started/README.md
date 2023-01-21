@@ -7,7 +7,7 @@ next: ../configuration/
 ## Prerequisites
 
 1. An AsusWRT-powered router. Including devices with original (stock) firmware (versions starting with `3.0.0.4`) as well as with AsusWRT-Merlin FW and its derivatives (e.g. Gnuton builds).
-2. A Home Assistant instance with version 2022.5.0 or higher.
+2. A Home Assistant instance with version 2023.1.0 or higher.
 
 ## Installation
 
@@ -41,30 +41,16 @@ You need to specify the device IP address (e.g. `192.168.1.1`) or hostname (e.g.
 |---------------------------|---------|----------------------------------------------------------|
 |Hostname cannot be resolved|ERROR    |The hostname cannot be resolved. Use the device IP address|
 
-### Simplified setup
+### Setup
 
 To connect to the device you need to provide the following minimum data:
 - Username (for logging into the Web UI)
 - Password
-- SSL connection (`true` is recommended)
-
-#### Troubleshooting
-
-|             Error|Log level|                                                                                Description|
-|------------------|---------|-------------------------------------------------------------------------------------------|
-|Connection refused|DEBUG    |The error will redirect you to advanced setup                                              |
-|Wrong credentials |ERROR    |Check `username` and `password`                                                            |
-|Login is blocked  |ERROR    |Too many attempts with wrong credentials were made. The timeout value is provided in HA log|
-
-### Advanced setup
-
-If your device was found, but the initial (simplified) setup fails, you will get to the advanced setup options. Here you can specify:
-- Username
-- Password
 - Port (the default value `0` will select either `80` for non-SSL or `8443` for SSL connection)
 - SSL connection (`true` is recommended)
-- Verify SSL certificate
-- SSL certificate path
+- Device operation mode (router, AiMesh node or access point (AP))
+
+#### Troubleshooting
 
 |             Error|Log level|                                                                                Description|
 |------------------|---------|-------------------------------------------------------------------------------------------|

@@ -5,6 +5,10 @@
 For the full change log, click on the version number / title here or in the sidebar.
 :::
 
+## [# 0.18.0 🚀 Better backend](/log/0.18.0.html)
+
+`2023-01-21`
+
 ## [0.17.4 🐛 One more](/log/0.17.4.html)
 
 `2023-01-09`
