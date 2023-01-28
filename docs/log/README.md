@@ -5,6 +5,10 @@
 For the full change log, click on the version number / title here or in the sidebar.
 :::
 
+## [0.18.2 🐞 Improvements and fixes](/log/0.18.2.html)
+
+`2023-01-28`
+
 ## [0.18.1 🛠️ Better FW handling and more](/log/0.18.1.html)
 
 `2023-01-22`

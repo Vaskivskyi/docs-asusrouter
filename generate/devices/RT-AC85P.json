@@ -1,22 +1,21 @@
 {
-    "model": "DSL-AC68U",
+    "model": "RT-AC85P",
     "wifi": "5",
     "links": {
-        "asus": "https://www.asus.com/networking-iot-servers/modem-routers/all-series/dslac68u/",
-        "amazon": "https://amzn.to/3Z5k32H"
+        "asus": "https://www.asus.com/networking-iot-servers/wifi-routers/asus-wifi-routers/rt-ac85p/",
+        "amazon": "https://amzn.to/3kMiDdU"
     },
     "firmware": {
-        "386": true,
+        "386": false,
         "388": false
     },
     "tested": {
         "state": true,
         "stock": [
-            "386.47534"
+            "382.52516"
         ],
         "merlin": [
-            "386.4-gnuton2",
-            "386.7_2-gnuton1"
+            
         ]
     },
     "features": {
@@ -27,7 +26,7 @@
         "connected-devices": {
         },
         "cpu": {
-            "cores": 1
+            "cores": 2
         },
         "guest-wlan": {
         },
@@ -52,7 +51,7 @@
             "wan": [
                 {
                     "id": 0,
-                    "speed": 100
+                    "speed": 1000
                 }
             ],
             "wan_aggr": false
@@ -64,14 +63,14 @@
         "temperature": {
         },
         "wan": {
-            "dual_wan": true
+            "dual_wan": false
         },
         "wlan": {
             "2ghz": {
                 "speed": 600
             },
             "5ghz": {
-                "speed": 1300
+                "speed": 1733
             }
         }
     }
