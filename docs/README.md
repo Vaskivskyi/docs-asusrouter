@@ -13,7 +13,7 @@ actions:
     type: secondary
 features:
   - title: Compatibility
-    details: 32+ supported models
+    details: 33+ supported models
   - title: Firmware support
     details: Stock, Merlin, Merlin/GNUton
   - title: Features
@@ -25,5 +25,5 @@ features:
   - title: Multilanguage
     details: Supporting 8 languages
 footerHtml: true
-footer: AsusRouter integration, library and webpage are maintained by <a href="https://github.com/Vaskivskyi">@Vaskivskyi</a><br/><br/><a href="https://www.buymeacoffee.com/vaskivskyi" target="_blank"><img src="/BuyMeACoffee.png" alt="Buy Me A Coffee" height="60px" /></a>
+footer: AsusRouter integration, library and webpage are maintained by <a href="https://github.com/Vaskivskyi" target="_blank">@Vaskivskyi</a><br/><br/><a href="https://www.buymeacoffee.com/vaskivskyi" target="_blank">-= Support development =-</a>
 ---
