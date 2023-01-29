@@ -5,6 +5,10 @@
 For the full change log, click on the version number / title here or in the sidebar.
 :::
 
+## [0.18.3 🐛 A bugfix](/log/0.18.3.html)
+
+`2023-01-29`
+
 ## [0.18.2 🐞 Improvements and fixes](/log/0.18.2.html)
 
 `2023-01-28`
