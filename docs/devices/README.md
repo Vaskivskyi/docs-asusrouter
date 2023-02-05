@@ -51,7 +51,7 @@ description: "Integrate your Asus router into Home Assistant with AsusRouter"
 |[TUF-AX6000](/devices/TUF-AX6000.md)|💛 Expected to work||<a href="https://amzn.to/3CXqxaG" rel="nofollow sponsored" target="_blank">find it</a>|
 |[ZenWiFi AX (XT8)](/devices/ZenWiFiAX(XT8).md)|💚 Confirmed|Stock:<li>`386.48706`</li>Merlin:<li>`386.7_2-gnuton1`</li>|<a href="https://amzn.to/3GuvY2L" rel="nofollow sponsored" target="_blank">find it</a>|
 |[ZenWiFi AX Mini (XD4)](/devices/ZenWiFiAXMini(XD4).md)|💚 Confirmed|Stock:<li>`386.48790`</li><li>`386.49599`</li>|<a href="https://amzn.to/3hYGuGl" rel="nofollow sponsored" target="_blank">find it</a>|
-|[ZenWiFi Pro XT12](/devices/ZenWiFiProXT12.md)|💚 Confirmed||<a href="https://amzn.to/3im6UC5" rel="nofollow sponsored" target="_blank">find it</a>|
+|[ZenWiFi Pro XT12](/devices/ZenWiFiProXT12.md)|💚 Confirmed|Stock:<li>`388.22127`</li>|<a href="https://amzn.to/3im6UC5" rel="nofollow sponsored" target="_blank">find it</a>|
 
 ## WiFi 5 | 802.11ac
 |Model|Status|Tested firmware|Find it on Amazon[^amazon]|

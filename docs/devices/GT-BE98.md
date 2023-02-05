@@ -28,6 +28,7 @@ description: "Integrate your GT-BE98 into Home Assistant with AsusRouter"
 |[Network](/features/network.md)|:green_heart: Full|interfaces:<li>`WAN`</li><li>`USB`</li><li>`Wired`</li><li>`Bridge`</li><li>`2.4 GHz`</li><li>`5 GHz`</li><li>`5 GHz-2`</li><li>`6 GHz`[^6ghz]</li>||
 |[OpenVPN](/features/openvpn.md)|:green_heart: Full|`default`||
 |[Parental control](/features/parental-control.md)|:green_heart: Full|`default`||
+|[Port forwarding](/features/port-forwarding.md)|:green_heart: Full|`default`||
 |[Ports](/features/ports.md)|:green_heart: Full|`lan_speed` attributes:<li>`lan_{x}`, `x=[1,4]`</li><li>up to `1000 Mb/s`</li><li>`lan_{x}`, `x=[5,6]`</li><li>up to `10000 Mb/s`</li>`wan_speed` attributes:<li>`wan_0`</li><li>up to `10000 Mb/s`[^2gb][^10gb]</li>|<li>LAN aggregation</li><li>WAN aggregation</li>|
 |[RAM](/features/ram.md)|:green_heart: Full|`default`|2 GB|
 |[Temperature](/features/temperature.md)|:green_heart: Full|Stock:<li>`CPU`</li>Merlin:<li>`CPU`</li><li>`2.4 GHz`</li><li>`5 GHz`</li><li>`5 GHz-2`</li><li>`6 GHz`</li>||

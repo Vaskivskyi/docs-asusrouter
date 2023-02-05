@@ -15,6 +15,7 @@
 |Router      |:green_heart:|
 |AiMesh Node |:heart:      |
 |Access point|:heart:      |
+|Media bridge|:heart:      |
 </td></tr></table>
 
 ## Binary sensor / switch

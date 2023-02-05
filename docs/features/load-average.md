@@ -19,6 +19,7 @@ This feature is only supported by Merlin firmware.
 |Router      |:green_heart:|
 |AiMesh Node |:green_heart:|
 |Access point|:green_heart:|
+|Media bridge|:green_heart:|
 </td></tr></table>
 
 ## Sensor

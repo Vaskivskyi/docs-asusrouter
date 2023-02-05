@@ -15,6 +15,7 @@
 |Router      |:green_heart:|
 |AiMesh Node |:green_heart:|
 |Access point|:green_heart:|
+|Media bridge|:green_heart:|
 </td></tr></table>
 
 ## Sensor
