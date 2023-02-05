@@ -5,6 +5,10 @@
 For the full change log, click on the version number / title here or in the sidebar.
 :::
 
+## [0.19.0 🌍 Port forwarding](/log/0.19.0.html)
+
+`2023-02-05`
+
 ## [0.18.4 🔒 Improvement for HA 2023.2.x](/log/0.18.4.html)
 
 `2023-02-03`

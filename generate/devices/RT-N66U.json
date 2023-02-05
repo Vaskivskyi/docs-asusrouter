@@ -39,6 +39,8 @@
         },
         "parental-control": {
         },
+        "port-forwarding": {
+        },
         "ports": {
             "lan": [
                 {
