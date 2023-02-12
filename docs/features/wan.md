@@ -221,10 +221,6 @@
 
 *[Refer to the Network section](network.md#device-interface-download-speed)*
 
-#### `{device}_wan_speed`
-
-*[Refer to the Ports section](ports.md#device-wan-speed)*
-
 #### `{device}_wan_upload`
 
 *[Refer to the Network section](network.md#device-interface-upload)*
