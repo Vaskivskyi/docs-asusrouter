@@ -18,11 +18,38 @@
 |Media bridge|:green_heart:|
 </td></tr></table>
 
-## Sensor
+## Binary sensor
 
-### `{device}_lan_speed`
+### `{device}_port_status_{port_type}`
 
-`AsusRouter >= 0.2.0`
+`AsusRouter >= 0.20.0`
+
+:::tip Port types
+    - LAN, USB, WAN ports.
+    - sensors are firmware-dependant.
+    - USB is available only for FW versions `388.x`
+:::
+
+-   Default entity state: `Disabled`
+-   Value: `on` / `off` (connected / disconnected)
+-   Details:
+
+    Connection state of the ports of type `port_type`
+
+    #### Attributes
+
+    -   ##### list
+
+        -   Type: `dict`
+        -   Details:
+
+            Each list is a dictionary with port number (ID) as a key and details dictionary as a value. Details dictionary contains binary `state` value for the state of each port as well as `max_rate` and `link_rate` for the speeds of the interface and connection in Mb/s. Other values are FW-dependant
+
+## Deprecated
+
+### `sensor.{device}_lan_speed`
+
+`AsusRouter >= 0.2.0 | < 0.22.0`
 
 -   Default entity state: `Disabled`
 -   Type: `integer`
@@ -45,9 +72,9 @@
 
             The speed over the LAN port `{x}`.
 
-### `{device}_wan_speed`
+### `sensor.{device}_wan_speed`
 
-`AsusRouter >= 0.2.0`
+`AsusRouter >= 0.2.0 | < 0.22.0`
 
 -   Default entity state: `Disabled`
 -   Type: `integer`
