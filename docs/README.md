@@ -13,11 +13,11 @@ actions:
     type: secondary
 features:
   - title: Compatibility
-    details: 33+ supported models
+    details: 35+ supported models
   - title: Firmware support
     details: Stock, Merlin, Merlin/GNUton
   - title: Features
-    details: 15+ groups of supported router features. Use what you want when you want, adjust
+    details: 16+ groups of supported router features. Use what you want when you want, adjust
   - title: Integrate
     details: Supported platforms - binary_sensor, button, device_tracker, light, sensor, switch, update
   - title: Automate

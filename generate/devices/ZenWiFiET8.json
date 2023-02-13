@@ -1,24 +1,21 @@
 {
-    "model": "RT-AX86U",
-    "wifi": "6",
+    "model": "ZenWiFi ET8",
+    "wifi": "6e",
     "links": {
-        "asus": "https://www.asus.com/networking-iot-servers/wifi-routers/asus-gaming-routers/rt-ax86u/",
-        "amazon": "https://amzn.to/3WCBcPO"
+        "asus": "https://www.asus.com/networking-iot-servers/whole-home-mesh-wifi-system/zenwifi-wifi-systems/asus-zenwifi-et8/",
+        "amazon": "https://amzn.to/3Iks0La"
     },
     "firmware": {
         "386": true,
-        "388": true
+        "388": false
     },
     "tested": {
-        "state": true,
+        "state": false,
         "stock": [
-            "386.46061",
-            "386.48260",
-            "386.49447",
-            "388.22525"
+            
         ],
         "merlin": [
-            "386.7_2"
+            
         ]
     },
     "features": {
@@ -30,7 +27,7 @@
         },
         "cpu": {
             "cores": 4,
-            "frequency": "1.8 GHz"
+            "frequency": "1.5 GHz"
         },
         "guest-wlan": {
         },
@@ -49,26 +46,22 @@
         "ports": {
             "lan": [
                 {
-                    "id": [1, 4],
+                    "id": [1, 3],
                     "speed": 1000
-                },
-                {
-                    "id": 5,
-                    "speed": 2500
                 }
             ],
-            "lan_aggr": true,
+            "lan_aggr": false,
             "wan": [
                 {
                     "id": 0,
-                    "speed": 1000
+                    "speed": 2500
                 }
             ],
-            "wan_aggr": true
+            "wan_aggr": false
         },
         "ram": {
-            "capacity": 1,
-            "units": "GB"
+            "capacity": 512,
+            "units": "MB"
         },
         "temperature": {
         },
@@ -77,9 +70,12 @@
         },
         "wlan": {
             "2ghz": {
-                "speed": 861
+                "speed": 574
             },
             "5ghz": {
+                "speed": 1201
+            },
+            "6ghz": {
                 "speed": 4804
             }
         }
