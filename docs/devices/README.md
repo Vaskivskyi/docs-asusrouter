@@ -22,6 +22,7 @@ description: "Integrate your Asus router into Home Assistant with AsusRouter"
 |[GT-AXE11000](/devices/GT-AXE11000.md)|💛 Expected to work||<a href="https://amzn.to/3Gotj9R" rel="nofollow sponsored" target="_blank">find it</a>|
 |[GT-AXE16000](/devices/GT-AXE16000.md)|💚 Confirmed|Stock:<li>`388.21617`</li>|<a href="https://amzn.to/3vObLyZ" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AXE7800](/devices/RT-AXE7800.md)|💛 Expected to work||<a href="https://amzn.to/3jUr2LU" rel="nofollow sponsored" target="_blank">find it</a>|
+|[ZenWiFi ET8](/devices/ZenWiFiET8.md)|💛 Expected to work||<a href="https://amzn.to/3Iks0La" rel="nofollow sponsored" target="_blank">find it</a>|
 |[ZenWiFi Pro ET12](/devices/ZenWiFiProET12.md)|💛 Expected to work||<a href="https://amzn.to/3GTz68P" rel="nofollow sponsored" target="_blank">find it</a>|
 
 ## WiFi 6 | 802.11ax
@@ -39,8 +40,8 @@ description: "Integrate your Asus router into Home Assistant with AsusRouter"
 |[RT-AX59U](/devices/RT-AX59U.md)|💛 Expected to work||<a href="https://amzn.to/3CVCVYO" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX68U](/devices/RT-AX68U.md)|💚 Confirmed|Stock:<li>`388.21732`</li>|<a href="https://amzn.to/3WzRwk5" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX82U](/devices/RT-AX82U.md)|💚 Confirmed|Stock:<li>`386.48664`</li><li>`386.49674`</li>|<a href="https://amzn.to/3Gv2Bxi" rel="nofollow sponsored" target="_blank">find it</a>|
-|[RT-AX86S](/devices/RT-AX86S.md)|💚 Confirmed|Stock:<li>`386.49447`</li>|<a href="https://amzn.to/3GuKac5" rel="nofollow sponsored" target="_blank">find it</a>|
-|[RT-AX86U](/devices/RT-AX86U.md)|💚 Confirmed|Stock:<li>`386.46061`</li><li>`386.48260`</li>Merlin:<li>`386.7_2`</li>|<a href="https://amzn.to/3WCBcPO" rel="nofollow sponsored" target="_blank">find it</a>|
+|[RT-AX86S](/devices/RT-AX86S.md)|💚 Confirmed|Stock:<li>`386.46061`</li><li>`386.48260`</li><li>`386.49447`</li><li>`388.22525`</li>Merlin:<li>`386.7_2`</li>|<a href="https://amzn.to/3GuKac5" rel="nofollow sponsored" target="_blank">find it</a>|
+|[RT-AX86U](/devices/RT-AX86U.md)|💚 Confirmed|Stock:<li>`386.46061`</li><li>`386.48260`</li><li>`386.49447`</li><li>`388.22525`</li>Merlin:<li>`386.7_2`</li>|<a href="https://amzn.to/3WCBcPO" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX86U Pro](/devices/RT-AX86UPro.md)|💛 Expected to work||<a href="https://amzn.to/3ZDM41T" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX88U](/devices/RT-AX88U.md)|💚 Confirmed|Stock:<li>`386.45934`</li><li>`386.48631`</li>Merlin:<li>`386.5_2`</li><li>`386.8_0`</li><li>`388.1_0`</li>|<a href="https://amzn.to/3i2VfYu" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX88U Pro](/devices/RT-AX88UPro.md)|💛 Expected to work||<a href="https://amzn.to/3QNDpFZ" rel="nofollow sponsored" target="_blank">find it</a>|
@@ -50,8 +51,15 @@ description: "Integrate your Asus router into Home Assistant with AsusRouter"
 |[TUF-AX5400](/devices/TUF-AX5400.md)|💚 Confirmed|Stock:<li>`386.50224`</li><li>`388.21224`</li>|<a href="https://amzn.to/3hXgzyQ" rel="nofollow sponsored" target="_blank">find it</a>|
 |[TUF-AX6000](/devices/TUF-AX6000.md)|💛 Expected to work||<a href="https://amzn.to/3CXqxaG" rel="nofollow sponsored" target="_blank">find it</a>|
 |[ZenWiFi AX (XT8)](/devices/ZenWiFiAX(XT8).md)|💚 Confirmed|Stock:<li>`386.48706`</li>Merlin:<li>`386.7_2-gnuton1`</li>|<a href="https://amzn.to/3GuvY2L" rel="nofollow sponsored" target="_blank">find it</a>|
+|[ZenWiFi AX Hybrid (XP4)](/devices/ZenWiFiAXHybrid(XP4).md)|💛 Expected to work||<a href="https://amzn.to/3Itxnbb" rel="nofollow sponsored" target="_blank">find it</a>|
 |[ZenWiFi AX Mini (XD4)](/devices/ZenWiFiAXMini(XD4).md)|💚 Confirmed|Stock:<li>`386.48790`</li><li>`386.49599`</li>|<a href="https://amzn.to/3hYGuGl" rel="nofollow sponsored" target="_blank">find it</a>|
 |[ZenWiFi Pro XT12](/devices/ZenWiFiProXT12.md)|💚 Confirmed|Stock:<li>`388.22127`</li>|<a href="https://amzn.to/3im6UC5" rel="nofollow sponsored" target="_blank">find it</a>|
+|[ZenWiFi XD4 Plus](/devices/ZenWiFiXD4Plus.md)|💛 Expected to work||<a href="https://amzn.to/3XtYOWp" rel="nofollow sponsored" target="_blank">find it</a>|
+|[ZenWiFi XD4S](/devices/ZenWiFiXD4S.md)|💛 Expected to work||<a href="https://amzn.to/3E341xI" rel="nofollow sponsored" target="_blank">find it</a>|
+|[ZenWiFi XD5](/devices/ZenWiFiXD5.md)|💛 Expected to work||<a href="https://amzn.to/3YrhgjM" rel="nofollow sponsored" target="_blank">find it</a>|
+|[ZenWiFi XD6](/devices/ZenWiFiXD6.md)|💚 Confirmed|Stock:<li>`388.21380`</li>|<a href="https://amzn.to/3jW23s4" rel="nofollow sponsored" target="_blank">find it</a>|
+|[ZenWiFi XD6S](/devices/ZenWiFiXD6S.md)|💚 Confirmed|Stock:<li>`388.21380`</li>|<a href="https://amzn.to/3YMbyIZ" rel="nofollow sponsored" target="_blank">find it</a>|
+|[ZenWiFi XT9](/devices/ZenWiFiXT9.md)|💛 Expected to work||<a href="https://amzn.to/3JZOgLF" rel="nofollow sponsored" target="_blank">find it</a>|
 
 ## WiFi 5 | 802.11ac
 |Model|Status|Tested firmware|Find it on Amazon[^amazon]|
@@ -71,6 +79,7 @@ description: "Integrate your Asus router into Home Assistant with AsusRouter"
 |[RT-AC87U](/devices/RT-AC87U.md)|💚 Confirmed|Merlin:<li>`384.13_10`</li>|<a href="https://amzn.to/3i4sUkE" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AC88U](/devices/RT-AC88U.md)|💚 Confirmed|Merlin:<li>`386.7_beta1`</li>|<a href="https://amzn.to/3FYRYBy" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-ACRH17](/devices/RT-ACRH17.md)|💚 Confirmed|Stock:<li>`382.52517`</li>|<a href="https://amzn.to/3i6dWL0" rel="nofollow sponsored" target="_blank">find it</a>|
+|[ZenWiFi AC Mini(CD6)](/devices/ZenWiFiACMini(CD6).md)|💛 Expected to work||<a href="https://amzn.to/3RU7vrL" rel="nofollow sponsored" target="_blank">find it</a>|
 
 ## WiFi 4 | 802.11n
 |Model|Status|Tested firmware|Find it on Amazon[^amazon]|

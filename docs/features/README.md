@@ -18,7 +18,8 @@ Some of the features are firmware dependant and some are only available in parti
 
 | Device mode|    Available|
 |------------|-------------|
-|Router      |:green_heart:|
-|AiMesh Node |:heart:      |
-|Access point|:green_heart:|
+|Router      |:green_heart: <- supported|
+|AiMesh Node |:heart: <- not supported  |
+|Access point|:green_heart: <- supported|
+|Media bridge|:heart: <- not supported  |
 </td></tr></table>

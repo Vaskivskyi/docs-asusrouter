@@ -1,9 +1,9 @@
 {
-    "model": "RT-AX86U",
+    "model": "ZenWiFi XD6",
     "wifi": "6",
     "links": {
-        "asus": "https://www.asus.com/networking-iot-servers/wifi-routers/asus-gaming-routers/rt-ax86u/",
-        "amazon": "https://amzn.to/3WCBcPO"
+        "asus": "https://www.asus.com/networking-iot-servers/whole-home-mesh-wifi-system/zenwifi-wifi-systems/asus-zenwifi-xd6/",
+        "amazon": "https://amzn.to/3jW23s4"
     },
     "firmware": {
         "386": true,
@@ -12,13 +12,10 @@
     "tested": {
         "state": true,
         "stock": [
-            "386.46061",
-            "386.48260",
-            "386.49447",
-            "388.22525"
+            "388.21380"
         ],
         "merlin": [
-            "386.7_2"
+            
         ]
     },
     "features": {
@@ -29,8 +26,8 @@
         "connected-devices": {
         },
         "cpu": {
-            "cores": 4,
-            "frequency": "1.8 GHz"
+            "cores": 3,
+            "frequency": "1.5 GHz"
         },
         "guest-wlan": {
         },
@@ -49,26 +46,22 @@
         "ports": {
             "lan": [
                 {
-                    "id": [1, 4],
+                    "id": [1, 3],
                     "speed": 1000
-                },
-                {
-                    "id": 5,
-                    "speed": 2500
                 }
             ],
-            "lan_aggr": true,
+            "lan_aggr": false,
             "wan": [
                 {
                     "id": 0,
                     "speed": 1000
                 }
             ],
-            "wan_aggr": true
+            "wan_aggr": false
         },
         "ram": {
-            "capacity": 1,
-            "units": "GB"
+            "capacity": 512,
+            "units": "MB"
         },
         "temperature": {
         },
@@ -77,7 +70,7 @@
         },
         "wlan": {
             "2ghz": {
-                "speed": 861
+                "speed": 574
             },
             "5ghz": {
                 "speed": 4804
