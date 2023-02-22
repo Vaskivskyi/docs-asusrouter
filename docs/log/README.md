@@ -5,6 +5,10 @@
 For the full change log, click on the version number / title here or in the sidebar.
 :::
 
+## [0.21.0 🔑 Network discovery](/log/0.21.0.html)
+
+`2023-02-12`
+
 ## [0.20.0 🌵 Port Status](/log/0.20.0.html)
 
 `2023-02-12`

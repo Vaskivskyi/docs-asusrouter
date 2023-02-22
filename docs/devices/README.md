@@ -36,7 +36,7 @@ description: "Integrate your Asus router into Home Assistant with AsusRouter"
 |[RT-AX55](/devices/RT-AX55.md)|💚 Confirmed|Stock:<li>`386.50410`</li>|<a href="https://amzn.to/3Z2ath5" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX56U](/devices/RT-AX56U.md)|💚 Confirmed|Merlin:<li>`386.7_2`</li>|<a href="https://amzn.to/3vrIeuz" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX57](/devices/RT-AX57.md)|💛 Expected to work||<a href="https://amzn.to/3IWnZNx" rel="nofollow sponsored" target="_blank">find it</a>|
-|[RT-AX58U](/devices/RT-AX58U.md)|💚 Confirmed|Stock:<li>`386.49674`</li><li>`388_22237`</li>Merlin:<li>`386.7_2`</li><li>`388.1_0`</li>|<a href="https://amzn.to/3jHri0L" rel="nofollow sponsored" target="_blank">find it</a>|
+|[RT-AX58U](/devices/RT-AX58U.md)|💚 Confirmed|Stock:<li>`386.49674`</li><li>`388.22237`</li>Merlin:<li>`386.7_2`</li><li>`388.1_0`</li>|<a href="https://amzn.to/3jHri0L" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX59U](/devices/RT-AX59U.md)|💛 Expected to work||<a href="https://amzn.to/3CVCVYO" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX68U](/devices/RT-AX68U.md)|💚 Confirmed|Stock:<li>`388.21732`</li>|<a href="https://amzn.to/3WzRwk5" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX82U](/devices/RT-AX82U.md)|💚 Confirmed|Stock:<li>`386.48664`</li><li>`386.49674`</li>|<a href="https://amzn.to/3Gv2Bxi" rel="nofollow sponsored" target="_blank">find it</a>|
@@ -75,7 +75,7 @@ description: "Integrate your Asus router into Home Assistant with AsusRouter"
 |[RT-AC66U B1](/devices/RT-AC66UB1.md)|💚 Confirmed||<a href="https://amzn.to/3vtZ4Jm" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AC68U](/devices/RT-AC68U.md)|💚 Confirmed|Stock:<li>`386.49703`</li>Merlin:<li>`386.5_2`</li><li>`386.7_0`</li>|<a href="https://amzn.to/3i6dQTE" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AC85P](/devices/RT-AC85P.md)|💚 Confirmed|Stock:<li>`382.52516`</li>|<a href="https://amzn.to/3kMiDdU" rel="nofollow sponsored" target="_blank">find it</a>|
-|[RT-AC86U](/devices/RT-AC86U.md)|💚 Confirmed|Stock:<li>`386.48260`</li>Merlin:<li>`386.7_0`</li><li>`386.7_2`</li><li>`386.9_0`</li>|<a href="https://amzn.to/3CbRarK" rel="nofollow sponsored" target="_blank">find it</a>|
+|[RT-AC86U](/devices/RT-AC86U.md)|💚 Confirmed|Stock:<li>`386.48260`</li><li>`386.49709`</li>Merlin:<li>`386.7_0`</li><li>`386.7_2`</li><li>`386.9_0`</li>|<a href="https://amzn.to/3CbRarK" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AC87U](/devices/RT-AC87U.md)|💚 Confirmed|Merlin:<li>`384.13_10`</li>|<a href="https://amzn.to/3i4sUkE" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AC88U](/devices/RT-AC88U.md)|💚 Confirmed|Merlin:<li>`386.7_beta1`</li>|<a href="https://amzn.to/3FYRYBy" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-ACRH17](/devices/RT-ACRH17.md)|💚 Confirmed|Stock:<li>`382.52517`</li>|<a href="https://amzn.to/3i6dWL0" rel="nofollow sponsored" target="_blank">find it</a>|
