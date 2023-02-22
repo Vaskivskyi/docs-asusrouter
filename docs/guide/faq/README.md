@@ -92,6 +92,8 @@ With the release of AsusRouter [0.15.0](https://asusrouter.vaskivskyi.com/log/0.
 #### Steps:
 
 1. Migrate to any in [`0.6.0` : `0.14.3`]
+2. Migrate to any in [`0.15.0` : `0.16.1`]
+3. Migrate to any in [`0.17.0` : `0.20.0`]
 2. Migrate to the latest release
 
 ## Networks
