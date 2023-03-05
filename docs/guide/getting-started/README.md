@@ -48,7 +48,6 @@ To connect to the device you need to provide the following minimum data:
 - Password
 - Port (the default value `0` will select either `80` for non-SSL or `8443` for SSL connection)
 - SSL connection (`true` is recommended)
-- Device operation mode (router, AiMesh node, access point (AP) or media bridge)
 
 #### Troubleshooting
 
