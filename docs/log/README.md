@@ -5,6 +5,10 @@
 For the full change log, click on the version number / title here or in the sidebar.
 :::
 
+## [0.22.0 💻 On the way to a better configuration](/log/0.22.0.html)
+
+`2023-03-05`
+
 ## [0.21.1 🚀 Support for HA 2023.3.x](/log/0.21.1.html)
 
 `2023-02-24`
