@@ -4,7 +4,7 @@ next: security.md
 
 # Events
 
-*Available only via `Configure` option*
+*Available during initial setup of the integration as well as via `Configure` option*
 
 ## Options
 

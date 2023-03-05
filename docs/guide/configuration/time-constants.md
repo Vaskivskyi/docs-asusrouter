@@ -29,10 +29,12 @@ This value controls how fast does device tracker change state to `not home` afte
 Currently AsusRouter supports the following data types, which are polled separately:
 
 - CPU
+- Firmware
 - Guest WLAN
 - Light
 - Misc
 - Network stat
+- Parental control
 - Ports
 - RAM
 - Sysinfo
