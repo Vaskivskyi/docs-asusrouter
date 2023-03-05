@@ -49,7 +49,9 @@
 
 ### `sensor.{device}_lan_speed`
 
+::: danger Removed
 `AsusRouter >= 0.2.0 | < 0.22.0`
+:::
 
 -   Default entity state: `Disabled`
 -   Type: `integer`
@@ -74,7 +76,9 @@
 
 ### `sensor.{device}_wan_speed`
 
+::: danger Removed
 `AsusRouter >= 0.2.0 | < 0.22.0`
+:::
 
 -   Default entity state: `Disabled`
 -   Type: `integer`
