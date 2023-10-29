@@ -6,6 +6,10 @@ sidebarDepth: 1
 
 ## 0.23.0b1 🔨 New backend
 
+`2023-10-29` / `beta`
+
+#### [→ 🐙 GitHub change log ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.23.0b1)
+
 ### 🐛 Bug fixes
 
 - Fixed temperature sensors
