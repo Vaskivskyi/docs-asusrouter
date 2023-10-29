@@ -9,8 +9,8 @@ description: "Integrate your RT-AXE7800 into Home Assistant with AsusRouter"
 
 |RT-AXE7800|Tested / reported firmware|
 |---|---|
-|<img src="https://asusrouter.vaskivskyi.com/devices/RT-AXE7800.png" width="300">|<b>Stock:</b><li>` `</li><b>Merlin:</b><li>` `</li>|
-|<li><a href="https://rog.asus.com/networking/rog-rapture-gt-axe11000-model/" rel="nofollow" target="_blank">Official webpage</a></li><li><a href="https://amzn.to/3jUr2LU" rel="nofollow sponsored" target="_blank">Buy it on Amazon [^amazon]</a></li>|<li>:yellow_heart: This device has not been tested yet, but should work with AsusRouter</li><li><a href="https://github.com/Vaskivskyi/ha-asusrouter/issues/new/choose" rel="nofollow" target="_blank">Add you report about this device</a></li>|
+|<img src="https://asusrouter.vaskivskyi.com/devices/RT-AXE7800.png" width="300">|<b>Stock:</b><li>`388_22068`</li><b>Merlin:</b><li>` `</li>|
+|<li><a href="https://rog.asus.com/networking/rog-rapture-gt-axe11000-model/" rel="nofollow" target="_blank">Official webpage</a></li><li><a href="https://amzn.to/3jUr2LU" rel="nofollow sponsored" target="_blank">Buy it on Amazon [^amazon]</a></li>|<li>:green_heart: Tested to work with AsusRouter</li><li><a href="https://github.com/Vaskivskyi/ha-asusrouter/issues/new/choose" rel="nofollow" target="_blank">Add you report about this device</a></li>|
 
 [^amazon]: As an Amazon Associate I earn from qualifying purchases. Not like I ever got anything yet (:
 

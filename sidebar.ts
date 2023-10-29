@@ -47,7 +47,7 @@ export const sidebar: SidebarConfig = {
         {
             text: "Change log",
             link: "/log/",
-            children: getFilesRev("log")
+            children: getFiles("log")
         },
     ],
 };
