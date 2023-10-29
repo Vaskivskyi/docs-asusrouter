@@ -4,11 +4,28 @@ sidebarDepth: 1
 
 # Integration change log
 
+## 0.23.0b1 🔨 New backend
+
+### 🐛 Bug fixes
+
+- Fixed temperature sensors
+- Fixed sysinfo sensors (report [#641](https://github.com/Vaskivskyi/ha-asusrouter/issues/641))
+
+### 📚 Documentation
+
+- Added `TUF-AX3000 V2` to the supported
+
 ## 0.23.0b0 🔨 New backend
 
 `2023-10-29` / `beta`
 
 #### [→ 🐙 GitHub change log ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.23.0b0)
+
+### 💣 Known issues
+
+- Issue with temperature sensors (WLAN sensors not available)
+- Issue with `load_avg` sensors
+- Does not load on stock FW due to a bug with `load_avg` sensors
 
 ### 🔒 Requirements
 
