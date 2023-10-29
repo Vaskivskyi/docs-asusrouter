@@ -1,0 +1,81 @@
+{
+    "model": "TUF-AX3000 V2",
+    "name": "TUF Gaming AX4200",
+    "wifi": "6",
+    "links": {
+        "asus": "https://www.asus.com/networking-iot-servers/wifi-routers/asus-gaming-routers/tuf-gaming-ax3000-v2/",
+        "amazon": "https://amzn.to/3QzzD4C"
+    },
+    "firmware": {
+        "386": false,
+        "388": true
+    },
+    "tested": {
+        "state": true,
+        "stock": [
+            "388.23785"
+        ],
+        "merlin": [
+            
+        ]
+    },
+    "features": {
+        "main": {
+        },
+        "aimesh": {
+        },
+        "connected-devices": {
+        },
+        "cpu": {
+            "cores": 4,
+            "frequency": "1.7 GHz"
+        },
+        "guest-wlan": {
+        },
+        "led": {
+        },
+        "load-average": {
+        },
+        "network": {
+        },
+        "openvpn": {
+        },
+        "parental-control": {
+        },
+        "port-forwarding": {
+        },
+        "ports": {
+            "lan": [
+                {
+                    "id": [1, 4],
+                    "speed": 1000
+                }
+            ],
+            "lan_aggr": true,
+            "wan": [
+                {
+                    "id": 0,
+                    "speed": 2500
+                }
+            ],
+            "wan_aggr": false
+        },
+        "ram": {
+            "capacity": 512,
+            "units": "MB"
+        },
+        "temperature": {
+        },
+        "wan": {
+            "dual_wan": false
+        },
+        "wlan": {
+            "2ghz": {
+                "speed": 574
+            },
+            "5ghz": {
+                "speed": 2402
+            }
+        }
+    }
+}

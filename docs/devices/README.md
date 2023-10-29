@@ -47,6 +47,7 @@ description: "Integrate your Asus router into Home Assistant with AsusRouter"
 |[RT-AX88U Pro](/devices/RT-AX88UPro.md)|💛 Expected to work||<a href="https://amzn.to/3QNDpFZ" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX89X](/devices/RT-AX89X.md)|💚 Confirmed||<a href="https://amzn.to/3i55b3S" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX92U](/devices/RT-AX92U.md)|💚 Confirmed|Stock:<li>`386.46061`</li>|<a href="https://amzn.to/3jJJgzt" rel="nofollow sponsored" target="_blank">find it</a>|
+|[TUF-AX3000 V2](/devices/TUF-AX3000V2.md)|💚 Confirmed|Stock:<li>`388.23785`</li>|<a href="https://amzn.to/3QzzD4C" rel="nofollow sponsored" target="_blank">find it</a>|
 |[TUF-AX4200](/devices/TUF-AX4200.md)|💛 Expected to work||<a href="https://amzn.to/3kexPjC" rel="nofollow sponsored" target="_blank">find it</a>|
 |[TUF-AX5400](/devices/TUF-AX5400.md)|💚 Confirmed|Stock:<li>`386.50224`</li><li>`388.21224`</li><li>`388.22525`</li>|<a href="https://amzn.to/3hXgzyQ" rel="nofollow sponsored" target="_blank">find it</a>|
 |[TUF-AX6000](/devices/TUF-AX6000.md)|💚 Confirmed|Stock:<li>`388.32432`</li>|<a href="https://amzn.to/3CXqxaG" rel="nofollow sponsored" target="_blank">find it</a>|
