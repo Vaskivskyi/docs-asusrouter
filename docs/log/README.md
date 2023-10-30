@@ -2,6 +2,24 @@
 
 ## Home Assistant Integration
 
+### 0.23.0b2 🔨 New backend
+
+`2023-10-30` / `beta`
+
+#### [→ 🐙 GitHub change log ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.23.0b2)
+
+### 🐛 Bug fixes
+
+- Fixed blocking issue when JSON cannot be parsed
+
+### 🚀 Features
+
+- Added logging on JSON parsing errors
+
+### 📦 Dependencies
+
+- Bumped `asusrouter` library to [`1.0.0b1`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.0.0b1)
+
 ### 0.23.0b1 🔨 New backend
 
 `2023-10-29` / `beta`
