@@ -2,7 +2,29 @@
 
 ## Home Assistant Integration
 
-### 0.23.0b3 🔨 New backend
+### 0.23.0b4 🔨
+
+`2023-10-31` / `beta`
+
+#### [→ 🐙 GitHub change log ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.23.0b4)
+
+### 🚀 Features
+
+- Implemented `0` values for the network speed sensors on integration load. This will prevent `unknown` values on startup or reboot, when the actual speed cannot yet be calculated
+- Add Unicode error handling
+
+### 🐛 Bug fixes
+
+- Removed orphaned attributes from device trackers when clients are disconnected
+- Fixed `latest_connected` sensor
+- Fixed bug when no parental control or port forwarding rules are set ([report #651](https://github.com/Vaskivskyi/ha-asusrouter/issues/651))
+- Fixed missing USB WAN sensors when interface is not connected
+
+### 📦 Dependencies
+
+- Bumped `asusrouter` library to [`1.0.0b3`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.0.0b3)
+
+### 0.23.0b3 🔨
 
 `2023-10-30` / `beta`
 
@@ -16,7 +38,7 @@
 
 - Bumped `asusrouter` library to [`1.0.0b2`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.0.0b2)
 
-### 0.23.0b2 🔨 New backend
+### 0.23.0b2 🔨
 
 `2023-10-30` / `beta`
 
@@ -34,7 +56,7 @@
 
 - Bumped `asusrouter` library to [`1.0.0b1`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.0.0b1)
 
-### 0.23.0b1 🔨 New backend
+### 0.23.0b1 🔨
 
 `2023-10-29` / `beta`
 
@@ -49,7 +71,7 @@
 
 - Added `TUF-AX3000 V2` to the supported
 
-### 0.23.0b0 🔨 New backend
+### 0.23.0b0 🔨
 
 `2023-10-29` / `beta`
 
