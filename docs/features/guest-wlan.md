@@ -18,13 +18,90 @@
 |Media bridge|:heart:      |
 </td></tr></table>
 
-## Binary sensor / switch
+## Service
 
-::: tip Available entities
-Entities are created based on the `device control` option of AsusRouter. Refer to the [Operation mode](../guide/configuration/operation-mode.md) section for more info on how to change this option.
-- `false`: `binary_sensor` entities are created
-- `true`: `switch` entities are created
-:::
+### `adjust_wlan`
+
+`AsusRouter >= 0.11.0 | < 0.23.0`
+
+-   Details:
+
+    Allows changing guest WLAN settings.
+
+    #### Attributes
+
+    -   #### entity_id
+
+        -   Type: `string`
+        -   Details:
+
+            `entity_id` of the guest WLAN.
+
+    -   ##### bw_enabled
+
+        -   Type: `boolean`
+        -   Details:
+
+            Whether bandwidth limit is enabled.
+
+    -   ##### bw_dl
+
+        -   Type: `integer`
+        -   Units: `kbit/s`
+        -   Details:
+
+            Download bandwidth limit. `0` - unlimited.
+
+    -   ##### bw_ul
+
+        -   Type: `integer`
+        -   Units: `kbit/s`
+        -   Details:
+
+            Upload bandwidth limit. `0` - unlimited.
+
+    -   #### closed
+
+        -   Type: `boolean`
+        -   Details:
+
+            Whether SSID should be hidden.
+
+    -   ##### expire
+
+        -   Type: `integer`
+        -   Units: `s`
+        -   Details:
+
+            Enable guest network for a limited amount of time. `0` indicates feature being off.
+
+    -   ##### lan_access
+
+        -   Type: `boolean`
+
+    -   #### password
+
+        -   Type: `string`
+
+    -   #### ssid
+
+        -   Type: `string`
+
+    -   #### state
+
+        -   Type: `boolean`
+        -   Details:
+
+            Whether WLAN should be on.
+
+    -   #### sync_node
+
+        -   Type: `boolean`
+        -   Details:
+
+            Whether guest network is broadcasted from each AiMesh node.
+
+## Switch
 
 ### `{device}_guest_{type}_{x}`
 
@@ -132,86 +209,3 @@ Entities are created based on the `device control` option of AsusRouter. Refer t
     -   ##### wpa_encryption
 
         -   Type: `string`
-
-## Service
-
-### `adjust_wlan`
-
-`AsusRouter >= 0.11.0`
-
--   Details:
-
-    Allows changing guest WLAN settings.
-
-    #### Attributes
-
-    -   #### entity_id
-
-        -   Type: `string`
-        -   Details:
-
-            `entity_id` of the guest WLAN.
-
-    -   ##### bw_enabled
-
-        -   Type: `boolean`
-        -   Details:
-
-            Whether bandwidth limit is enabled.
-
-    -   ##### bw_dl
-
-        -   Type: `integer`
-        -   Units: `kbit/s`
-        -   Details:
-
-            Download bandwidth limit. `0` - unlimited.
-
-    -   ##### bw_ul
-
-        -   Type: `integer`
-        -   Units: `kbit/s`
-        -   Details:
-
-            Upload bandwidth limit. `0` - unlimited.
-
-    -   #### closed
-
-        -   Type: `boolean`
-        -   Details:
-
-            Whether SSID should be hidden.
-
-    -   ##### expire
-
-        -   Type: `integer`
-        -   Units: `s`
-        -   Details:
-
-            Enable guest network for a limited amount of time. `0` indicates feature being off.
-
-    -   ##### lan_access
-
-        -   Type: `boolean`
-
-    -   #### password
-
-        -   Type: `string`
-
-    -   #### ssid
-
-        -   Type: `string`
-
-    -   #### state
-
-        -   Type: `boolean`
-        -   Details:
-
-            Whether WLAN should be on.
-
-    -   #### sync_node
-
-        -   Type: `boolean`
-        -   Details:
-
-            Whether guest network is broadcasted from each AiMesh node.

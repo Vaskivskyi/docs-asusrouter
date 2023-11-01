@@ -41,14 +41,6 @@ Connected device identity is a base information about the device. It is exposed 
 `AsusRouter >= 0.17.0`
 - `node` - MAC address of AiMesh node to which device is connected
 
-## Binary sensor / switch
-
-### Other
-
-#### `{device}_parental_control`
-
-*[Refer to the Parental control section](parental-control.md#device-parental-control)*
-
 ## Device tracker
 
 ::: tip
@@ -281,3 +273,11 @@ Connected device identity is a base information about the device. It is exposed 
 #### `device_internet_access`
 
 *[Refer to the Parental control section](parental-control.md#device-internet-access)*
+
+## Switch
+
+### Other
+
+#### `{device}_parental_control`
+
+*[Refer to the Parental control section](parental-control.md#device-parental-control)*

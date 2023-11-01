@@ -18,13 +18,52 @@
 |Media bridge|:green_heart:|
 </td></tr></table>
 
-## Binary sensor / switch
+## Service
 
-::: tip Available entities
-Entities are created based on the `device control` option of AsusRouter. Refer to the [Operation mode](../guide/configuration/operation-mode.md) section for more info on how to change this option.
-- `false`: `binary_sensor` entities are created
-- `true`: `switch` entities are created
+### `adjust_wlan`
+
+`AsusRouter >= 0.11.0 | < 0.23.0`
+
+::: warning Control mode-only service
+This service is available only if the `device control` option of AsusRouter is set to `true`. Refer to the [Operation mode](../guide/configuration/operation-mode.md) section for more info on how to change this option.
 :::
+
+-   Details:
+
+    Allows changing WLAN settings.
+
+    #### Attributes
+
+    -   #### entity_id
+
+        -   Type: `string`
+        -   Details:
+
+            `entity_id` of the WLAN.
+
+    -   #### closed
+
+        -   Type: `boolean`
+        -   Details:
+
+            Whether SSID should be hidden.
+
+    -   #### password
+
+        -   Type: `string`
+
+    -   #### ssid
+
+        -   Type: `string`
+
+    -   #### state
+
+        -   Type: `boolean`
+        -   Details:
+
+            Whether WLAN should be on.
+
+## Switch
 
 ### `{device}_wireless_{type}`
 
@@ -123,48 +162,3 @@ Entities are created based on the `device control` option of AsusRouter. Refer t
         -   Type: `string`
 
     -   ##### xbox_optimized
-
-## Service
-
-### `adjust_wlan`
-
-`AsusRouter >= 0.11.0`
-
-::: warning Control mode-only service
-This service is available only if the `device control` option of AsusRouter is set to `true`. Refer to the [Operation mode](../guide/configuration/operation-mode.md) section for more info on how to change this option.
-:::
-
--   Details:
-
-    Allows changing WLAN settings.
-
-    #### Attributes
-
-    -   #### entity_id
-
-        -   Type: `string`
-        -   Details:
-
-            `entity_id` of the WLAN.
-
-    -   #### closed
-
-        -   Type: `boolean`
-        -   Details:
-
-            Whether SSID should be hidden.
-
-    -   #### password
-
-        -   Type: `string`
-
-    -   #### ssid
-
-        -   Type: `string`
-
-    -   #### state
-
-        -   Type: `boolean`
-        -   Details:
-
-            Whether WLAN should be on.

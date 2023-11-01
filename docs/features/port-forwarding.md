@@ -18,43 +18,11 @@
 |Media bridge|:heart:      |
 </td></tr></table>
 
-## Binary sensor / switch
-
-::: tip Available entities
-Entities are created based on the `device control` option of AsusRouter. Refer to the [Operation mode](../guide/configuration/operation-mode.md) section for more info on how to change this option.
-- `false`: `binary_sensor` entities are created
-- `true`: `switch` entities are created
-:::
-
-### `{device}_port_forwarding`
-
-`AsusRouter >= 0.19.0`
-
--   Default entity state: `Enabled`
--   Details:
-
-    The current state of the port forwarding.
-
-    #### Attributes
-
-    -   #### list
-
-        -   Type: `list(dict())`
-        -   Details:
-
-            The list of all the port forwarding rules. Each list element is a dictionary with 6 pairs key-value:
-            -   `name` - name of the rule (optional)
-            -   `ip` - state of the rule
-            -   `port` - port of the local device (optional)
-            -   `protocol` - communication protocol (`TCP`, `UDP`, `BOTH`)
-            -   `ip_external` - allow connection only from specific IP address
-            -   `port_external` - external port for connection
-
 ## Service
 
 ### `port_forwarding`
 
-`AsusRouter >= 0.19.0`
+`AsusRouter >= 0.19.0 | < 0.23.0`
 
 ::: warning Control mode-only service
 This service is available only if the `device control` option of AsusRouter is set to `true`. Refer to the [Operation mode](../guide/configuration/operation-mode.md) section for more info on how to change this option.
@@ -142,3 +110,29 @@ This service is available only if the `device control` option of AsusRouter is s
         -   Details:
 
             Rule name to be used in the rules list
+
+## Switch
+
+### `{device}_port_forwarding`
+
+`AsusRouter >= 0.19.0`
+
+-   Default entity state: `Enabled`
+-   Details:
+
+    The current state of the port forwarding.
+
+    #### Attributes
+
+    -   #### list
+
+        -   Type: `list(dict())`
+        -   Details:
+
+            The list of all the port forwarding rules. Each list element is a dictionary with 6 pairs key-value:
+            -   `name` - name of the rule (optional)
+            -   `ip` - state of the rule
+            -   `port` - port of the local device (optional)
+            -   `protocol` - communication protocol (`TCP`, `UDP`, `BOTH`)
+            -   `ip_external` - allow connection only from specific IP address
+            -   `port_external` - external port for connection
