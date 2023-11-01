@@ -51,7 +51,7 @@ description: "Integrate your Asus router into Home Assistant with AsusRouter"
 |[TUF-AX4200](/devices/TUF-AX4200.md)|💛 Expected to work||<a href="https://amzn.to/3kexPjC" rel="nofollow sponsored" target="_blank">find it</a>|
 |[TUF-AX5400](/devices/TUF-AX5400.md)|💚 Confirmed|Stock:<li>`386.50224`</li><li>`388.21224`</li><li>`388.22525`</li>|<a href="https://amzn.to/3hXgzyQ" rel="nofollow sponsored" target="_blank">find it</a>|
 |[TUF-AX6000](/devices/TUF-AX6000.md)|💚 Confirmed|Stock:<li>`388.32432`</li>|<a href="https://amzn.to/3CXqxaG" rel="nofollow sponsored" target="_blank">find it</a>|
-|[ZenWiFi AX (XT8)](/devices/ZenWiFiAX(XT8).md)|💚 Confirmed|Stock:<li>`386.48706`</li>Merlin:<li>`386.7_2-gnuton1`</li>|<a href="https://amzn.to/3GuvY2L" rel="nofollow sponsored" target="_blank">find it</a>|
+|[ZenWiFi AX (XT8)](/devices/ZenWiFiAX(XT8).md)|💚 Confirmed|Stock:<li>`386.48706`</li><li>`388.23285`</li>Merlin:<li>`386.7_2-gnuton1`</li>|<a href="https://amzn.to/3GuvY2L" rel="nofollow sponsored" target="_blank">find it</a>|
 |[ZenWiFi AX Hybrid (XP4)](/devices/ZenWiFiAXHybrid(XP4).md)|💛 Expected to work||<a href="https://amzn.to/3Itxnbb" rel="nofollow sponsored" target="_blank">find it</a>|
 |[ZenWiFi AX Mini (XD4)](/devices/ZenWiFiAXMini(XD4).md)|💚 Confirmed|Stock:<li>`386.48790`</li><li>`386.49599`</li>|<a href="https://amzn.to/3hYGuGl" rel="nofollow sponsored" target="_blank">find it</a>|
 |[ZenWiFi Pro XT12](/devices/ZenWiFiProXT12.md)|💚 Confirmed|Stock:<li>`388.22127`</li>|<a href="https://amzn.to/3im6UC5" rel="nofollow sponsored" target="_blank">find it</a>|
@@ -78,7 +78,7 @@ description: "Integrate your Asus router into Home Assistant with AsusRouter"
 |[RT-AC85P](/devices/RT-AC85P.md)|💚 Confirmed|Stock:<li>`382.52516`</li>|<a href="https://amzn.to/3kMiDdU" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AC86U](/devices/RT-AC86U.md)|💚 Confirmed|Stock:<li>`386.48260`</li><li>`386.49709`</li>Merlin:<li>`386.7_0`</li><li>`386.7_2`</li><li>`386.9_0`</li>|<a href="https://amzn.to/3CbRarK" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AC87U](/devices/RT-AC87U.md)|💚 Confirmed|Merlin:<li>`384.13_10`</li>|<a href="https://amzn.to/3i4sUkE" rel="nofollow sponsored" target="_blank">find it</a>|
-|[RT-AC88U](/devices/RT-AC88U.md)|💚 Confirmed|Stock:<li>`386.48260`</li>Merlin:<li>`386.7_beta1`</li>|<a href="https://amzn.to/3FYRYBy" rel="nofollow sponsored" target="_blank">find it</a>|
+|[RT-AC88U](/devices/RT-AC88U.md)|💚 Confirmed|Stock:<li>`386.48260`</li>Merlin:<li>`386.5_0`</li><li>`386.7_beta1`</li>|<a href="https://amzn.to/3FYRYBy" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-ACRH17](/devices/RT-ACRH17.md)|💚 Confirmed|Stock:<li>`382.52517`</li>|<a href="https://amzn.to/3i6dWL0" rel="nofollow sponsored" target="_blank">find it</a>|
 |[ZenWiFi AC Mini(CD6)](/devices/ZenWiFiACMini(CD6).md)|💛 Expected to work||<a href="https://amzn.to/3RU7vrL" rel="nofollow sponsored" target="_blank">find it</a>|
 
