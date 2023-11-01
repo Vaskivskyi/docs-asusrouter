@@ -6,12 +6,12 @@ next: ../configuration/
 
 ## Prerequisites
 
-1. An AsusWRT-powered router. Including devices with original (stock) firmware (versions starting with `3.0.0.4`) as well as with AsusWRT-Merlin FW and its derivatives (e.g. Gnuton builds).
-2. A Home Assistant instance with version 2023.1.0 or higher.
+1. An AsusWRT-powered router. Including devices with original (stock) firmware (versions starting with `3.0.0.4` or `3.0.0.6`) as well as with AsusWRT-Merlin FW and its derivatives (e.g. Gnuton builds).
+2. A Home Assistant instance with version `2023.10.0` or higher.
 
 ## Installation
 
-There are two supported ways to install AsusRouter to your HA instance - Home Assistant Community Store (HACS) and manual installation from the stable branch of the integration GitHub.
+There are two supported ways to install AsusRouter to your HA instance - Home Assistant Community Store (HACS) and manual installation from the latest stable release of the integration GitHub.
 
 Keep in mind, manual installation of development (`main`) branch **is not** and **will not be supported**!
 
@@ -23,7 +23,7 @@ You can add this repository to your HACS going the following path:
 
 ### Manual
 
-Copy content of the [stable branch](https://github.com/Vaskivskyi/ha-asusrouter/tree/stable) `custom_components/asusrouter/` to `custom_components/asusrouter/` in your Home Assistant folder.
+Copy content of the [latest stable release](https://github.com/Vaskivskyi/ha-asusrouter/releases/latest) `custom_components/asusrouter/` to `custom_components/asusrouter/` in your Home Assistant folder.
 
 ## Initial setup
 

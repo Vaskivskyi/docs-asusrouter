@@ -22,13 +22,7 @@ This feature is currently not available for the stock firmware with versions `38
 |Media bridge|:heart:      |
 </td></tr></table>
 
-## Binary sensor / switch
-
-::: tip Available entities
-Entities are created based on the `device control` option of AsusRouter. Refer to the [Operation mode](../guide/configuration/operation-mode.md) section for more info on how to change this option.
-- `false`: `binary_sensor` entities are created
-- `true`: `switch` entities are created
-:::
+## Switch
 
 ### `{device}_openvpn_client_{x}`
 
