@@ -2,6 +2,21 @@
 
 ## Home Assistant Integration
 
+### 0.23.1 🐛 Bugfix / FW 380
+
+`2023-11-02`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.23.1)
+
+### 🐛 Bug fixes
+
+- Fixed issue with an empty latest_connected list (report [#659](https://github.com/Vaskivskyi/ha-asusrouter/issues/659), [#662](https://github.com/Vaskivskyi/ha-asusrouter/issues/662))
+- Fixed issue with device identity on 380 FW (report [661](https://github.com/Vaskivskyi/ha-asusrouter/issues/661))
+
+### 📦 Dependencies
+
+- Bumped `asusrouter` library to [`1.0.1`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.0.1)
+
 ### 0.23.0 🔨 New backend
 
 `2023-11-01`
