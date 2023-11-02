@@ -76,6 +76,16 @@ This release brings a fully-rebuild core of the library, making it faster and si
 
 ## Library
 
+### 1.0.1 🐛 Bugfix / FW 380
+
+`2023-11-02`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.0.1)
+
+### 🐛 Bug fixes
+
+- Fixed identity error on 380 FW
+
 ### 1.0.0 🔨 New core
 
 `2023-11-01`
