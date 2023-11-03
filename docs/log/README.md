@@ -2,6 +2,21 @@
 
 ## Home Assistant Integration
 
+### 0.23.2 🚀 Better features for older devices
+
+`2023-11-03`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.23.2)
+
+### 🐛 Bug fixes
+
+- Fixed issue with temperature processing for older devices (report [#661](https://github.com/Vaskivskyi/ha-asusrouter/issues/661), [#665](https://github.com/Vaskivskyi/ha-asusrouter/issues/665))
+- Fixed issue with the clients processing for legacy format (report [#661](https://github.com/Vaskivskyi/ha-asusrouter/issues/661))
+
+### 📦 Dependencies
+
+- Bumped `asusrouter` library to [`1.0.2`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.0.2)
+
 ### 0.23.1 🐛 Bugfix / FW 380
 
 `2023-11-02`
