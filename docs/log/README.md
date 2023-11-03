@@ -91,6 +91,20 @@ This release brings a fully-rebuild core of the library, making it faster and si
 
 ## Library
 
+### 1.0.2 🚀 Better features for older devices
+
+`2023-11-03`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.0.2)
+
+### 🚀 Features
+
+- Added parsing for the legacy format of `Update Clients` endpoint
+
+### 🐛 Bug fixes
+
+- Improved temperature reading code to prevent errors with older FW
+
 ### 1.0.1 🐛 Bugfix / FW 380
 
 `2023-11-02`
