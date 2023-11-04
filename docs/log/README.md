@@ -120,6 +120,16 @@ This release brings a fully-rebuild core of the library, making it faster and si
 
 ## Library
 
+### 1.0.4 🐛 More legacy bugfixes
+
+`2023-11-04`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.0.4)
+
+### 🐛 Bug fixes
+
+- Fixed bug with 5 GHz clients for older devices
+
 ### 1.0.3 🐛 `380` - `384` bugfixes
 
 `2023-11-04`
