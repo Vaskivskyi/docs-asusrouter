@@ -33,6 +33,7 @@ description: "Integrate your Asus router into Home Assistant with AsusRouter"
 |[GT-AX11000 Pro](/devices/GT-AX11000Pro.md)|💛 Expected to work||<a href="https://amzn.to/3VUNbHl" rel="nofollow sponsored" target="_blank">find it</a>|
 |[GT-AX6000](/devices/GT-AX6000.md)|💛 Expected to work||<a href="https://amzn.to/3GrKHKG" rel="nofollow sponsored" target="_blank">find it</a>|
 |[GT6](/devices/GT6.md)|💛 Expected to work||<a href="https://amzn.to/3GmPCfR" rel="nofollow sponsored" target="_blank">find it</a>|
+|[RT-AX53U](/devices/RT-AX53U.md)|💚 Confirmed|Stock:<li>`386.69061`</li>|<a href="https://amzn.to/49jEgqO" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX55](/devices/RT-AX55.md)|💚 Confirmed|Stock:<li>`386.50410`</li>|<a href="https://amzn.to/3Z2ath5" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX56U](/devices/RT-AX56U.md)|💚 Confirmed|Merlin:<li>`386.7_2`</li>|<a href="https://amzn.to/3vrIeuz" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX57](/devices/RT-AX57.md)|💛 Expected to work||<a href="https://amzn.to/3IWnZNx" rel="nofollow sponsored" target="_blank">find it</a>|
