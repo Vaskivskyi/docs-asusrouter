@@ -2,6 +2,20 @@
 
 ## Home Assistant Integration
 
+### 0.23.3 🐛 `380` - `384` bugfixes
+
+`2023-11-04`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.23.3)
+
+### 🐛 Bug fixes
+
+- Fixed issue for `380` - `384` FW versions (report [#661](https://github.com/Vaskivskyi/ha-asusrouter/issues/661))
+
+### 📦 Dependencies
+
+- Bumped `asusrouter` library to [`1.0.3`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.0.3)
+
 ### 0.23.2 🚀 Better features for older devices
 
 `2023-11-03`
