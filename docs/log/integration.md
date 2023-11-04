@@ -4,6 +4,20 @@ sidebarDepth: 1
 
 # Integration change log
 
+## 0.23.4 🐛 More legacy bugfixes
+
+`2023-11-04`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.23.4)
+
+### 🐛 Bug fixes
+
+- Fixed bug with 5 GHz clients for older devices
+
+### 📦 Dependencies
+
+- Bumped `asusrouter` library to [`1.0.4`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.0.4)
+
 ## 0.23.3 🐛 `380` - `384` bugfixes
 
 `2023-11-04`
