@@ -106,6 +106,16 @@ This release brings a fully-rebuild core of the library, making it faster and si
 
 ## Library
 
+### 1.0.3 🐛 `380` - `384` bugfixes
+
+`2023-11-03`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.0.2)
+
+### 🐛 Bug fixes
+
+- Fixed issue for `380` - `384` FW versions
+
 ### 1.0.2 🚀 Better features for older devices
 
 `2023-11-03`
