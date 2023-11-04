@@ -1,64 +1,8 @@
 # Change Log
 
+This page contains all the changes in the last stable releases, including patch releases `x.x.V`.
+
 ## Home Assistant Integration
-
-### 0.23.4 🐛 More legacy bugfixes
-
-`2023-11-04`
-
-#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.23.4)
-
-### 🐛 Bug fixes
-
-- Fixed bug with 5 GHz clients for older devices
-
-### 📦 Dependencies
-
-- Bumped `asusrouter` library to [`1.0.4`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.0.4)
-
-### 0.23.3 🐛 `380` - `384` bugfixes
-
-`2023-11-04`
-
-#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.23.3)
-
-### 🐛 Bug fixes
-
-- Fixed issue for `380` - `384` FW versions (report [#661](https://github.com/Vaskivskyi/ha-asusrouter/issues/661))
-
-### 📦 Dependencies
-
-- Bumped `asusrouter` library to [`1.0.3`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.0.3)
-
-### 0.23.2 🚀 Better features for older devices
-
-`2023-11-03`
-
-#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.23.2)
-
-### 🐛 Bug fixes
-
-- Fixed issue with temperature processing for older devices (report [#661](https://github.com/Vaskivskyi/ha-asusrouter/issues/661), [#665](https://github.com/Vaskivskyi/ha-asusrouter/issues/665))
-- Fixed issue with the clients processing for legacy format (report [#661](https://github.com/Vaskivskyi/ha-asusrouter/issues/661))
-
-### 📦 Dependencies
-
-- Bumped `asusrouter` library to [`1.0.2`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.0.2)
-
-### 0.23.1 🐛 Bugfix / FW 380
-
-`2023-11-02`
-
-#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.23.1)
-
-### 🐛 Bug fixes
-
-- Fixed issue with an empty latest_connected list (report [#659](https://github.com/Vaskivskyi/ha-asusrouter/issues/659), [#662](https://github.com/Vaskivskyi/ha-asusrouter/issues/662))
-- Fixed issue with device identity on 380 FW (report [661](https://github.com/Vaskivskyi/ha-asusrouter/issues/661))
-
-### 📦 Dependencies
-
-- Bumped `asusrouter` library to [`1.0.1`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.0.1)
 
 ### 0.23.0 🔨 New backend
 
@@ -132,55 +76,75 @@ This release brings a fully-rebuild core of the library, making it faster and si
     - `ZenWiFi AX (XT8)` / `388.23285`
     - `ZenWiFi XT9` / `388_23285`
 
-## Library
+### 🩹 Patches
 
-### 1.0.4 🐛 More legacy bugfixes
+<details>
+<summary>0.23.1 🐛 Bugfix / FW 380</summary>
+
+`2023-11-02`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.23.1)
+
+### 🐛 Bug fixes
+
+- Fixed issue with an empty latest_connected list (report [#659](https://github.com/Vaskivskyi/ha-asusrouter/issues/659), [#662](https://github.com/Vaskivskyi/ha-asusrouter/issues/662))
+- Fixed issue with device identity on 380 FW (report [661](https://github.com/Vaskivskyi/ha-asusrouter/issues/661))
+
+### 📦 Dependencies
+
+- Bumped `asusrouter` library to [`1.0.1`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.0.1)
+</details>
+
+<details>
+<summary>0.23.2 🚀 Better features for older devices</summary>
+
+`2023-11-03`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.23.2)
+
+### 🐛 Bug fixes
+
+- Fixed issue with temperature processing for older devices (report [#661](https://github.com/Vaskivskyi/ha-asusrouter/issues/661), [#665](https://github.com/Vaskivskyi/ha-asusrouter/issues/665))
+- Fixed issue with the clients processing for legacy format (report [#661](https://github.com/Vaskivskyi/ha-asusrouter/issues/661))
+
+### 📦 Dependencies
+
+- Bumped `asusrouter` library to [`1.0.2`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.0.2)
+</details>
+
+<details>
+<summary>0.23.3 🐛 `380` - `384` bugfixes</summary>
 
 `2023-11-04`
 
-#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.0.4)
+[→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.23.3)
+
+### 🐛 Bug fixes
+
+- Fixed issue for `380` - `384` FW versions (report [#661](https://github.com/Vaskivskyi/ha-asusrouter/issues/661))
+
+### 📦 Dependencies
+
+- Bumped `asusrouter` library to [`1.0.3`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.0.3)
+</details>
+
+<details>
+<summary>0.23.4 🐛 More legacy bugfixes</summary>
+
+`2023-11-04`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.23.4)
 
 ### 🐛 Bug fixes
 
 - Fixed bug with 5 GHz clients for older devices
 
-### 1.0.3 🐛 `380` - `384` bugfixes
+### 📦 Dependencies
 
-`2023-11-04`
+- Bumped `asusrouter` library to [`1.0.4`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.0.4)
+</details>
 
-#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.0.3)
-
-### 🐛 Bug fixes
-
-- Fixed issue for `380` - `384` FW versions
-
-### 🐣 GitHub
-
-- Updated build and release workflow
-
-### 1.0.2 🚀 Better features for older devices
-
-`2023-11-03`
-
-#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.0.2)
-
-### 🚀 Features
-
-- Added parsing for the legacy format of `Update Clients` endpoint
-
-### 🐛 Bug fixes
-
-- Improved temperature reading code to prevent errors with older FW
-
-### 1.0.1 🐛 Bugfix / FW 380
-
-`2023-11-02`
-
-#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.0.1)
-
-### 🐛 Bug fixes
-
-- Fixed identity error on 380 FW
+## Library
 
 ### 1.0.0 🔨 New core
 
@@ -224,3 +188,60 @@ This release brings a fully-rebuild core of the library, making it faster and si
     - `TUF-AX3000 V2` / `388.23785`
     - `ZenWiFi AX (XT8)` / `388.23285`
     - `ZenWiFi XT9` / `388_23285`
+
+### 🩹 Patches
+<details>
+<summary>1.0.1 🐛 Bugfix / FW 380</summary>
+
+`2023-11-02`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.0.1)
+
+### 🐛 Bug fixes
+
+- Fixed identity error on 380 FW
+</details>
+
+<details>
+<summary>1.0.2 🚀 Better features for older devices</summary>
+
+`2023-11-03`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.0.2)
+
+### 🚀 Features
+
+- Added parsing for the legacy format of `Update Clients` endpoint
+
+### 🐛 Bug fixes
+
+- Improved temperature reading code to prevent errors with older FW
+</details>
+
+<details>
+<summary>1.0.3 🐛 `380` - `384` bugfixes</summary>
+
+`2023-11-04`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.0.3)
+
+### 🐛 Bug fixes
+
+- Fixed issue for `380` - `384` FW versions
+
+### 🐣 GitHub
+
+- Updated build and release workflow
+</details>
+
+<details>
+<summary>1.0.4 🐛 More legacy bugfixes</summary>
+
+`2023-11-04`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.0.4)
+
+### 🐛 Bug fixes
+
+- Fixed bug with 5 GHz clients for older devices
+</details>
