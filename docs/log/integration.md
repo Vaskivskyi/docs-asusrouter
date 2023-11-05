@@ -14,6 +14,10 @@ sidebarDepth: 1
 
 - Fixed an infinite loop with authorization error (report [#675](https://github.com/Vaskivskyi/ha-asusrouter/issues/675))
 
+### 📦 Dependencies
+
+- Bumped `asusrouter` library to [`1.0.5`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.0.5)
+
 ## 0.23.5 🐛 Error handling
 
 `2023-11-05`
