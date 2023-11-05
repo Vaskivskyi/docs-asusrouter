@@ -4,6 +4,16 @@ sidebarDepth: 1
 
 # Integration change log
 
+## 0.23.5 🐛 Error handling
+
+`2023-11-05`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.23.5)
+
+### 🐛 Bug fixes
+
+- Fixed error handling on integration startup
+
 ## 0.23.4 🐛 More legacy bugfixes
 
 `2023-11-04`

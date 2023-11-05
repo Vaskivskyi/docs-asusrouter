@@ -144,6 +144,18 @@ This release brings a fully-rebuild core of the library, making it faster and si
 - Bumped `asusrouter` library to [`1.0.4`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.0.4)
 </details>
 
+<details>
+<summary>0.23.5 🐛 Error handling</summary>
+
+`2023-11-05`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.23.5)
+
+### 🐛 Bug fixes
+
+- Fixed error handling on integration startup
+</details>
+
 ## Library
 
 ### 1.0.0 🔨 New core
