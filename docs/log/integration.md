@@ -4,6 +4,16 @@ sidebarDepth: 1
 
 # Integration change log
 
+## 0.23.6 🕐 Error loop fix
+
+`2023-11-05`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.23.6)
+
+### 🐛 Bug fixes
+
+- Fixed an infinite loop with authorization error (report [#675](https://github.com/Vaskivskyi/ha-asusrouter/issues/675))
+
 ## 0.23.5 🐛 Error handling
 
 `2023-11-05`
