@@ -668,7 +668,7 @@ This release brings a fully-rebuild core of the library, making it faster and si
 ### 🐛 Bug fixes
 
 - Added new API endpoint to monitor online status - device trackers should become more reliable (FW: `386.x+` only)
-- Fixed naming of temperature sensors after bug in [`0.15.0`](/log/0.15.0.html)
+- Fixed naming of temperature sensors after bug in [`0.15.0`](#0150-🌡️-more-temperatures-and-fixes)
 - Fixed `Platform asusrouter does not generate unique IDs.`
 - Fixed problems with unique IDs for multiple devices setup
 - Fixed events options
@@ -788,7 +788,7 @@ This release brings a fully-rebuild core of the library, making it faster and si
 
 ### 💥 Breaking
 
-- Deprecated in [0.13.0](/log/0.13.0) `entity_id`, `mac` and `name` parameters of `asusrouter.device_internet_access` service are removed
+- Deprecated in [0.13.0](#0130-🔍-latest-connected-devices-tracking-and-improved-parental-control) `entity_id`, `mac` and `name` parameters of `asusrouter.device_internet_access` service are removed
 - Migration from versions 0.5.1 and lower is removed - consider the [new migration FAQ](/guide/faq/#migration-from-an-old-version) if you need to update from an older version
 
 ### 📚 Documentation
