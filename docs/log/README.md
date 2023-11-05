@@ -156,6 +156,15 @@ This release brings a fully-rebuild core of the library, making it faster and si
 - Fixed error handling on integration startup
 </details>
 
+<details>
+<summary>0.23.6 🕐 Error loop fix</summary>
+
+### 🐛 Bug fixes
+
+- Fixed an infinite loop with authorization error (report [#675](https://github.com/Vaskivskyi/ha-asusrouter/issues/675))
+
+</details>
+
 ## Library
 
 ### 1.0.0 🔨 New core
