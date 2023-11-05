@@ -82,7 +82,7 @@ An example automation is available here: [link](/guide/how-to/automations.html#r
 
 Some versions of AsusRouter might implement breaking changes, which will not allow migration from really old versions. In this case, you would need to manually update to a correct version still supporting migration before actually updating to the latest release.
 
-With the release of AsusRouter [0.15.0](https://asusrouter.vaskivskyi.com/log/0.15.0), migration from 0.5.1 and earlier has been removed.
+With the release of AsusRouter [0.15.0](/log/integration.html#_0-15-0-🌡%EF%B8%8F-more-temperatures-and-fixes), migration from 0.5.1 and earlier has been removed.
 
 ### Migration sequences
 
