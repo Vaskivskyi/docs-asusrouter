@@ -4,6 +4,16 @@ sidebarDepth: 1
 
 # Library change log
 
+## 1.0.5 🕐 Error loop fix
+
+`2023-11-05`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.0.5)
+
+### 🐛 Bug fixes
+
+- Fixed an infinite loop with authorization error
+
 ## 1.0.4 🐛 More legacy bugfixes
 
 `2023-11-04`

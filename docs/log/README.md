@@ -257,3 +257,15 @@ This release brings a fully-rebuild core of the library, making it faster and si
 
 - Fixed bug with 5 GHz clients for older devices
 </details>
+
+<details>
+<summary>1.0.5 🕐 Error loop fix</summary>
+
+`2023-11-05`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.0.5)
+
+### 🐛 Bug fixes
+
+- Fixed an infinite loop with authorization error
+</details>
