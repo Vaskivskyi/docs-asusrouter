@@ -169,6 +169,19 @@ This release brings a fully-rebuild core of the library, making it faster and si
 
 </details>
 
+<details>
+<summary>0.23.7 🩹 Client session</summary>
+
+`2023-11-09`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.23.7)
+
+### 🚀 Features
+
+- Switched to receive a new client session for connection
+
+</details>
+
 ## Library
 
 ### 1.0.0 🔨 New core

@@ -4,6 +4,16 @@ sidebarDepth: 1
 
 # Integration change log
 
+## 0.23.7 🩹 Error loop fix
+
+`2023-11-09`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.23.7)
+
+### 🚀 Features
+
+- Switched to receive a new client session for connection
+
 ## 0.23.6 🕐 Error loop fix
 
 `2023-11-05`
