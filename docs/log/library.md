@@ -26,7 +26,7 @@ sidebarDepth: 1
 
 ### 🐛 Bug fixes
 
-- Blocked requests attempts on closed session
+- Blocked request attempts on closed session
 
 ## 1.0.5 🕐 Error loop fix
 
