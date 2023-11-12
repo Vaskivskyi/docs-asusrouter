@@ -4,6 +4,30 @@ sidebarDepth: 1
 
 # Library change log
 
+## 1.1.0b0
+
+`2023-11-12`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.1.0b0)
+
+### 🚀 Features
+
+- Added support for VPN Fusion (stock `388+`)
+- Added support for OpenVPN (stock `388+`)
+- Added support for WireGuard (stock and merlin `388+`)
+- Improved HA converters (+ new `convert_to_ha_data` for proper flattening data)
+- Added start-up calculated values as `None` (CPU)
+- Added data drop for cases of the same data on multiple endpoints
+- Added `dump` tools for logging and dumping replies of the device
+- Small improvements over the code
+- Improved logging on connection failure
+- Added Dual WAN support
+- Added WAN Aggregation support
+
+### 🐛 Bug fixes
+
+- Blocked requests attempts on closed session
+
 ## 1.0.5 🕐 Error loop fix
 
 `2023-11-05`
