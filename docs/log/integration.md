@@ -4,6 +4,22 @@ sidebarDepth: 1
 
 # Integration change log
 
+## 0.24.0b1
+
+`2023-11-13`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.24.0b1)
+
+### 🐛 Bug fixes
+
+- Fixed missing values for OpenVPN client
+- Fixed missing temperature sensors
+- Fixed unsafe dictionary operation
+
+### 📦 Dependencies
+
+- Bumped `asusrouter` library to [`1.1.0b1`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.1.0b1)
+
 ## 0.24.0b0
 
 `2023-11-12`
@@ -25,7 +41,6 @@ sidebarDepth: 1
 - Added `internet` binary sensor to show the general state of the device internet connection (and IP address as an attribute of the sensor)
 - Added `dualwan` binary sensor
 - Added `wan_aggregation` binary sensor
-
 
 ### 🐛 Bug fixes
 
