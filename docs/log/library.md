@@ -4,6 +4,17 @@ sidebarDepth: 1
 
 # Library change log
 
+## 1.1.0b1
+
+`2023-11-13`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.1.0b1)
+
+### 🐛 Bug fixes
+
+- Fixed missing values for OpenVPN client
+- Fixed unsafe dict pop
+
 ## 1.1.0b0
 
 `2023-11-12`
