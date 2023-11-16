@@ -4,6 +4,20 @@ sidebarDepth: 1
 
 # Integration change log
 
+## 0.24.0b2
+
+`2023-11-16`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.24.0b2)
+
+### 🚀 Features
+
+- Added integration reload on sensors interval change
+
+### 🐛 Bug fixes
+
+- Fixed network sensors interval
+
 ## 0.24.0b1
 
 `2023-11-13`
