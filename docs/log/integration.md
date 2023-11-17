@@ -4,6 +4,20 @@ sidebarDepth: 1
 
 # Integration change log
 
+## 0.24.0b3
+
+`2023-11-17`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.24.0b3)
+
+### 🐛 Bug fixes
+
+- Fixed missing arguments on state setting (report [#710](https://github.com/Vaskivskyi/ha-asusrouter/issues/710))
+
+### 📦 Dependencies
+
+- Bumped `asusrouter` library to [`1.1.0b2`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.1.0b2)
+
 ## 0.24.0b2
 
 `2023-11-16`
