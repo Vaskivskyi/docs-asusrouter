@@ -4,6 +4,16 @@ sidebarDepth: 1
 
 # Library change log
 
+## 1.1.0b2
+
+`2023-11-17`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.1.0b2)
+
+### 🐛 Bug fixes
+
+- Fixed missing arguments on state setting
+
 ## 1.1.0b1
 
 `2023-11-13`
