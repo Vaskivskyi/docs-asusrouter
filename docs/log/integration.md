@@ -4,9 +4,50 @@ sidebarDepth: 1
 
 # Integration change log
 
+## 0.24.0 🌍 VPNs, WANs and stability
+
+`2023-11-19`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.24.0)
+
+### 💥 Breaking
+
+- Implemented changes in `wan` binary sensor. Refer to the `Features` section for details
+
+### 🚀 Features
+
+- Added support for VPN Fusion (VPN clients, stock FW `388+`)
+- Added support for WireGuard (clients + server) (stock and Merlin FW `388+`) (report [#594](https://github.com/Vaskivskyi/ha-asusrouter/issues/594))
+- Added support for OpenVPN (clients + servers) (stock FW `388+`) (report [#470](https://github.com/Vaskivskyi/ha-asusrouter/issues/470))
+- Added support for secondary WAN and changed WAN sensors (report [#603](https://github.com/Vaskivskyi/ha-asusrouter/issues/603))
+    - Binary sensor `wan` (`wan_secondary`)
+    - Sensors `wan_ip` and `wan_ip_extra` (`wan_ip_secondary` and `wan_ip_secondary_extra`)
+- Added `internet` binary sensor to show the general state of the device internet connection (and IP address as an attribute of the sensor)
+- Added `dualwan` binary sensor
+- Added `wan_aggregation` binary sensor
+
+### 🐛 Bug fixes
+
+- Fixed error in historic data calculation
+- Other minor fixes in data processing
+- Fixed issue with blocked possibility to reload integration
+- Fixed diagnostics module
+- Fixed missing arguments on state setting (report [#710](https://github.com/Vaskivskyi/ha-asusrouter/issues/710))
+- Fixed network sensors interval
+- Fixed missing values for OpenVPN client
+- Fixed missing temperature sensors
+- Fixed unsafe dictionary operation
+
+### 📦 Dependencies
+
+- Bumped `asusrouter` library to [`1.1.0`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.1.0)
+
 ## 0.24.0b3
 
 `2023-11-17`
+
+<details>
+<summary>Release notes</summary>
 
 #### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.24.0b3)
 
@@ -18,9 +59,14 @@ sidebarDepth: 1
 
 - Bumped `asusrouter` library to [`1.1.0b2`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.1.0b2)
 
+</details>
+
 ## 0.24.0b2
 
 `2023-11-16`
+
+<details>
+<summary>Release notes</summary>
 
 #### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.24.0b2)
 
@@ -32,9 +78,14 @@ sidebarDepth: 1
 
 - Fixed network sensors interval
 
+</details>
+
 ## 0.24.0b1
 
 `2023-11-13`
+
+<details>
+<summary>Release notes</summary>
 
 #### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.24.0b1)
 
@@ -48,9 +99,14 @@ sidebarDepth: 1
 
 - Bumped `asusrouter` library to [`1.1.0b1`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.1.0b1)
 
+</details>
+
 ## 0.24.0b0
 
 `2023-11-12`
+
+<details>
+<summary>Release notes</summary>
 
 #### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.24.0b0)
 
@@ -79,6 +135,7 @@ sidebarDepth: 1
 
 - Bumped `asusrouter` library to [`1.1.0b0`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.1.0b0)
 
+</details>
 
 ## 0.23.7 🩹 Error loop fix
 
