@@ -4,7 +4,51 @@ sidebarDepth: 1
 
 # Library change log
 
-## 1.1.0b2
+## 1.1.0 🌍 VPNs, WANs and tests
+
+`2023-11-19`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.1.0)
+
+### 🚀 Features
+
+- Added support for VPN Fusion (stock `388+`)
+- Added support for OpenVPN (stock `388+`)
+- Added support for WireGuard (stock and merlin `388+`)
+- Improved HA converters (+ new `convert_to_ha_data` for proper flattening data)
+- Added start-up calculated values as `None` (CPU)
+- Added data drop for cases of the same data on multiple endpoints
+- Added `dump` tools for logging and dumping replies of the device
+- Small improvements over the code
+- Improved logging on connection failure
+- Added Dual WAN support
+- Added WAN Aggregation support
+
+### 🐛 Bug fixes
+
+- Fixed error in historic data calculation
+- Other minor fixes in data processing
+- Blocked request attempts on closed session
+- Fixed missing values for OpenVPN client
+- Fixed unsafe dict pop
+- Fixed missing arguments on state setting
+
+### 🚨 Testing
+
+- Added unit tests for tools: cleaners, converters, readers, writers
+- Added unit tests for some endpoint modules
+- Added full device test for RT-AX88U / Merlin / 388
+
+### 🔨 Other changes
+
+- Minor improvements to logging and code stability
+
+### 🐣 GitHub
+
+- Added testing workflow for all incomming PRs and pushes to the dev / main branch
+
+<details>
+<summary>1.1.0b2</summary>
 
 `2023-11-17`
 
@@ -14,7 +58,10 @@ sidebarDepth: 1
 
 - Fixed missing arguments on state setting
 
-## 1.1.0b1
+</details>
+
+<details>
+<summary>1.1.0b1</summary>
 
 `2023-11-13`
 
@@ -25,7 +72,10 @@ sidebarDepth: 1
 - Fixed missing values for OpenVPN client
 - Fixed unsafe dict pop
 
-## 1.1.0b0
+</details>
+
+<details>
+<summary>1.1.0b0</summary>
 
 `2023-11-12`
 
@@ -48,6 +98,8 @@ sidebarDepth: 1
 ### 🐛 Bug fixes
 
 - Blocked request attempts on closed session
+
+</details>
 
 ## 1.0.5 🕐 Error loop fix
 
