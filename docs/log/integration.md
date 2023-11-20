@@ -4,6 +4,20 @@ sidebarDepth: 1
 
 # Integration change log
 
+## 0.24.1 🩹
+
+`2023-11-20`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.24.1)
+
+### 🐛 Bug fixes
+
+- Fixed issue with WireGuard phantom data appearing on FW below 388 (report [#715](https://github.com/Vaskivskyi/ha-asusrouter/issues/715))
+
+### 📦 Dependencies
+
+- Bumped `asusrouter` library to [`1.1.1`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.1.1)
+
 ## 0.24.0 🌍 VPNs, WANs and stability
 
 `2023-11-19`

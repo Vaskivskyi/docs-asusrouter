@@ -42,6 +42,13 @@ This page contains all the changes in the last stable releases, including patch 
 
 - Bumped `asusrouter` library to [`1.1.0`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.1.0)
 
+### 🩹 Patches
+
+#### 0.24.1 (`2023-11-20`)
+
+- **[Bugfix]** Fixed issue with WireGuard phantom data appearing on FW below 388 (report [#715](https://github.com/Vaskivskyi/ha-asusrouter/issues/715))
+- **[Dependency]** Bumped `asusrouter` library to [`1.1.1`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.1.1)
+
 ## Library
 
 ### 1.1.0 🌍 VPNs, WANs and tests
