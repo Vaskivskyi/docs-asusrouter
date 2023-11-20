@@ -86,3 +86,10 @@ This page contains all the changes in the last stable releases, including patch 
 ### 🐣 GitHub
 
 - Added testing workflow for all incomming PRs and pushes to the dev / main branch
+
+### 🩹 Patches
+
+#### 1.1.1 (`2023-11-20`)
+
+- **[Bugfix]** Removed WireGuard and VPNC data maps for version below 388
+- **[Other]** Fixed typo in logging

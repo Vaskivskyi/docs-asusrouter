@@ -4,6 +4,20 @@ sidebarDepth: 1
 
 # Library change log
 
+## 1.1.1 🩹
+
+`2023-11-20`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.1.1)
+
+### 🐛 Bug fixes
+
+- Removed WireGuard and VPNC data maps for version below 388
+
+### 🔨 Other changes
+
+- Fixed typo in logging
+
 ## 1.1.0 🌍 VPNs, WANs and tests
 
 `2023-11-19`
