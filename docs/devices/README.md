@@ -14,7 +14,9 @@ description: "Integrate your Asus router into Home Assistant with AsusRouter"
 |Model|Status|Tested firmware|Find it on Amazon[^amazon]|
 |---|---|---|---|
 |[GT-BE98](/devices/GT-BE98.md)|💛 Expected to work||<a href="https://amzn.to/3vGztgz" rel="nofollow sponsored" target="_blank">find it</a>|
+|[GT-BE98 Pro](/devices/GT-BE98Pro.md)|💛 Expected to work||<a href="https://amzn.to/3uoSjeR" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-BE96U](/devices/RT-BE96U.md)|💛 Expected to work||<a href="https://amzn.to/3vJu8oD" rel="nofollow sponsored" target="_blank">find it</a>|
+|[ZenWiFi BQ16 Pro](/devices/ZenWiFiBQ16Pro.md)|💛 Expected to work||<a href="https://amzn.to/3MNcw48" rel="nofollow sponsored" target="_blank">find it</a>|
 
 ## WiFi 6e | 802.11axe
 |Model|Status|Tested firmware|Find it on Amazon[^amazon]|
@@ -33,10 +35,12 @@ description: "Integrate your Asus router into Home Assistant with AsusRouter"
 |[GT-AX11000 Pro](/devices/GT-AX11000Pro.md)|💛 Expected to work||<a href="https://amzn.to/3VUNbHl" rel="nofollow sponsored" target="_blank">find it</a>|
 |[GT-AX6000](/devices/GT-AX6000.md)|💛 Expected to work||<a href="https://amzn.to/3GrKHKG" rel="nofollow sponsored" target="_blank">find it</a>|
 |[GT6](/devices/GT6.md)|💛 Expected to work||<a href="https://amzn.to/3GmPCfR" rel="nofollow sponsored" target="_blank">find it</a>|
+|[RT-AX52](/devices/RT-AX52.md)|💛 Expected to work||<a href="https://amzn.to/40Ph3sO" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX53U](/devices/RT-AX53U.md)|💚 Confirmed|Stock:<li>`386.69061`</li>|<a href="https://amzn.to/49jEgqO" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX55](/devices/RT-AX55.md)|💚 Confirmed|Stock:<li>`386.50410`</li>|<a href="https://amzn.to/3Z2ath5" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX56U](/devices/RT-AX56U.md)|💚 Confirmed|Merlin:<li>`386.7_2`</li>|<a href="https://amzn.to/3vrIeuz" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX57](/devices/RT-AX57.md)|💛 Expected to work||<a href="https://amzn.to/3IWnZNx" rel="nofollow sponsored" target="_blank">find it</a>|
+|[RT-AX57 Go](/devices/RT-AX57Go.md)|💛 Expected to work||<a href="https://amzn.to/47kE9db" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX58U](/devices/RT-AX58U.md)|💚 Confirmed|Stock:<li>`386.49674`</li><li>`388.22237`</li>Merlin:<li>`386.7_2`</li><li>`388.1_0`</li>|<a href="https://amzn.to/3jHri0L" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX59U](/devices/RT-AX59U.md)|💛 Expected to work||<a href="https://amzn.to/3CVCVYO" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX68U](/devices/RT-AX68U.md)|💚 Confirmed|Stock:<li>`388.21732`</li>|<a href="https://amzn.to/3WzRwk5" rel="nofollow sponsored" target="_blank">find it</a>|

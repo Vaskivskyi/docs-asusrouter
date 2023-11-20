@@ -14,6 +14,7 @@ const labelInterfaces = {
     "5ghz": "5 GHz",
     "5ghz2": "5 GHz-2",
     "6ghz": "6 GHz",
+    "6ghz2": "6 GHz-2",
 }
 
 const labelCPU = {
@@ -141,7 +142,7 @@ function genFeatureSpecs(features: any, feature: string) {
 function genFeature(features: any, feature: string, fw: any) {
     const key = feature as keyof typeof map;
     let support = genFeatureSupport(features[key])
-    if (fw["386"] !== true && fw["388"] !== true){
+    if (fw["386"] !== true && fw["388"] !== true && fw["106"] !== true){
         if (key === "aimesh") support = ":heart: Not supported";
         if (key === "led") support = ":heart: Not supported";
         if (key === "temperature") support = ":yellow_heart: Merlin-only";
