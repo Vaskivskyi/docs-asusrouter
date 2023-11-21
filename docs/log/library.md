@@ -4,6 +4,25 @@ sidebarDepth: 1
 
 # Library change log
 
+## 1.1.2 🩹
+
+`2023-11-21`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.1.1)
+
+### 🐛 Bug fixes
+
+- Fixed reboot flag not being reset
+- Fixed connection type code
+
+### 🚨 Testing
+
+- Added tests for the connection module
+
+### 📚 Documentation
+
+- Updated supported devices
+
 ## 1.1.1 🩹
 
 `2023-11-20`
