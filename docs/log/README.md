@@ -100,3 +100,10 @@ This page contains all the changes in the last stable releases, including patch 
 
 - **[Bugfix]** Removed WireGuard and VPNC data maps for version below 388
 - **[Other]** Fixed typo in logging
+
+#### 1.1.2 (`2023-11-21`)
+
+- **[Bugfix]** Fixed reboot flag not being reset
+- **[Bugfix]** Fixed connection type code
+- **[Tests]** Added tests for the connection module
+- **[Docs]** Updated supported devices
