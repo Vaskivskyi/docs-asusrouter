@@ -4,6 +4,21 @@ sidebarDepth: 1
 
 # Integration change log
 
+## 0.24.2 🩹
+
+`2023-11-21`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.24.2)
+
+### 🐛 Bug fixes
+
+- Fixed reboot flag not being reset, causing LED to turn off-on repeatedly (report [#709](https://github.com/Vaskivskyi/ha-asusrouter/issues/709))
+- Fixed issue with all devices marked `wired` and losing wireless attributes, e.g. `guest`, `rssi` and else (report [#719](https://github.com/Vaskivskyi/ha-asusrouter/issues/719), [#C674](https://community.home-assistant.io/t/custom-component-asusrouter-integration/416111/674?u=vaskivskyi))
+
+### 📦 Dependencies
+
+- Bumped `asusrouter` library to [`1.1.2`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.1.2)
+
 ## 0.24.1 🩹
 
 `2023-11-20`
