@@ -10,6 +10,8 @@ sidebarDepth: 1
 
 #### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.25.0b0)
 
+### 🚀 Features
+
 - Added `force_clients` possibility, which sends a separate request to update the client list
 - Added `force_clients` (boolean) and `force_clients_waittime` (float, in seconds) settings to the config flow
 
