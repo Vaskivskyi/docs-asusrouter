@@ -4,7 +4,7 @@ sidebarDepth: 1
 
 # Integration change log
 
-## 0.25.0b0 💻 Force clients update, services & more
+## 0.25.0b0 💻 Force clients update
 
 `2023-11-23`
 
