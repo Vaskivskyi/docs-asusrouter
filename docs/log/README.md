@@ -57,59 +57,30 @@ This page contains all the changes in the last stable releases, including patch 
 
 ## Library
 
-### 1.1.0 🌍 VPNs, WANs and tests
+### 1.2.0 💻 Force clients update, services & more
 
-`2023-11-19`
+`2023-11-23`
 
-#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.1.0)
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.2.0)
 
 ### 🚀 Features
 
-- Added support for VPN Fusion (stock `388+`)
-- Added support for OpenVPN (stock `388+`)
-- Added support for WireGuard (stock and merlin `388+`)
-- Improved HA converters (+ new `convert_to_ha_data` for proper flattening data)
-- Added start-up calculated values as `None` (CPU)
-- Added data drop for cases of the same data on multiple endpoints
-- Added `dump` tools for logging and dumping replies of the device
-- Small improvements over the code
-- Improved logging on connection failure
-- Added Dual WAN support
-- Added WAN Aggregation support
-
-### 🐛 Bug fixes
-
-- Fixed error in historic data calculation
-- Other minor fixes in data processing
-- Blocked request attempts on closed session
-- Fixed missing values for OpenVPN client
-- Fixed unsafe dict pop
-- Fixed missing arguments on state setting
+- Added `AsusSystem.UPDATE_CLIENTS` state and compatible service
+- Added `force_clients` possibility on each `AsusData.CLIENTS` queue
+- Added runtime-available `set_force_clients()` method for setting both state and wait time of the feature
+- Added new `AsusSystem` states: `RESTART_CHPASS`, `RESTART_DNSMASQ`, `RESTART_LEDS`, `RESTART_OPENVPND`, `RESTART_SAMBA`, `RESTART_TIME`, `RESTART_USB_IDLE`, `RESTART_VPNC`, `RESTART_WGS`, `STOP_OPENVPND`, `STOP_VPNC`
+- Added new `.tools.converters`: `safe_timestamp_to_utc`, `safe_utc_to_timestamp`, `safe_utc_to_timestamp_milli`
+- Added `AsusData.SPEEDTEST` and `AsusData.SPEEDTEST_RESULT`
 
 ### 🚨 Testing
 
-- Added unit tests for tools: cleaners, converters, readers, writers
-- Added unit tests for some endpoint modules
-- Added full device test for RT-AX88U / Merlin / 388
+- Added tests for `asusrouter.modules.service`
 
 ### 🔨 Other changes
 
-- Minor improvements to logging and code stability
+- Improved exceptions messages
 
 ### 🐣 GitHub
 
-- Added testing workflow for all incomming PRs and pushes to the dev / main branch
-
-### 🩹 Patches
-
-#### 1.1.1 (`2023-11-20`)
-
-- **[Bugfix]** Removed WireGuard and VPNC data maps for version below 388
-- **[Other]** Fixed typo in logging
-
-#### 1.1.2 (`2023-11-21`)
-
-- **[Bugfix]** Fixed reboot flag not being reset
-- **[Bugfix]** Fixed connection type code
-- **[Tests]** Added tests for the connection module
-- **[Docs]** Updated supported devices
+- Updated CI workflow to be more modular and allow parallel unit- and device-testing
+- Added testing with `Python 3.12`

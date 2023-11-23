@@ -4,6 +4,34 @@ sidebarDepth: 1
 
 # Library change log
 
+## 1.2.0 💻 Force clients update, services & more
+
+`2023-11-23`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.2.0)
+
+### 🚀 Features
+
+- Added `AsusSystem.UPDATE_CLIENTS` state and compatible service
+- Added `force_clients` possibility on each `AsusData.CLIENTS` queue
+- Added runtime-available `set_force_clients()` method for setting both state and wait time of the feature
+- Added new `AsusSystem` states: `RESTART_CHPASS`, `RESTART_DNSMASQ`, `RESTART_LEDS`, `RESTART_OPENVPND`, `RESTART_SAMBA`, `RESTART_TIME`, `RESTART_USB_IDLE`, `RESTART_VPNC`, `RESTART_WGS`, `STOP_OPENVPND`, `STOP_VPNC`
+- Added new `.tools.converters`: `safe_timestamp_to_utc`, `safe_utc_to_timestamp`, `safe_utc_to_timestamp_milli`
+- Added `AsusData.SPEEDTEST` and `AsusData.SPEEDTEST_RESULT`
+
+### 🚨 Testing
+
+- Added tests for `asusrouter.modules.service`
+
+### 🔨 Other changes
+
+- Improved exceptions messages
+
+### 🐣 GitHub
+
+- Updated CI workflow to be more modular and allow parallel unit- and device-testing
+- Added testing with `Python 3.12`
+
 ## 1.1.2 🩹
 
 `2023-11-21`
