@@ -4,6 +4,23 @@ sidebarDepth: 1
 
 # Integration change log
 
+## 0.25.0b0 💻 Force clients update, services & more
+
+`2023-11-23`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.25.0b0)
+
+- Added `force_clients` possibility, which sends a separate request to update the client list
+- Added `force_clients` (boolean) and `force_clients_waittime` (float, in seconds) settings to the config flow
+
+### 🔨 Other changes
+
+- Improved exceptions messages
+
+### 📦 Dependencies
+
+- Bumped `asusrouter` library to [`1.2.0`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.2.0)
+
 ## 0.24.2 🩹
 
 `2023-11-21`
