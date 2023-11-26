@@ -19,7 +19,7 @@ const pagePatterns = ["**/*.md", "!.vuepress", "!node_modules"];
 const conf = {
   base: getBase(),
   title: "AsusRouter",
-  description: "Monitor and control your AsusWRT-powered router from Home Assistant",
+  description: "Monitor and control your AsusWRT-powered router from a Python environment or from Home Assistant",
 
   dest: "dist",
   public: "public",

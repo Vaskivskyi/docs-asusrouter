@@ -5,7 +5,10 @@ actions:
   - text: Features
     link: /features/
     type: secondary
-  - text: Get started
+  - text: Library
+    link: /library/
+    type: primary
+  - text: HA Integration
     link: /guide/getting-started/
     type: primary
   - text: Devices
@@ -13,17 +16,13 @@ actions:
     type: secondary
 features:
   - title: Compatibility
-    details: 41+ supported models
+    details: 41+ supported models (as confirmed by users)
   - title: Firmware support
     details: Stock, Merlin, Merlin/GNUton
   - title: Features
-    details: 16+ groups of supported router features. Use what you want when you want, adjust
-  - title: Integrate
-    details: Supported platforms - binary_sensor, button, device_tracker, light, sensor, switch, update
-  - title: Automate
-    details: Events and services to automate your home network
-  - title: Multilanguage
-    details: Supporting 8 languages
+    details: Data polling, state setting, system services
+  - title: Integrate with Home Assistant
+    details: Supported platforms - binary_sensor, button, device_tracker, light, sensor, switch, update. Supporting 8 languages
 footerHtml: true
-footer: AsusRouter integration, library and webpage are maintained by <a href="https://github.com/Vaskivskyi" target="_blank">@Vaskivskyi</a><br/><br/><a href="https://www.buymeacoffee.com/vaskivskyi" target="_blank">-= Support development =-</a>
+footer: AsusRouter library, integration and webpage are maintained by <a href="https://github.com/Vaskivskyi" target="_blank">@Vaskivskyi</a><br/><br/><a href="https://www.buymeacoffee.com/vaskivskyi" target="_blank">-= Support development =-</a>
 ---

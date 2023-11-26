@@ -24,12 +24,16 @@ export function getFilesPushFront(dir: string, push: string[] = []){
 
 export const navbar: NavbarConfig = [
     {
-        text: "Guide",
+        text: "HA Integration",
         children: [
             "/guide/getting-started/",
             "/guide/configuration/",
             "/guide/faq/",
         ]
+    },
+    {
+        text: "Python Library",
+        link: "/library/"
     },
     {
         text: "Features",

@@ -13,7 +13,7 @@ next: ../configuration/
 
 There are two supported ways to install AsusRouter to your HA instance - Home Assistant Community Store (HACS) and manual installation from the latest stable release of the integration GitHub.
 
-Keep in mind, manual installation of development (`main`) branch **is not** and **will not be supported**!
+Keep in mind, manual installation of development (`dev`) branch **is not** and **will not be supported**!
 
 ### HACS
 
