@@ -3,6 +3,13 @@ import { getFiles, getFilesPushFront, getFilesRev } from "./navbar";
 import { default as deviceList } from "./docs/devices/map.json" assert { type: "json" }
 
 export const sidebar: SidebarConfig = {
+    "/library/": [
+        {
+            text: "Python Library",
+            link: "/library/",
+            // children: getFiles("library"),
+        },
+    ],
     "/guide/": [
         {
             text: "Getting started",
