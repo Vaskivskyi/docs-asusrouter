@@ -57,30 +57,43 @@ This page contains all the changes in the last stable releases, including patch 
 
 ## Library
 
-### 1.2.0 💻 Force clients update, services & more
+### 1.3.0 🔨 More tests and improvements
 
-`2023-11-23`
+`2023-12-03`
 
-#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.2.0)
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.3.0)
 
 ### 🚀 Features
 
-- Added `AsusSystem.UPDATE_CLIENTS` state and compatible service
-- Added `force_clients` possibility on each `AsusData.CLIENTS` queue
-- Added runtime-available `set_force_clients()` method for setting both state and wait time of the feature
-- Added new `AsusSystem` states: `RESTART_CHPASS`, `RESTART_DNSMASQ`, `RESTART_LEDS`, `RESTART_OPENVPND`, `RESTART_SAMBA`, `RESTART_TIME`, `RESTART_USB_IDLE`, `RESTART_VPNC`, `RESTART_WGS`, `STOP_OPENVPND`, `STOP_VPNC`
-- Added new `.tools.converters`: `safe_timestamp_to_utc`, `safe_utc_to_timestamp`, `safe_utc_to_timestamp_milli`
-- Added `AsusData.SPEEDTEST` and `AsusData.SPEEDTEST_RESULT`
+- Added `get_arguments` converter
+- Added support for `l2pt`, `pptp` and `surfshark` VPNs as part of `vpnc` module
+- Added WLAN rename when indeces are not in the expected order (e.g. `6ghz` is present, but not `5ghz2`)
+- Added `AsusBlockAll` state for the general internet access block
+
+### 🐛 Bug fixes
+
+- Switched to keyword arguments in `AsusRouter.keep_state` call
 
 ### 🚨 Testing
 
-- Added tests for `asusrouter.modules.service`
+- Added tests for:
+    - `asusrouter.modules.client`
+    - `asusrouter.modules.led`
+    - `asusrouter.modules.openvpn`
+    - `asusrouter.modules.parental_control`
+    - `asusrouter.modules.port_forwarding`
+    - `asusrouter.modules.state`
+    - `asusrouter.modules.system`
+    - `asusrouter.modules.vpnc`
+    - `asusrouter.modules.wireguard`
+    - `asusrouter.modules.wlan`
 
 ### 🔨 Other changes
 
-- Improved exceptions messages
+- Refactored:
+    - All the modules listed above in the testing section
+    - `AsusRouter.async_set_state` to use `kwargs`
 
-### 🐣 GitHub
+### 📚 Documentation
 
-- Updated CI workflow to be more modular and allow parallel unit- and device-testing
-- Added testing with `Python 3.12`
+- Added [Python Library section](/library/) with a short manual on how to use the library
