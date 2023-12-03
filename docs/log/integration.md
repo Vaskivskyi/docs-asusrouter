@@ -16,6 +16,10 @@ sidebarDepth: 1
 - Fixed bug with Guest WLAN switches (report [#727](https://github.com/Vaskivskyi/ha-asusrouter/issues/727), [#731](https://github.com/Vaskivskyi/ha-asusrouter/issues/731))
 - Fixed bug with `6 GHz` WLAN being reported as `5 GHz-2` on some models (report [#591](https://github.com/Vaskivskyi/ha-asusrouter/issues/591)) 
 
+### 📦 Dependencies
+
+- Bumped `asusrouter` library to [`1.3.0`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.3.0)
+
 ## 0.25.0b0 💻 Force clients update
 
 `2023-11-23`
