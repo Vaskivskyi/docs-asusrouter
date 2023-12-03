@@ -4,6 +4,18 @@ sidebarDepth: 1
 
 # Integration change log
 
+## 0.25.0b1 🐛 Fixes
+
+`2023-12-03`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.25.0b1)
+
+### 🐛 Bug fixes
+
+- Fixed bug with integration failing to load with unknown VPN settings (Surfshark, L2PT, PP2P) via VPN Fusion (Stock FW `388+`) (report [#726](https://github.com/Vaskivskyi/ha-asusrouter/issues/726)
+- Fixed bug with Guest WLAN switches (report [#727](https://github.com/Vaskivskyi/ha-asusrouter/issues/727), [#731](https://github.com/Vaskivskyi/ha-asusrouter/issues/731))
+- Fixed bug with `6 GHz` WLAN being reported as `5 GHz-2` on some models (report [#591](https://github.com/Vaskivskyi/ha-asusrouter/issues/591)) 
+
 ## 0.25.0b0 💻 Force clients update
 
 `2023-11-23`
