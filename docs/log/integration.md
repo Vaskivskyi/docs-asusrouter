@@ -12,7 +12,7 @@ sidebarDepth: 1
 
 ### 🐛 Bug fixes
 
-- Fixed bug with integration failing to load with unknown VPN settings (Surfshark, L2PT, PP2P) via VPN Fusion (Stock FW `388+`) (report [#726](https://github.com/Vaskivskyi/ha-asusrouter/issues/726)
+- Fixed bug with integration failing to load with unknown VPN settings (Surfshark, L2PT, PP2P) via VPN Fusion (Stock FW `388+`) (report [#726](https://github.com/Vaskivskyi/ha-asusrouter/issues/726))
 - Fixed bug with Guest WLAN switches (report [#727](https://github.com/Vaskivskyi/ha-asusrouter/issues/727), [#731](https://github.com/Vaskivskyi/ha-asusrouter/issues/731))
 - Fixed bug with `6 GHz` WLAN being reported as `5 GHz-2` on some models (report [#591](https://github.com/Vaskivskyi/ha-asusrouter/issues/591)) 
 
