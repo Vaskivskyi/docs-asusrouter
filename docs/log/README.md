@@ -57,43 +57,24 @@ This page contains all the changes in the last stable releases, including patch 
 
 ## Library
 
-### 1.3.0 🔨 More tests and improvements
+### 1.4.0 🚨 Tests and updates to workflows
 
-`2023-12-03`
+`2023-12-21`
 
-#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.3.0)
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.4.0)
 
 ### 🚀 Features
 
-- Added `get_arguments` converter
-- Added support for `l2pt`, `pptp` and `surfshark` VPNs as part of `vpnc` module
-- Added WLAN rename when indeces are not in the expected order (e.g. `6ghz` is present, but not `5ghz2`)
-- Added `AsusBlockAll` state for the general internet access block
-
-### 🐛 Bug fixes
-
-- Switched to keyword arguments in `AsusRouter.keep_state` call
+- Added WLAN rename (`5ghz2 -> 6ghz`) for `RT-AXE95Q` (`ZenWiFi ET8`)
 
 ### 🚨 Testing
 
 - Added tests for:
-    - `asusrouter.modules.client`
-    - `asusrouter.modules.led`
-    - `asusrouter.modules.openvpn`
-    - `asusrouter.modules.parental_control`
-    - `asusrouter.modules.port_forwarding`
-    - `asusrouter.modules.state`
-    - `asusrouter.modules.system`
-    - `asusrouter.modules.vpnc`
-    - `asusrouter.modules.wireguard`
-    - `asusrouter.modules.wlan`
+    - `asusrouter.modules.endpoint.onboarding`
 
-### 🔨 Other changes
+### 🐣 GitHub
 
-- Refactored:
-    - All the modules listed above in the testing section
-    - `AsusRouter.async_set_state` to use `kwargs`
-
-### 📚 Documentation
-
-- Added [Python Library section](/library/) with a short manual on how to use the library
+- Updated code coverage CI workflow
+- Bumped `actions/setup-python` to `5.0.0`
+- Bumped `actions/download-artifact` to `4.0.0`, `4.1.0`
+- Bumped `actions/upload-artifact` to `4.0.0`
