@@ -4,6 +4,28 @@ sidebarDepth: 1
 
 # Library change log
 
+## 1.4.0 🚨 Tests and updates to workflows
+
+`2023-12-21`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.4.0)
+
+### 🚀 Features
+
+- Added WLAN rename (`5ghz2 -> 6ghz`) for `RT-AXE95Q` (`ZenWiFi ET8`)
+
+### 🚨 Testing
+
+- Added tests for:
+    - `asusrouter.modules.endpoint.onboarding`
+
+### 🐣 GitHub
+
+- Updated code coverage CI workflow
+- Bumped `actions/setup-python` to `5.0.0`
+- Bumped `actions/download-artifact` to `4.0.0`, `4.1.0`
+- Bumped `actions/upload-artifact` to `4.0.0`
+
 ## 1.3.0 🔨 More tests and improvements
 
 `2023-12-03`
