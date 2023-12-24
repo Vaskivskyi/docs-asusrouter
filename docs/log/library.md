@@ -4,6 +4,20 @@ sidebarDepth: 1
 
 # Library change log
 
+## 1.5.0 🚀 New features and fixes
+
+`2023-12-24`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.5.0)
+
+### 🚀 Features
+
+- Improved client status detection
+
+### 🐛 Bug fixes
+
+- Fixed issue with data mix in cache when multiple instances are used
+
 ## 1.4.0 🚨 Tests and updates to workflows
 
 `2023-12-21`

@@ -33,24 +33,16 @@ This page contains all the changes in the last stable releases, including patch 
 
 ## Library
 
-### 1.4.0 🚨 Tests and updates to workflows
+### 1.5.0 🚀 New features and fixes
 
-`2023-12-21`
+`2023-12-24`
 
-#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.4.0)
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.5.0)
 
 ### 🚀 Features
 
-- Added WLAN rename (`5ghz2 -> 6ghz`) for `RT-AXE95Q` (`ZenWiFi ET8`)
+- Improved client status detection
 
-### 🚨 Testing
+### 🐛 Bug fixes
 
-- Added tests for:
-    - `asusrouter.modules.endpoint.onboarding`
-
-### 🐣 GitHub
-
-- Updated code coverage CI workflow
-- Bumped `actions/setup-python` to `5.0.0`
-- Bumped `actions/download-artifact` to `4.0.0`, `4.1.0`
-- Bumped `actions/upload-artifact` to `4.0.0`
+- Fixed issue with data mix in cache when multiple instances are used
