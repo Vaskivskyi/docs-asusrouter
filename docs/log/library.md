@@ -4,7 +4,7 @@ sidebarDepth: 1
 
 # Library change log
 
-## 1.5.0 🚀 New features and fixes
+## 1.5.0 💻 Clients tracking & multiple instances improvements
 
 `2023-12-24`
 

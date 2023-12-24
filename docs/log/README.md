@@ -33,7 +33,7 @@ This page contains all the changes in the last stable releases, including patch 
 
 ## Library
 
-### 1.5.0 🚀 New features and fixes
+### 1.5.0 💻 Clients tracking & multiple instances improvements
 
 `2023-12-24`
 
