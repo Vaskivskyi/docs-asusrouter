@@ -16,7 +16,7 @@ actions:
     type: secondary
 features:
   - title: Compatibility
-    details: 41+ supported models (as confirmed by users)
+    details: 45+ supported models (as confirmed by users)
   - title: Firmware support
     details: Stock, Merlin, Merlin/GNUton
   - title: Features

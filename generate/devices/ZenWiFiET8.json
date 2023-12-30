@@ -10,9 +10,9 @@
         "388": false
     },
     "tested": {
-        "state": false,
+        "state": true,
         "stock": [
-            
+            "388.23759"
         ],
         "merlin": [
             
