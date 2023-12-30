@@ -1,21 +1,29 @@
 # FAQ
 
+:::tip
+
+This FAQ is for the HomeAssistant integration.
+
+:::
+
 [[toc]]
 
 ## AiMesh
 
-AiMesh support development is currently in progress. Development and debugging requires a [compatible device](#when-the-feature-will-be-implemented).
+AiMesh is supported on the basic level. Further development is currently in progress. Development and debugging requires a [compatible device](#when-the-feature-will-be-implemented).
 
 ## AsusRouter vs AsusWRT
 
 This list contain only some of the AsusRouter features. Due to the constant development, the full feature list should be checked [here](/features/).
+
+As per December 2023, the stock AsusWRT integration does already have support for the HTTP(S) API. At the same time, it is still limited to the basic features.
 
 <table>
 <tr><th>Feature</th><th>AsusRouter</th><th>AsusWRT</th><th>Both</th></tr>
 <tr><td>Connection</td><td><ul>
 <li>HTTP(S) API</li>
 </ul></td><td><ul>
-<li>SSH / telnet</li>
+<li>SSH / telnet / HTTP(S) API</li>
 </ul></td><td><ul>
 
 </ul></td></tr>
@@ -29,12 +37,12 @@ This list contain only some of the AsusRouter features. Due to the constant deve
 <li>`connected_devices` sensor</li>
 </ul></td></tr>
 <tr><td>Monitoring</td><td><ul>
-<li>Traffic and speed for WAN, WLANs, Wired network, USB and more</li>
-<li>CPU, RAM</li>
-<li>OpenVPN (client, server)</li>
-<li>Ports (LAN, WAN)</li>
-<li>WAN</li>
-<li>WLAN, guest WLAN</li>
+<li>AiMesh support</li>
+<li>Traffic and speed on all network interfaces (per user selection)</li>
+<li>CPU, RAM, temperatures</li>
+<li>OpenVPN, WireGuard (client, server)</li>
+<li>Ports (LAN, WAN, USB)</li>
+<li>Internet and WAN status (+ dual WAN, aggregation)</li>
 </ul></td><td><ul>
 <li>Traffic and speed for Linux interface, e.g. `eth0`</li>
 </ul></td><td><ul>
@@ -44,8 +52,9 @@ This list contain only some of the AsusRouter features. Due to the constant deve
 <tr><td>Control</td><td><ul>
 <li>Device reboot & restart of router services</li>
 <li>LED</li>
-<li>OpenVPN (client, server)</li>
-<li>WLAN, guest WLAN</li>
+<li>OpenVPN, WireGuard (client, server)</li>
+<li>Parental control, port forwarding</li>
+<li>WLAN (including guest networks)</li>
 </ul></td><td><ul>
 
 </ul></td><td><ul>
@@ -68,15 +77,6 @@ The following priority list is used for naming:
 - MAC address if neither of the above is known
 
 ## Entities
-
-### LAN / WAN speed sensors become unavailable with time
-
-This problem is connected to the device HTTP daemon - some API endpoint become unavailable (also from Web UI or official mobile app). This problem can be solved restarting HTTP daemon using the [`button.{device}_restart_http_daemon`](/features/main.html#device-restart-http-daemon) from HA.
-
-- If entities became unavailable when AsusRouter was already running, sensors will recover by themself.
-- If entities were unavailable from the AsusRouter load, you would need to manually reload integration.
-
-An example automation is available here: [link](/guide/how-to/automations.html#restart-http-daemon-when-certain-api-endpoints-stop-responding)
 
 ## Migration from an old version
 
@@ -104,23 +104,19 @@ AsusRouter has basic support of 6 GHz networks. Further development and debuggin
 
 ## Ports
 
-AsusRouter fully suports 100 Mb/s and 1 Gb/s ethernet ports / speeds.
+AsusRouter fully suports:
 
-### 2.5 Gb/s ports
-
-2.5 Gb/s ports / speeds are fully supported by AsusRouter. There are reports from users of using 2.5 Gb/s LAN ports. Reports of using 2.5 Gb/s speeds on WAN ports are not available yet.
-
-### 10 Gb/s ports
-
-10 Gb/s ports / speeds are not yet supported by AsusRouter. Development and debugging requires a [compatible device](#when-the-feature-will-be-implemented).
+- Port types: `LAN`, `WAN`, `USB`, `SFP+`, `MoCA`
+- Port speeds (internet): `10`, `100`, `1000`, `2500`, `5000`, `10000` Mb/s
+- Port speeds (USB): `480`, `5000`, `10000`, `20000` Mb/s
 
 ### DSL ports
 
 DSL ports are not yet supported by AsusRouter. Development and debugging requires a [compatible device](#when-the-feature-will-be-implemented).
 
-### SFP+ ports
+### PLC ports
 
-SFP+ ports are not yet supported by AsusRouter. Development and debugging requires a [compatible device](#when-the-feature-will-be-implemented).
+PLC ports are not yet supported by AsusRouter. Development and debugging requires a [compatible device](#when-the-feature-will-be-implemented).
 
 ## Router
 
