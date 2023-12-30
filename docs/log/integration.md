@@ -4,42 +4,6 @@ sidebarDepth: 1
 
 # Integration change log
 
-## 0.27.0 🚀 New features and fixes
-
-`2023-12-31`
-
-### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.27.0)
-
-### 🚀 Features
-
-- Added service `device_internet_access` to control the device internet access (via parental control rules)
-- Added support for services translation
-
-### 🐛 Bug fixes
-
-### 📖 Translations
-
-- Added Ukrainian translation for `device_internet_access` service
-
-### 📦 Dependencies
-
-### 📚 Documentation
-
-- Confirmed support for the new device
-    - `GT-AX11000 Pro` / `388.24198`
-    - `RT-AX88U Pro` / `388.4_0` (Merlin)
-    - `Zen WiFi ET8` / `388.23759`
-    - `Zen WiFi Pro ET12` / `388.23013`
-- Confirmed support for the new FW versions which were not reported before:
-    - `4G-AX55U` / `380.8102`
-    - `GT-AX11000` / `388.4_0` (Merlin)
-    - `RT-AC88U` / `386.12_2`
-    - `RT-AX55` / `386.52041`
-    - `RT-AX56U` / `388.1_0` (Merlin), `388.2_2` (Merlin)
-    - `RT-AX58U` / `388.4_0` (Merlin)
-    - `RT-AX86U` / `388.4_0` (Merlin)
-    - `TUF-AX5400` / `388.23285`, `388.4_0` (Merlin)
-
 ## 0.26.0 💻 Clients tracking & multiple instances improvements
 
 `2023-12-24`
