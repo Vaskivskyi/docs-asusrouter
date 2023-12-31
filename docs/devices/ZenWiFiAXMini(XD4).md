@@ -33,6 +33,7 @@ description: "Integrate your ZenWiFi AX Mini (XD4) into Home Assistant with Asus
 |[RAM](/features/ram.md)|:green_heart: Full|`default`|256 MB|
 |[Temperature](/features/temperature.md)|:green_heart: Full|Stock:<li>`CPU`</li>Merlin:<li>`CPU`</li><li>`2.4 GHz`</li><li>`5 GHz`</li>||
 |[WAN](/features/wan.md)|:green_heart: Full|`default`||
+|[WireGuard](/features/wireguard.md)|:heart: Not supported|`default`||
 |[WLAN](/features/wlan.md)|:green_heart: Full|types:<li>`2.4 GHz`</li><li>`5 GHz`</li>|speed:<li>`<= 574 Mb/s (2.4 GHz)`</li><li>`<= 1201 Mb/s (5 GHz)`</li>|
 
 

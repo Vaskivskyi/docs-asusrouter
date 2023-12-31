@@ -33,6 +33,7 @@ description: "Integrate your RT-AC88U into Home Assistant with AsusRouter"
 |[RAM](/features/ram.md)|:green_heart: Full|`default`|512 MB|
 |[Temperature](/features/temperature.md)|:green_heart: Full|Stock:<li>`CPU`</li>Merlin:<li>`CPU`</li><li>`2.4 GHz`</li><li>`5 GHz`</li>||
 |[WAN](/features/wan.md)|:green_heart: Full|`default`|<li>Dual WAN</li>|
+|[WireGuard](/features/wireguard.md)|:heart: Not supported|`default`||
 |[WLAN](/features/wlan.md)|:green_heart: Full|types:<li>`2.4 GHz`</li><li>`5 GHz`</li>|speed:<li>`<= 1000 Mb/s (2.4 GHz)`</li><li>`<= 2167 Mb/s (5 GHz)`</li>|
 
 

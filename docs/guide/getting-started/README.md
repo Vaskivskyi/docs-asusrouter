@@ -6,7 +6,7 @@ next: ../configuration/
 
 ## Prerequisites
 
-1. An AsusWRT-powered router. Including devices with original (stock) firmware (versions starting with `3.0.0.4` or `3.0.0.6`) as well as with AsusWRT-Merlin FW and its derivatives (e.g. Gnuton builds).
+1. An AsusWRT-powered router. Including devices with original (stock) firmware (versions starting with `3.0.0.4` or `3.0.0.6` for stable builds and `9.0.0.4` or `9.0.0.6` for beta builds) as well as with AsusWRT-Merlin FW and its derivatives (e.g. Gnuton builds).
 2. A Home Assistant instance with version `2023.10.0` or higher.
 
 ## Installation

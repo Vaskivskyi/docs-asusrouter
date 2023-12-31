@@ -29,11 +29,11 @@ description: "Integrate your ZenWiFi XT9 into Home Assistant with AsusRouter"
 |[OpenVPN](/features/openvpn.md)|:green_heart: Full|`default`||
 |[Parental control](/features/parental-control.md)|:green_heart: Full|`default`||
 |[Port forwarding](/features/port-forwarding.md)|:green_heart: Full|`default`||
-|[Ports](/features/ports.md)|:green_heart: Full|`lan_speed` attributes:<li>`lan_{x}`, `x=[1,3]`</li><li>up to `1000 Mb/s`</li>`wan_speed` attributes:<li>`wan_0`</li><li>up to `2500 Mb/s`[^2gb]</li>|<li>LAN aggregation</li>|
+|[Ports](/features/ports.md)|:green_heart: Full|`lan_speed` attributes:<li>`lan_{x}`, `x=[1,3]`</li><li>up to `1000 Mb/s`</li>`wan_speed` attributes:<li>`wan_0`</li><li>up to `2500 Mb/s`</li>|<li>LAN aggregation</li>|
 |[RAM](/features/ram.md)|:green_heart: Full|`default`|512 MB|
 |[Temperature](/features/temperature.md)|:green_heart: Full|Stock:<li>`CPU`</li>Merlin:<li>`CPU`</li><li>`2.4 GHz`</li><li>`5 GHz`</li><li>`5 GHz-2`</li>||
 |[WAN](/features/wan.md)|:green_heart: Full|`default`|<li>Dual WAN</li>|
+|[WireGuard](/features/wireguard.md)|:green_heart: Full|`default`||
 |[WLAN](/features/wlan.md)|:green_heart: Full|types:<li>`2.4 GHz`</li><li>`5 GHz`</li><li>`5 GHz-2`</li>|speed:<li>`<= 574 Mb/s (2.4 GHz)`</li><li>`<= 2402 Mb/s (5 GHz)`</li><li>`<= 4804 Mb/s (5 GHz-2)`</li>|
 
 
-[^2gb]: There are no reports yet on usage of 2.5 Gb/s speeds on WAN. Errors might occur. [Details](/guide/faq/#_2-5-gb-s-ports)

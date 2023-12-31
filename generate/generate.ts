@@ -85,10 +85,7 @@ function genFeatureExport(features: any, feature: string, fw: any) {
                     if (features[key][type][port].id instanceof Array){
                         ports += "<li>`" + type + "_{x}`, `x=[" + features[key][type][port].id[0] + "," + features[key][type][port].id[1] + "]`</li><li>up to `" + features[key][type][port].speed + " Mb/s`</li>";
                     }
-                    else ports += "<li>`" + type + "_" + features[key][type][port].id + "`</li><li>up to `" + features[key][type][port].speed + " Mb/s`"
-                        + (features[key][type][port].speed === 2500 ? "[^2gb]" : "")
-                        + (features[key][type][port].speed === 10000 ? "[^2gb][^10gb]" : "")
-                        + "</li>";
+                    else ports += "<li>`" + type + "_" + features[key][type][port].id + "`</li><li>up to `" + features[key][type][port].speed + " Mb/s`</li>";
                 }
             });
             return ports;
@@ -147,6 +144,9 @@ function genFeature(features: any, feature: string, fw: any) {
         if (key === "led") support = ":heart: Not supported";
         if (key === "temperature") support = ":yellow_heart: Merlin-only";
     }
+    if (fw["388"] !== true && fw["106"] !== true){
+        if (key === "wireguard") support = ":heart: Not supported";
+    }
     if (feature === "load-average") support = ":yellow_heart: Merlin-only";
     return {
         "title": `[${ map[key].title }](${ map[key].link })`,
@@ -158,34 +158,7 @@ function genFeature(features: any, feature: string, fw: any) {
 
 function genFeatureNotes(features: any) {
     let notes = "";
-    let types = ["lan", "wan"]
-    let ready = {
-        "2gb": false,
-        "10gb": false
-    }
-    types.forEach(function(type) {
-        for (const port in features.ports[type]) {
-            if (features.ports[type][port].speed === 10000) {
-                if (ready["2gb"] === false) {
-                    notes += "[^2gb]: There are no reports yet on usage of 2.5 Gb/s speeds on WAN. Errors might occur. [Details](/guide/faq/#_2-5-gb-s-ports)\n";
-                    ready["2gb"] = true;
-                }
-                if (ready["10gb"] === false) {
-                    notes += "[^10gb]: 10 Gb/s speeds are not yet supported by AsusRouter on either LAN or WAN. Errors might occur. [Details](/guide/faq/#_10-gb-s-ports)\n";
-                    ready["10gb"] = true;
-                }
-                break;
-            }
-            else if (features.ports[type][port].speed === 2500) {
-                if (ready["2gb"] === false) {
-                    notes += "[^2gb]: There are no reports yet on usage of 2.5 Gb/s speeds on WAN. Errors might occur. [Details](/guide/faq/#_2-5-gb-s-ports)\n";
-                    ready["2gb"] = true;
-                }
-                break;
-            }
-        }
-    });
-    if (features.wlan["6ghz"] !== undefined) notes += "[^6ghz]: 6 GHz networks were not yet tested. A compatible device is required for tests. [Details](/guide/faq/#_6-ghz-wlans)\n";
+    if (features.wlan["6ghz"] !== undefined) notes += "[^6ghz]: AsusRouter has basic support of 6 GHz networks. A compatible device is required for tests. [Details](/guide/faq/#_6-ghz-wlans)\n";
     return notes;
 }
 

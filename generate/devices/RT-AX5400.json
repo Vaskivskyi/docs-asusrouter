@@ -1,0 +1,82 @@
+{
+    "model": "RT-AX5400",
+    "wifi": "6",
+    "links": {
+        "asus": "https://www.asus.com/networking-iot-servers/wifi-routers/asus-wifi-routers/rt-ax5400/",
+        "amazon": "https://amzn.to/4aCdvyu"
+    },
+    "firmware": {
+        "386": false,
+        "388": true
+    },
+    "tested": {
+        "state": false,
+        "stock": [
+            
+        ],
+        "merlin": [
+            
+        ]
+    },
+    "features": {
+        "main": {
+        },
+        "aimesh": {
+        },
+        "connected-devices": {
+        },
+        "cpu": {
+            "cores": 3,
+            "frequency": "1.5 GHz"
+        },
+        "guest-wlan": {
+        },
+        "led": {
+        },
+        "load-average": {
+        },
+        "network": {
+        },
+        "openvpn": {
+        },
+        "parental-control": {
+        },
+        "port-forwarding": {
+        },
+        "ports": {
+            "lan": [
+                {
+                    "id": [1, 4],
+                    "speed": 1000
+                }
+            ],
+            "lan_aggr": true,
+            "wan": [
+                {
+                    "id": 0,
+                    "speed": 1000
+                }
+            ],
+            "wan_aggr": true
+        },
+        "ram": {
+            "capacity": 512,
+            "units": "MB"
+        },
+        "temperature": {
+        },
+        "wan": {
+            "dual_wan": true
+        },
+        "wireguard": {
+        },
+        "wlan": {
+            "2ghz": {
+                "speed": 574
+            },
+            "5ghz": {
+                "speed": 4804
+            }
+        }
+    }
+}

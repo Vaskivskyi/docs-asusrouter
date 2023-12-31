@@ -2,7 +2,6 @@
     "model": "RT-AC52U B1",
     "wifi": "5",
     "links": {
-        "asus": "https://www.asus.com/me-en/networking-iot-servers/wifi-routers/asus-wifi-routers/rt-ac52u-b1/",
         "amazon": "https://amzn.to/3QcrCkk"
     },
     "firmware": {
@@ -66,6 +65,8 @@
         },
         "wan": {
             "dual_wan": false
+        },
+        "wireguard": {
         },
         "wlan": {
             "2ghz": {

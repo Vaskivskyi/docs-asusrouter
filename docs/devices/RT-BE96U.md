@@ -33,9 +33,8 @@ description: "Integrate your RT-BE96U into Home Assistant with AsusRouter"
 |[RAM](/features/ram.md)|:green_heart: Full|`default`|2 GB|
 |[Temperature](/features/temperature.md)|:green_heart: Full|Stock:<li>`CPU`</li>Merlin:<li>`CPU`</li><li>`2.4 GHz`</li><li>`5 GHz`</li><li>`6 GHz`</li>||
 |[WAN](/features/wan.md)|:green_heart: Full|`default`|<li>Dual WAN</li>|
+|[WireGuard](/features/wireguard.md)|:green_heart: Full|`default`||
 |[WLAN](/features/wlan.md)|:green_heart: Full|types:<li>`2.4 GHz`</li><li>`5 GHz`</li><li>`6 GHz`</li>|speed:<li>`<= 1376 Mb/s (2.4 GHz)`</li><li>`<= 5762 Mb/s (5 GHz)`</li><li>`<= 11525 Mb/s (6 GHz)`</li>|
 
 
-[^2gb]: There are no reports yet on usage of 2.5 Gb/s speeds on WAN. Errors might occur. [Details](/guide/faq/#_2-5-gb-s-ports)
-[^10gb]: 10 Gb/s speeds are not yet supported by AsusRouter on either LAN or WAN. Errors might occur. [Details](/guide/faq/#_10-gb-s-ports)
-[^6ghz]: 6 GHz networks were not yet tested. A compatible device is required for tests. [Details](/guide/faq/#_6-ghz-wlans)
+[^6ghz]: AsusRouter has basic support of 6 GHz networks. A compatible device is required for tests. [Details](/guide/faq/#_6-ghz-wlans)

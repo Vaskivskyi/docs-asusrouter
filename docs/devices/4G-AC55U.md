@@ -33,6 +33,7 @@ description: "Integrate your 4G-AC55U into Home Assistant with AsusRouter"
 |[RAM](/features/ram.md)|:green_heart: Full|`default`|256 MB|
 |[Temperature](/features/temperature.md)|:yellow_heart: Merlin-only|Merlin:<li>`2.4 GHz`</li><li>`5 GHz`</li>||
 |[WAN](/features/wan.md)|:green_heart: Full|`default`||
+|[WireGuard](/features/wireguard.md)|:heart: Not supported|`default`||
 |[WLAN](/features/wlan.md)|:green_heart: Full|types:<li>`2.4 GHz`</li><li>`5 GHz`</li>|speed:<li>`<= 300 Mb/s (2.4 GHz)`</li><li>`<= 867 Mb/s (5 GHz)`</li>|
 
 
