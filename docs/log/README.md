@@ -58,7 +58,7 @@ This page contains all the changes in the last stable releases, including patch 
 
 ### 🔨 Other changes
 
-- Moved aand refactored all the parental control rules processing to be in `asusrouter.modules.parental_control` module
+- Moved and refactored all the parental control rules processing to be in `asusrouter.modules.parental_control` module
 
 ### 📚 Documentation
 
@@ -76,3 +76,12 @@ This page contains all the changes in the last stable releases, including patch 
     - `RT-AX58U` / `388.4_0` (Merlin)
     - `RT-AX86U` / `388.4_0` (Merlin)
     - `TUF-AX5400` / `388.23285`, `388.4_0` (Merlin)
+
+### 🩹 Patches
+
+#### 1.6.1 📜 Model name and identity
+
+`2023-12-31`
+
+- **[Feature]** Get model name for identity from onboarding (if available) to correspond to the `UI Model Name` in Web UI
+- **[Feature]** Added `product_id` to identity
