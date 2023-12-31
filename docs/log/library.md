@@ -4,6 +4,17 @@ sidebarDepth: 1
 
 # Library change log
 
+## 1.6.1 📜 Model name and identity
+
+`2023-12-31`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.6.1)
+
+### 🚀 Features
+
+- Get model name for identity from onboarding (if available) to correspond to the `UI Model Name` in Web UI
+- Added `product_id` to identity
+
 ## 1.6.0 🐣 Parental control & clients stability
 
 `2023-12-31`
@@ -38,7 +49,7 @@ sidebarDepth: 1
 
 ### 🔨 Other changes
 
-- Moved aand refactored all the parental control rules processing to be in `asusrouter.modules.parental_control` module
+- Moved and refactored all the parental control rules processing to be in `asusrouter.modules.parental_control` module
 
 ### 📚 Documentation
 
