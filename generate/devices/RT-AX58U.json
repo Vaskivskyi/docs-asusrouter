@@ -7,7 +7,7 @@
     },
     "firmware": {
         "386": true,
-        "388": false
+        "388": true
     },
     "tested": {
         "state": true,
@@ -70,6 +70,8 @@
         },
         "wan": {
             "dual_wan": true
+        },
+        "wireguard": {
         },
         "wlan": {
             "2ghz": {

@@ -71,6 +71,8 @@
         "wan": {
             "dual_wan": true
         },
+        "wireguard": {
+        },
         "wlan": {
             "2ghz": {
                 "speed": 861

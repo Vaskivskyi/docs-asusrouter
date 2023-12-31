@@ -33,6 +33,7 @@ description: "Integrate your RT-AC57U V3 into Home Assistant with AsusRouter"
 |[RAM](/features/ram.md)|:green_heart: Full|`default`|128 MB|
 |[Temperature](/features/temperature.md)|:green_heart: Full|Stock:<li>`CPU`</li>Merlin:<li>`CPU`</li><li>`2.4 GHz`</li><li>`5 GHz`</li>||
 |[WAN](/features/wan.md)|:green_heart: Full|`default`|<li>Dual WAN</li>|
+|[WireGuard](/features/wireguard.md)|:heart: Not supported|`default`||
 |[WLAN](/features/wlan.md)|:green_heart: Full|types:<li>`2.4 GHz`</li><li>`5 GHz`</li>|speed:<li>`<= 300 Mb/s (2.4 GHz)`</li><li>`<= 867 Mb/s (5 GHz)`</li>|
 
 

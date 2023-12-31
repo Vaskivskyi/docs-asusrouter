@@ -2,7 +2,7 @@
     "model": "RT-AXE7800",
     "wifi": "6e",
     "links": {
-        "asus": "https://rog.asus.com/networking/rog-rapture-gt-axe11000-model/",
+        "asus": "https://www.asus.com/networking-iot-servers/wifi-routers/asus-wifi-routers/rt-axe7800/",
         "amazon": "https://amzn.to/3jUr2LU"
     },
     "firmware": {
@@ -71,6 +71,8 @@
         },
         "wan": {
             "dual_wan": true
+        },
+        "wireguard": {
         },
         "wlan": {
             "2ghz": {

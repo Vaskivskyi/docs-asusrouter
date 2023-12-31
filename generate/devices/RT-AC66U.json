@@ -6,7 +6,6 @@
     ],
     "wifi": "5",
     "links": {
-        "asus": "https://www.asus.com/networking-iot-servers/wifi-routers/asus-wifi-routers/rtac66u/",
         "amazon": "https://amzn.to/3WTtTD8"
     },
     "firmware": {
@@ -70,6 +69,8 @@
         },
         "wan": {
             "dual_wan": true
+        },
+        "wireguard": {
         },
         "wlan": {
             "2ghz": {

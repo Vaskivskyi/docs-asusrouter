@@ -59,6 +59,10 @@
         "title": "WAN",
         "link": "/features/wan.md"
     },
+    "wireguard": {
+        "title": "WireGuard",
+        "link": "/features/wireguard.md"
+    },
     "wlan": {
         "title": "WLAN",
         "link": "/features/wlan.md"

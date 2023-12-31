@@ -2,7 +2,6 @@
     "model": "RT-AC5300",
     "wifi": "5",
     "links": {
-        "asus": "https://www.asus.com/us/networking-iot-servers/wifi-routers/asus-wifi-routers/rt-ac5300/",
         "amazon": "https://amzn.to/3ZcJQpY"
     },
     "firmware": {
@@ -66,6 +65,8 @@
         },
         "wan": {
             "dual_wan": true
+        },
+        "wireguard": {
         },
         "wlan": {
             "2ghz": {

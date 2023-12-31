@@ -2,7 +2,6 @@
     "model": "RT-AC87U",
     "wifi": "5",
     "links": {
-        "asus": "https://www.asus.com/us/networking-iot-servers/wifi-routers/asus-wifi-routers/rtac87u/",
         "amazon": "https://amzn.to/3i4sUkE"
     },
     "firmware": {
@@ -67,6 +66,8 @@
         },
         "wan": {
             "dual_wan": true
+        },
+        "wireguard": {
         },
         "wlan": {
             "2ghz": {
