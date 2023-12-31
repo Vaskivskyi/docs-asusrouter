@@ -4,6 +4,16 @@ sidebarDepth: 1
 
 # Integration change log
 
+## 0.27.1 🩹 Ignore wrong parental control rules
+
+`2023-12-31`
+
+### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.27.1)
+
+### 🚀 Features
+
+- Added a check on parental control rules before adding them as entities (report [#753](https://github.com/Vaskivskyi/ha-asusrouter/issues/753))
+
 ## 0.27.0 🐣 Parental control & clients stability
 
 `2023-12-31`

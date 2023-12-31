@@ -54,6 +54,14 @@ This page contains all the changes in the last stable releases, including patch 
     - `RT-AX86U` / `388.4_0` (Merlin)
     - `TUF-AX5400` / `388.23285`, `388.4_0` (Merlin)
 
+### 🩹 Patches
+
+#### 0.27.1 🩹 Ignore wrong parental control rules
+
+`2023-12-31`
+
+- **[Feature]** Added a check on parental control rules before adding them as entities (report [#753](https://github.com/Vaskivskyi/ha-asusrouter/issues/753))
+
 ## Library
 
 ### 1.6.0 🐣 Parental control & clients stability
