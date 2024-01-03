@@ -4,6 +4,22 @@ sidebarDepth: 1
 
 # Integration change log
 
+## 0.27.2 💻 Client devices improvements
+
+`2024-01-03`
+
+### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.27.2)
+
+### 🚀 Features
+
+- Added device connections to allow:
+    - `device_tracker` entity merge into the created device
+    - merge device with the existing instances from other integrations
+
+### 🐛 Bug fixes
+
+- Fixed issue with calling `device_internet_access` from NodeRED without device name (report [#C706](https://community.home-assistant.io/t/custom-component-asusrouter-integration/416111/706?u=vaskivskyi))
+
 ## 0.27.1 🩹 Ignore wrong parental control rules
 
 `2023-12-31`
