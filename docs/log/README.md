@@ -62,6 +62,15 @@ This page contains all the changes in the last stable releases, including patch 
 
 - **[Feature]** Added a check on parental control rules before adding them as entities (report [#753](https://github.com/Vaskivskyi/ha-asusrouter/issues/753))
 
+#### 0.27.2
+
+`2024-01-03`
+
+- **[Feature]** Added device connections to allow:
+    - `device_tracker` entity merge into the created device
+    - merge device with the existing instances from other integrations
+- **[Bugfix]** Fixed issue with calling `device_internet_access` from NodeRED without device name (report [#C706](https://community.home-assistant.io/t/custom-component-asusrouter-integration/416111/706?u=vaskivskyi))
+
 ## Library
 
 ### 1.6.0 🐣 Parental control & clients stability
