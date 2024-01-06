@@ -14,16 +14,16 @@ This page contains all the changes in the last stable releases, including patch 
 
 - Added option to filter connected devices (clients) (disabled by default)
     - `No filter` - all the devices are monitored. Device trackers are created (if enabled) + events are fired.
-    - `Include only` - only the selected clients are monitored. Note, that in this mode, event `asusrouter_device_connected` cannot work to notifiy about new devices.
+    - `Include only` - only the selected clients are monitored. Note, that in this mode, event `asusrouter_device_connected` cannot work to notify about new devices.
     - `Exclude devices` - all the devices are monitored, except the selected ones.
-- Added option to create HA device when user enables corresponding `device_tracker` entity (disabled by default)
+- Added option to create HA device when user enables corresponding `device_tracker` entity (disabled by default) (report [#48](https://github.com/Vaskivskyi/ha-asusrouter/issues/48))
 - Added automatic device removal when no entity is left for the device (or when `device_tracker` is disabled)
 - Added option to remove `devices` attribute from the `connected_devices` sensor (disabled by default). This will help users with 100s of clients to avoid HA errors (report [#628](https://github.com/Vaskivskyi/ha-asusrouter/issues/628))
 - Removed the blank line in the configuration flow (report [#752](https://github.com/Vaskivskyi/ha-asusrouter/issues/752))
 
 ### 📖 Translations
 
-- Updated Ukrainian translation the new configuration options
+- Updated Ukrainian translation for the new configuration options
 
 ## Library
 
