@@ -4,72 +4,26 @@ This page contains all the changes in the last stable releases, including patch 
 
 ## Home Assistant Integration
 
-### 0.27.0 🐣 Parental control & clients stability
+### 0.28.0 🎛️ Control, choose, filter
 
-`2023-12-31`
+`2024-01-06`
 
-### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.27.0)
+### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.28.0)
 
 ### 🚀 Features
 
-- Added service `device_internet_access` to control the device internet access (via parental control rules)
-- Added `block_internet` switches for the devices with parental control rules (report [#622](https://github.com/Vaskivskyi/ha-asusrouter/issues/622))
-- Added possibility to create HA devices for clients when creating their entities (optional, disabled by default)
-- Added global `block_internet` switch to block internet access for all the devices
-- Added `remove_trackers` service to release old `device_tracker` entities and get a possibility to remove them (report [#729](https://github.com/Vaskivskyi/ha-asusrouter/issues/729))
-- Added support for services translation
-- Added support for ports speeds (LAN / WAN): 10 Mb/s, 5 Gb/s, 10 Gb/s
-- Added support for ports speeds (USB): 480 Mb/s, 5 Gb/s, 10 Gb/s, 20 Gb/s
-- Updated device model to correspond to the `UI Model Name` (name as shown in the Web UI) (report [#578](https://github.com/Vaskivskyi/ha-asusrouter/issues/578))
-
-### 🐛 Bug fixes
-
-- Fixed extra sensors shown when they should not be available for the selected operation mode
-- Fixed issue on the client status detection when AiMesh is supported but no nodes assigned
-- Fixed issue with clients data mix
-- Fixed issue with session not available error for the last requests when restarting the integration
+- Added option to filter connected devices (clients) (disabled by default)
+    - `No filter` - all the devices are monitored. Device trackers are created (if enabled) + events are fired.
+    - `Include only` - only the selected clients are monitored. Note, that in this mode, event `asusrouter_device_connected` cannot work to notifiy about new devices.
+    - `Exclude devices` - all the devices are monitored, except the selected ones.
+- Added option to create HA device when user enables corresponding `device_tracker` entity (disabled by default)
+- Added automatic device removal when no entity is left for the device (or when `device_tracker` is disabled)
+- Added option to remove `devices` attribute from the `connected_devices` sensor (disabled by default). This will help users with 100s of clients to avoid HA errors (report [#628](https://github.com/Vaskivskyi/ha-asusrouter/issues/628))
+- Removed the blank line in the configuration flow (report [#752](https://github.com/Vaskivskyi/ha-asusrouter/issues/752))
 
 ### 📖 Translations
 
-- Added Ukrainian translation for `device_internet_access` and `remove_trackers` services
-
-### 📦 Dependencies
-
-- Bumped `asusrouter` library to [`1.6.0`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.6.0), [`1.6.1`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.6.1)
-
-### 📚 Documentation
-
-- Confirmed support for the new device
-    - `GT-AX11000 Pro` / `388.24198`
-    - `RT-AX88U Pro` / `388.4_0` (Merlin)
-    - `Zen WiFi ET8` / `388.23759`
-    - `Zen WiFi Pro ET12` / `388.23013`
-- Confirmed support for the new FW versions which were not reported before:
-    - `4G-AX55U` / `380.8102`
-    - `GT-AX11000` / `388.4_0` (Merlin)
-    - `RT-AC88U` / `386.12_2`
-    - `RT-AX55` / `386.52041`
-    - `RT-AX56U` / `388.1_0` (Merlin), `388.2_2` (Merlin)
-    - `RT-AX58U` / `388.4_0` (Merlin)
-    - `RT-AX86U` / `388.4_0` (Merlin)
-    - `TUF-AX5400` / `388.23285`, `388.4_0` (Merlin)
-
-### 🩹 Patches
-
-#### 0.27.1 🩹 Ignore wrong parental control rules
-
-`2023-12-31`
-
-- **[Feature]** Added a check on parental control rules before adding them as entities (report [#753](https://github.com/Vaskivskyi/ha-asusrouter/issues/753))
-
-#### 0.27.2
-
-`2024-01-03`
-
-- **[Feature]** Added device connections to allow:
-    - `device_tracker` entity merge into the created device
-    - merge device with the existing instances from other integrations
-- **[Bugfix]** Fixed issue with calling `device_internet_access` from NodeRED without device name (report [#C706](https://community.home-assistant.io/t/custom-component-asusrouter-integration/416111/706?u=vaskivskyi))
+- Updated Ukrainian translation the new configuration options
 
 ## Library
 
