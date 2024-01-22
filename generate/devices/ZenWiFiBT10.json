@@ -1,9 +1,9 @@
 {
-    "model": "ZenWiFi BQ16 Pro",
+    "model": "ZenWiFi BT10",
     "wifi": "7",
     "links": {
-        "asus": "https://www.asus.com/networking-iot-servers/whole-home-mesh-wifi-system/zenwifi-wifi-systems/asus-zenwifi-bq16-pro/",
-        "amazon": "https://amzn.to/3MNcw48"
+        "asus": "https://www.asus.com/networking-iot-servers/whole-home-mesh-wifi-system/zenwifi-wifi-systems/asus-zenwifi-bt10/",
+        "amazon": "https://amzn.to/48F5wiB"
     },
     "firmware": {
         "386": false,
@@ -27,6 +27,8 @@
         "connected-devices": {
         },
         "cpu": {
+            "cores": 4,
+            "frequency": "2.0 GHz"
         },
         "guest-wlan": {
         },
@@ -45,11 +47,11 @@
         "ports": {
             "lan": [
                 {
-                    "id": [2, 4, 5],
+                    "id": [1],
                     "speed": 1000
                 },
                 {
-                    "id": 3,
+                    "id": 2,
                     "speed": 10000
                 }
             ],
@@ -75,15 +77,12 @@
         },
         "wlan": {
             "2ghz": {
-                "speed": 1376
+                "speed": 688
             },
             "5ghz": {
                 "speed": 5764
             },
             "6ghz": {
-                "speed": 11529
-            },
-            "6ghz2": {
                 "speed": 11529
             }
         }

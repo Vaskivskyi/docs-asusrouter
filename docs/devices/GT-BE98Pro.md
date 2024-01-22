@@ -31,7 +31,7 @@ description: "Integrate your GT-BE98 Pro into Home Assistant with AsusRouter"
 |[Port forwarding](/features/port-forwarding.md)|:green_heart: Full|`default`||
 |[Ports](/features/ports.md)|:green_heart: Full|`lan_speed` attributes:<li>`lan_{x}`, `x=[1,4]`</li><li>up to `2500 Mb/s`</li><li>`lan_5`</li><li>up to `1000 Mb/s`</li><li>`lan_6`</li><li>up to `10000 Mb/s`</li>`wan_speed` attributes:<li>`wan_0`</li><li>up to `10000 Mb/s`</li>|<li>LAN aggregation</li>|
 |[RAM](/features/ram.md)|:green_heart: Full|`default`|2 GB|
-|[Temperature](/features/temperature.md)|:green_heart: Full|Merlin:<li>`2.4 GHz`</li><li>`5 GHz`</li><li>`6 GHz`</li><li>`6 GHz-2`</li>||
+|[Temperature](/features/temperature.md)|:green_heart: Full|Stock:<li>`CPU`</li>Merlin:<li>`CPU`</li><li>`2.4 GHz`</li><li>`5 GHz`</li><li>`6 GHz`</li><li>`6 GHz-2`</li>||
 |[WAN](/features/wan.md)|:green_heart: Full|`default`|<li>Dual WAN</li>|
 |[WireGuard](/features/wireguard.md)|:green_heart: Full|`default`||
 |[WLAN](/features/wlan.md)|:green_heart: Full|types:<li>`2.4 GHz`</li><li>`5 GHz`</li><li>`6 GHz`</li><li>`6 GHz-2`</li>|speed:<li>`<= 1376 Mb/s (2.4 GHz)`</li><li>`<= 5764 Mb/s (5 GHz)`</li><li>`<= 11529 Mb/s (6 GHz)`</li><li>`<= 11529 Mb/s (6 GHz-2)`</li>|
