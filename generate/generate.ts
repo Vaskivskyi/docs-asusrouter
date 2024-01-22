@@ -91,7 +91,7 @@ function genFeatureExport(features: any, feature: string, fw: any) {
             return ports;
         case "temperature":
             let temperature = "";
-            temperature += (fw[386] === true || fw[388] === true) ? "Stock:<li>`CPU`</li>Merlin:<li>`CPU`</li>" : "Merlin:";
+            temperature += (fw[386] === true || fw[388] === true || fw[106] === true) ? "Stock:<li>`CPU`</li>Merlin:<li>`CPU`</li>" : "Merlin:";
             for (const interf in features.wlan) temperature += "<li>`" + labelInterfaces[interf as keyof object] + "`</li>";
             return temperature;
         case "wlan":

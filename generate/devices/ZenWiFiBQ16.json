@@ -1,14 +1,13 @@
 {
-    "model": "ZenWiFi BQ16 Pro",
+    "model": "ZenWiFi BQ16",
     "wifi": "7",
     "links": {
-        "asus": "https://www.asus.com/networking-iot-servers/whole-home-mesh-wifi-system/zenwifi-wifi-systems/asus-zenwifi-bq16-pro/",
-        "amazon": "https://amzn.to/3MNcw48"
+        "asus": "https://www.asus.com/networking-iot-servers/whole-home-mesh-wifi-system/zenwifi-wifi-systems/asus-zenwifi-bq16/",
+        "amazon": "https://amzn.to/4bgVvdo"
     },
     "firmware": {
         "386": false,
-        "388": false,
-        "106": true
+        "388": true
     },
     "tested": {
         "state": false,
@@ -80,10 +79,10 @@
             "5ghz": {
                 "speed": 5764
             },
-            "6ghz": {
-                "speed": 11529
+            "5ghz2": {
+                "speed": 5764
             },
-            "6ghz2": {
+            "6ghz": {
                 "speed": 11529
             }
         }

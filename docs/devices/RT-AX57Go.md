@@ -31,7 +31,7 @@ description: "Integrate your RT-AX57 Go into Home Assistant with AsusRouter"
 |[Port forwarding](/features/port-forwarding.md)|:green_heart: Full|`default`||
 |[Ports](/features/ports.md)|:green_heart: Full|`lan_speed` attributes:<li>`lan_1`</li><li>up to `1000 Mb/s`</li>`wan_speed` attributes:<li>`wan_0`</li><li>up to `1000 Mb/s`</li>||
 |[RAM](/features/ram.md)|:green_heart: Full|`default`|512 MB|
-|[Temperature](/features/temperature.md)|:green_heart: Full|Merlin:<li>`2.4 GHz`</li><li>`5 GHz`</li>||
+|[Temperature](/features/temperature.md)|:green_heart: Full|Stock:<li>`CPU`</li>Merlin:<li>`CPU`</li><li>`2.4 GHz`</li><li>`5 GHz`</li>||
 |[WAN](/features/wan.md)|:green_heart: Full|`default`||
 |[WireGuard](/features/wireguard.md)|:green_heart: Full|`default`||
 |[WLAN](/features/wlan.md)|:green_heart: Full|types:<li>`2.4 GHz`</li><li>`5 GHz`</li>|speed:<li>`<= 574 Mb/s (2.4 GHz)`</li><li>`<= 2402 Mb/s (5 GHz)`</li>|

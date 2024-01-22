@@ -16,7 +16,9 @@ description: "Integrate your Asus router into Home Assistant with AsusRouter"
 |[GT-BE98](/devices/GT-BE98.md)|💛 Expected to work||<a href="https://amzn.to/3vGztgz" rel="nofollow sponsored" target="_blank">find it</a>|
 |[GT-BE98 Pro](/devices/GT-BE98Pro.md)|💛 Expected to work||<a href="https://amzn.to/3uoSjeR" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-BE96U](/devices/RT-BE96U.md)|💛 Expected to work||<a href="https://amzn.to/3vJu8oD" rel="nofollow sponsored" target="_blank">find it</a>|
+|[ZenWiFi BQ16](/devices/ZenWiFiBQ16.md)|💛 Expected to work||<a href="https://amzn.to/4bgVvdo" rel="nofollow sponsored" target="_blank">find it</a>|
 |[ZenWiFi BQ16 Pro](/devices/ZenWiFiBQ16Pro.md)|💛 Expected to work||<a href="https://amzn.to/3MNcw48" rel="nofollow sponsored" target="_blank">find it</a>|
+|[ZenWiFi BT10](/devices/ZenWiFiBT10.md)|💛 Expected to work||<a href="https://amzn.to/48F5wiB" rel="nofollow sponsored" target="_blank">find it</a>|
 
 ## WiFi 6e | 802.11axe
 |Model|Status|Tested firmware|Find it on Amazon[^amazon]|
@@ -31,7 +33,6 @@ description: "Integrate your Asus router into Home Assistant with AsusRouter"
 |Model|Status|Tested firmware|Find it on Amazon[^amazon]|
 |---|---|---|---|
 |[DSL-AX82U](/devices/DSL-AX82U.md)|💚 Confirmed|Merlin:<li>`386.07_0-gnuton0_beta2`</li>|<a href="https://amzn.to/3G87vyR" rel="nofollow sponsored" target="_blank">find it</a>|
-|[ExpertWiFi EBA63](/devices/ExpertWiFiEBA63.md)|💛 Expected to work||<a href="https://amzn.to/3tFjy4D" rel="nofollow sponsored" target="_blank">find it</a>|
 |[GT-AX11000](/devices/GT-AX11000.md)|💚 Confirmed|Merlin:<li>`386.7_2`</li><li>`388.1_0`</li><li>`388.4_0`</li>|<a href="https://amzn.to/3WDzOMT" rel="nofollow sponsored" target="_blank">find it</a>|
 |[GT-AX11000 Pro](/devices/GT-AX11000Pro.md)|💚 Confirmed|Stock:<li>`388.24198`</li>|<a href="https://amzn.to/3VUNbHl" rel="nofollow sponsored" target="_blank">find it</a>|
 |[GT-AX6000](/devices/GT-AX6000.md)|💛 Expected to work||<a href="https://amzn.to/3GrKHKG" rel="nofollow sponsored" target="_blank">find it</a>|
