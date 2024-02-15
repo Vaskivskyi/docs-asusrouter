@@ -17,10 +17,9 @@ sidebarDepth: 1
 - Removed `force_clients` from clients poll (non-breaking)
 - Added FW release note when available
 
-
 ### 🐛 Bug fixes
 
-- Fixed issue with 
+- Fixed issue with unknown port types in the legacy endpoint
 
 ### 📦 Dependencies
 
