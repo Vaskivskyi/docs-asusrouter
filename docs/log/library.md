@@ -4,6 +4,28 @@ sidebarDepth: 1
 
 # Library change log
 
+## 1.7.0 🚀 Unbind client forcing & more system services
+
+`2024-02-15`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.7.0)
+
+### 🚀 Features
+
+- Added more system services (`AsusSystem.{x}`). Refer to the code for the full list
+- Added handling of the unknown port types in the legacy endpoint
+- Removed `force_clients` from clients poll (non-breaking)
+- Added FW release note when available
+
+
+### 🐛 Bug fixes
+
+- Fixed issue with 
+
+### 📦 Dependencies
+
+- Fixed `pytest` to `7.4.4` until `pytest-asyncio` becomes compatible
+
 ## 1.6.1 📜 Model name and identity
 
 `2023-12-31`
