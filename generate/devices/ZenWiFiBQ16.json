@@ -7,7 +7,8 @@
     },
     "firmware": {
         "386": false,
-        "388": true
+        "388": false,
+        "106": true
     },
     "tested": {
         "state": false,
