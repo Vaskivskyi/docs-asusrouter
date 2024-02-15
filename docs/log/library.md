@@ -19,7 +19,7 @@ sidebarDepth: 1
 
 ### 🐛 Bug fixes
 
-- Fixed issue with 
+- Fixed issue with unknown port types in the legacy endpoint
 
 ### 📦 Dependencies
 

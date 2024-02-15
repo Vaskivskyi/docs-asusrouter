@@ -44,7 +44,7 @@ This page contains all the changes in the last stable releases, including patch 
 
 ### 🐛 Bug fixes
 
-- Fixed issue with 
+- Fixed issue with unknown port types in the legacy endpoint
 
 ### 📦 Dependencies
 
