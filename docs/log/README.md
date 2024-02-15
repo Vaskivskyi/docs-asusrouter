@@ -4,26 +4,28 @@ This page contains all the changes in the last stable releases, including patch 
 
 ## Home Assistant Integration
 
-### 0.28.0 🎛️ Control, choose, filter
+### 0.29.0 💻 Clients stability and better control
 
-`2024-01-06`
+`2024-02-15`
 
-### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.28.0)
+### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.29.0)
 
 ### 🚀 Features
 
-- Added option to filter connected devices (clients) (disabled by default)
-    - `No filter` - all the devices are monitored. Device trackers are created (if enabled) + events are fired.
-    - `Include only` - only the selected clients are monitored. Note, that in this mode, event `asusrouter_device_connected` cannot work to notify about new devices.
-    - `Exclude devices` - all the devices are monitored, except the selected ones.
-- Added option to create HA device when user enables corresponding `device_tracker` entity (disabled by default) (report [#48](https://github.com/Vaskivskyi/ha-asusrouter/issues/48))
-- Added automatic device removal when no entity is left for the device (or when `device_tracker` is disabled)
-- Added option to remove `devices` attribute from the `connected_devices` sensor (disabled by default). This will help users with 100s of clients to avoid HA errors (report [#628](https://github.com/Vaskivskyi/ha-asusrouter/issues/628))
-- Removed the blank line in the configuration flow (report [#752](https://github.com/Vaskivskyi/ha-asusrouter/issues/752))
+- Moved `force_clients_update` to a separate button instead of regular call
+- Added `restart_wired` button
+- Added release notes to the update entity
+- Removed SSDP discovery since it was causing issues for some user with re-discovery of the device (reports [#581](https://github.com/Vaskivskyi/ha-asusrouter/issues/581), [#741](https://github.com/Vaskivskyi/ha-asusrouter/issues/741))
+- Added `rebuild_aimesh` button
 
-### 📖 Translations
+### 🐛 Bug fixes
 
-- Updated Ukrainian translation for the new configuration options
+- Fixed issue with AsusRouter interfering with Web UI on too regular client forcing (report [#760](https://github.com/Vaskivskyi/ha-asusrouter/issues/760))
+- Added capabilities check for the `device_tracker` entities before querying them (report [#785](https://github.com/Vaskivskyi/ha-asusrouter/issues/785))
+
+### 📦 Dependencies
+
+- Bumped `asusrouter` library to [`1.7.0`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.7.0)
 
 ## Library
 
@@ -39,7 +41,6 @@ This page contains all the changes in the last stable releases, including patch 
 - Added handling of the unknown port types in the legacy endpoint
 - Removed `force_clients` from clients poll (non-breaking)
 - Added FW release note when available
-
 
 ### 🐛 Bug fixes
 
