@@ -29,23 +29,19 @@ This page contains all the changes in the last stable releases, including patch 
 
 ## Library
 
-### 1.7.0 🚀 Unbind client forcing & more system services
+### 💻 Firmware control & quality features
 
-`2024-02-15`
+`2024-03-17`
 
-#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.7.0)
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.8.0)
 
 ### 🚀 Features
 
-- Added more system services (`AsusSystem.{x}`). Refer to the code for the full list
-- Added handling of the unknown port types in the legacy endpoint
-- Removed `force_clients` from clients poll (non-breaking)
-- Added FW release note when available
+- Added `AsusSystem.FIRMWARE_UPGRADE` (no feedback) state to install a new firmware from web (if available). The firmware will be installed in the background and the device will reboot after the installation.
+- Added `AsusSystem.FIRMWARE_CHECK` (no feedback) state to check for a new firmware.
+- Added support for release note in the non-AiMesh mode to support more devices.
 
 ### 🐛 Bug fixes
 
-- Fixed issue with unknown port types in the legacy endpoint
-
-### 📦 Dependencies
-
-- Fixed `pytest` to `7.4.4` until `pytest-asyncio` becomes compatible
+- Added a check on the VPNC client data availability before processing it
+- Added explicit string conversion on saving parent control rules
