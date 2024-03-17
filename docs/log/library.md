@@ -4,6 +4,23 @@ sidebarDepth: 1
 
 # Library change log
 
+## 1.8.0 💻 Firmware control & quality features
+
+`2024-03-17`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.8.0)
+
+### 🚀 Features
+
+- Added `AsusSystem.FIRMWARE_UPGRADE` (no feedback) state to install a new firmware from web (if available). The firmware will be installed in the background and the device will reboot after the installation.
+- Added `AsusSystem.FIRMWARE_CHECK` (no feedback) state to check for a new firmware.
+- Added support for release note in the non-AiMesh mode to support more devices.
+
+### 🐛 Bug fixes
+
+- Added a check on the VPNC client data availability before processing it
+- Added explicit string conversion on saving parent control rules
+
 ## 1.7.0 🚀 Unbind client forcing & more system services
 
 `2024-02-15`
