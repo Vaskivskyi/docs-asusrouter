@@ -8,7 +8,7 @@ This page contains all the changes in the last stable releases, including patch 
 
 `2024-03-20`
 
-### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.29.0)
+### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.30.0)
 
 ### 🚀 Features
 
