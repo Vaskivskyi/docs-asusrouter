@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-dbcb73aa","path":"/guide/configuration/operation-mode.html","title":"Operation mode","lang":"en-US","frontmatter":{"next":"time-constants.md"},"headers":[{"level":2,"title":"Options","slug":"options","link":"#options","children":[]}],"git":{"updatedTime":1710973745000},"filePathRelative":"guide/configuration/operation-mode.md"}');export{t as data};

@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-51e0bf4a","path":"/guide/configuration/events.html","title":"Events","lang":"en-US","frontmatter":{"next":"security.md"},"headers":[{"level":2,"title":"Options","slug":"options","link":"#options","children":[]}],"git":{"updatedTime":1710973745000},"filePathRelative":"guide/configuration/events.md"}');export{e as data};
