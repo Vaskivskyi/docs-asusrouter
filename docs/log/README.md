@@ -29,9 +29,9 @@ This page contains all the changes in the last stable releases, including patch 
 
 ## Library
 
-### 💻 Firmware control & quality features
+### 1.8.0 💻 Firmware control & quality features
 
-`2024-03-17`
+`2024-03-20`
 
 #### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.8.0)
 

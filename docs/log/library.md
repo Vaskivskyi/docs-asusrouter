@@ -6,7 +6,7 @@ sidebarDepth: 1
 
 ## 1.8.0 💻 Firmware control & quality features
 
-`2024-03-17`
+`2024-03-20`
 
 #### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.8.0)
 
