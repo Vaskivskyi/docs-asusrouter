@@ -8,7 +8,7 @@ This page contains all the changes in the last stable releases, including patch 
 
 `2024-03-20`
 
-### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.29.0)
+### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.30.0)
 
 ### 🚀 Features
 
@@ -17,7 +17,6 @@ This page contains all the changes in the last stable releases, including patch 
 - Added support for a release note in non-AiMesh mode to support more devices
 - Added support for a full release note in the update entity description in the HA UI
 - Added installation of a new firmware from the HA UI (supported by any FW update that can be installed automatically from the web without a need to upload the file manually)
-
 
 ### 🐛 Bug fixes
 
