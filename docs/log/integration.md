@@ -18,7 +18,6 @@ sidebarDepth: 1
 - Added support for a full release note in the update entity description in the HA UI
 - Added installation of a new firmware from the HA UI (supported by any FW update that can be installed automatically from the web without a need to upload the file manually)
 
-
 ### 🐛 Bug fixes
 
 - Added a check on the VPNC client data availability before processing it (report [#802](https://github.com/Vaskivskyi/ha-asusrouter/issues/802))
