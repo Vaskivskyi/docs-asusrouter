@@ -1,0 +1,95 @@
+{
+    "model": "RT-BE88U",
+    "wifi": "7",
+    "links": {
+        "asus": "https://www.asus.com/networking-iot-servers/wifi-routers/asus-gaming-routers/rt-be88u/",
+        "amazon": "https://amzn.to/3TAGCKY"
+    },
+    "firmware": {
+        "386": false,
+        "388": false,
+        "106": true
+    },
+    "tested": {
+        "state": false,
+        "stock": [
+            
+        ],
+        "merlin": [
+            
+        ]
+    },
+    "features": {
+        "main": {
+        },
+        "aimesh": {
+        },
+        "connected-devices": {
+        },
+        "cpu": {
+            "cores": 4,
+            "frequency": "2.6 GHz"
+        },
+        "guest-wlan": {
+        },
+        "led": {
+        },
+        "load-average": {
+        },
+        "network": {
+        },
+        "openvpn": {
+        },
+        "parental-control": {
+        },
+        "port-forwarding": {
+        },
+        "ports": {
+            "lan": [
+                {
+                    "id": 1,
+                    "speed": 10000
+                },
+                {
+                    "id": [2, 4],
+                    "speed": 2500
+                },
+                {
+                    "id": [5, 8],
+                    "speed": 1000
+                }
+            ],
+            "lan_aggr": true,
+            "wan": [
+                {
+                    "id": 0,
+                    "speed": 2500
+                },
+                {
+                    "id": 1,
+                    "speed": 10000
+                }
+            ],
+            "wan_aggr": true
+        },
+        "ram": {
+            "capacity": 2,
+            "units": "GB"
+        },
+        "temperature": {
+        },
+        "wan": {
+            "dual_wan": true
+        },
+        "wireguard": {
+        },
+        "wlan": {
+            "2ghz": {
+                "speed": 1376
+            },
+            "5ghz": {
+                "speed": 5764
+            }
+        }
+    }
+}

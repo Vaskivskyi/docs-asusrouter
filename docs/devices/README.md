@@ -15,6 +15,7 @@ description: "Integrate your Asus router into Home Assistant with AsusRouter"
 |---|---|---|---|
 |[GT-BE98](/devices/GT-BE98.md)|💛 Expected to work||<a href="https://amzn.to/3vGztgz" rel="nofollow sponsored" target="_blank">find it</a>|
 |[GT-BE98 Pro](/devices/GT-BE98Pro.md)|💛 Expected to work||<a href="https://amzn.to/3uoSjeR" rel="nofollow sponsored" target="_blank">find it</a>|
+|[RT-BE88U](/devices/RT-BE88U.md)|💛 Expected to work||<a href="https://amzn.to/3TAGCKY" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-BE96U](/devices/RT-BE96U.md)|💛 Expected to work||<a href="https://amzn.to/3vJu8oD" rel="nofollow sponsored" target="_blank">find it</a>|
 |[ZenWiFi BQ16](/devices/ZenWiFiBQ16.md)|💛 Expected to work||<a href="https://amzn.to/4bgVvdo" rel="nofollow sponsored" target="_blank">find it</a>|
 |[ZenWiFi BQ16 Pro](/devices/ZenWiFiBQ16Pro.md)|💛 Expected to work||<a href="https://amzn.to/3MNcw48" rel="nofollow sponsored" target="_blank">find it</a>|
