@@ -5,7 +5,7 @@ description: "Integrate your GT-BE98 into Home Assistant with AsusRouter"
 <!-- !!! -->
 <!-- This file is auto-generated -->
 <!-- !!! -->
-# ROG Rapture GT-BE98
+# ROG Rapture GT-BE98 | GT-BE25000
 
 |ROG Rapture GT-BE98|Tested / reported firmware|
 |---|---|

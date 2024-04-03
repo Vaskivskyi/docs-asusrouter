@@ -1,5 +1,8 @@
 {
     "model": "GT-BE98",
+    "alternative": [
+        "GT-BE25000"
+    ],
     "name": "ROG Rapture GT-BE98",
     "wifi": "7",
     "links": {
