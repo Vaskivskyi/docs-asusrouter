@@ -29,19 +29,12 @@ This page contains all the changes in the last stable releases, including patch 
 
 ## Library
 
-### 1.8.0 💻 Firmware control & quality features
+### 1.9.0 🤖 Merlin 388.7 support
 
-`2024-03-20`
+`2024-05-01`
 
-#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.8.0)
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.9.0)
 
 ### 🚀 Features
 
-- Added `AsusSystem.FIRMWARE_UPGRADE` (no feedback) state to install a new firmware from web (if available). The firmware will be installed in the background and the device will reboot after the installation.
-- Added `AsusSystem.FIRMWARE_CHECK` (no feedback) state to check for a new firmware.
-- Added support for release note in the non-AiMesh mode to support more devices.
-
-### 🐛 Bug fixes
-
-- Added a check on the VPNC client data availability before processing it
-- Added explicit string conversion on saving parent control rules
+- Added support for the new sysinfo layout with Merlin `388.7`
