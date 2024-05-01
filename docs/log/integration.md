@@ -4,6 +4,20 @@ sidebarDepth: 1
 
 # Integration change log
 
+## 0.31.0 🚀 Merlin 388.7 support
+
+`2024-05-01`
+
+### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.31.0)
+
+### 🚀 Features
+
+- Added support for Merlin `388.7`
+
+### 📦 Dependencies
+
+- Bumped `asusrouter` library to [`1.9.0`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.9.0)
+
 ## 0.30.0 💻 Firmware control & quality features
 
 `2024-03-20`
