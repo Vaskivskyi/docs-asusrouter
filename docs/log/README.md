@@ -4,19 +4,25 @@ This page contains all the changes in the last stable releases, including patch 
 
 ## Home Assistant Integration
 
-### 0.31.0 🚀 Merlin 388.7 support
+### 0.32.0 🔨 AiMesh improvement and HA fixes
 
-`2024-05-01`
+`2024-05-21`
 
-### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.31.0)
+### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.32.0)
 
 ### 🚀 Features
 
-- Added support for Merlin `388.7`
+- Added support for the full AiMesh reboot with `button.{}_reboot_aimesh` entity
+- Improved logging on connection errors
+
+### 🐛 Bug fixes
+
+- Fixed the blocking function call which was logging a warning in HA logs since `2024.5.x` (report [#823](https://github.com/Vaskivskyi/ha-asusrouter/issues/823))
+- Improved handling of empty data (report [#C756](https://community.home-assistant.io/t/custom-component-asusrouter-integration/416111/756?u=vaskivskyi))
 
 ### 📦 Dependencies
 
-- Bumped `asusrouter` library to [`1.9.0`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.9.0)
+- Bumped `asusrouter` library to [`1.10.0`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.10.0)
 
 ## Library
 
