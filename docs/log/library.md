@@ -4,6 +4,23 @@ sidebarDepth: 1
 
 # Library change log
 
+## 1.10.0 🔨 AiMesh, threading & logging
+
+`2024-05-21`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.10.0)
+
+### 🚀 Features
+
+- Import modules in a separate thread to avoid blocking the main thread
+- Improved logging on the exceptions
+- Added support for AiMesh reboot via `AsusSystem.AIMESH_REBOOT` state
+- Moved AiMesh rebuild to `AsusSystem.AIMESH_REBUILD` state
+
+### ⚰️ Deprecation
+
+- Marked `AsusSystem.REBUILD_AIMESH` as deprecated. The new `AsusSystem.AIMESH_REBUILD` should be used instead. There is no yet defined version of removal, but its usage will cause a warning in the logs.
+
 ## 1.9.0 🤖 Merlin 388.7 support
 
 `2024-05-01`
