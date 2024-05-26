@@ -1,10 +1,13 @@
+// Bundler
+import { viteBundler } from '@vuepress/bundler-vite'
+
 import { navbar } from "./navbar";
 import { sidebar } from "./sidebar";
 import * as path from "path";
 import { defaultTheme } from '@vuepress/theme-default';
 import { docsearchPlugin } from '@vuepress/plugin-docsearch';
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics';
-import { sitemapPlugin } from "vuepress-plugin-sitemap2";
+import { sitemapPlugin } from "@vuepress/plugin-sitemap";
 import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
 
 export const domain = 'https://asusrouter.vaskivskyi.com';
@@ -26,12 +29,18 @@ const conf = {
   temp: ".temp",
   cache: ".cache",
 
+  bundler: viteBundler({
+    viteOptions: {
+    },
+    vuePluginOptions: {},
+  }),
+
   pagePatterns,
 
   head: [
     ["link", {
       rel: "manifest",
-      href: `${ getBase() }site.webmanifest`,
+      href: `${getBase()}site.webmanifest`,
     }],
   ],
 
