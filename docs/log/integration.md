@@ -1,5 +1,25 @@
 # Integration change log
 
+## 0.32.1 🐛 JSON fixes & documentation
+
+`2024-05-28`
+
+### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.32.1)
+
+### 🐛 Bug fixes
+
+- Fixed JSON parsing for missing values (report [#832](https://github.com/Vaskivskyi/ha-asusrouter/issues/832))
+
+### 📚 Documentation
+
+- Added info on HTTPS connection as a preferred method for the integration
+- Added info on the number of connected clients and its correspondence to the Web UI
+- Updated supported devices
+
+### 📦 Dependencies
+
+- Bumped `asusrouter` library to [`1.11.0`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.11.0)
+
 ## 0.32.0 🔨 AiMesh improvement and HA fixes
 
 `2024-05-21`

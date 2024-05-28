@@ -24,6 +24,16 @@ This page contains all the changes in the last stable releases, including patch 
 
 - Bumped `asusrouter` library to [`1.10.0`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.10.0)
 
+### 🩹 Patches
+
+#### 0.32.1 🐛 JSON fixes & documentation
+
+`2024-05-28`
+
+- **[Bugfix]** Fixed JSON parsing for missing values
+- **[Docs]** Updated documentation
+- **[Docs]** Updated supported devices
+
 ## Library
 
 ### 1.11.0 Ping-ping & JSON fixes
