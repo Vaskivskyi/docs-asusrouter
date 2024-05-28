@@ -1,5 +1,28 @@
 # Library change log
 
+## 1.11.0 Ping-ping & JSON fixes
+
+`2024-05-28`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.11.0)
+
+### 🚀 Features
+
+- Added possibility to force request type for aiohttp with `asusrouter.const.RequestType`. `POST` and `GET` are available
+- Added custom `request` argument support for `AsusRouter.async_get_data` (any dict).
+- Added `AsusData.PING` state to to ping a device or get the last ping result (request is required to get result)
+  - `request = {"type": $type$, "target": $domain$}`
+  - `type` is one of: `0` (get data), `1` (ping, loss, jitter), `2` (ping only)
+  - `target` can be a domain or IP address
+
+### 🐛 Bug fixes
+
+- Fixed JSON parsing for missing values
+
+### 📚 Documentation
+
+- Updated supported devices
+
 ## 1.10.0 🔨 AiMesh, threading & logging
 
 `2024-05-21`

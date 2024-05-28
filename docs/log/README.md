@@ -26,19 +26,25 @@ This page contains all the changes in the last stable releases, including patch 
 
 ## Library
 
-### 1.10.0 🔨 AiMesh, threading & logging
+### 1.11.0 Ping-ping & JSON fixes
 
-`2024-05-21`
+`2024-05-28`
 
-#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.10.0)
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.11.0)
 
 ### 🚀 Features
 
-- Import modules in a separate thread to avoid blocking the main thread
-- Improved logging on the exceptions
-- Added support for AiMesh reboot via `AsusSystem.AIMESH_REBOOT` state
-- Moved AiMesh rebuild to `AsusSystem.AIMESH_REBUILD` state
+- Added possibility to force request type for aiohttp with `asusrouter.const.RequestType`. `POST` and `GET` are available
+- Added custom `request` argument support for `AsusRouter.async_get_data` (any dict).
+- Added `AsusData.PING` state to to ping a device or get the last ping result (request is required to get result)
+  - `request = {"type": $type$, "target": $domain$}`
+  - `type` is one of: `0` (get data), `1` (ping, loss, jitter), `2` (ping only)
+  - `target` can be a domain or IP address
 
-### ⚰️ Deprecation
+### 🐛 Bug fixes
 
-- Marked `AsusSystem.REBUILD_AIMESH` as deprecated. The new `AsusSystem.AIMESH_REBUILD` should be used instead. There is no yet defined version of removal, but its usage will cause a warning in the logs.
+- Fixed JSON parsing for missing values
+
+### 📚 Documentation
+
+- Updated supported devices
