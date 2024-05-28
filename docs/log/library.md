@@ -1,7 +1,3 @@
----
-sidebarDepth: 1
----
-
 # Library change log
 
 ## 1.10.0 🔨 AiMesh, threading & logging
@@ -92,20 +88,20 @@ sidebarDepth: 1
 - Added `int_as_bits` and `int_as_capabilities` converters
 - Added `AccessPoint` dataclass
 - Added support for ports when using modern endpoint for `AsusData.PORTS`:
-    - Monitor the main (default, no arguments), selected (providing `device = MAC_ADDRESS`) or all (`device = "all"`) AiMesh node(s)
-    - `PortSpeed` members: `LINK_10` (10 Mb/s), `LINK_5000` (5 Gb/s)
-    - `USBSpeed` members: `USB_20` (480 Mb/s), `USB_30` (5 Gb/s), `USB_31` (10 Gb/s), `USB_32` (20 Gb/s)
-    - `PortType` members:
-        - `MOCA`, `SFPP` (implemented)
-        - `POWERLINE` (planned)
-    - `PortCapability` members: `WAN`, `LAN`, `GAME`, `PLC`, `WAN2`, `WAN3`, `SFPP`, `USB`, `MOBILE`, `WANLAN`, `MOCA`, `IPTV_BRIDGE`, `IPTV_VOIP`, `IPTV_STB`, `DUALWAN_SECONDARY`, `DUALWAN_PRIMIRY`
+  - Monitor the main (default, no arguments), selected (providing `device = MAC_ADDRESS`) or all (`device = "all"`) AiMesh node(s)
+  - `PortSpeed` members: `LINK_10` (10 Mb/s), `LINK_5000` (5 Gb/s)
+  - `USBSpeed` members: `USB_20` (480 Mb/s), `USB_30` (5 Gb/s), `USB_31` (10 Gb/s), `USB_32` (20 Gb/s)
+  - `PortType` members:
+    - `MOCA`, `SFPP` (implemented)
+    - `POWERLINE` (planned)
+  - `PortCapability` members: `WAN`, `LAN`, `GAME`, `PLC`, `WAN2`, `WAN3`, `SFPP`, `USB`, `MOBILE`, `WANLAN`, `MOCA`, `IPTV_BRIDGE`, `IPTV_VOIP`, `IPTV_STB`, `DUALWAN_SECONDARY`, `DUALWAN_PRIMIRY`
 - Added support for ports when using legacy endpoint for `AsusData.PORTS`:
-    - `PortSpeed` members: `LINK_10` (10 Mb/s), `LINK_5000` (5 Gb/s), `LINK_10000` (10 Gb/s)
+  - `PortSpeed` members: `LINK_10` (10 Mb/s), `LINK_5000` (5 Gb/s), `LINK_10000` (10 Gb/s)
 - Added parental control rule features:
-    - Allowed `ParentalControlRule` to be sent as a state to `AsusRouter.async_set_state`
-    - Added `PCRuleType` enum with members:
-        - `DISABLE`, `BLOCK`, `TIME` corresponding to the rule types - using any of them as the rule type will add or update the rule
-        - `REMOVE` - using this as a type will remove the rule for a corresponding MAC address
+  - Allowed `ParentalControlRule` to be sent as a state to `AsusRouter.async_set_state`
+  - Added `PCRuleType` enum with members:
+    - `DISABLE`, `BLOCK`, `TIME` corresponding to the rule types - using any of them as the rule type will add or update the rule
+    - `REMOVE` - using this as a type will remove the rule for a corresponding MAC address
 - Switched to creation of a new session if the old one is not available anymore
 
 ### 🐛 Bug fixes
@@ -119,19 +115,19 @@ sidebarDepth: 1
 ### 📚 Documentation
 
 - Confirmed support for the new device
-    - `GT-AX11000 Pro` / `388.24198`
-    - `RT-AX88U Pro` / `388.4_0` (Merlin)
-    - `Zen WiFi ET8` / `388.23759`
-    - `Zen WiFi Pro ET12` / `388.23013`
+  - `GT-AX11000 Pro` / `388.24198`
+  - `RT-AX88U Pro` / `388.4_0` (Merlin)
+  - `Zen WiFi ET8` / `388.23759`
+  - `Zen WiFi Pro ET12` / `388.23013`
 - Confirmed support for the new FW versions which were not reported before:
-    - `4G-AX55U` / `380.8102`
-    - `GT-AX11000` / `388.4_0` (Merlin)
-    - `RT-AC88U` / `386.12_2`
-    - `RT-AX55` / `386.52041`
-    - `RT-AX56U` / `388.1_0` (Merlin), `388.2_2` (Merlin)
-    - `RT-AX58U` / `388.4_0` (Merlin)
-    - `RT-AX86U` / `388.4_0` (Merlin)
-    - `TUF-AX5400` / `388.23285`, `388.4_0` (Merlin)
+  - `4G-AX55U` / `380.8102`
+  - `GT-AX11000` / `388.4_0` (Merlin)
+  - `RT-AC88U` / `386.12_2`
+  - `RT-AX55` / `386.52041`
+  - `RT-AX56U` / `388.1_0` (Merlin), `388.2_2` (Merlin)
+  - `RT-AX58U` / `388.4_0` (Merlin)
+  - `RT-AX86U` / `388.4_0` (Merlin)
+  - `TUF-AX5400` / `388.23285`, `388.4_0` (Merlin)
 
 ## 1.5.0 💻 Clients tracking & multiple instances improvements
 
@@ -160,7 +156,7 @@ sidebarDepth: 1
 ### 🚨 Testing
 
 - Added tests for:
-    - `asusrouter.modules.endpoint.onboarding`
+  - `asusrouter.modules.endpoint.onboarding`
 
 ### 🐣 GitHub
 
@@ -189,22 +185,22 @@ sidebarDepth: 1
 ### 🚨 Testing
 
 - Added tests for:
-    - `asusrouter.modules.client`
-    - `asusrouter.modules.led`
-    - `asusrouter.modules.openvpn`
-    - `asusrouter.modules.parental_control`
-    - `asusrouter.modules.port_forwarding`
-    - `asusrouter.modules.state`
-    - `asusrouter.modules.system`
-    - `asusrouter.modules.vpnc`
-    - `asusrouter.modules.wireguard`
-    - `asusrouter.modules.wlan`
+  - `asusrouter.modules.client`
+  - `asusrouter.modules.led`
+  - `asusrouter.modules.openvpn`
+  - `asusrouter.modules.parental_control`
+  - `asusrouter.modules.port_forwarding`
+  - `asusrouter.modules.state`
+  - `asusrouter.modules.system`
+  - `asusrouter.modules.vpnc`
+  - `asusrouter.modules.wireguard`
+  - `asusrouter.modules.wlan`
 
 ### 🔨 Other changes
 
 - Refactored:
-    - All the modules listed above in the testing section
-    - `AsusRouter.async_set_state` to use `kwargs`
+  - All the modules listed above in the testing section
+  - `AsusRouter.async_set_state` to use `kwargs`
 
 ### 📚 Documentation
 
@@ -455,16 +451,16 @@ This release brings a fully-rebuild core of the library, making it faster and si
 ### 📚 Documentation
 
 - Confirmed support for device / firmware:
-    - `DSL-AC68U` / `386.50117`
-    - `RT-AC66U B1` / `386.51255`
-    - `RT-AC86U` / `386.49709`
-    - `RT-AC88U` / `386.48260`, `386.5_0`
-    - `RT-AX58U` / `388.22237`
-    - `RT-AX86U Pro` / `388.23565`
-    - `RT-AX88U` / `388.24198`, `388.2_0`, `388.4_0`
-    - `RT-AXE7800` / `388_22068`
-    - `TUF-AX5400` / `388.22525`
-    - `TUF-AX6000` / `388.32432`
-    - `TUF-AX3000 V2` / `388.23785`
-    - `ZenWiFi AX (XT8)` / `388.23285`
-    - `ZenWiFi XT9` / `388_23285`
+  - `DSL-AC68U` / `386.50117`
+  - `RT-AC66U B1` / `386.51255`
+  - `RT-AC86U` / `386.49709`
+  - `RT-AC88U` / `386.48260`, `386.5_0`
+  - `RT-AX58U` / `388.22237`
+  - `RT-AX86U Pro` / `388.23565`
+  - `RT-AX88U` / `388.24198`, `388.2_0`, `388.4_0`
+  - `RT-AXE7800` / `388_22068`
+  - `TUF-AX5400` / `388.22525`
+  - `TUF-AX6000` / `388.32432`
+  - `TUF-AX3000 V2` / `388.23785`
+  - `ZenWiFi AX (XT8)` / `388.23285`
+  - `ZenWiFi XT9` / `388_23285`
