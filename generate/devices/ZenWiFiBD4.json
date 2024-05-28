@@ -1,27 +1,25 @@
 {
-  "model": "RT-AX58U",
-  "wifi": "6",
+  "model": "ZenWiFi BD4",
+  "wifi": "7",
   "links": {
-    "asus": "https://www.asus.com/networking-iot-servers/wifi-routers/asus-wifi-routers/rt-ax58u/",
-    "amazon": "https://amzn.to/3jHri0L"
+    "asus": "https://www.asus.com/networking-iot-servers/whole-home-mesh-wifi-system/zenwifi-wifi-systems/asus-zenwifi-bd4/",
+    "amazon": "https://amzn.to/3Kfulr1"
   },
   "firmware": {
-    "386": true,
-    "388": true
+    "386": false,
+    "388": false,
+    "106": true
   },
   "tested": {
-    "state": true,
-    "stock": ["386.49674", "388.22237"],
-    "merlin": ["386.7_2", "388.1_0", "388.4_0", "388.7.0"]
+    "state": false,
+    "stock": [],
+    "merlin": []
   },
   "features": {
     "main": {},
     "aimesh": {},
     "connected-devices": {},
-    "cpu": {
-      "cores": 3,
-      "frequency": "1.5 GHz"
-    },
+    "cpu": {},
     "guest-wlan": {},
     "led": {},
     "load-average": {},
@@ -32,34 +30,31 @@
     "ports": {
       "lan": [
         {
-          "id": [1, 4],
-          "speed": 1000
+          "id": [1],
+          "speed": 2500
         }
       ],
       "lan_aggr": false,
       "wan": [
         {
           "id": 0,
-          "speed": 1000
+          "speed": 2500
         }
       ],
       "wan_aggr": false
     },
-    "ram": {
-      "capacity": 512,
-      "units": "MB"
-    },
+    "ram": {},
     "temperature": {},
     "wan": {
-      "dual_wan": true
+      "dual_wan": false
     },
     "wireguard": {},
     "wlan": {
       "2ghz": {
-        "speed": 574
+        "speed": 688
       },
       "5ghz": {
-        "speed": 2402
+        "speed": 2882
       }
     }
   }

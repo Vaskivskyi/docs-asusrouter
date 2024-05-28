@@ -5,7 +5,7 @@ import { generatePage, getImage } from "./tools";
 import { deviceBaseDir } from "./const";
 
 export function getDeviceFilePath(model: any, tested: boolean) {
-    return path.resolve(deviceBaseDir, `${ model }.md`)
+    return path.resolve(deviceBaseDir, `${model}.md`)
 }
 
 const defaultInterfaces = ["WAN", "USB", "Wired", "Bridge"];
@@ -43,7 +43,7 @@ function genFWversion(version: string) {
 
 function genFWversions(versions: any[]) {
     let result = ""
-    versions.forEach(function(version) {
+    versions.forEach(function (version) {
         result += genFWversion(version)
     })
     if (result === "") return "<li>` `</li>"
@@ -79,10 +79,10 @@ function genFeatureExport(features: any, feature: string, fw: any) {
         case "ports":
             let ports = "";
             let types = ["lan", "wan"];
-            types.forEach(function(type) {
+            types.forEach(function (type) {
                 ports += "`" + type + "_speed` attributes:";
                 for (const port in features[key][type]) {
-                    if (features[key][type][port].id instanceof Array){
+                    if (features[key][type][port].id instanceof Array) {
                         ports += "<li>`" + type + "_{x}`, `x=[" + features[key][type][port].id[0] + "," + features[key][type][port].id[1] + "]`</li><li>up to `" + features[key][type][port].speed + " Mb/s`</li>";
                     }
                     else ports += "<li>`" + type + "_" + features[key][type][port].id + "`</li><li>up to `" + features[key][type][port].speed + " Mb/s`</li>";
@@ -122,6 +122,8 @@ function genFeatureSpecs(features: any, feature: string) {
             if (features[key].wan_aggr === true) ports += "<li>WAN aggregation</li>";
             return ports;
         case "ram":
+            // If no RAM specified, return "Unknown size"
+            if (features[key].capacity === undefined) return "undefined size";
             return features[key].capacity + " " + features[key].units;
         case "wan":
             let wan = "";
@@ -139,17 +141,17 @@ function genFeatureSpecs(features: any, feature: string) {
 function genFeature(features: any, feature: string, fw: any) {
     const key = feature as keyof typeof map;
     let support = genFeatureSupport(features[key])
-    if (fw["386"] !== true && fw["388"] !== true && fw["106"] !== true){
+    if (fw["386"] !== true && fw["388"] !== true && fw["106"] !== true) {
         if (key === "aimesh") support = ":heart: Not supported";
         if (key === "led") support = ":heart: Not supported";
         if (key === "temperature") support = ":yellow_heart: Merlin-only";
     }
-    if (fw["388"] !== true && fw["106"] !== true){
+    if (fw["388"] !== true && fw["106"] !== true) {
         if (key === "wireguard") support = ":heart: Not supported";
     }
     if (feature === "load-average") support = ":yellow_heart: Merlin-only";
     return {
-        "title": `[${ map[key].title }](${ map[key].link })`,
+        "title": `[${map[key].title}](${map[key].link})`,
         "support": support,
         "expose": genFeatureExport(features, feature, fw),
         "specs": genFeatureSpecs(features, feature),
@@ -172,20 +174,20 @@ export async function generateDevice(device: any) {
             title += " | " + device.alternative[version];
         }
     }
-  
+
     let content = `---
-title: "Asus ${ title } control from Home Assistant"
-description: "Integrate your ${ device.model } into Home Assistant with AsusRouter"
+title: "Asus ${title} control from Home Assistant"
+description: "Integrate your ${device.model} into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->
 <!-- This file is auto-generated -->
 <!-- !!! -->
-# ${ title }
+# ${title}
 
-|${ device.name !== undefined ? device.name : device.model }|Tested / reported firmware|
+|${device.name !== undefined ? device.name : device.model}|Tested / reported firmware|
 |---|---|
-|<img src="${ await getImage(model) }" width="300">|<b>Stock:</b>${ genFWversions(device.tested.stock) }<b>Merlin:</b>${ genFWversions(device.tested.merlin) }|
-|${ device.links.asus !== undefined ? '<li><a href="' + device.links.asus + '" rel="nofollow" target="_blank">Official webpage</a></li>' : "" }${ device.links.amazon !== undefined ? '<li><a href="' + device.links.amazon + '" rel="nofollow sponsored" target="_blank">Buy it on Amazon [^amazon]</a></li>' : "" }|${ device.tested.state === true ? "<li>:green_heart: Tested to work with AsusRouter</li>" : "<li>:yellow_heart: This device has not been tested yet, but should work with AsusRouter</li>" }${ device.tested.available ? "<li>:green_heart: Available for tests</li>" : "" }<li><a href="https://github.com/Vaskivskyi/ha-asusrouter/issues/new/choose" rel="nofollow" target="_blank">Add you report about this device</a></li>|
+|<img src="${await getImage(model)}" width="300">|<b>Stock:</b>${genFWversions(device.tested.stock)}<b>Merlin:</b>${genFWversions(device.tested.merlin)}|
+|${device.links.asus !== undefined ? '<li><a href="' + device.links.asus + '" rel="nofollow" target="_blank">Official webpage</a></li>' : ""}${device.links.amazon !== undefined ? '<li><a href="' + device.links.amazon + '" rel="nofollow sponsored" target="_blank">Buy it on Amazon [^amazon]</a></li>' : ""}|${device.tested.state === true ? "<li>:green_heart: Tested to work with AsusRouter</li>" : "<li>:yellow_heart: This device has not been tested yet, but should work with AsusRouter</li>"}${device.tested.available ? "<li>:green_heart: Available for tests</li>" : ""}<li><a href="https://github.com/Vaskivskyi/ha-asusrouter/issues/new/choose" rel="nofollow" target="_blank">Add you report about this device</a></li>|
 
 [^amazon]: As an Amazon Associate I earn from qualifying purchases. Not like I ever got anything yet (:
 
@@ -203,13 +205,13 @@ description: "Integrate your ${ device.model } into Home Assistant with AsusRout
 
     content += genFeatureNotes(device.features);
 
-    console.log(`Generated page for ${ device.model }`)
+    console.log(`Generated page for ${device.model}`)
     return generatePage(content, filePath);
 }
 
 export async function generateDeviceList(devices: any[]) {
     let list: any[] = [];
-    devices.forEach(function(device) {
+    devices.forEach(function (device) {
         let title = device.model;
         if (device.alternative !== undefined) {
             for (const version in device.alternative) {
@@ -232,7 +234,7 @@ async function sortDevices(devices: any[]) {
     let wifi5: any[] = [];
     let wifi4: any[] = [];
     let other: any[] = [];
-    devices.forEach(function(device) {
+    devices.forEach(function (device) {
         switch (device.wifi) {
             case "7":
                 wifi7.push(device);
@@ -280,13 +282,13 @@ description: "Integrate your Asus router into Home Assistant with AsusRouter"
 `;
     for (const type in sorted) {
         content += `
-## ${ labelDeviceType[type as keyof object] }
+## ${labelDeviceType[type as keyof object]}
 |Model|Status|Tested firmware|Find it on Amazon[^amazon]|
 |---|---|---|---|
 `;
         const key = type as keyof typeof sorted;
         // console.log(sorted[type as keyof object])
-        sorted[key].forEach(function(device){
+        sorted[key].forEach(function (device) {
             content += "|[" + device.model + "](/devices/" + getModelNorm(device.model) + ".md)|" + (device.tested.state === true ? "💚 Confirmed" : "💛 Expected to work") + "|";
             if (device.tested.stock.length !== 0) {
                 content += "Stock:";
