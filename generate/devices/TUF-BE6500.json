@@ -1,19 +1,20 @@
 {
-  "model": "RT-AX88U",
-  "wifi": "6",
+  "model": "TUF-BE6500",
+  "name": "TUF 小旋风Pro WiFi7 BE6500",
+  "wifi": "7",
   "links": {
-    "asus": "https://www.asus.com/networking-iot-servers/wifi-routers/asus-gaming-routers/rt-ax88u/",
-    "amazon": "https://amzn.to/3i2VfYu"
+    "asus": "https://www.asus.com.cn/networking-iot-servers/wifi-routers/asus-gaming-routers/tuf-gaming-6500/",
+    "amazon": "https://amzn.to/3X3Xltv"
   },
   "firmware": {
-    "386": true,
-    "388": true
+    "386": false,
+    "388": false,
+    "106": true
   },
   "tested": {
-    "state": true,
-    "available": true,
-    "stock": ["386.45934", "386.48631", "388.24198"],
-    "merlin": ["386.5_2", "386.8_0", "388.1_0", "388.2_0", "388.4_0", "388.7_0"]
+    "state": false,
+    "stock": [],
+    "merlin": []
   },
   "features": {
     "main": {},
@@ -21,8 +22,7 @@
     "connected-devices": {},
     "cpu": {
       "cores": 4,
-      "frequency": "1.8 GHz",
-      "model": "BCM490x - Cortex A53 ARMv8 revision 0"
+      "frequency": "1.5 GHz"
     },
     "guest-wlan": {},
     "led": {},
@@ -34,18 +34,18 @@
     "ports": {
       "lan": [
         {
-          "id": [1, 8],
-          "speed": 1000
+          "id": [1, 3],
+          "speed": 2500
         }
       ],
-      "lan_aggr": true,
+      "lan_aggr": false,
       "wan": [
         {
           "id": 0,
-          "speed": 1000
+          "speed": 2500
         }
       ],
-      "wan_aggr": true
+      "wan_aggr": false
     },
     "ram": {
       "capacity": 1,
@@ -58,10 +58,10 @@
     "wireguard": {},
     "wlan": {
       "2ghz": {
-        "speed": 1148
+        "speed": 688
       },
       "5ghz": {
-        "speed": 4804
+        "speed": 5764
       }
     }
   }
