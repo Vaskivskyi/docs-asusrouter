@@ -1,7 +1,3 @@
----
-sidebarDepth: 1
----
-
 # Integration change log
 
 ## 0.32.0 🔨 AiMesh improvement and HA fixes
@@ -61,7 +57,6 @@ sidebarDepth: 1
 
 - Bumped `asusrouter` library to [`1.8.0`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.8.0)
 
-
 ## 0.29.0 💻 Clients stability and better control
 
 `2024-02-15`
@@ -94,9 +89,9 @@ sidebarDepth: 1
 ### 🚀 Features
 
 - Added option to filter connected devices (clients) (disabled by default)
-    - `No filter` - all the devices are monitored. Device trackers are created (if enabled) + events are fired.
-    - `Include only` - only the selected clients are monitored. Note, that in this mode, event `asusrouter_device_connected` cannot work to notify about new devices.
-    - `Exclude devices` - all the devices are monitored, except the selected ones.
+  - `No filter` - all the devices are monitored. Device trackers are created (if enabled) + events are fired.
+  - `Include only` - only the selected clients are monitored. Note, that in this mode, event `asusrouter_device_connected` cannot work to notify about new devices.
+  - `Exclude devices` - all the devices are monitored, except the selected ones.
 - Added option to create HA device when user enables corresponding `device_tracker` entity (disabled by default) (report [#48](https://github.com/Vaskivskyi/ha-asusrouter/issues/48))
 - Added automatic device removal when no entity is left for the device (or when `device_tracker` is disabled)
 - Added option to remove `devices` attribute from the `connected_devices` sensor (disabled by default). This will help users with 100s of clients to avoid HA errors (report [#628](https://github.com/Vaskivskyi/ha-asusrouter/issues/628))
@@ -115,8 +110,8 @@ sidebarDepth: 1
 ### 🚀 Features
 
 - Added device connections to allow:
-    - `device_tracker` entity merge into the created device
-    - merge device with the existing instances from other integrations
+  - `device_tracker` entity merge into the created device
+  - merge device with the existing instances from other integrations
 
 ### 🐛 Bug fixes
 
@@ -168,19 +163,19 @@ sidebarDepth: 1
 ### 📚 Documentation
 
 - Confirmed support for the new device
-    - `GT-AX11000 Pro` / `388.24198`
-    - `RT-AX88U Pro` / `388.4_0` (Merlin)
-    - `Zen WiFi ET8` / `388.23759`
-    - `Zen WiFi Pro ET12` / `388.23013`
+  - `GT-AX11000 Pro` / `388.24198`
+  - `RT-AX88U Pro` / `388.4_0` (Merlin)
+  - `Zen WiFi ET8` / `388.23759`
+  - `Zen WiFi Pro ET12` / `388.23013`
 - Confirmed support for the new FW versions which were not reported before:
-    - `4G-AX55U` / `380.8102`
-    - `GT-AX11000` / `388.4_0` (Merlin)
-    - `RT-AC88U` / `386.12_2`
-    - `RT-AX55` / `386.52041`
-    - `RT-AX56U` / `388.1_0` (Merlin), `388.2_2` (Merlin)
-    - `RT-AX58U` / `388.4_0` (Merlin)
-    - `RT-AX86U` / `388.4_0` (Merlin)
-    - `TUF-AX5400` / `388.23285`, `388.4_0` (Merlin)
+  - `4G-AX55U` / `380.8102`
+  - `GT-AX11000` / `388.4_0` (Merlin)
+  - `RT-AC88U` / `386.12_2`
+  - `RT-AX55` / `386.52041`
+  - `RT-AX56U` / `388.1_0` (Merlin), `388.2_2` (Merlin)
+  - `RT-AX58U` / `388.4_0` (Merlin)
+  - `RT-AX86U` / `388.4_0` (Merlin)
+  - `TUF-AX5400` / `388.23285`, `388.4_0` (Merlin)
 
 ## 0.26.0 💻 Clients tracking & multiple instances improvements
 
@@ -216,8 +211,8 @@ sidebarDepth: 1
 - Fixed bug with integration failing to load with unknown VPN settings (Surfshark, L2PT, PP2P) via VPN Fusion (Stock FW `388+`) (report [#726](https://github.com/Vaskivskyi/ha-asusrouter/issues/726))
 - Fixed bug with Guest WLAN switches (report [#727](https://github.com/Vaskivskyi/ha-asusrouter/issues/727), [#731](https://github.com/Vaskivskyi/ha-asusrouter/issues/731))
 - Fixed bug with `6 GHz` WLAN being reported as `5 GHz-2` on some models (report [#591](https://github.com/Vaskivskyi/ha-asusrouter/issues/591))
-    - All the models properly reporting `6 GHz` as supported in the services
-    - `RT-AXE95Q` (`ZenWiFi ET8`)
+  - All the models properly reporting `6 GHz` as supported in the services
+  - `RT-AXE95Q` (`ZenWiFi ET8`)
 
 ### 🔨 Other changes
 
@@ -317,8 +312,8 @@ sidebarDepth: 1
 - Added support for WireGuard (clients + server) (stock and Merlin FW `388+`) (report [#594](https://github.com/Vaskivskyi/ha-asusrouter/issues/594))
 - Added support for OpenVPN (clients + servers) (stock FW `388+`) (report [#470](https://github.com/Vaskivskyi/ha-asusrouter/issues/470))
 - Added support for secondary WAN and changed WAN sensors (report [#603](https://github.com/Vaskivskyi/ha-asusrouter/issues/603))
-    - Binary sensor `wan` (`wan_secondary`)
-    - Sensors `wan_ip` and `wan_ip_extra` (`wan_ip_secondary` and `wan_ip_secondary_extra`)
+  - Binary sensor `wan` (`wan_secondary`)
+  - Sensors `wan_ip` and `wan_ip_extra` (`wan_ip_secondary` and `wan_ip_secondary_extra`)
 - Added `internet` binary sensor to show the general state of the device internet connection (and IP address as an attribute of the sensor)
 - Added `dualwan` binary sensor
 - Added `wan_aggregation` binary sensor
@@ -417,8 +412,8 @@ sidebarDepth: 1
 - Added support for WireGuard (clients + server) (stock and Merlin FW `388+`) (report [#594](https://github.com/Vaskivskyi/ha-asusrouter/issues/594))
 - Added support for OpenVPN (clients + servers) (stock FW `388+`) (report [#470](https://github.com/Vaskivskyi/ha-asusrouter/issues/470))
 - Added support for secondary WAN and changed WAN sensors (report [#603](https://github.com/Vaskivskyi/ha-asusrouter/issues/603))
-    - Binary sensor `wan` (`wan_secondary`)
-    - Sensors `wan_ip` and `wan_ip_extra` (`wan_ip_secondary` and `wan_ip_secondary_extra`)
+  - Binary sensor `wan` (`wan_secondary`)
+  - Sensors `wan_ip` and `wan_ip_extra` (`wan_ip_secondary` and `wan_ip_secondary_extra`)
 - Added `internet` binary sensor to show the general state of the device internet connection (and IP address as an attribute of the sensor)
 - Added `dualwan` binary sensor
 - Added `wan_aggregation` binary sensor
@@ -584,20 +579,19 @@ This release brings a fully-rebuild core of the library, making it faster and si
 ### 📚 Documentation
 
 - Confirmed support for device / firmware:
-    - `DSL-AC68U` / `386.50117`
-    - `RT-AC66U B1` / `386.51255`
-    - `RT-AC86U` / `386.49709`
-    - `RT-AC88U` / `386.48260`, `386.5_0`
-    - `RT-AX58U` / `388.22237`
-    - `RT-AX86U Pro` / `388.23565`
-    - `RT-AX88U` / `388.24198`, `388.2_0`, `388.4_0`
-    - `RT-AXE7800` / `388_22068`
-    - `TUF-AX5400` / `388.22525`
-    - `TUF-AX6000` / `388.32432`
-    - `TUF-AX3000 V2` / `388.23785`
-    - `ZenWiFi AX (XT8)` / `388.23285`
-    - `ZenWiFi XT9` / `388_23285`
-
+  - `DSL-AC68U` / `386.50117`
+  - `RT-AC66U B1` / `386.51255`
+  - `RT-AC86U` / `386.49709`
+  - `RT-AC88U` / `386.48260`, `386.5_0`
+  - `RT-AX58U` / `388.22237`
+  - `RT-AX86U Pro` / `388.23565`
+  - `RT-AX88U` / `388.24198`, `388.2_0`, `388.4_0`
+  - `RT-AXE7800` / `388_22068`
+  - `TUF-AX5400` / `388.22525`
+  - `TUF-AX6000` / `388.32432`
+  - `TUF-AX3000 V2` / `388.23785`
+  - `ZenWiFi AX (XT8)` / `388.23285`
+  - `ZenWiFi XT9` / `388_23285`
 
 ## 0.23.0b4 🔨
 
@@ -625,7 +619,6 @@ This release brings a fully-rebuild core of the library, making it faster and si
 - Bumped `asusrouter` library to [`1.0.0b3`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.0.0b3)
 </details>
 
-
 ## 0.23.0b3 🔨
 
 `2023-10-30` / `beta`
@@ -643,7 +636,6 @@ This release brings a fully-rebuild core of the library, making it faster and si
 
 - Bumped `asusrouter` library to [`1.0.0b2`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.0.0b2)
 </details>
-
 
 ## 0.23.0b2 🔨
 
@@ -667,7 +659,6 @@ This release brings a fully-rebuild core of the library, making it faster and si
 - Bumped `asusrouter` library to [`1.0.0b1`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.0.0b1)
 </details>
 
-
 ## 0.23.0b1 🔨
 
 `2023-10-29` / `beta`
@@ -686,7 +677,6 @@ This release brings a fully-rebuild core of the library, making it faster and si
 
 - Added `TUF-AX3000 V2` to the supported
 </details>
-
 
 ## 0.23.0b0 🔨
 
@@ -747,7 +737,6 @@ This release brings a fully-rebuild core of the library, making it faster and si
 - Bumped `asusrouter` library to [`1.0.0b0`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.0.0b0)
 </details>
 
-
 ## 0.22.0 💻 On the way to a better configuration
 
 `2023-03-05`
@@ -757,14 +746,14 @@ This release brings a fully-rebuild core of the library, making it faster and si
 ### 🚀 Features
 
 - Improved SSDP discovery:
-    - Ignore devices with no serial number available
-    - Discovery is now based on FW instead of the manufacturer (only discover AsusWRT-powered devices)
+  - Ignore devices with no serial number available
+  - Discovery is now based on FW instead of the manufacturer (only discover AsusWRT-powered devices)
 - Improved configuration and options flow:
-    - Block multiple setups for a single serial number
-    - Configurable options are now sorted into a menu
-    - Allow to set up integration with no options (integration can now be setup in 3 short steps)
-    - Sorted options to be better grouped
-    - When credentials are not changed, the check will be now skipped (to minimize the number of connections)
+  - Block multiple setups for a single serial number
+  - Configurable options are now sorted into a menu
+  - Allow to set up integration with no options (integration can now be setup in 3 short steps)
+  - Sorted options to be better grouped
+  - When credentials are not changed, the check will be now skipped (to minimize the number of connections)
 
 ### 🐛 Bug fixes
 
@@ -784,7 +773,6 @@ This release brings a fully-rebuild core of the library, making it faster and si
 - Removed `lan_speed` and `wan_speed` sensors deprecated in `0.20.0`. Please, use the new sensors `port_status_lan` and `port_status_wan` ([more details](/features/ports.html))
 - Removed domain name from the entities’ unique ids
 
-
 ## 0.21.1 🚀 Support for HA 2023.3.x
 
 `2023-02-24`
@@ -798,7 +786,6 @@ This release brings a fully-rebuild core of the library, making it faster and si
 ### 📦 Dependencies
 
 - Bumped `asusrouter` library to [`0.20.3`](https://github.com/Vaskivskyi/asusrouter/releases/tag/0.20.3)
-
 
 ## 0.21.0 🔑 Network discovery
 
@@ -832,7 +819,6 @@ This release brings a fully-rebuild core of the library, making it faster and si
 
 - Removed name step from the configuration flow
 
-
 ## 0.20.0 🌵 Port Status
 
 `2023-02-12`
@@ -864,7 +850,6 @@ This release brings a fully-rebuild core of the library, making it faster and si
 - Improved code typing
 - Sorted integration manifest to fulfil the latest HA requirements
 
-
 ## 0.19.0 🌍 Port forwarding
 
 `2023-02-05`
@@ -879,10 +864,10 @@ This release brings a fully-rebuild core of the library, making it faster and si
 
 - Finished code optimization to fulfil most of the HA Core requirements
 - Added Port forwarding features (feature request [#136](https://github.com/Vaskivskyi/ha-asusrouter/issues/136)):
-    - Port forwarding binary sensor / switch for the feature status
-    - Service to set / remove port forwarding rules. Please follow the docs to find [more YAML features than available via HA frontend](/features/port-forwarding.html).
+  - Port forwarding binary sensor / switch for the feature status
+  - Service to set / remove port forwarding rules. Please follow the docs to find [more YAML features than available via HA frontend](/features/port-forwarding.html).
 - Added Media bridge mode (feature request [#494](https://github.com/Vaskivskyi/ha-asusrouter/issues/494)):
-    - The mode supports all the features of the Access point, but creates device trackers only for devices connected via wire
+  - The mode supports all the features of the Access point, but creates device trackers only for devices connected via wire
 
 ### 📚 Documentation
 
@@ -897,7 +882,6 @@ This release brings a fully-rebuild core of the library, making it faster and si
 
 - Refactored all the integration code
 
-
 ## 0.18.4 🔒 Improvement for HA 2023.2.x
 
 `2023-02-03`
@@ -907,7 +891,6 @@ This release brings a fully-rebuild core of the library, making it faster and si
 ### 🐛 Bug fixes
 
 - Fixed warning on HA 2023.2.x
-
 
 ## 0.18.3 🐛 A bugfix
 
@@ -922,7 +905,6 @@ This release brings a fully-rebuild core of the library, making it faster and si
 ### 📦 Dependencies
 
 - Bumped `asusrouter` library to [`0.19.7`](https://github.com/Vaskivskyi/asusrouter/releases/tag/0.19.7)
-
 
 ## 0.18.2 🐞 Improvements and fixes
 
@@ -954,7 +936,6 @@ This release brings a fully-rebuild core of the library, making it faster and si
 
 - Bumped `asusrouter` library to [`0.19.4`](https://github.com/Vaskivskyi/asusrouter/releases/tag/0.19.4), [`0.19.5`](https://github.com/Vaskivskyi/asusrouter/releases/tag/0.19.5), [`0.19.6`](https://github.com/Vaskivskyi/asusrouter/releases/tag/0.19.6)
 
-
 ## 0.18.1 🛠️ Better FW handling and more
 
 `2023-01-22`
@@ -974,7 +955,6 @@ This release brings a fully-rebuild core of the library, making it faster and si
 
 - Bumped `asusrouter` library to [`0.19.2`](https://github.com/Vaskivskyi/asusrouter/releases/tag/0.19.2), [`0.19.3`](https://github.com/Vaskivskyi/asusrouter/releases/tag/0.19.3)
 
-
 ## 0.18.0 🚀 Better backend
 
 `2023-01-21`
@@ -984,10 +964,10 @@ This release brings a fully-rebuild core of the library, making it faster and si
 ### 🚀 Features
 
 - Updated backend [`asusrouter`](https://github.com/Vaskivskyi/asusrouter) library and communication with Asus API:
-    - minimized number of API requests
-    - updated obtaining of connected devices data
-    - updated LED features
-    - updated communication with all the used API endpoints
+  - minimized number of API requests
+  - updated obtaining of connected devices data
+  - updated LED features
+  - updated communication with all the used API endpoints
 - Added secondary WAN info (feature request [#464](https://github.com/Vaskivskyi/ha-asusrouter/issues/464))
 - Added access point mode of operation (feature request [#C397](https://community.home-assistant.io/t/custom-component-asusrouter-integration/416111/397?u=vaskivskyi))
 - Removed deprecated fields and simplified configuration flow
@@ -1010,7 +990,6 @@ This release brings a fully-rebuild core of the library, making it faster and si
 - Migrated to `asusrouter` library [`0.18.0`](https://github.com/Vaskivskyi/asusrouter/releases/tag/0.18.0), [`0.18.1`](https://github.com/Vaskivskyi/asusrouter/releases/tag/0.18.1), [`0.18.2`](https://github.com/Vaskivskyi/asusrouter/releases/tag/0.18.2), [`0.18.3`](https://github.com/Vaskivskyi/asusrouter/releases/tag/0.18.3)
 - Migrated to `asusrouter` library [`0.19.0`](https://github.com/Vaskivskyi/asusrouter/releases/tag/0.19.0), [`0.19.1`](https://github.com/Vaskivskyi/asusrouter/releases/tag/0.19.1)
 
-
 ## 0.17.4 🐛 One more
 
 `2023-01-09`
@@ -1025,7 +1004,6 @@ This release brings a fully-rebuild core of the library, making it faster and si
 
 - Bumped `asusrouter` library to [`0.17.1`](https://github.com/Vaskivskyi/asusrouter/releases/tag/0.17.1)
 
-
 ## 0.17.3 💣 A new bugfix for older devices
 
 `2023-01-09`
@@ -1039,7 +1017,6 @@ This release brings a fully-rebuild core of the library, making it faster and si
 ### 📦 Dependencies
 
 - Bumped `asusrouter` library to [`0.17.0`](https://github.com/Vaskivskyi/asusrouter/releases/tag/0.17.0)
-
 
 ## 0.17.2 🔨 Migration improvement
 
@@ -1060,7 +1037,6 @@ This release brings a fully-rebuild core of the library, making it faster and si
 
 - Added link to the [`AsusRouter` -> `HA Core` merge feature request](https://community.home-assistant.io/t/add-asusrouter-integration-to-ha-core/515756?u=vaskivskyi)
 
-
 ## 0.17.1 🐛 A bugfix
 
 `2023-01-08`
@@ -1075,7 +1051,6 @@ This release brings a fully-rebuild core of the library, making it faster and si
 
 - Bumped `asusrouter` library to [`0.16.1`](https://github.com/Vaskivskyi/asusrouter/releases/tag/0.16.1)
 
-
 ## 0.17.0 🚀 AiMesh support
 
 `2023-01-08`
@@ -1089,17 +1064,17 @@ This release brings a fully-rebuild core of the library, making it faster and si
 ### 🚀 Features
 
 - Devices:
-    - Added device modes (`Router` or `AiMesh node`) which can be selected during initial integration configuration or via `Configure` option on the Integrations page
-    - Devices in `Router` mode support all the features of AsusRouter
-    - Devices in `AiMesh node` mode support the following feature groups: `Main`, `CPU`, `LED`, `Load average`, `Network`, `Ports`, `RAM`, `Temperature`. Other features are disabled as unreliable / duplicating
+  - Added device modes (`Router` or `AiMesh node`) which can be selected during initial integration configuration or via `Configure` option on the Integrations page
+  - Devices in `Router` mode support all the features of AsusRouter
+  - Devices in `AiMesh node` mode support the following feature groups: `Main`, `CPU`, `LED`, `Load average`, `Network`, `Ports`, `RAM`, `Temperature`. Other features are disabled as unreliable / duplicating
 - Added AiMesh support (FW: `386.x+` only, [details](/features/aimesh.html)):
-    - Wireless backhaul
-    - Wired backhaul
-    - Node status `binary_sensor` entities
-    - Node devices
-    - Node-related events: `asusrouter_node_connected`, `asusrouter_node_disconnected`, `asusrouter_node_reconnected`
-    - `via_device` attribute for the node devices
-    - AiMesh data is updated at the same rate as connected devices
+  - Wireless backhaul
+  - Wired backhaul
+  - Node status `binary_sensor` entities
+  - Node devices
+  - Node-related events: `asusrouter_node_connected`, `asusrouter_node_disconnected`, `asusrouter_node_reconnected`
+  - `via_device` attribute for the node devices
+  - AiMesh data is updated at the same rate as connected devices
 - Added node MAC to the connected device identity
 - Adjusted entities attributes to be sorted alphabetically in the frontend (except for some default attributes of `device_tracker` entities)
 - Improved generation of unique IDs
@@ -1134,7 +1109,6 @@ This release brings a fully-rebuild core of the library, making it faster and si
 - Switched to `UnitOfDataRate` enum (`>= 2023.1.0`)
 - Switched to `UnitOfInformation` enum (`>= 2023.1.0`)
 
-
 ## 0.16.1 👨‍👧‍👦 Guest WLAN bugfix
 
 `2022-12-31`
@@ -1156,7 +1130,6 @@ This release brings a fully-rebuild core of the library, making it faster and si
 ### 🐣 GitHub / HACS
 
 - Updated the supported device list in GitHub Readme
-
 
 ## 0.16.0 🎁 Many small improvements
 
@@ -1191,7 +1164,6 @@ This release brings a fully-rebuild core of the library, making it faster and si
 - Simplified generation of the static entities
 - Improved constants usage
 
-
 ## 0.15.1 📖 Dutch translation
 
 `2022-12-18`
@@ -1201,7 +1173,6 @@ This release brings a fully-rebuild core of the library, making it faster and si
 ### 📖 Translations
 
 - Added <img src="https://asusrouter.vaskivskyi.com/flags/nl.svg" height="20"> Dutch translation (author: [@poudenes](https://github.com/poudenes))
-
 
 ## 0.15.0 🌡️ More temperatures and fixes
 
@@ -1255,7 +1226,6 @@ This release brings a fully-rebuild core of the library, making it faster and si
 - Switched to `SourceType` enum (`>= 2022.9.0`)
 - Code improvements
 
-
 ## 0.14.3 📖 More translations
 
 `2022-12-14`
@@ -1266,7 +1236,6 @@ This release brings a fully-rebuild core of the library, making it faster and si
 
 - Added <img src="https://asusrouter.vaskivskyi.com/flags/sk.svg" height="20"> Slovak translation (author: [@blavak68](https://github.com/blavak68))
 - Completed <img src="https://asusrouter.vaskivskyi.com/flags/br.svg" height="20"> Portuguese (Brazil) translation (author: [@edwardtfn](https://github.com/edwardtfn))
-
 
 ## 0.14.2 📖 Two new languages
 
@@ -1279,7 +1248,6 @@ This release brings a fully-rebuild core of the library, making it faster and si
 - Added <img src="https://asusrouter.vaskivskyi.com/flags/cz.svg" height="20"> Czech translation (author: [@pepe59](https://github.com/pepe59))
 - Added <img src="https://asusrouter.vaskivskyi.com/flags/fr.svg" height="20"> French translation (author: [@novisys](https://github.com/novisys))
 
-
 ## 0.14.1 📖 Updated translation
 
 `2022-12-05`
@@ -1289,7 +1257,6 @@ This release brings a fully-rebuild core of the library, making it faster and si
 ### 📖 Translations
 
 - Updated <img src="https://asusrouter.vaskivskyi.com/flags/es.svg" height="20"> Spanish translation (author: [@Nyaran](https://github.com/Nyaran))
-
 
 ## 0.14.0 🎄Remove device trackers and more
 
@@ -1306,7 +1273,6 @@ This release brings a fully-rebuild core of the library, making it faster and si
 
 - Bump `asusrouter` library to [`0.13.0`](https://github.com/Vaskivskyi/asusrouter/releases/tag/0.13.0)
 
-
 ## 0.13.1 🐛 Bugfix for HA 2022-12
 
 `2022-12-02`
@@ -1316,7 +1282,6 @@ This release brings a fully-rebuild core of the library, making it faster and si
 ### 🐛 Bug fixes
 
 - Fixed problems with dependencies on HomeAssistant `>= 2022.12.0beta1`
-
 
 ## 0.13.0 🔍 Latest connected devices tracking and improved parental control
 
