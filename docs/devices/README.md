@@ -16,6 +16,7 @@ description: "Integrate your Asus router into Home Assistant with AsusRouter"
 |[GT-BE98](/devices/GT-BE98.md)|💛 Expected to work||<a href="https://amzn.to/3vGztgz" rel="nofollow sponsored" target="_blank">find it</a>|
 |[GT-BE98 Pro](/devices/GT-BE98Pro.md)|💛 Expected to work||<a href="https://amzn.to/3uoSjeR" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-BE88U](/devices/RT-BE88U.md)|💛 Expected to work||<a href="https://amzn.to/3TAGCKY" rel="nofollow sponsored" target="_blank">find it</a>|
+|[RT-BE92U](/devices/RT-BE92U.md)|💛 Expected to work||<a href="https://amzn.to/4c1E8gg" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-BE96U](/devices/RT-BE96U.md)|💛 Expected to work||<a href="https://amzn.to/3vJu8oD" rel="nofollow sponsored" target="_blank">find it</a>|
 |[TUF-BE3600](/devices/TUF-BE3600.md)|💛 Expected to work||<a href="https://amzn.to/3VhHoyt" rel="nofollow sponsored" target="_blank">find it</a>|
 |[TUF-BE6500](/devices/TUF-BE6500.md)|💛 Expected to work||<a href="https://amzn.to/3X3Xltv" rel="nofollow sponsored" target="_blank">find it</a>|
@@ -28,7 +29,7 @@ description: "Integrate your Asus router into Home Assistant with AsusRouter"
 |Model|Status|Tested firmware|Find it on Amazon[^amazon]|
 |---|---|---|---|
 |[GT-AXE11000](/devices/GT-AXE11000.md)|💛 Expected to work||<a href="https://amzn.to/3Gotj9R" rel="nofollow sponsored" target="_blank">find it</a>|
-|[GT-AXE16000](/devices/GT-AXE16000.md)|💚 Confirmed|Stock:<li>`388.21617`</li>|<a href="https://amzn.to/3vObLyZ" rel="nofollow sponsored" target="_blank">find it</a>|
+|[GT-AXE16000](/devices/GT-AXE16000.md)|💚 Confirmed|Stock:<li>`388.21617`</li>Merlin:<li>`388.7_beta1_rog`</li>|<a href="https://amzn.to/3vObLyZ" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AXE7800](/devices/RT-AXE7800.md)|💚 Confirmed|Stock:<li>`388_22068`</li>|<a href="https://amzn.to/3jUr2LU" rel="nofollow sponsored" target="_blank">find it</a>|
 |[ZenWiFi ET8](/devices/ZenWiFiET8.md)|💚 Confirmed|Stock:<li>`388.23759`</li>|<a href="https://amzn.to/3Iks0La" rel="nofollow sponsored" target="_blank">find it</a>|
 |[ZenWiFi Pro ET12](/devices/ZenWiFiProET12.md)|💚 Confirmed|Stock:<li>`388.23013`</li>|<a href="https://amzn.to/3GTz68P" rel="nofollow sponsored" target="_blank">find it</a>|
@@ -37,9 +38,9 @@ description: "Integrate your Asus router into Home Assistant with AsusRouter"
 |Model|Status|Tested firmware|Find it on Amazon[^amazon]|
 |---|---|---|---|
 |[DSL-AX82U](/devices/DSL-AX82U.md)|💚 Confirmed|Merlin:<li>`386.07_0-gnuton0_beta2`</li>|<a href="https://amzn.to/3G87vyR" rel="nofollow sponsored" target="_blank">find it</a>|
-|[GT-AX11000](/devices/GT-AX11000.md)|💚 Confirmed|Merlin:<li>`386.7_2`</li><li>`388.1_0`</li><li>`388.4_0`</li>|<a href="https://amzn.to/3WDzOMT" rel="nofollow sponsored" target="_blank">find it</a>|
+|[GT-AX11000](/devices/GT-AX11000.md)|💚 Confirmed|Merlin:<li>`386.7_2`</li><li>`388.1_0`</li><li>`388.4_0`</li><li>`388.7_0_rog`</li>|<a href="https://amzn.to/3WDzOMT" rel="nofollow sponsored" target="_blank">find it</a>|
 |[GT-AX11000 Pro](/devices/GT-AX11000Pro.md)|💚 Confirmed|Stock:<li>`388.24198`</li>|<a href="https://amzn.to/3VUNbHl" rel="nofollow sponsored" target="_blank">find it</a>|
-|[GT-AX6000](/devices/GT-AX6000.md)|💛 Expected to work||<a href="https://amzn.to/3GrKHKG" rel="nofollow sponsored" target="_blank">find it</a>|
+|[GT-AX6000](/devices/GT-AX6000.md)|💛 Expected to work|Merlin:<li>`388.7_beta1`</li>|<a href="https://amzn.to/3GrKHKG" rel="nofollow sponsored" target="_blank">find it</a>|
 |[GT6](/devices/GT6.md)|💛 Expected to work||<a href="https://amzn.to/3GmPCfR" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX3000P](/devices/RT-AX3000P.md)|💛 Expected to work||<a href="https://amzn.to/3RPa2UO" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX52](/devices/RT-AX52.md)|💛 Expected to work||<a href="https://amzn.to/40Ph3sO" rel="nofollow sponsored" target="_blank">find it</a>|
@@ -55,7 +56,7 @@ description: "Integrate your Asus router into Home Assistant with AsusRouter"
 |[RT-AX68U](/devices/RT-AX68U.md)|💚 Confirmed|Stock:<li>`388.21732`</li>|<a href="https://amzn.to/3WzRwk5" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX82U](/devices/RT-AX82U.md)|💚 Confirmed|Stock:<li>`386.48664`</li><li>`386.49674`</li>|<a href="https://amzn.to/3Gv2Bxi" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX86S](/devices/RT-AX86S.md)|💚 Confirmed|Stock:<li>`386.46061`</li><li>`386.48260`</li><li>`386.49447`</li><li>`388.22525`</li>Merlin:<li>`386.7_2`</li>|<a href="https://amzn.to/3GuKac5" rel="nofollow sponsored" target="_blank">find it</a>|
-|[RT-AX86U](/devices/RT-AX86U.md)|💚 Confirmed|Stock:<li>`386.46061`</li><li>`386.48260`</li><li>`386.49447`</li><li>`388.22525`</li>Merlin:<li>`386.7_2`</li><li>`388.4_0`</li>|<a href="https://amzn.to/3WCBcPO" rel="nofollow sponsored" target="_blank">find it</a>|
+|[RT-AX86U](/devices/RT-AX86U.md)|💚 Confirmed|Stock:<li>`386.46061`</li><li>`386.48260`</li><li>`386.49447`</li><li>`388.22525`</li>Merlin:<li>`386.7_2`</li><li>`388.4_0`</li><li>`388.7_beta1`</li>|<a href="https://amzn.to/3WCBcPO" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX86U Pro](/devices/RT-AX86UPro.md)|💚 Confirmed|Stock:<li>`388.23565`</li>|<a href="https://amzn.to/3ZDM41T" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX88U](/devices/RT-AX88U.md)|💚 Confirmed|Stock:<li>`386.45934`</li><li>`386.48631`</li><li>`388.24198`</li>Merlin:<li>`386.5_2`</li><li>`386.8_0`</li><li>`388.1_0`</li><li>`388.2_0`</li><li>`388.4_0`</li><li>`388.7_0`</li>|<a href="https://amzn.to/3i2VfYu" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AX88U Pro](/devices/RT-AX88UPro.md)|💚 Confirmed|Merlin:<li>`388.4_0`</li>|<a href="https://amzn.to/3QNDpFZ" rel="nofollow sponsored" target="_blank">find it</a>|

@@ -1,29 +1,25 @@
 {
-  "model": "GT-AX6000",
-  "name": "ROG Rapture GT-AX6000",
-  "wifi": "6",
+  "model": "RT-BE92U",
+  "wifi": "7",
   "links": {
-    "asus": "https://rog.asus.com/networking/rog-rapture-gt-ax6000-model/",
-    "amazon": "https://amzn.to/3GrKHKG"
+    "asus": "https://www.asus.com/networking-iot-servers/wifi-routers/asus-wifi-routers/asus-rt-be92u/",
+    "amazon": "https://amzn.to/4c1E8gg"
   },
   "firmware": {
-    "386": true,
+    "386": false,
     "388": true,
     "106": true
   },
   "tested": {
     "state": false,
     "stock": [],
-    "merlin": ["388.7_beta1"]
+    "merlin": []
   },
   "features": {
     "main": {},
     "aimesh": {},
     "connected-devices": {},
-    "cpu": {
-      "cores": 4,
-      "frequency": "2.0 GHz"
-    },
+    "cpu": {},
     "guest-wlan": {},
     "led": {},
     "load-average": {},
@@ -35,38 +31,28 @@
       "lan": [
         {
           "id": [1, 4],
-          "speed": 1000
-        },
-        {
-          "id": 5,
           "speed": 2500
         }
       ],
-      "lan_aggr": true,
+      "lan_aggr": false,
       "wan": [
         {
           "id": 0,
-          "speed": 2500
+          "speed": 10000
         }
       ],
-      "wan_aggr": true
+      "wan_aggr": false
     },
-    "ram": {
-      "capacity": 1,
-      "units": "GB"
-    },
+    "ram": {},
     "temperature": {},
     "wan": {
       "dual_wan": true
     },
     "wireguard": {},
     "wlan": {
-      "2ghz": {
-        "speed": 1148
-      },
-      "5ghz": {
-        "speed": 4804
-      }
+      "2ghz": {},
+      "5ghz": {},
+      "6ghz": {}
     }
   }
 }

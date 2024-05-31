@@ -1,93 +1,77 @@
 {
-    "model": "GT-AXE16000",
-    "name": "ROG Rapture GT-AXE16000",
-    "wifi": "6e",
-    "links": {
-        "asus": "https://rog.asus.com/networking/rog-rapture-gt-axe16000-model/",
-        "amazon": "https://amzn.to/3vObLyZ"
+  "model": "GT-AXE16000",
+  "name": "ROG Rapture GT-AXE16000",
+  "wifi": "6e",
+  "links": {
+    "asus": "https://rog.asus.com/networking/rog-rapture-gt-axe16000-model/",
+    "amazon": "https://amzn.to/3vObLyZ"
+  },
+  "firmware": {
+    "386": true,
+    "388": true
+  },
+  "tested": {
+    "state": true,
+    "stock": ["388.21617"],
+    "merlin": ["388.7_beta1_rog"]
+  },
+  "features": {
+    "main": {},
+    "aimesh": {},
+    "connected-devices": {},
+    "cpu": {
+      "cores": 4,
+      "frequency": "2.0 GHz"
     },
-    "firmware": {
-        "386": true,
-        "388": true
-    },
-    "tested": {
-        "state": true,
-        "stock": [
-            "388.21617"
-        ],
-        "merlin": [
-            
-        ]
-    },
-    "features": {
-        "main": {
+    "guest-wlan": {},
+    "led": {},
+    "load-average": {},
+    "network": {},
+    "openvpn": {},
+    "parental-control": {},
+    "port-forwarding": {},
+    "ports": {
+      "lan": [
+        {
+          "id": [1, 4],
+          "speed": 1000
         },
-        "aimesh": {
-        },
-        "connected-devices": {
-        },
-        "cpu": {
-            "cores": 4,
-            "frequency": "2.0 GHz"
-        },
-        "guest-wlan": {
-        },
-        "led": {
-        },
-        "load-average": {
-        },
-        "network": {
-        },
-        "openvpn": {
-        },
-        "parental-control": {
-        },
-        "port-forwarding": {
-        },
-        "ports": {
-            "lan": [
-                {
-                    "id": [1, 4],
-                    "speed": 1000
-                },
-                {
-                    "id": [5, 6],
-                    "speed": 10000
-                }
-            ],
-            "lan_aggr": true,
-            "wan": [
-                {
-                    "id": 0,
-                    "speed": 2500
-                }
-            ],
-            "wan_aggr": true
-        },
-        "ram": {
-            "capacity": 2,
-            "units": "GB"
-        },
-        "temperature": {
-        },
-        "wan": {
-            "dual_wan": true
-        },
-        "wireguard": {
-        },
-        "wlan": {
-            "2ghz": {
-                "speed": 1148
-            },
-            "5ghz": {
-                "speed": 4804
-            },
-            "5ghz2": {
-                "speed": 4804
-            },
-            "6ghz": {
-                "speed": 4804
-            }
+        {
+          "id": [5, 6],
+          "speed": 10000
         }
+      ],
+      "lan_aggr": true,
+      "wan": [
+        {
+          "id": 0,
+          "speed": 2500
+        }
+      ],
+      "wan_aggr": true
+    },
+    "ram": {
+      "capacity": 2,
+      "units": "GB"
+    },
+    "temperature": {},
+    "wan": {
+      "dual_wan": true
+    },
+    "wireguard": {},
+    "wlan": {
+      "2ghz": {
+        "speed": 1148
+      },
+      "5ghz": {
+        "speed": 4804
+      },
+      "5ghz2": {
+        "speed": 4804
+      },
+      "6ghz": {
+        "speed": 4804
+      }
     }
+  }
 }
