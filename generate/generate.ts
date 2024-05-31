@@ -175,6 +175,13 @@ export async function generateDevice(device: any) {
         }
     }
 
+    let deviceTitle = device.name !== undefined ? device.name : device.model
+    if (device.alt_names !== undefined) {
+        for (const name in device.alt_names) {
+            deviceTitle += "<br />" + device.alt_names[name];
+        }
+    }
+
     let content = `---
 title: "Asus ${title} control from Home Assistant"
 description: "Integrate your ${device.model} into Home Assistant with AsusRouter"
@@ -184,7 +191,7 @@ description: "Integrate your ${device.model} into Home Assistant with AsusRouter
 <!-- !!! -->
 # ${title}
 
-|${device.name !== undefined ? device.name : device.model}|Tested / reported firmware|
+|${deviceTitle}|Tested / reported firmware|
 |---|---|
 |<img src="${await getImage(model)}" width="300">|<b>Stock:</b>${genFWversions(device.tested.stock)}<b>Merlin:</b>${genFWversions(device.tested.merlin)}|
 |${device.links.asus !== undefined ? '<li><a href="' + device.links.asus + '" rel="nofollow" target="_blank">Official webpage</a></li>' : ""}${device.links.amazon !== undefined ? '<li><a href="' + device.links.amazon + '" rel="nofollow sponsored" target="_blank">Buy it on Amazon [^amazon]</a></li>' : ""}|${device.tested.state === true ? "<li>:green_heart: Tested to work with AsusRouter</li>" : "<li>:yellow_heart: This device has not been tested yet, but should work with AsusRouter</li>"}${device.tested.available ? "<li>:green_heart: Available for tests</li>" : ""}<li><a href="https://github.com/Vaskivskyi/ha-asusrouter/issues/new/choose" rel="nofollow" target="_blank">Add you report about this device</a></li>|
