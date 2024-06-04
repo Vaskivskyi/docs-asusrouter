@@ -1,5 +1,5 @@
 ---
-title: "Asus ZenWiFi BT10 control from Home Assistant"
+title: "Asus ZenWiFi BT10"
 description: "Integrate your ZenWiFi BT10 into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->

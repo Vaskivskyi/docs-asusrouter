@@ -1,5 +1,5 @@
 ---
-title: "Asus RT-BE92U control from Home Assistant"
+title: "Asus RT-BE92U"
 description: "Integrate your RT-BE92U into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->

@@ -1,5 +1,5 @@
 ---
-title: "Asus RT-ACRH17 control from Home Assistant"
+title: "Asus RT-ACRH17"
 description: "Integrate your RT-ACRH17 into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->

@@ -1,5 +1,5 @@
 ---
-title: "Asus ZenWiFi XD6S control from Home Assistant"
+title: "Asus ZenWiFi XD6S"
 description: "Integrate your ZenWiFi XD6S into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->

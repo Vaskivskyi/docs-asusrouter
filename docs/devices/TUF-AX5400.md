@@ -1,5 +1,5 @@
 ---
-title: "Asus TUF Gaming AX5400 control from Home Assistant"
+title: "Asus TUF Gaming AX5400"
 description: "Integrate your TUF-AX5400 into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->

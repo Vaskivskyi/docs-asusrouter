@@ -1,5 +1,5 @@
 ---
-title: "Asus ZenWiFi BQ16 control from Home Assistant"
+title: "Asus ZenWiFi BQ16"
 description: "Integrate your ZenWiFi BQ16 into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->

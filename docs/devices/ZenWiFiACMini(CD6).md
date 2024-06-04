@@ -1,5 +1,5 @@
 ---
-title: "Asus ZenWiFi AC Mini(CD6) control from Home Assistant"
+title: "Asus ZenWiFi AC Mini(CD6)"
 description: "Integrate your ZenWiFi AC Mini(CD6) into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->

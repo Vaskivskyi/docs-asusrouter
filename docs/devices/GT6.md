@@ -1,5 +1,5 @@
 ---
-title: "Asus ROG Rapture GT6 control from Home Assistant"
+title: "Asus ROG Rapture GT6"
 description: "Integrate your GT6 into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->

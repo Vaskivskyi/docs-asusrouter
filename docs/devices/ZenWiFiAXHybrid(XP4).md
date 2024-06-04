@@ -1,5 +1,5 @@
 ---
-title: "Asus ZenWiFi AX Hybrid (XP4) control from Home Assistant"
+title: "Asus ZenWiFi AX Hybrid (XP4)"
 description: "Integrate your ZenWiFi AX Hybrid (XP4) into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->

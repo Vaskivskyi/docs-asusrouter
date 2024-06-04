@@ -1,5 +1,5 @@
 ---
-title: "Asus ZenWiFi Pro XT12 control from Home Assistant"
+title: "Asus ZenWiFi Pro XT12"
 description: "Integrate your ZenWiFi Pro XT12 into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->

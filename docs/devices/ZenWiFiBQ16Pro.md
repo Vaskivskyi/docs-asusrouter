@@ -1,11 +1,11 @@
 ---
-title: "Asus ZenWiFi BQ16 Pro control from Home Assistant"
+title: "Asus ZenWiFi BQ16 Pro | ZenWiFi BE30000"
 description: "Integrate your ZenWiFi BQ16 Pro into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->
 <!-- This file is auto-generated -->
 <!-- !!! -->
-# ZenWiFi BQ16 Pro
+# ZenWiFi BQ16 Pro | ZenWiFi BE30000
 
 |ZenWiFi BQ16 Pro|Tested / reported firmware|
 |---|---|

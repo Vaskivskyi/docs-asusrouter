@@ -1,5 +1,5 @@
 ---
-title: "Asus 4G-AC55U control from Home Assistant"
+title: "Asus 4G-AC55U"
 description: "Integrate your 4G-AC55U into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->

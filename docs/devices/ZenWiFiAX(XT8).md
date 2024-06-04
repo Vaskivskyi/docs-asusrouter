@@ -1,5 +1,5 @@
 ---
-title: "Asus ZenWiFi AX (XT8) control from Home Assistant"
+title: "Asus ZenWiFi AX (XT8)"
 description: "Integrate your ZenWiFi AX (XT8) into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->

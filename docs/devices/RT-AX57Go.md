@@ -1,5 +1,5 @@
 ---
-title: "Asus RT-AX57 Go control from Home Assistant"
+title: "Asus RT-AX57 Go"
 description: "Integrate your RT-AX57 Go into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->

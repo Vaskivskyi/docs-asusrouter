@@ -13,8 +13,10 @@ description: "Integrate your Asus router into Home Assistant with AsusRouter"
 ## WiFi 7 | 802.11be
 |Model|Status|Tested firmware|Find it on Amazon[^amazon]|
 |---|---|---|---|
+|[GT-BE19000](/devices/GT-BE19000.md)|💛 Expected to work||<a href="https://amzn.to/3yGFU7U" rel="nofollow sponsored" target="_blank">find it</a>|
 |[GT-BE98](/devices/GT-BE98.md)|💛 Expected to work||<a href="https://amzn.to/3vGztgz" rel="nofollow sponsored" target="_blank">find it</a>|
 |[GT-BE98 Pro](/devices/GT-BE98Pro.md)|💛 Expected to work||<a href="https://amzn.to/3uoSjeR" rel="nofollow sponsored" target="_blank">find it</a>|
+|[RT-BE58U](/devices/RT-BE58U.md)|💛 Expected to work||<a href="https://amzn.to/4bHsdo4" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-BE88U](/devices/RT-BE88U.md)|💛 Expected to work||<a href="https://amzn.to/3TAGCKY" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-BE92U](/devices/RT-BE92U.md)|💛 Expected to work||<a href="https://amzn.to/4c1E8gg" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-BE96U](/devices/RT-BE96U.md)|💛 Expected to work||<a href="https://amzn.to/3vJu8oD" rel="nofollow sponsored" target="_blank">find it</a>|
@@ -32,6 +34,7 @@ description: "Integrate your Asus router into Home Assistant with AsusRouter"
 |[GT-AXE16000](/devices/GT-AXE16000.md)|💚 Confirmed|Stock:<li>`388.21617`</li>Merlin:<li>`388.7_beta1_rog`</li>|<a href="https://amzn.to/3vObLyZ" rel="nofollow sponsored" target="_blank">find it</a>|
 |[RT-AXE7800](/devices/RT-AXE7800.md)|💚 Confirmed|Stock:<li>`388_22068`</li>|<a href="https://amzn.to/3jUr2LU" rel="nofollow sponsored" target="_blank">find it</a>|
 |[ZenWiFi ET8](/devices/ZenWiFiET8.md)|💚 Confirmed|Stock:<li>`388.23759`</li>|<a href="https://amzn.to/3Iks0La" rel="nofollow sponsored" target="_blank">find it</a>|
+|[ZenWiFi ET9](/devices/ZenWiFiET9.md)|💛 Expected to work||<a href="https://amzn.to/3RbMKJa" rel="nofollow sponsored" target="_blank">find it</a>|
 |[ZenWiFi Pro ET12](/devices/ZenWiFiProET12.md)|💚 Confirmed|Stock:<li>`388.23013`</li>|<a href="https://amzn.to/3GTz68P" rel="nofollow sponsored" target="_blank">find it</a>|
 
 ## WiFi 6 | 802.11ax

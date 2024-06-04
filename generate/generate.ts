@@ -183,7 +183,7 @@ export async function generateDevice(device: any) {
     }
 
     let content = `---
-title: "Asus ${title} control from Home Assistant"
+title: "Asus ${title}"
 description: "Integrate your ${device.model} into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->

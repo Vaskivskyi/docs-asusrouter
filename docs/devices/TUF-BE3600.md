@@ -1,5 +1,5 @@
 ---
-title: "Asus TUF Gaming BE3600 control from Home Assistant"
+title: "Asus TUF Gaming BE3600"
 description: "Integrate your TUF-BE3600 into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->

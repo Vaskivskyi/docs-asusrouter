@@ -1,5 +1,5 @@
 ---
-title: "Asus RT-AC85P control from Home Assistant"
+title: "Asus RT-AC85P"
 description: "Integrate your RT-AC85P into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->

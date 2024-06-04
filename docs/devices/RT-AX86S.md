@@ -1,5 +1,5 @@
 ---
-title: "Asus RT-AX86S control from Home Assistant"
+title: "Asus RT-AX86S"
 description: "Integrate your RT-AX86S into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->

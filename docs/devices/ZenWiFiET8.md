@@ -1,5 +1,5 @@
 ---
-title: "Asus ZenWiFi ET8 control from Home Assistant"
+title: "Asus ZenWiFi ET8"
 description: "Integrate your ZenWiFi ET8 into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->

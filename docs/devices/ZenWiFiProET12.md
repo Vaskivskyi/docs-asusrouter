@@ -1,5 +1,5 @@
 ---
-title: "Asus ZenWiFi Pro ET12 control from Home Assistant"
+title: "Asus ZenWiFi Pro ET12"
 description: "Integrate your ZenWiFi Pro ET12 into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->

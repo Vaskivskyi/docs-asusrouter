@@ -1,13 +1,13 @@
 {
-  "model": "RT-BE96U",
+  "model": "GT-BE19000",
   "wifi": "7",
   "links": {
-    "asus": "https://www.asus.com/networking-iot-servers/wifi-routers/asus-gaming-routers/rt-be96u/",
-    "amazon": "https://amzn.to/3vJu8oD"
+    "asus": "https://rog.asus.com/networking/rog-rapture-gt-be19000/",
+    "amazon": "https://amzn.to/3yGFU7U"
   },
   "firmware": {
     "386": false,
-    "388": true,
+    "388": false,
     "106": true
   },
   "tested": {
@@ -33,11 +33,15 @@
     "ports": {
       "lan": [
         {
-          "id": [1, 3],
+          "id": [1, 4],
+          "speed": 2500
+        },
+        {
+          "id": [5],
           "speed": 1000
         },
         {
-          "id": [4, 5],
+          "id": [6],
           "speed": 10000
         }
       ],
@@ -45,7 +49,7 @@
       "wan": [
         {
           "id": 0,
-          "speed": 1000
+          "speed": 10000
         }
       ],
       "wan_aggr": true
@@ -64,10 +68,10 @@
         "speed": 1376
       },
       "5ghz": {
-        "speed": 5762
+        "speed": 5764
       },
       "6ghz": {
-        "speed": 11525
+        "speed": 11529
       }
     }
   }
