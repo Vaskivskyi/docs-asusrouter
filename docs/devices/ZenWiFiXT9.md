@@ -1,5 +1,5 @@
 ---
-title: "Asus ZenWiFi XT9 control from Home Assistant"
+title: "Asus ZenWiFi XT9"
 description: "Integrate your ZenWiFi XT9 into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->

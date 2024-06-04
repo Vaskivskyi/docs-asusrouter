@@ -1,91 +1,75 @@
 {
-    "model": "ZenWiFi BQ16 Pro",
-    "wifi": "7",
-    "links": {
-        "asus": "https://www.asus.com/networking-iot-servers/whole-home-mesh-wifi-system/zenwifi-wifi-systems/asus-zenwifi-bq16-pro/",
-        "amazon": "https://amzn.to/3MNcw48"
-    },
-    "firmware": {
-        "386": false,
-        "388": false,
-        "106": true
-    },
-    "tested": {
-        "state": false,
-        "stock": [
-            
-        ],
-        "merlin": [
-            
-        ]
-    },
-    "features": {
-        "main": {
+  "model": "ZenWiFi BQ16 Pro",
+  "alternative": ["ZenWiFi BE30000"],
+  "wifi": "7",
+  "links": {
+    "asus": "https://www.asus.com/networking-iot-servers/whole-home-mesh-wifi-system/zenwifi-wifi-systems/asus-zenwifi-bq16-pro/",
+    "amazon": "https://amzn.to/3MNcw48"
+  },
+  "firmware": {
+    "386": false,
+    "388": false,
+    "106": true
+  },
+  "tested": {
+    "state": false,
+    "stock": [],
+    "merlin": []
+  },
+  "features": {
+    "main": {},
+    "aimesh": {},
+    "connected-devices": {},
+    "cpu": {},
+    "guest-wlan": {},
+    "led": {},
+    "load-average": {},
+    "network": {},
+    "openvpn": {},
+    "parental-control": {},
+    "port-forwarding": {},
+    "ports": {
+      "lan": [
+        {
+          "id": [2, 4, 5],
+          "speed": 1000
         },
-        "aimesh": {
-        },
-        "connected-devices": {
-        },
-        "cpu": {
-        },
-        "guest-wlan": {
-        },
-        "led": {
-        },
-        "load-average": {
-        },
-        "network": {
-        },
-        "openvpn": {
-        },
-        "parental-control": {
-        },
-        "port-forwarding": {
-        },
-        "ports": {
-            "lan": [
-                {
-                    "id": [2, 4, 5],
-                    "speed": 1000
-                },
-                {
-                    "id": 3,
-                    "speed": 10000
-                }
-            ],
-            "lan_aggr": true,
-            "wan": [
-                {
-                    "id": 0,
-                    "speed": 10000
-                }
-            ],
-            "wan_aggr": false
-        },
-        "ram": {
-            "capacity": 2,
-            "units": "GB"
-        },
-        "temperature": {
-        },
-        "wan": {
-            "dual_wan": true
-        },
-        "wireguard": {
-        },
-        "wlan": {
-            "2ghz": {
-                "speed": 1376
-            },
-            "5ghz": {
-                "speed": 5764
-            },
-            "6ghz": {
-                "speed": 11529
-            },
-            "6ghz2": {
-                "speed": 11529
-            }
+        {
+          "id": 3,
+          "speed": 10000
         }
+      ],
+      "lan_aggr": true,
+      "wan": [
+        {
+          "id": 0,
+          "speed": 10000
+        }
+      ],
+      "wan_aggr": false
+    },
+    "ram": {
+      "capacity": 2,
+      "units": "GB"
+    },
+    "temperature": {},
+    "wan": {
+      "dual_wan": true
+    },
+    "wireguard": {},
+    "wlan": {
+      "2ghz": {
+        "speed": 1376
+      },
+      "5ghz": {
+        "speed": 5764
+      },
+      "6ghz": {
+        "speed": 11529
+      },
+      "6ghz2": {
+        "speed": 11529
+      }
     }
+  }
 }

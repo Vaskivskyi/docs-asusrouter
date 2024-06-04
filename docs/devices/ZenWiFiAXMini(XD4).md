@@ -1,5 +1,5 @@
 ---
-title: "Asus ZenWiFi AX Mini (XD4) control from Home Assistant"
+title: "Asus ZenWiFi AX Mini (XD4)"
 description: "Integrate your ZenWiFi AX Mini (XD4) into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->

@@ -1,5 +1,5 @@
 ---
-title: "Asus RT-AC58U | RT-ACRH13 control from Home Assistant"
+title: "Asus RT-AC58U | RT-ACRH13"
 description: "Integrate your RT-AC58U into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->

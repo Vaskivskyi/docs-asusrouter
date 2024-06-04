@@ -1,5 +1,5 @@
 ---
-title: "Asus DSL-AC68U control from Home Assistant"
+title: "Asus DSL-AC68U"
 description: "Integrate your DSL-AC68U into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->

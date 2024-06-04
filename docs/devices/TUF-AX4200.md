@@ -1,5 +1,5 @@
 ---
-title: "Asus TUF Gaming AX4200 control from Home Assistant"
+title: "Asus TUF Gaming AX4200"
 description: "Integrate your TUF-AX4200 into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->

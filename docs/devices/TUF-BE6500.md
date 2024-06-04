@@ -1,5 +1,5 @@
 ---
-title: "Asus TUF 小旋风Pro WiFi7 BE6500 control from Home Assistant"
+title: "Asus TUF 小旋风Pro WiFi7 BE6500"
 description: "Integrate your TUF-BE6500 into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->

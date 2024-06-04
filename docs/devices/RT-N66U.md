@@ -1,5 +1,5 @@
 ---
-title: "Asus RT-N66U control from Home Assistant"
+title: "Asus RT-N66U"
 description: "Integrate your RT-N66U into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->

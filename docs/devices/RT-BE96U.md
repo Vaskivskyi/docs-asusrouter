@@ -1,5 +1,5 @@
 ---
-title: "Asus RT-BE96U control from Home Assistant"
+title: "Asus RT-BE96U"
 description: "Integrate your RT-BE96U into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->
@@ -29,7 +29,7 @@ description: "Integrate your RT-BE96U into Home Assistant with AsusRouter"
 |[OpenVPN](/features/openvpn.md)|:green_heart: Full|`default`||
 |[Parental control](/features/parental-control.md)|:green_heart: Full|`default`||
 |[Port forwarding](/features/port-forwarding.md)|:green_heart: Full|`default`||
-|[Ports](/features/ports.md)|:green_heart: Full|`lan_speed` attributes:<li>`lan_{x}`, `x=[1,4]`</li><li>up to `1000 Mb/s`</li><li>`lan_{x}`, `x=[5,6]`</li><li>up to `10000 Mb/s`</li>`wan_speed` attributes:<li>`wan_0`</li><li>up to `1000 Mb/s`</li>|<li>LAN aggregation</li><li>WAN aggregation</li>|
+|[Ports](/features/ports.md)|:green_heart: Full|`lan_speed` attributes:<li>`lan_{x}`, `x=[1,3]`</li><li>up to `1000 Mb/s`</li><li>`lan_{x}`, `x=[4,5]`</li><li>up to `10000 Mb/s`</li>`wan_speed` attributes:<li>`wan_0`</li><li>up to `1000 Mb/s`</li>|<li>LAN aggregation</li><li>WAN aggregation</li>|
 |[RAM](/features/ram.md)|:green_heart: Full|`default`|2 GB|
 |[Temperature](/features/temperature.md)|:green_heart: Full|Stock:<li>`CPU`</li>Merlin:<li>`CPU`</li><li>`2.4 GHz`</li><li>`5 GHz`</li><li>`6 GHz`</li>||
 |[WAN](/features/wan.md)|:green_heart: Full|`default`|<li>Dual WAN</li>|

@@ -1,5 +1,5 @@
 ---
-title: "Asus ROG Rapture GT-BE98 Pro control from Home Assistant"
+title: "Asus ROG Rapture GT-BE98 Pro"
 description: "Integrate your GT-BE98 Pro into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->

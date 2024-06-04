@@ -1,5 +1,5 @@
 ---
-title: "Asus RT-AC88U control from Home Assistant"
+title: "Asus RT-AC88U"
 description: "Integrate your RT-AC88U into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->

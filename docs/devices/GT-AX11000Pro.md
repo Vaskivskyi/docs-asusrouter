@@ -1,5 +1,5 @@
 ---
-title: "Asus ROG Rapture GT-AX11000 Pro control from Home Assistant"
+title: "Asus ROG Rapture GT-AX11000 Pro"
 description: "Integrate your GT-AX11000 Pro into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->

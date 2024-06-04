@@ -1,5 +1,5 @@
 ---
-title: "Asus RT-AX3000P control from Home Assistant"
+title: "Asus RT-AX3000P"
 description: "Integrate your RT-AX3000P into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->

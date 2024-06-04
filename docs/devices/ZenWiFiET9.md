@@ -1,16 +1,16 @@
 ---
-title: "Asus RT-AXE7800"
-description: "Integrate your RT-AXE7800 into Home Assistant with AsusRouter"
+title: "Asus ZenWiFi ET9"
+description: "Integrate your ZenWiFi ET9 into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->
 <!-- This file is auto-generated -->
 <!-- !!! -->
-# RT-AXE7800
+# ZenWiFi ET9
 
-|RT-AXE7800|Tested / reported firmware|
+|ZenWiFi ET9|Tested / reported firmware|
 |---|---|
-|<img src="https://asusrouter.vaskivskyi.com/devices/RT-AXE7800.png" width="300">|<b>Stock:</b><li>`388_22068`</li><b>Merlin:</b><li>` `</li>|
-|<li><a href="https://www.asus.com/networking-iot-servers/wifi-routers/asus-wifi-routers/rt-axe7800/" rel="nofollow" target="_blank">Official webpage</a></li><li><a href="https://amzn.to/3jUr2LU" rel="nofollow sponsored" target="_blank">Buy it on Amazon [^amazon]</a></li>|<li>:green_heart: Tested to work with AsusRouter</li><li><a href="https://github.com/Vaskivskyi/ha-asusrouter/issues/new/choose" rel="nofollow" target="_blank">Add you report about this device</a></li>|
+|<img src="https://asusrouter.vaskivskyi.com/devices/ZenWiFiET9.png" width="300">|<b>Stock:</b><li>` `</li><b>Merlin:</b><li>` `</li>|
+|<li><a href="https://www.asus.com/us/networking-iot-servers/whole-home-mesh-wifi-system/zenwifi-wifi-systems/asus-zenwifi-axe7800/" rel="nofollow" target="_blank">Official webpage</a></li><li><a href="https://amzn.to/3RbMKJa" rel="nofollow sponsored" target="_blank">Buy it on Amazon [^amazon]</a></li>|<li>:yellow_heart: This device has not been tested yet, but should work with AsusRouter</li><li><a href="https://github.com/Vaskivskyi/ha-asusrouter/issues/new/choose" rel="nofollow" target="_blank">Add you report about this device</a></li>|
 
 [^amazon]: As an Amazon Associate I earn from qualifying purchases. Not like I ever got anything yet (:
 
@@ -29,12 +29,12 @@ description: "Integrate your RT-AXE7800 into Home Assistant with AsusRouter"
 |[OpenVPN](/features/openvpn.md)|:green_heart: Full|`default`||
 |[Parental control](/features/parental-control.md)|:green_heart: Full|`default`||
 |[Port forwarding](/features/port-forwarding.md)|:green_heart: Full|`default`||
-|[Ports](/features/ports.md)|:green_heart: Full|`lan_speed` attributes:<li>`lan_1`</li><li>up to `2500 Mb/s`</li><li>`lan_{x}`, `x=[2,4]`</li><li>up to `1000 Mb/s`</li>`wan_speed` attributes:<li>`wan_0`</li><li>up to `1000 Mb/s`</li>|<li>LAN aggregation</li><li>WAN aggregation</li>|
+|[Ports](/features/ports.md)|:green_heart: Full|`lan_speed` attributes:<li>`lan_{x}`, `x=[1,3]`</li><li>up to `1000 Mb/s`</li>`wan_speed` attributes:<li>`wan_0`</li><li>up to `2500 Mb/s`</li>|<li>LAN aggregation</li>|
 |[RAM](/features/ram.md)|:green_heart: Full|`default`|512 MB|
 |[Temperature](/features/temperature.md)|:green_heart: Full|Stock:<li>`CPU`</li>Merlin:<li>`CPU`</li><li>`2.4 GHz`</li><li>`5 GHz`</li><li>`6 GHz`</li>||
 |[WAN](/features/wan.md)|:green_heart: Full|`default`|<li>Dual WAN</li>|
 |[WireGuard](/features/wireguard.md)|:green_heart: Full|`default`||
-|[WLAN](/features/wlan.md)|:green_heart: Full|types:<li>`2.4 GHz`</li><li>`5 GHz`</li><li>`6 GHz`</li>|speed:<li>`<= 574 Mb/s (2.4 GHz)`</li><li>`<= 4804 Mb/s (5 GHz)`</li><li>`<= 2402 Mb/s (6 GHz)`</li>|
+|[WLAN](/features/wlan.md)|:green_heart: Full|types:<li>`2.4 GHz`</li><li>`5 GHz`</li><li>`6 GHz`</li>|speed:<li>`<= 574 Mb/s (2.4 GHz)`</li><li>`<= 2402 Mb/s (5 GHz)`</li><li>`<= 4804 Mb/s (6 GHz)`</li>|
 
 
 [^6ghz]: AsusRouter has basic support of 6 GHz networks. A compatible device is required for tests. [Details](/guide/faq/#_6-ghz-wlans)

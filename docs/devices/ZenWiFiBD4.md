@@ -1,5 +1,5 @@
 ---
-title: "Asus ZenWiFi BD4 control from Home Assistant"
+title: "Asus ZenWiFi BD4"
 description: "Integrate your ZenWiFi BD4 into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->

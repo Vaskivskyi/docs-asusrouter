@@ -1,5 +1,5 @@
 ---
-title: "Asus RT-AC57U V3 control from Home Assistant"
+title: "Asus RT-AC57U V3"
 description: "Integrate your RT-AC57U V3 into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->

@@ -1,5 +1,5 @@
 ---
-title: "Asus RT-AX53U control from Home Assistant"
+title: "Asus RT-AX53U"
 description: "Integrate your RT-AX53U into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->

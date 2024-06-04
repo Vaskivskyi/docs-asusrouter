@@ -1,5 +1,5 @@
 ---
-title: "Asus TUF Gaming AX6000 control from Home Assistant"
+title: "Asus TUF Gaming AX6000"
 description: "Integrate your TUF-AX6000 into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->

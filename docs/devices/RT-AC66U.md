@@ -1,5 +1,5 @@
 ---
-title: "Asus RT-AC66U | RT-AC66R | RT-AC66W control from Home Assistant"
+title: "Asus RT-AC66U | RT-AC66R | RT-AC66W"
 description: "Integrate your RT-AC66U into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->
