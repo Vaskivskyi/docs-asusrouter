@@ -1,6 +1,7 @@
 ---
 home: true
 title: Home
+heroImage: /hero.svg
 actions:
   - text: Features
     link: /features/

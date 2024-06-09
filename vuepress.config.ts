@@ -44,10 +44,13 @@ const conf = {
   pagePatterns,
 
   head: [
+    // Manifest
     ["link", {
       rel: "manifest",
       href: `${getBase()}site.webmanifest`,
     }],
+    // Normal favicon
+    ["link", { rel: "icon", href: "/icon.svg" }],
   ],
 
   theme: hopeTheme({
@@ -63,8 +66,8 @@ const conf = {
       end: ["Language", "Repo", "Outlook", "Search"],
     },
     // Logo
-    // logo: "logo.svg",
-    // logoDark: "logo.svg",
+    logo: "logo.svg",
+    logoDark: "logoDark.svg",
     // Title for the navbar
     navTitle: "AsusRouter",
     // Repository
@@ -118,7 +121,7 @@ const conf = {
 
     // --------------------
     // Footer
-    footer: 'AsusRouter library, integration and webpage are maintained by <a href="https://github.com/Vaskivskyi" target="_blank">@Vaskivskyi</a><br /><a href="https://www.buymeacoffee.com/vaskivskyi" target="_blank">-= ☕ Support development =-</a>',
+    footer: 'AsusRouter library, integration and webpage are maintained by <a href="https://github.com/Vaskivskyi" target="_blank">@Vaskivskyi</a><br /><a href="https://www.buymeacoffee.com/vaskivskyi" target="_blank">-= ☕ Support development =-</a><br /><br />AsusRouter is an independent project, not affiliated with ASUSTek Computer Inc. <a href="/legal">Disclaimer</a>',
     copyright: '<br />a part of <a href="https://onesimpleproject.com" target="_blank">One Simple Project</a>',
     displayFooter: true,
 
@@ -148,6 +151,7 @@ const conf = {
       mdEnhance: {
         alert: true,
         align: true,
+        figure: true,
         footnote: true,
         imgLazyload: true,
         imgMark: true,
