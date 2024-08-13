@@ -8,6 +8,7 @@ Currently, AsusRouter consists of the following parts:
 
 - Python library: [GitHub repo](https://github.com/Vaskivskyi/asusrouter) and [PyPI package](https://pypi.org/project/asusrouter/)
 - Home Assistant integration: [GitHub repo](https://github.com/Vaskivskyi/ha-asusrouter)
+- Python emulator: [GitHub repo](https://github.com/Vaskivskyi/asusrouter-emulator)
 - Documentation: [GitHub repo](https://github.com/Vaskivskyi/docs-asusrouter) and [Website](https://asusrouter.vaskivskyi.com/)
 
 ## Legal disclaimer
@@ -49,3 +50,9 @@ The Project aims to provide the user with the most accurate and up-to-date infor
 The Project is not responsible for any inaccuracies in the device description. Before making any decisions based on the information provided by the Project, the user is encouraged to verify the information from the official sources - each device page contains links to the official Asus website and documentation.
 
 <div align="center" style="font-size:x-large"><a href="https://github.com/Vaskivskyi/docs-asusrouter/issues/new" target="_blank">-=Report content issue=-</a></div>
+
+## Device emulation
+
+AsusRouter Emulator (further, Emulator) is a Python project that aims to provide the user with the ability to test the Library and the Integration, as well as their own projects, without the need to have a real device. The Emulator is designed to mimic the behavior of the real device as closely as possible by providing similar data structures and responses. The Emulator does not store any sensitive information and uses randomized data based on the selected device model and firmware version. The accuracy of the Emulator is not guaranteed and might differ from the real device behavior.
+
+<div align="center" style="font-size:x-large"><a href="https://github.com/Vaskivskyi/asusrouter-emulator/issues/new" target="_blank">-=Report emulator issue=-</a></div>
