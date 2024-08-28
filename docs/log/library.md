@@ -1,5 +1,40 @@
 # Library change log
 
+## 1.12.0 🚨 Aura support & firmware improvements
+
+`2024-08-28`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.12.0)
+
+### 🚀 Features
+
+- Added Aura RGB support (`aura` module)
+- Upgraded `firmware` module
+- Migrated `AsusSystem` update and upgrade members to the new format (non-breaking change)
+
+### 🐛 Bug fixes
+
+- Fixed unsafe int conversion in the `onboarding` module
+
+### 🚨 Testing
+
+- Added mypy type checking settings
+
+### 🔨 Other changes
+
+- Fixed typo in the `AsusSystem` enum (by @TheCjw)
+- Removed code duplication in generic `read` function of endpoints
+
+### 🐣 GitHub
+
+- Added templates for issue reports
+
+### 📚 Documentation
+
+- Added better code example to the README (by @tomer-w)
+- Added AsusRouter logo
+- Updated supported devices
+
 ## 1.11.0 Ping-ping & JSON fixes
 
 `2024-05-28`
