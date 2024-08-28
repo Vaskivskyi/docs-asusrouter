@@ -13,7 +13,7 @@
   "tested": {
     "state": true,
     "stock": ["388.21617"],
-    "merlin": ["388.7_beta1_rog"]
+    "merlin": ["388.7_beta1_rog", "388.7_0_rog"]
   },
   "features": {
     "main": {},
