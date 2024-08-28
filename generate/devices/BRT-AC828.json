@@ -1,28 +1,24 @@
 {
-  "model": "TUF-AX5400",
-  "name": "TUF Gaming AX5400",
-  "wifi": "6",
+  "model": "BRT-AC828",
+  "wifi": "5",
   "links": {
-    "asus": "https://www.asus.com/networking-iot-servers/wifi-routers/asus-gaming-routers/tuf-gaming-ax5400/",
-    "amazon": "https://amzn.to/3hXgzyQ"
+    "asus": "https://www.asus.com/networking-iot-servers/wifi-routers/asus-wifi-routers/brt-ac828/",
+    "amazon": "https://amzn.to/3X2wSL5"
   },
   "firmware": {
-    "386": true,
-    "388": true
+    "386": false,
+    "388": false
   },
   "tested": {
     "state": true,
-    "stock": ["386.50224", "388.21224", "388.22525", "388.23285", "388.24121"],
-    "merlin": ["388.4_0"]
+    "stock": ["382_70348"],
+    "merlin": []
   },
   "features": {
     "main": {},
     "aimesh": {},
     "connected-devices": {},
-    "cpu": {
-      "cores": 3,
-      "frequency": "1.5 GHz"
-    },
+    "cpu": {},
     "guest-wlan": {},
     "led": {},
     "load-average": {},
@@ -33,14 +29,14 @@
     "ports": {
       "lan": [
         {
-          "id": [1, 4],
+          "id": [1, 8],
           "speed": 1000
         }
       ],
       "lan_aggr": true,
       "wan": [
         {
-          "id": 0,
+          "id": [0, 1],
           "speed": 1000
         }
       ],
@@ -60,7 +56,7 @@
         "speed": 574
       },
       "5ghz": {
-        "speed": 4804
+        "speed": 1734
       }
     }
   }
