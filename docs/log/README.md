@@ -36,25 +36,37 @@ This page contains all the changes in the last stable releases, including patch 
 
 ## Library
 
-### 1.11.0 Ping-ping & JSON fixes
+### 1.12.0 🚨 Aura support & firmware improvements
 
-`2024-05-28`
+`2024-08-28`
 
-#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.11.0)
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.12.0)
 
 ### 🚀 Features
 
-- Added possibility to force request type for aiohttp with `asusrouter.const.RequestType`. `POST` and `GET` are available
-- Added custom `request` argument support for `AsusRouter.async_get_data` (any dict).
-- Added `AsusData.PING` state to to ping a device or get the last ping result (request is required to get result)
-  - `request = {"type": $type$, "target": $domain$}`
-  - `type` is one of: `0` (get data), `1` (ping, loss, jitter), `2` (ping only)
-  - `target` can be a domain or IP address
+- Added Aura RGB support (`aura` module)
+- Upgraded `firmware` module
+- Migrated `AsusSystem` update and upgrade members to the new format (non-breaking change)
 
 ### 🐛 Bug fixes
 
-- Fixed JSON parsing for missing values
+- Fixed unsafe int conversion in the `onboarding` module
+
+### 🚨 Testing
+
+- Added mypy type checking settings
+
+### 🔨 Other changes
+
+- Fixed typo in the `AsusSystem` enum (by @TheCjw)
+- Removed code duplication in generic `read` function of endpoints
+
+### 🐣 GitHub
+
+- Added templates for issue reports
 
 ### 📚 Documentation
 
+- Added better code example to the README (by @tomer-w)
+- Added AsusRouter logo
 - Updated supported devices
