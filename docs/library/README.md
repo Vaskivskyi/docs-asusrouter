@@ -1,6 +1,9 @@
-# Python Library
+# Library
 
 AsusRouter is a Python library that serves as a comprehensive API wrapper for interacting with ASUSWRT-powered routers. It communicates using HTTP(S) protocols and provides extensive control and monitoring capabilities. The library is compatible with both the stock AsusWRT firmware and AsusWRT-Merlin, making it a versatile tool for managing and monitoring ASUS network devices.
+
+> [!note]
+> If you are looking for the documentation on the Home Assistant integration, refer to the [integration documentation](/guide/getting-started/).
 
 ## Installation
 

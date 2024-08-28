@@ -1,5 +1,10 @@
 import type { SidebarConfig } from "@vuepress/theme-default";
-import { getFiles, getFilesPushFront, getFilesRev } from "./navbar";
+import {
+  getFiles,
+  getFilesPushFront,
+  getFilesRecursive,
+  getFilesRev,
+} from "./navbar";
 import { default as deviceList } from "./docs/devices/map.json" assert { type: "json" };
 
 export const sidebar: SidebarConfig = {
@@ -11,7 +16,7 @@ export const sidebar: SidebarConfig = {
         {
           text: "Modules",
           link: "/library/modules/",
-          children: getFiles("library/modules"),
+          children: getFilesRecursive("library/modules"),
         },
       ],
     },
