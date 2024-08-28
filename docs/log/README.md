@@ -52,6 +52,15 @@ This page contains all the changes in the last stable releases, including patch 
 **[Bugfix]** Fixed blocking call when fetching Aura data on non-Aura devices
 **[Dependency]** Bumped `asusrouter` library to [`1.12.1`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.12.1)
 
+#### 0.33.2
+
+`2024-08-28`
+
+**[Feature]** Improved logging of errors when creating entities
+**[Bugfix]** Fixed issue with device info when creating client devices
+**[Bugfix]** Fixed issue with beta flag handling in firmware strings
+**[Dependency]** Bumped `asusrouter` library to [`1.12.2`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.12.2)
+
 ## Library
 
 ### 1.12.0 🚨 Aura support & firmware improvements
@@ -96,3 +105,9 @@ This page contains all the changes in the last stable releases, including patch 
 `2024-08-28`
 
 **[Bugfix]** Fixed blocking call when fetching Aura data on non-Aura devices
+
+#### 1.12.2
+
+`2024-08-28`
+
+**[Feature]** Improved beta flag handling in firmware strings
