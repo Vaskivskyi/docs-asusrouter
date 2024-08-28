@@ -1,10 +1,24 @@
 # Integration change log
 
+## 0.33.1 🐛 Bug fixes
+
+`2024-08-28`
+
+### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.33.1)
+
+### 🐛 Bug fixes
+
+- Fixed blocking call when fetching Aura data on non-Aura devices
+
+### 📦 Dependencies
+
+- Bumped `asusrouter` library to [`1.12.1`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.12.1)
+
 ## 0.33.0 🚨 Aura support & firmware improvements
 
 `2024-08-28`
 
-### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.32.1)
+### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.33.0)
 
 ### 🚀 Features
 

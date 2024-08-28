@@ -8,7 +8,7 @@ This page contains all the changes in the last stable releases, including patch 
 
 `2024-08-28`
 
-### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.32.1)
+### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.33.0)
 
 ### 🚀 Features
 
@@ -42,6 +42,15 @@ This page contains all the changes in the last stable releases, including patch 
 ### 📦 Dependencies
 
 - Bumped `asusrouter` library to [`1.12.0`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.12.0)
+
+### 🩹 Patches
+
+#### 0.33.1
+
+`2024-08-28`
+
+**[Bugfix]** Fixed blocking call when fetching Aura data on non-Aura devices
+**[Dependency]** Bumped `asusrouter` library to [`1.12.1`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.12.1)
 
 ## Library
 
@@ -79,3 +88,11 @@ This page contains all the changes in the last stable releases, including patch 
 - Added better code example to the README (by @tomer-w)
 - Added AsusRouter logo
 - Updated supported devices
+
+### 🩹 Patches
+
+#### 1.12.1
+
+`2024-08-28`
+
+**[Bugfix]** Fixed blocking call when fetching Aura data on non-Aura devices

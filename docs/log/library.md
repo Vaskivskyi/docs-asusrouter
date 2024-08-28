@@ -1,5 +1,15 @@
 # Library change log
 
+## 1.12.1 🐛 Bugfixes
+
+`2024-08-28`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.12.0)
+
+### 🐛 Bug fixes
+
+- Fixed blocking call when fetching Aura data on non-Aura devices
+
 ## 1.12.0 🚨 Aura support & firmware improvements
 
 `2024-08-28`
