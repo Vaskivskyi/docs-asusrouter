@@ -1,5 +1,24 @@
 # Integration change log
 
+## 0.33.2 💻 Firmware and device handling improvements
+
+`2024-08-28`
+
+### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.33.2)
+
+### 🚀 Features
+
+- Improved logging of errors when creating entities
+
+### 🐛 Bug fixes
+
+- Fixed issue with device info when creating client devices
+- Fixed issue with beta flag handling in firmware strings
+
+### 📦 Dependencies
+
+- Bumped `asusrouter` library to [`1.12.2`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.12.2)
+
 ## 0.33.1 🐛 Bug fixes
 
 `2024-08-28`

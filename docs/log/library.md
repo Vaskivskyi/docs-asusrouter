@@ -1,10 +1,20 @@
 # Library change log
 
+## 1.12.2 💻 Firmware handling improvements
+
+`2024-08-28`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.12.2)
+
+### 🚀 Features
+
+- Improved beta flag handling in firmware strings
+
 ## 1.12.1 🐛 Bugfixes
 
 `2024-08-28`
 
-#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.12.0)
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.12.1)
 
 ### 🐛 Bug fixes
 
