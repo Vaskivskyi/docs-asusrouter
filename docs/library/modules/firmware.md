@@ -57,7 +57,7 @@ Format for the arguments:
 - `build` = `40451`, `54041`, `5`, `7`
 - `revision` = `2beta1`, `g386313`, `1gnuton-beta1`
 
-#### Properties
+**Properties:**
 
 | Property   | Type      | Description   |
 | ---------- | --------- | ------------- |
@@ -69,7 +69,7 @@ Format for the arguments:
 | `rog`      | `bool`    | ROG build key |
 | `source`   | `str`     | Source        |
 
-#### `Firmware.from_string()`
+### `Firmware.from_string()`
 
 **Arguments:**
 
@@ -109,23 +109,45 @@ my_firmware = Firmware()
 my_firmware.from_string("3004.386.5_2")
 ```
 
-#### `Firmware.__str__()`
+### `Firmware._update_beta()`
 
 **Arguments:** `None`
 
-**Returns:** `str`
+**Returns:** `None`
 
-This method returns the firmware as a string in format `major.minor.build_revision` or `major.minor.build_revision_rog` if the ROG build key is present.
+**Updates properties:** `beta`
 
-#### `Firmware.__repr__()`
+This method checks if the firmware major version has beta-digit (starting `9`) and sets the `Firmware.beta` property accordingly.
+
+### `Firmware._update_rog()`
 
 **Arguments:** `None`
 
-**Returns:** `str`
+**Returns:** `None`
 
-Mimics the [`__str__()`](#firmware-str) method.
+**Updates properties:** `rog`
 
-#### `Firmware.__eq__()`
+This method checks if the firmware revision contains `_rog` suffix and sets the `Firmware.rog` property accordingly. If the suffix is found, it is removed from the revision. This ensures that revisions `1` and `1_rog` are treated as the same (as they are).
+
+### `Firmware._update_source()`
+
+**Arguments:** `None`
+
+**Returns:** `None`
+
+**Updates properties:** `source`
+
+This method checks the origin of the firmware version and sets the `Firmware.source` property accordingly.
+
+The firmware discriminated based on the `revision` property. Revisions can be distinguished as follows:
+
+| Source                | Specifics                                                 |
+| --------------------- | --------------------------------------------------------- |
+| `FirmwareType.GNUTON` | `gnuton` in revision                                      |
+| `FirmwareType.MERLIN` | integer revision, otherwise `alpha` or `beta` in revision |
+| `FirmwareType.STOCK`  | any other string in revision                              |
+
+### `Firmware.__eq__()`
 
 **Arguments:** `other: object`
 
@@ -143,21 +165,7 @@ my_firmware == other_firmware
 my_firmware != other_firmware
 ```
 
-#### `Firmware.__lt__()`
-
-**Arguments:** `other: object`
-
-**Returns:** `bool`
-
-This method compares two `Firmware` objects and returns `True` if the first object is less than the second one. The comparison is done based on the `major`, `minor`, `build` and `revision` properties only. The `beta`, `rog` and `source` properties are not taken into account when comparing. When comparing with other objects or if the `source` property is different, the method always returns `False`. The last ensures that the comparison between e.g. `Merlin` and `Stock` firmware won't return false positive.
-
-**Example**
-
-```python
-my_firmware < other_firmware
-```
-
-#### `Firmware.__gt__()`
+### `Firmware.__gt__()`
 
 **Arguments:** `other: object`
 
@@ -171,43 +179,35 @@ This method compares two `Firmware` objects and returns `True` if the first obje
 my_firmware > other_firmware
 ```
 
-#### `Firmware._update_beta()`
+### `Firmware.__lt__()`
+
+**Arguments:** `other: object`
+
+**Returns:** `bool`
+
+This method compares two `Firmware` objects and returns `True` if the first object is less than the second one. The comparison is done based on the `major`, `minor`, `build` and `revision` properties only. The `beta`, `rog` and `source` properties are not taken into account when comparing. When comparing with other objects or if the `source` property is different, the method always returns `False`. The last ensures that the comparison between e.g. `Merlin` and `Stock` firmware won't return false positive.
+
+**Example**
+
+```python
+my_firmware < other_firmware
+```
+
+### `Firmware.__repr__()`
 
 **Arguments:** `None`
 
-**Returns:** `None`
+**Returns:** `str`
 
-**Updates properties:** `beta`
+Mimics the [`__str__()`](#firmware-str) method.
 
-This method checks if the firmware major version has beta-digit (starting `9`) and sets the `Firmware.beta` property accordingly.
-
-#### `Firmware._update_rog()`
+### `Firmware.__str__()`
 
 **Arguments:** `None`
 
-**Returns:** `None`
+**Returns:** `str`
 
-**Updates properties:** `rog`
-
-This method checks if the firmware revision contains `_rog` suffix and sets the `Firmware.rog` property accordingly. If the suffix is found, it is removed from the revision. This ensures that revisions `1` and `1_rog` are treated as the same (as they are).
-
-#### `Firmware._update_source()`
-
-**Arguments:** `None`
-
-**Returns:** `None`
-
-**Updates properties:** `source`
-
-This method checks the origin of the firmware version and sets the `Firmware.source` property accordingly.
-
-The firmware discriminated based on the `revision` property. Revisions can be distinguished as follows:
-
-| Source | Specifics                                                 |
-| ------ | --------------------------------------------------------- |
-| Gnuton | `gnuton` in revision                                      |
-| Merlin | integer revision, otherwise `alpha` or `beta` in revision |
-| Stock  | any other string in revision                              |
+This method returns the firmware as a string in format `major.minor.build_revision` or `major.minor.build_revision_rog` if the ROG build key is present.
 
 ### `FirmwareType`
 
