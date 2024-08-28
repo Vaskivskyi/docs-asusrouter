@@ -23,7 +23,7 @@
 ### 🔨 Other changes
 
 - Fixed typo in the `AsusSystem` enum (by @TheCjw)
-- Removed code duplication in generic `read` function of endpoints
+- Removed code duplication in the generic `read` function of endpoints
 
 ### 🐣 GitHub
 

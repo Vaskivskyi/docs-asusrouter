@@ -1,5 +1,44 @@
 # Integration change log
 
+## 0.33.0 🚨 Aura support & firmware improvements
+
+`2024-08-28`
+
+### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.32.1)
+
+### 🚀 Features
+
+- Added sensor with the number of clients connected to guest networks via `sensor.{}_connected_guestnetwork_devices` (by @GaryHuang-ASUS)
+- Added Aura RGB support:
+  - `light.{}_aura` entity for the global colour/brightness control (as single-zone light)
+  - `light.{}_aura_zone_{}` for the per-zone colour/brightness control (disabled by default to avoid cluttering the UI when not needed)
+  - full effects support (`Gradient`, `Static`, `Breathing`, `Evolution`, `Rainbow`, `Wave`, `Marquee`)
+- Improved handling of client entities
+- Switched to the new firmware backend:
+  - better support for different formats on FW branches (Stock, Merlin, Gnuton)
+  - improved version comparison
+  - added `update.{}_firmware_update_beta` entity for the beta firmware updates (disabled by default)
+- Changed the default update time for the `update` entities to 10 minutes (can be changed in the integration settings in the same way as before)
+- Updated the `asusrouter_device_disconnected` event to show the last known `guest`, `guest_id` and `connection_type` attributes
+
+### 🐛 Bug fixes
+
+- Fixed issue with some entities being assigned to AsusRouter before their native integrations
+- Fixed issue with the `update` entity showing:
+  - lower beta version as an update
+  - version from a different branch (e.g. Stock when on Merlin)
+  - `_rog` and non-`_rog` FW versions are treated as different (Merlin, Gnuton)
+- Fixed issue with integration blocked by unsafe type conversion on startup
+
+### 📚 Documentation
+
+- Added AsusRouter logo
+- Updated supported devices
+
+### 📦 Dependencies
+
+- Bumped `asusrouter` library to [`1.12.0`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.12.0)
+
 ## 0.32.1 🐛 JSON fixes & documentation
 
 `2024-05-28`
