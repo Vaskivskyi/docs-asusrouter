@@ -1,5 +1,18 @@
 # Library change log
 
+## 1.13.0 ☎️ DSL support and connection improvements
+
+`2024-09-07`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.13.0)
+
+### 🚀 Features
+
+- Added new `AsusData.DSL` state (by @GaryHuang-ASUS)
+- Added DSL endpoint check for the identity
+- Improved session management in the connection module
+- Improved initialization of the connection module
+
 ## 1.12.2 💻 Firmware handling improvements
 
 `2024-08-28`

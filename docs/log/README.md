@@ -63,51 +63,15 @@ This page contains all the changes in the last stable releases, including patch 
 
 ## Library
 
-### 1.12.0 🚨 Aura support & firmware improvements
+### 1.13.0 ☎️ DSL support and connection improvements
 
-`2024-08-28`
+`2024-09-07`
 
-#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.12.0)
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.13.0)
 
 ### 🚀 Features
 
-- Added Aura RGB support (`aura` module)
-- Upgraded `firmware` module
-- Migrated `AsusSystem` update and upgrade members to the new format (non-breaking change)
-
-### 🐛 Bug fixes
-
-- Fixed unsafe int conversion in the `onboarding` module
-
-### 🚨 Testing
-
-- Added mypy type checking settings
-
-### 🔨 Other changes
-
-- Fixed typo in the `AsusSystem` enum (by @TheCjw)
-- Removed code duplication in the generic `read` function of endpoints
-
-### 🐣 GitHub
-
-- Added templates for issue reports
-
-### 📚 Documentation
-
-- Added better code example to the README (by @tomer-w)
-- Added AsusRouter logo
-- Updated supported devices
-
-### 🩹 Patches
-
-#### 1.12.1
-
-`2024-08-28`
-
-**[Bugfix]** Fixed blocking call when fetching Aura data on non-Aura devices
-
-#### 1.12.2
-
-`2024-08-28`
-
-**[Feature]** Improved beta flag handling in firmware strings
+- Added new `AsusData.DSL` state (by @GaryHuang-ASUS)
+- Added DSL endpoint check for the identity
+- Improved session management in the connection module
+- Improved initialization of the connection module
