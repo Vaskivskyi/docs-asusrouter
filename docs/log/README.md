@@ -75,3 +75,7 @@ This page contains all the changes in the last stable releases, including patch 
 - Added DSL endpoint check for the identity
 - Improved session management in the connection module
 - Improved initialization of the connection module
+
+### 📦 Dependencies
+
+- Bumped `python-dateutil` to `2.9.0.post0`
