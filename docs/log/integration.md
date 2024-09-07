@@ -1,5 +1,20 @@
 # Integration change log
 
+## 0.34.0 ☎️ DSL support and connection improvements
+
+`2024-09-07`
+
+### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.34.0)
+
+### 🚀 Features
+
+- Added sensors for DSL upload and download rates (by @GaryHuang-ASUS)
+- Improved connection handling in the backend library
+
+### 📦 Dependencies
+
+- Bumped `asusrouter` library to [`1.13.0`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.13.0)
+
 ## 0.33.2 💻 Firmware and device handling improvements
 
 `2024-08-28`
