@@ -13,6 +13,10 @@
 - Improved session management in the connection module
 - Improved initialization of the connection module
 
+### 📦 Dependencies
+
+- Bumped `python-dateutil` to `2.9.0.post0`
+
 ## 1.12.2 💻 Firmware handling improvements
 
 `2024-08-28`
