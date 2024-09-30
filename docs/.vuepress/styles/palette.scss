@@ -1,31 +1,27 @@
 $theme-color: #1982ff;
-$text-color: (
+$vp-c-text: (
   light: #2c3e50,
   dark: #adbac7,
 );
-$bg-color: (
+$vp-c-bg: (
   light: #fff,
   dark: #22272e,
 );
-$bg-color-secondary: (
+$vp-c-bg-alt: (
   light: #f3f4f5,
   dark: #2b313a,
 );
-$bg-color-tertiary: (
+$vp-c-bg-elv: (
   light: #eee,
   dark: #262c34,
 );
-$border-color: (
+$vp-c-border: (
   light: #eaecef,
   dark: #3e4c5a,
 );
 
 // shadow
-$box-shadow: (
-  light: #f0f1f2,
-  dark: #282a32,
-);
-$card-shadow: (
+$vp-c-shadow: (
   light: rgb(0 0 0 / 15%),
   dark: rgb(0 0 0 / 30%),
 );
@@ -56,6 +52,6 @@ $grey12: (
   dark: #333,
 );
 
-$font-family: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif';
-$font-family-heading: $font-family;
-$font-family-mono: 'Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace';
+$vp-font: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif';
+$vp-font-heading: $vp-font !default;
+$vp-font-mono: 'Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace';
