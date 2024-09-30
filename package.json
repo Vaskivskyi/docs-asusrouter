@@ -20,6 +20,7 @@
     "@vuepress/plugin-sitemap": "^2.0.0-rc.47",
     "@vuepress/theme-default": "^2.0.0-rc.49",
     "glob": "^10.4.1",
+    "sass-embedded": "^1.79.4",
     "throat": "^6.0.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5",
