@@ -2,16 +2,16 @@
 import { hopeTheme } from "vuepress-theme-hope";
 
 // Bundler
-import { viteBundler } from '@vuepress/bundler-vite'
+import { viteBundler } from "@vuepress/bundler-vite";
 
 // Navbar and Sidebar
 import { navbar } from "./navbar";
 import { sidebar } from "./sidebar";
 
 import * as path from "path";
-import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics';
+import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
 
-export const domain = 'https://asusrouter.vaskivskyi.com';
+export const domain = "https://asusrouter.vaskivskyi.com";
 
 export function getBase() {
   let base = "/";
@@ -23,7 +23,8 @@ const pagePatterns = ["**/*.md", "!.vuepress", "!node_modules"];
 const conf = {
   base: getBase(),
   title: "AsusRouter",
-  description: "Monitor and control your AsusWRT-powered router from a Python environment or from Home Assistant",
+  description:
+    "Monitor and control your AsusWRT-powered router from a Python environment or from Home Assistant",
 
   dest: "dist",
   public: "public",
@@ -34,9 +35,11 @@ const conf = {
     viteOptions: {
       resolve: {
         alias: {
-          '@theme': path.resolve('node_modules/vuepress-theme-hope/lib/client/components'),
-        }
-      }
+          "@theme": path.resolve(
+            "node_modules/vuepress-theme-hope/lib/client/components"
+          ),
+        },
+      },
     },
     vuePluginOptions: {},
   }),
@@ -45,10 +48,13 @@ const conf = {
 
   head: [
     // Manifest
-    ["link", {
-      rel: "manifest",
-      href: `${getBase()}site.webmanifest`,
-    }],
+    [
+      "link",
+      {
+        rel: "manifest",
+        href: `${getBase()}site.webmanifest`,
+      },
+    ],
     // Normal favicon
     ["link", { rel: "icon", href: "/icon.svg" }],
   ],
@@ -121,8 +127,10 @@ const conf = {
 
     // --------------------
     // Footer
-    footer: 'AsusRouter library, integration and webpage are maintained by <a href="https://github.com/Vaskivskyi" target="_blank">@Vaskivskyi</a><br /><a href="https://www.buymeacoffee.com/vaskivskyi" target="_blank">-= ☕ Support development =-</a><br /><br />AsusRouter is an independent project, not affiliated with ASUSTek Computer Inc. <a href="/legal">Disclaimer</a>',
-    copyright: '<br />a part of <a href="https://onesimpleproject.com" target="_blank">One Simple Project</a>',
+    footer:
+      'AsusRouter library, integration and webpage are maintained by <a href="https://github.com/Vaskivskyi" target="_blank">@Vaskivskyi</a><br /><a href="https://www.buymeacoffee.com/vaskivskyi" target="_blank">-= ☕ Support development =-</a><br /><br />AsusRouter is an independent project, not affiliated with ASUSTek Computer Inc. <a href="/legal">Disclaimer</a>',
+    copyright:
+      '<br />a part of <a href="https://onesimpleproject.com" target="_blank">One Simple Project</a>',
     displayFooter: true,
 
     // --------------------
@@ -148,14 +156,18 @@ const conf = {
         indexName: "asusrouter-vaskivskyi",
       },
       git: true,
-      mdEnhance: {
+      markdownHint: {
         alert: true,
-        align: true,
+      },
+      markdownImage: {
         figure: true,
+        lazyload: true,
+        mark: true,
+        size: true,
+      },
+      mdEnhance: {
+        align: true,
         footnote: true,
-        imgLazyload: true,
-        imgMark: true,
-        imgSize: true,
       },
       sitemap: {
         hostname: domain,
@@ -172,6 +184,6 @@ const conf = {
       }),
     ],
   ],
-}
+};
 
 export default conf;
