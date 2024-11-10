@@ -1,5 +1,19 @@
 # Integration change log
 
+## 0.34.1 🐛 Bug fixes
+
+`2024-11-10`
+
+### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.34.1)
+
+### 🐛 Bug fixes
+
+- Fixed erroneous logging for some old firmware versions
+
+### 📦 Dependencies
+
+- Bumped `asusrouter` library to [`1.13.1`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.13.1)
+
 ## 0.34.0 ☎️ DSL support and connection improvements
 
 `2024-09-07`

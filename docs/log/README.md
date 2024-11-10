@@ -19,6 +19,15 @@ This page contains all the changes in the last stable releases, including patch 
 
 - Bumped `asusrouter` library to [`1.13.0`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.13.0)
 
+### 🩹 Patches
+
+#### 0.34.1
+
+`2024-11-10`
+
+**[Bugfix]** Fixed erroneous logging for some old firmware versions
+**[Dependency]** Bumped `asusrouter` library to [`1.13.1`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.13.1)
+
 ## Library
 
 ### 1.13.0 ☎️ DSL support and connection improvements
