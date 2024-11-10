@@ -37,3 +37,11 @@ This page contains all the changes in the last stable releases, including patch 
 ### 📦 Dependencies
 
 - Bumped `python-dateutil` to `2.9.0.post0`
+
+### 🩹 Patches
+
+#### 1.13.1
+
+`2024-11-10`
+
+**[Bugfix]** Fixed erroneous logging for some old firmware versions
