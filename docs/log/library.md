@@ -1,5 +1,15 @@
 # Library change log
 
+## 1.13.1 🐛 Bugfixes
+
+`2024-11-10`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.13.1)
+
+### 🐛 Bug fixes
+
+- Fixed erroneous logging for some old firmware versions
+
 ## 1.13.0 ☎️ DSL support and connection improvements
 
 `2024-09-07`
