@@ -1,5 +1,25 @@
 # Library change log
 
+## 1.14.0 📡 Improved connection
+
+`2025-03-23`
+
+#### [→ 🐙GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.14.0)
+
+### 🚀 Features
+
+- Improved connection logic
+- Improved fallbacks for the failed connection
+
+### 🔨 Other changes
+
+- Switched to `uv` and `ruff` for the development environment
+- Refactored the connection module
+
+### 📦 Dependencies
+
+- Bumped development dependencies
+
 ## 1.13.1 🐛 Bugfixes
 
 `2024-11-10`
