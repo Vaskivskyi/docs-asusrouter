@@ -134,15 +134,24 @@ const conf = {
     displayFooter: true,
 
     // --------------------
-    // Other
-    iconAssets: "fontawesome-with-brands",
-    // iconPrefix: "",
     // Dark mode ["switch", "toggle", "auto", "enable", "disable"]
     darkmode: "switch",
     fullscreen: false,
     backToTop: true,
     pure: false,
     print: true,
+
+    // --------------------
+    // Markdown settings
+    markdown: {
+      alert: true,
+      align: true,
+      figure: true,
+      footnote: true,
+      imgLazyload: true,
+      imgMark: true,
+      imgSize: true,
+    },
 
     // --------------------
     // Plugins
@@ -156,18 +165,8 @@ const conf = {
         indexName: "asusrouter-vaskivskyi",
       },
       git: true,
-      markdownHint: {
-        alert: true,
-      },
-      markdownImage: {
-        figure: true,
-        lazyload: true,
-        mark: true,
-        size: true,
-      },
-      mdEnhance: {
-        align: true,
-        footnote: true,
+      icon: {
+        assets: "fontawesome-with-brands",
       },
       sitemap: {
         hostname: domain,

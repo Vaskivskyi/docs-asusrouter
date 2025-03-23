@@ -20,7 +20,16 @@ $vp-c-border: (
   dark: #3e4c5a,
 );
 
+$vp-c-accent: $theme-color;
+$vp-c-accent-bg: $theme-color;
+$vp-c-accent-hover: $theme-color;
+$vp-c-accent-soft: rgba(36, 118, 188, 0.15);
+
 // shadow
+$box-shadow: (
+  light: #f0f1f2,
+  dark: #282a32,
+);
 $vp-c-shadow: (
   light: rgb(0 0 0 / 15%),
   dark: rgb(0 0 0 / 30%),
