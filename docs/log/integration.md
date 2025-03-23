@@ -1,5 +1,24 @@
 # Integration change log
 
+## 0.35.0
+
+`2025-03-23`
+
+### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.35.0)
+
+### 🚀 Features
+
+- Switched Configuration Flow to the new HA format
+- Improved the SSL verification-related code
+
+### 📖 Translations
+
+- Added Portuguese translation (by [@ViPeR5000](https://github.com/ViPeR5000))
+
+### 📦 Dependencies
+
+- Bumped `asusrouter` library to [`1.14.0`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.14.0)
+
 ## 0.34.1 🐛 Bug fixes
 
 `2024-11-10`
