@@ -1,6 +1,6 @@
 # Integration change log
 
-## 0.35.0
+## 0.35.0 ⏱️ Better timing
 
 `2025-03-23`
 

@@ -1,5 +1,15 @@
 # Library change log
 
+## 1.14.1 🐛 aiohttp fix
+
+`2025-06-13`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.14.1)
+
+### 🐛 Bug fixes
+
+- Fixed issue with aiohttp version `3.12.7+`, cookie quoting and some devices
+
 ## 1.14.0 📡 Improved connection
 
 `2025-03-23`
