@@ -1,5 +1,19 @@
 # Integration change log
 
+## 0.35.1 🐛 HA 2025.6.0 compatibility
+
+`2025-06-13`
+
+### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.35.1)
+
+### 🐛 Bug fixes
+
+- Fixed issue with aiohttp version `3.12.7+` (HA `2025.6.0+`), cookie quoting and some devices
+
+### 📦 Dependencies
+
+- Bumped `asusrouter` library to [`1.14.1`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.14.1)
+
 ## 0.35.0 ⏱️ Better timing
 
 `2025-03-23`
