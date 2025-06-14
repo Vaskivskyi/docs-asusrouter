@@ -1,5 +1,19 @@
 # Integration change log
 
+## 0.35.2 🐛 Fix for legacy devices
+
+`2025-06-14`
+
+### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.35.2)
+
+### 🐛 Bug fixes
+
+- Fixed issue with some legacy devices (e.g. `RT-AC66U`) on HA `2025.6.0+`
+
+### 📦 Dependencies
+
+- Bumped `asusrouter` library to [`1.14.2`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.14.2)
+
 ## 0.35.1 🐛 HA 2025.6.0 compatibility
 
 `2025-06-13`
