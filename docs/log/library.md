@@ -1,5 +1,15 @@
 # Library change log
 
+## 1.14.2 🐛 Bugfix for those with no `PORT_STATUS` endpoint
+
+`2025-06-14`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.14.2)
+
+### 🐛 Bug fixes
+
+- Fixed aiohttp error when non-existing `PORT_STATUS` endpoint was queued with `POST` method
+
 ## 1.14.1 🐛 aiohttp fix
 
 `2025-06-13`
