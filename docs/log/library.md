@@ -1,5 +1,15 @@
 # Library change log
 
+## 1.15.0 ⌚ Uptime
+
+`2025-07-27`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.15.0)
+
+### 🚀 Features
+
+- Added `uptime` value to the `AsusData.BOOTTIME` state corresponding to the device uptime in seconds
+
 ## 1.14.2 🐛 Bugfix for those with no `PORT_STATUS` endpoint
 
 `2025-06-14`
