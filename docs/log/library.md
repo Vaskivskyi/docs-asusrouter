@@ -6,6 +6,8 @@
 
 #### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.15.1)
 
+### 🐛 Bug fixes
+
 - Fixed issue when `uptime` was not updated if the boottime was not changed
 
 ## 1.15.0 ⌚ Uptime
