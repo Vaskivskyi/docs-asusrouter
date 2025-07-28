@@ -1,83 +1,67 @@
 {
-    "model": "RT-AC5300",
-    "wifi": "5",
-    "links": {
-        "amazon": "https://amzn.to/3ZcJQpY"
+  "model": "RT-AC5300",
+  "wifi": "5",
+  "links": {
+    "amazon": "https://amzn.to/4mggt0s"
+  },
+  "firmware": {
+    "386": true,
+    "388": false
+  },
+  "tested": {
+    "state": true,
+    "stock": [],
+    "merlin": ["386.7_2"]
+  },
+  "features": {
+    "main": {},
+    "aimesh": {},
+    "connected-devices": {},
+    "cpu": {
+      "cores": 2
     },
-    "firmware": {
-        "386": true,
-        "388": false
-    },
-    "tested": {
-        "state": true,
-        "stock": [
-            
-        ],
-        "merlin": [
-            "386.7_2"
-        ]
-    },
-    "features": {
-        "main": {
-        },
-        "aimesh": {
-        },
-        "connected-devices": {
-        },
-        "cpu": {
-            "cores": 2
-        },
-        "guest-wlan": {
-        },
-        "led": {
-        },
-        "load-average": {
-        },
-        "network": {
-        },
-        "openvpn": {
-        },
-        "parental-control": {
-        },
-        "port-forwarding": {
-        },
-        "ports": {
-            "lan": [
-                {
-                    "id": [1, 4],
-                    "speed": 1000
-                }
-            ],
-            "lan_aggr": true,
-            "wan": [
-                {
-                    "id": 0,
-                    "speed": 1000
-                }
-            ],
-            "wan_aggr": false
-        },
-        "ram": {
-            "capacity": 512,
-            "units": "MB"
-        },
-        "temperature": {
-        },
-        "wan": {
-            "dual_wan": true
-        },
-        "wireguard": {
-        },
-        "wlan": {
-            "2ghz": {
-                "speed": 1000
-            },
-            "5ghz": {
-                "speed": 2167
-            },
-            "5ghz2": {
-                "speed": 2167
-            }
+    "guest-wlan": {},
+    "led": {},
+    "load-average": {},
+    "network": {},
+    "openvpn": {},
+    "parental-control": {},
+    "port-forwarding": {},
+    "ports": {
+      "lan": [
+        {
+          "id": [1, 4],
+          "speed": 1000
         }
+      ],
+      "lan_aggr": true,
+      "wan": [
+        {
+          "id": 0,
+          "speed": 1000
+        }
+      ],
+      "wan_aggr": false
+    },
+    "ram": {
+      "capacity": 512,
+      "units": "MB"
+    },
+    "temperature": {},
+    "wan": {
+      "dual_wan": true
+    },
+    "wireguard": {},
+    "wlan": {
+      "2ghz": {
+        "speed": 1000
+      },
+      "5ghz": {
+        "speed": 2167
+      },
+      "5ghz2": {
+        "speed": 2167
+      }
     }
+  }
 }

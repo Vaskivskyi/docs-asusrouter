@@ -10,7 +10,7 @@ description: "Integrate your DSL-AX82U into Home Assistant with AsusRouter"
 |DSL-AX82U|Tested / reported firmware|
 |---|---|
 |<img src="https://asusrouter.vaskivskyi.com/devices/DSL-AX82U.png" width="300">|<b>Stock:</b><li>` `</li><b>Merlin:</b><li>`386.07_0-gnuton0_beta2`</li>|
-|<li><a href="https://www.asus.com/networking-iot-servers/modem-routers/all-series/dsl-ax82u/" rel="nofollow" target="_blank">Official webpage</a></li><li><a href="https://amzn.to/3G87vyR" rel="nofollow sponsored" target="_blank">Buy it on Amazon [^amazon]</a></li>|<li>:green_heart: Tested to work with AsusRouter</li><li><a href="https://github.com/Vaskivskyi/ha-asusrouter/issues/new/choose" rel="nofollow" target="_blank">Add you report about this device</a></li>|
+|<li><a href="https://www.asus.com/networking-iot-servers/modem-routers/all-series/dsl-ax82u/" rel="nofollow" target="_blank">Official webpage</a></li><li><a href="https://amzn.to/454pmmP" rel="nofollow sponsored" target="_blank">Buy it on Amazon [^amazon]</a></li>|<li>:green_heart: Tested to work with AsusRouter</li><li><a href="https://github.com/Vaskivskyi/ha-asusrouter/issues/new/choose" rel="nofollow" target="_blank">Add you report about this device</a></li>|
 
 [^amazon]: As an Amazon Associate I earn from qualifying purchases. Not like I ever got anything yet (:
 

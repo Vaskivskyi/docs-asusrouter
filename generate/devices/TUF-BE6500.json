@@ -1,10 +1,11 @@
 {
   "model": "TUF-BE6500",
-  "name": "TUF 小旋风Pro WiFi7 BE6500",
+  "name": "TUF Gaming BE6500",
+  "alt_names": ["TUF 小旋风Pro WiFi7 BE6500"],
   "wifi": "7",
   "links": {
-    "asus": "https://www.asus.com.cn/networking-iot-servers/wifi-routers/asus-gaming-routers/tuf-gaming-6500/",
-    "amazon": "https://amzn.to/3X3Xltv"
+    "asus": "https://www.asus.com/networking-iot-servers/wifi-routers/asus-gaming-routers/tuf-gaming-be6500/",
+    "amazon": "https://amzn.to/3TXOAyl"
   },
   "firmware": {
     "386": false,

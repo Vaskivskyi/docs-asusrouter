@@ -1,87 +1,71 @@
 {
-    "model": "TUF-AX6000",
-    "name": "TUF Gaming AX6000",
-    "wifi": "6",
-    "links": {
-        "asus": "https://www.asus.com/networking-iot-servers/wifi-routers/asus-gaming-routers/tuf-gaming-ax6000/",
-        "amazon": "https://amzn.to/3CXqxaG"
+  "model": "TUF-AX6000",
+  "name": "TUF Gaming AX6000",
+  "wifi": "6",
+  "links": {
+    "asus": "https://www.asus.com/networking-iot-servers/wifi-routers/asus-gaming-routers/tuf-gaming-ax6000/",
+    "amazon": "https://amzn.to/4m9aSZY"
+  },
+  "firmware": {
+    "386": false,
+    "388": true
+  },
+  "tested": {
+    "state": true,
+    "stock": ["388.32432"],
+    "merlin": []
+  },
+  "features": {
+    "main": {},
+    "aimesh": {},
+    "connected-devices": {},
+    "cpu": {
+      "cores": 4,
+      "frequency": "2.0 GHz"
     },
-    "firmware": {
-        "386": false,
-        "388": true
-    },
-    "tested": {
-        "state": true,
-        "stock": [
-            "388.32432"
-        ],
-        "merlin": [
-            
-        ]
-    },
-    "features": {
-        "main": {
+    "guest-wlan": {},
+    "led": {},
+    "load-average": {},
+    "network": {},
+    "openvpn": {},
+    "parental-control": {},
+    "port-forwarding": {},
+    "ports": {
+      "lan": [
+        {
+          "id": [1, 4],
+          "speed": 1000
         },
-        "aimesh": {
-        },
-        "connected-devices": {
-        },
-        "cpu": {
-            "cores": 4,
-            "frequency": "2.0 GHz"
-        },
-        "guest-wlan": {
-        },
-        "led": {
-        },
-        "load-average": {
-        },
-        "network": {
-        },
-        "openvpn": {
-        },
-        "parental-control": {
-        },
-        "port-forwarding": {
-        },
-        "ports": {
-            "lan": [
-                {
-                    "id": [1, 4],
-                    "speed": 1000
-                },
-                {
-                    "id": 5,
-                    "speed": 2500
-                }
-            ],
-            "lan_aggr": true,
-            "wan": [
-                {
-                    "id": 0,
-                    "speed": 2500
-                }
-            ],
-            "wan_aggr": true
-        },
-        "ram": {
-            "capacity": 512,
-            "units": "MB"
-        },
-        "temperature": {
-        },
-        "wan": {
-            "dual_wan": false
-        },
-        "wireguard": {
-        },
-        "wlan": {
-            "2ghz": {
-                "speed": 1148
-            },
-            "5ghz": {
-                "speed": 4804
-            }
+        {
+          "id": 5,
+          "speed": 2500
         }
+      ],
+      "lan_aggr": true,
+      "wan": [
+        {
+          "id": 0,
+          "speed": 2500
+        }
+      ],
+      "wan_aggr": true
+    },
+    "ram": {
+      "capacity": 512,
+      "units": "MB"
+    },
+    "temperature": {},
+    "wan": {
+      "dual_wan": false
+    },
+    "wireguard": {},
+    "wlan": {
+      "2ghz": {
+        "speed": 1148
+      },
+      "5ghz": {
+        "speed": 4804
+      }
     }
+  }
 }

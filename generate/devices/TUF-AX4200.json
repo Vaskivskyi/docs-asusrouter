@@ -1,83 +1,67 @@
 {
-    "model": "TUF-AX4200",
-    "name": "TUF Gaming AX4200",
-    "wifi": "6",
-    "links": {
-        "asus": "https://www.asus.com/networking-iot-servers/wifi-routers/asus-gaming-routers/tuf-gaming-ax4200/",
-        "amazon": "https://amzn.to/3kexPjC"
+  "model": "TUF-AX4200",
+  "name": "TUF Gaming AX4200",
+  "wifi": "6",
+  "links": {
+    "asus": "https://www.asus.com/networking-iot-servers/wifi-routers/asus-gaming-routers/tuf-gaming-ax4200/",
+    "amazon": "https://amzn.to/3H6CEas"
+  },
+  "firmware": {
+    "386": false,
+    "388": true
+  },
+  "tested": {
+    "state": false,
+    "stock": [],
+    "merlin": []
+  },
+  "features": {
+    "main": {},
+    "aimesh": {},
+    "connected-devices": {},
+    "cpu": {
+      "cores": 4,
+      "frequency": "2.0 GHz"
     },
-    "firmware": {
-        "386": false,
-        "388": true
-    },
-    "tested": {
-        "state": false,
-        "stock": [
-            
-        ],
-        "merlin": [
-            
-        ]
-    },
-    "features": {
-        "main": {
-        },
-        "aimesh": {
-        },
-        "connected-devices": {
-        },
-        "cpu": {
-            "cores": 4,
-            "frequency": "2.0 GHz"
-        },
-        "guest-wlan": {
-        },
-        "led": {
-        },
-        "load-average": {
-        },
-        "network": {
-        },
-        "openvpn": {
-        },
-        "parental-control": {
-        },
-        "port-forwarding": {
-        },
-        "ports": {
-            "lan": [
-                {
-                    "id": [1, 4],
-                    "speed": 1000
-                }
-            ],
-            "lan_aggr": true,
-            "wan": [
-                {
-                    "id": 0,
-                    "speed": 1000
-                }
-            ],
-            "wan_aggr": false
-        },
-        "ram": {
-            "capacity": 512,
-            "units": "MB"
-        },
-        "temperature": {
-        },
-        "wan": {
-            "dual_wan": false
-        },
-        "wireguard": {
-        },
-        "wlan": {
-            "2ghz": {
-                "speed": 574
-            },
-            "5ghz": {
-                "speed": 3603
-            }
+    "guest-wlan": {},
+    "led": {},
+    "load-average": {},
+    "network": {},
+    "openvpn": {},
+    "parental-control": {},
+    "port-forwarding": {},
+    "ports": {
+      "lan": [
+        {
+          "id": [1, 4],
+          "speed": 1000
         }
+      ],
+      "lan_aggr": true,
+      "wan": [
+        {
+          "id": 0,
+          "speed": 1000
+        }
+      ],
+      "wan_aggr": false
+    },
+    "ram": {
+      "capacity": 512,
+      "units": "MB"
+    },
+    "temperature": {},
+    "wan": {
+      "dual_wan": false
+    },
+    "wireguard": {},
+    "wlan": {
+      "2ghz": {
+        "speed": 574
+      },
+      "5ghz": {
+        "speed": 3603
+      }
     }
+  }
 }

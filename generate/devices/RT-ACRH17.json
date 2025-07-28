@@ -1,81 +1,65 @@
 {
-    "model": "RT-ACRH17",
-    "wifi": "5",
-    "links": {
-        "asus": "https://www.asus.com/us/networking-iot-servers/wifi-routers/asus-wifi-routers/rt-acrh17/",
-        "amazon": "https://amzn.to/3i6dWL0"
+  "model": "RT-ACRH17",
+  "wifi": "5",
+  "links": {
+    "asus": "https://www.asus.com/us/networking-iot-servers/wifi-routers/asus-wifi-routers/rt-acrh17/",
+    "amazon": "https://amzn.to/3GLhejh"
+  },
+  "firmware": {
+    "386": false,
+    "388": false
+  },
+  "tested": {
+    "state": true,
+    "stock": ["382.52517"],
+    "merlin": []
+  },
+  "features": {
+    "main": {},
+    "aimesh": {},
+    "connected-devices": {},
+    "cpu": {
+      "cores": 1
     },
-    "firmware": {
-        "386": false,
-        "388": false
-    },
-    "tested": {
-        "state": true,
-        "stock": [
-            "382.52517"
-        ],
-        "merlin": [
-            
-        ]
-    },
-    "features": {
-        "main": {
-        },
-        "aimesh": {
-        },
-        "connected-devices": {
-        },
-        "cpu": {
-            "cores": 1
-        },
-        "guest-wlan": {
-        },
-        "led": {
-        },
-        "load-average": {
-        },
-        "network": {
-        },
-        "openvpn": {
-        },
-        "parental-control": {
-        },
-        "port-forwarding": {
-        },
-        "ports": {
-            "lan": [
-                {
-                    "id": [1, 4],
-                    "speed": 1000
-                }
-            ],
-            "lan_aggr": false,
-            "wan": [
-                {
-                    "id": 0,
-                    "speed": 1000
-                }
-            ],
-            "wan_aggr": false
-        },
-        "ram": {
-            "capacity": 256,
-            "units": "MB"
-        },
-        "temperature": {
-        },
-        "wan": {
-            "dual_wan": false
-        },
-        "wireguard": {
-        },
-        "wlan": {
-            "2ghz": {
-                "speed": 400
-            },
-            "5ghz": {
-                "speed": 1300
-            }
+    "guest-wlan": {},
+    "led": {},
+    "load-average": {},
+    "network": {},
+    "openvpn": {},
+    "parental-control": {},
+    "port-forwarding": {},
+    "ports": {
+      "lan": [
+        {
+          "id": [1, 4],
+          "speed": 1000
         }
+      ],
+      "lan_aggr": false,
+      "wan": [
+        {
+          "id": 0,
+          "speed": 1000
+        }
+      ],
+      "wan_aggr": false
+    },
+    "ram": {
+      "capacity": 256,
+      "units": "MB"
+    },
+    "temperature": {},
+    "wan": {
+      "dual_wan": false
+    },
+    "wireguard": {},
+    "wlan": {
+      "2ghz": {
+        "speed": 400
+      },
+      "5ghz": {
+        "speed": 1300
+      }
     }
+  }
 }

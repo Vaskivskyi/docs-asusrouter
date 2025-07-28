@@ -1,80 +1,64 @@
 {
-    "model": "RT-N66U",
-    "wifi": "4",
-    "links": {
-        "amazon": "https://amzn.to/3i7eP5Z"
+  "model": "RT-N66U",
+  "wifi": "4",
+  "links": {
+    "amazon": "https://amzn.to/4lPsgD6"
+  },
+  "firmware": {
+    "386": false,
+    "388": false
+  },
+  "tested": {
+    "state": true,
+    "stock": [],
+    "merlin": []
+  },
+  "features": {
+    "main": {},
+    "aimesh": {},
+    "connected-devices": {},
+    "cpu": {
+      "cores": 1
     },
-    "firmware": {
-        "386": false,
-        "388": false
-    },
-    "tested": {
-        "state": true,
-        "stock": [
-            
-        ],
-        "merlin": [
-            
-        ]
-    },
-    "features": {
-        "main": {
-        },
-        "aimesh": {
-        },
-        "connected-devices": {
-        },
-        "cpu": {
-            "cores": 1
-        },
-        "guest-wlan": {
-        },
-        "led": {
-        },
-        "load-average": {
-        },
-        "network": {
-        },
-        "openvpn": {
-        },
-        "parental-control": {
-        },
-        "port-forwarding": {
-        },
-        "ports": {
-            "lan": [
-                {
-                    "id": [1, 4],
-                    "speed": 1000
-                }
-            ],
-            "lan_aggr": false,
-            "wan": [
-                {
-                    "id": 0,
-                    "speed": 1000
-                }
-            ],
-            "wan_aggr": false
-        },
-        "ram": {
-            "capacity": 256,
-            "units": "MB"
-        },
-        "temperature": {
-        },
-        "wan": {
-            "dual_wan": false
-        },
-        "wireguard": {
-        },
-        "wlan": {
-            "2ghz": {
-                "speed": 450
-            },
-            "5ghz": {
-                "speed": 450
-            }
+    "guest-wlan": {},
+    "led": {},
+    "load-average": {},
+    "network": {},
+    "openvpn": {},
+    "parental-control": {},
+    "port-forwarding": {},
+    "ports": {
+      "lan": [
+        {
+          "id": [1, 4],
+          "speed": 1000
         }
+      ],
+      "lan_aggr": false,
+      "wan": [
+        {
+          "id": 0,
+          "speed": 1000
+        }
+      ],
+      "wan_aggr": false
+    },
+    "ram": {
+      "capacity": 256,
+      "units": "MB"
+    },
+    "temperature": {},
+    "wan": {
+      "dual_wan": false
+    },
+    "wireguard": {},
+    "wlan": {
+      "2ghz": {
+        "speed": 450
+      },
+      "5ghz": {
+        "speed": 450
+      }
     }
+  }
 }

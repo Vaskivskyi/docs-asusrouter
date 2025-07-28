@@ -1,84 +1,67 @@
 {
-    "model": "RT-AC68U",
-    "wifi": "5",
-    "links": {
-        "asus": "https://www.asus.com/networking-iot-servers/wifi-routers/asus-wifi-routers/rtac68u/",
-        "amazon": "https://amzn.to/3i6dQTE"
+  "model": "RT-AC68U",
+  "wifi": "5",
+  "links": {
+    "asus": "https://www.asus.com/networking-iot-servers/wifi-routers/asus-wifi-routers/rtac68u/",
+    "amazon": "https://amzn.to/475uFFb"
+  },
+  "firmware": {
+    "386": true,
+    "388": false
+  },
+  "tested": {
+    "state": true,
+    "stock": ["386.49703"],
+    "merlin": ["386.5_2", "386.7_0"]
+  },
+  "features": {
+    "main": {},
+    "aimesh": {},
+    "connected-devices": {},
+    "cpu": {
+      "cores": 2,
+      "frequency": "1.0 GHz",
+      "model": "ARM Cortex A9"
     },
-    "firmware": {
-        "386": true,
-        "388": false
-    },
-    "tested": {
-        "state": true,
-        "stock": [
-            "386.49703"
-        ],
-        "merlin": [
-            "386.5_2",
-            "386.7_0"
-        ]
-    },
-    "features": {
-        "main": {
-        },
-        "aimesh": {
-        },
-        "connected-devices": {
-        },
-        "cpu": {
-            "cores": 2,
-            "frequency": "1.0 GHz",
-            "model": "ARM Cortex A9"
-        },
-        "guest-wlan": {
-        },
-        "led": {
-        },
-        "load-average": {
-        },
-        "network": {
-        },
-        "openvpn": {
-        },
-        "parental-control": {
-        },
-        "port-forwarding": {
-        },
-        "ports": {
-            "lan": [
-                {
-                    "id": [1, 4],
-                    "speed": 1000
-                }
-            ],
-            "lan_aggr": false,
-            "wan": [
-                {
-                    "id": 0,
-                    "speed": 1000
-                }
-            ],
-            "wan_aggr": false
-        },
-        "ram": {
-            "capacity": 256,
-            "units": "MB"
-        },
-        "temperature": {
-        },
-        "wan": {
-            "dual_wan": true
-        },
-        "wireguard": {
-        },
-        "wlan": {
-            "2ghz": {
-                "speed": 600
-            },
-            "5ghz": {
-                "speed": 1300
-            }
+    "guest-wlan": {},
+    "led": {},
+    "load-average": {},
+    "network": {},
+    "openvpn": {},
+    "parental-control": {},
+    "port-forwarding": {},
+    "ports": {
+      "lan": [
+        {
+          "id": [1, 4],
+          "speed": 1000
         }
+      ],
+      "lan_aggr": false,
+      "wan": [
+        {
+          "id": 0,
+          "speed": 1000
+        }
+      ],
+      "wan_aggr": false
+    },
+    "ram": {
+      "capacity": 256,
+      "units": "MB"
+    },
+    "temperature": {},
+    "wan": {
+      "dual_wan": true
+    },
+    "wireguard": {},
+    "wlan": {
+      "2ghz": {
+        "speed": 600
+      },
+      "5ghz": {
+        "speed": 1300
+      }
     }
+  }
 }

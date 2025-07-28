@@ -1,82 +1,66 @@
 {
-    "model": "RT-AX52",
-    "wifi": "6",
-    "links": {
-        "asus": "https://www.asus.com/networking-iot-servers/wifi-routers/asus-wifi-routers/rt-ax52/",
-        "amazon": "https://amzn.to/40Ph3sO"
+  "model": "RT-AX52",
+  "wifi": "6",
+  "links": {
+    "asus": "https://www.asus.com/networking-iot-servers/wifi-routers/asus-wifi-routers/rt-ax52/",
+    "amazon": "https://amzn.to/4711IKz"
+  },
+  "firmware": {
+    "386": false,
+    "388": true
+  },
+  "tested": {
+    "state": false,
+    "stock": [],
+    "merlin": []
+  },
+  "features": {
+    "main": {},
+    "aimesh": {},
+    "connected-devices": {},
+    "cpu": {
+      "cores": 2,
+      "frequency": "1.3 GHz"
     },
-    "firmware": {
-        "386": false,
-        "388": true
-    },
-    "tested": {
-        "state": false,
-        "stock": [
-
-        ],
-        "merlin": [
-            
-        ]
-    },
-    "features": {
-        "main": {
-        },
-        "aimesh": {
-        },
-        "connected-devices": {
-        },
-        "cpu": {
-            "cores": 2,
-            "frequency": "1.3 GHz"
-        },
-        "guest-wlan": {
-        },
-        "led": {
-        },
-        "load-average": {
-        },
-        "network": {
-        },
-        "openvpn": {
-        },
-        "parental-control": {
-        },
-        "port-forwarding": {
-        },
-        "ports": {
-            "lan": [
-                {
-                    "id": [1, 3],
-                    "speed": 1000
-                }
-            ],
-            "lan_aggr": false,
-            "wan": [
-                {
-                    "id": 0,
-                    "speed": 1000
-                }
-            ],
-            "wan_aggr": false
-        },
-        "ram": {
-            "capacity": 256,
-            "units": "MB"
-        },
-        "temperature": {
-        },
-        "wan": {
-            "dual_wan": true
-        },
-        "wireguard": {
-        },
-        "wlan": {
-            "2ghz": {
-                "speed": 574
-            },
-            "5ghz": {
-                "speed": 1201
-            }
+    "guest-wlan": {},
+    "led": {},
+    "load-average": {},
+    "network": {},
+    "openvpn": {},
+    "parental-control": {},
+    "port-forwarding": {},
+    "ports": {
+      "lan": [
+        {
+          "id": [1, 3],
+          "speed": 1000
         }
+      ],
+      "lan_aggr": false,
+      "wan": [
+        {
+          "id": 0,
+          "speed": 1000
+        }
+      ],
+      "wan_aggr": false
+    },
+    "ram": {
+      "capacity": 256,
+      "units": "MB"
+    },
+    "temperature": {},
+    "wan": {
+      "dual_wan": true
+    },
+    "wireguard": {},
+    "wlan": {
+      "2ghz": {
+        "speed": 574
+      },
+      "5ghz": {
+        "speed": 1201
+      }
     }
+  }
 }

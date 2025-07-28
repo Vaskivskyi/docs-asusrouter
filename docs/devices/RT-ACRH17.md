@@ -10,7 +10,7 @@ description: "Integrate your RT-ACRH17 into Home Assistant with AsusRouter"
 |RT-ACRH17|Tested / reported firmware|
 |---|---|
 |<img src="https://asusrouter.vaskivskyi.com/devices/RT-ACRH17.png" width="300">|<b>Stock:</b><li>`382.52517`</li><b>Merlin:</b><li>` `</li>|
-|<li><a href="https://www.asus.com/us/networking-iot-servers/wifi-routers/asus-wifi-routers/rt-acrh17/" rel="nofollow" target="_blank">Official webpage</a></li><li><a href="https://amzn.to/3i6dWL0" rel="nofollow sponsored" target="_blank">Buy it on Amazon [^amazon]</a></li>|<li>:green_heart: Tested to work with AsusRouter</li><li><a href="https://github.com/Vaskivskyi/ha-asusrouter/issues/new/choose" rel="nofollow" target="_blank">Add you report about this device</a></li>|
+|<li><a href="https://www.asus.com/us/networking-iot-servers/wifi-routers/asus-wifi-routers/rt-acrh17/" rel="nofollow" target="_blank">Official webpage</a></li><li><a href="https://amzn.to/3GLhejh" rel="nofollow sponsored" target="_blank">Buy it on Amazon [^amazon]</a></li>|<li>:green_heart: Tested to work with AsusRouter</li><li><a href="https://github.com/Vaskivskyi/ha-asusrouter/issues/new/choose" rel="nofollow" target="_blank">Add you report about this device</a></li>|
 
 [^amazon]: As an Amazon Associate I earn from qualifying purchases. Not like I ever got anything yet (:
 

@@ -1,81 +1,65 @@
 {
-    "model": "4G-AC55U",
-    "wifi": "5",
-    "links": {
-        "asus": "https://www.asus.com/supportonly/4g-ac55u/helpdesk_knowledge/",
-        "amazon": "https://amzn.to/3jIWQDu"
+  "model": "4G-AC55U",
+  "wifi": "5",
+  "links": {
+    "asus": "https://www.asus.com/supportonly/4g-ac55u/helpdesk_knowledge/",
+    "amazon": "https://amzn.to/4lQsiuL"
+  },
+  "firmware": {
+    "386": false,
+    "388": false
+  },
+  "tested": {
+    "state": true,
+    "stock": ["380.8102"],
+    "merlin": []
+  },
+  "features": {
+    "main": {},
+    "aimesh": {},
+    "connected-devices": {},
+    "cpu": {
+      "cores": 1
     },
-    "firmware": {
-        "386": false,
-        "388": false
-    },
-    "tested": {
-        "state": true,
-        "stock": [
-            "380.8102"
-        ],
-        "merlin": [
-            
-        ]
-    },
-    "features": {
-        "main": {
-        },
-        "aimesh": {
-        },
-        "connected-devices": {
-        },
-        "cpu": {
-            "cores": 1
-        },
-        "guest-wlan": {
-        },
-        "led": {
-        },
-        "load-average": {
-        },
-        "network": {
-        },
-        "openvpn": {
-        },
-        "parental-control": {
-        },
-        "port-forwarding": {
-        },
-        "ports": {
-            "lan": [
-                {
-                    "id": [1, 4],
-                    "speed": 1000
-                }
-            ],
-            "lan_aggr": false,
-            "wan": [
-                {
-                    "id": 0,
-                    "speed": 1000
-                }
-            ],
-            "wan_aggr": false
-        },
-        "ram": {
-            "capacity": 256,
-            "units": "MB"
-        },
-        "temperature": {
-        },
-        "wan": {
-            "dual_wan": false
-        },
-        "wireguard": {
-        },
-        "wlan": {
-            "2ghz": {
-                "speed": 300
-            },
-            "5ghz": {
-                "speed": 867
-            }
+    "guest-wlan": {},
+    "led": {},
+    "load-average": {},
+    "network": {},
+    "openvpn": {},
+    "parental-control": {},
+    "port-forwarding": {},
+    "ports": {
+      "lan": [
+        {
+          "id": [1, 4],
+          "speed": 1000
         }
+      ],
+      "lan_aggr": false,
+      "wan": [
+        {
+          "id": 0,
+          "speed": 1000
+        }
+      ],
+      "wan_aggr": false
+    },
+    "ram": {
+      "capacity": 256,
+      "units": "MB"
+    },
+    "temperature": {},
+    "wan": {
+      "dual_wan": false
+    },
+    "wireguard": {},
+    "wlan": {
+      "2ghz": {
+        "speed": 300
+      },
+      "5ghz": {
+        "speed": 867
+      }
     }
+  }
 }
