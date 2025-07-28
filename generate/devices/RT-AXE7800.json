@@ -1,89 +1,73 @@
 {
-    "model": "RT-AXE7800",
-    "wifi": "6e",
-    "links": {
-        "asus": "https://www.asus.com/networking-iot-servers/wifi-routers/asus-wifi-routers/rt-axe7800/",
-        "amazon": "https://amzn.to/3jUr2LU"
+  "model": "RT-AXE7800",
+  "wifi": "6e",
+  "links": {
+    "asus": "https://www.asus.com/networking-iot-servers/wifi-routers/asus-wifi-routers/rt-axe7800/",
+    "amazon": "https://amzn.to/3U1GAfK"
+  },
+  "firmware": {
+    "386": true,
+    "388": true
+  },
+  "tested": {
+    "state": true,
+    "stock": ["388_22068"],
+    "merlin": []
+  },
+  "features": {
+    "main": {},
+    "aimesh": {},
+    "connected-devices": {},
+    "cpu": {
+      "cores": 4,
+      "frequency": "1.7 GHz"
     },
-    "firmware": {
-        "386": true,
-        "388": true
-    },
-    "tested": {
-        "state": true,
-        "stock": [
-            "388_22068"
-        ],
-        "merlin": [
-            
-        ]
-    },
-    "features": {
-        "main": {
+    "guest-wlan": {},
+    "led": {},
+    "load-average": {},
+    "network": {},
+    "openvpn": {},
+    "parental-control": {},
+    "port-forwarding": {},
+    "ports": {
+      "lan": [
+        {
+          "id": 1,
+          "speed": 2500
         },
-        "aimesh": {
-        },
-        "connected-devices": {
-        },
-        "cpu": {
-            "cores": 4,
-            "frequency": "1.7 GHz"
-        },
-        "guest-wlan": {
-        },
-        "led": {
-        },
-        "load-average": {
-        },
-        "network": {
-        },
-        "openvpn": {
-        },
-        "parental-control": {
-        },
-        "port-forwarding": {
-        },
-        "ports": {
-            "lan": [
-                {
-                    "id": 1,
-                    "speed": 2500
-                },
-                {
-                    "id": [2, 4],
-                    "speed": 1000
-                }
-            ],
-            "lan_aggr": true,
-            "wan": [
-                {
-                    "id": 0,
-                    "speed": 1000
-                }
-            ],
-            "wan_aggr": true
-        },
-        "ram": {
-            "capacity": 512,
-            "units": "MB"
-        },
-        "temperature": {
-        },
-        "wan": {
-            "dual_wan": true
-        },
-        "wireguard": {
-        },
-        "wlan": {
-            "2ghz": {
-                "speed": 574
-            },
-            "5ghz": {
-                "speed": 4804
-            },
-            "6ghz": {
-                "speed": 2402
-            }
+        {
+          "id": [2, 4],
+          "speed": 1000
         }
+      ],
+      "lan_aggr": true,
+      "wan": [
+        {
+          "id": 0,
+          "speed": 1000
+        }
+      ],
+      "wan_aggr": true
+    },
+    "ram": {
+      "capacity": 512,
+      "units": "MB"
+    },
+    "temperature": {},
+    "wan": {
+      "dual_wan": true
+    },
+    "wireguard": {},
+    "wlan": {
+      "2ghz": {
+        "speed": 574
+      },
+      "5ghz": {
+        "speed": 4804
+      },
+      "6ghz": {
+        "speed": 2402
+      }
     }
+  }
 }

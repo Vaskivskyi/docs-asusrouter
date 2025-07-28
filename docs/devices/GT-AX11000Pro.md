@@ -9,8 +9,8 @@ description: "Integrate your GT-AX11000 Pro into Home Assistant with AsusRouter"
 
 |ROG Rapture GT-AX11000 Pro|Tested / reported firmware|
 |---|---|
-|<img src="https://asusrouter.vaskivskyi.com/devices/GT-AX11000Pro.png" width="300">|<b>Stock:</b><li>`388.24198`</li><b>Merlin:</b><li>`388.7_0_rog`</li>|
-|<li><a href="https://rog.asus.com/networking/rog-rapture-gt-ax11000-pro-model/" rel="nofollow" target="_blank">Official webpage</a></li><li><a href="https://amzn.to/3VUNbHl" rel="nofollow sponsored" target="_blank">Buy it on Amazon [^amazon]</a></li>|<li>:green_heart: Tested to work with AsusRouter</li><li><a href="https://github.com/Vaskivskyi/ha-asusrouter/issues/new/choose" rel="nofollow" target="_blank">Add you report about this device</a></li>|
+|<img src="https://asusrouter.vaskivskyi.com/devices/GT-AX11000Pro.png" width="300">|<b>Stock:</b><li>`388.24198`</li><li>`102_34735`</li><b>Merlin:</b><li>`388.7_0_rog`</li>|
+|<li><a href="https://rog.asus.com/networking/rog-rapture-gt-ax11000-pro-model/" rel="nofollow" target="_blank">Official webpage</a></li><li><a href="https://amzn.to/4l4c7bH" rel="nofollow sponsored" target="_blank">Buy it on Amazon [^amazon]</a></li>|<li>:green_heart: Tested to work with AsusRouter</li><li><a href="https://github.com/Vaskivskyi/ha-asusrouter/issues/new/choose" rel="nofollow" target="_blank">Add you report about this device</a></li>|
 
 [^amazon]: As an Amazon Associate I earn from qualifying purchases. Not like I ever got anything yet (:
 

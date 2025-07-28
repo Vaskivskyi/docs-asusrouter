@@ -1,16 +1,16 @@
 ---
-title: "Asus TUF 小旋风Pro WiFi7 BE6500"
+title: "Asus TUF Gaming BE6500"
 description: "Integrate your TUF-BE6500 into Home Assistant with AsusRouter"
 ---
 <!-- !!! -->
 <!-- This file is auto-generated -->
 <!-- !!! -->
-# TUF 小旋风Pro WiFi7 BE6500
+# TUF Gaming BE6500
 
-|TUF 小旋风Pro WiFi7 BE6500|Tested / reported firmware|
+|TUF Gaming BE6500<br />TUF 小旋风Pro WiFi7 BE6500|Tested / reported firmware|
 |---|---|
 |<img src="https://asusrouter.vaskivskyi.com/devices/TUF-BE6500.png" width="300">|<b>Stock:</b><li>` `</li><b>Merlin:</b><li>` `</li>|
-|<li><a href="https://www.asus.com.cn/networking-iot-servers/wifi-routers/asus-gaming-routers/tuf-gaming-6500/" rel="nofollow" target="_blank">Official webpage</a></li><li><a href="https://amzn.to/3X3Xltv" rel="nofollow sponsored" target="_blank">Buy it on Amazon [^amazon]</a></li>|<li>:yellow_heart: This device has not been tested yet, but should work with AsusRouter</li><li><a href="https://github.com/Vaskivskyi/ha-asusrouter/issues/new/choose" rel="nofollow" target="_blank">Add you report about this device</a></li>|
+|<li><a href="https://www.asus.com/networking-iot-servers/wifi-routers/asus-gaming-routers/tuf-gaming-be6500/" rel="nofollow" target="_blank">Official webpage</a></li><li><a href="https://amzn.to/3TXOAyl" rel="nofollow sponsored" target="_blank">Buy it on Amazon [^amazon]</a></li>|<li>:yellow_heart: This device has not been tested yet, but should work with AsusRouter</li><li><a href="https://github.com/Vaskivskyi/ha-asusrouter/issues/new/choose" rel="nofollow" target="_blank">Add you report about this device</a></li>|
 
 [^amazon]: As an Amazon Associate I earn from qualifying purchases. Not like I ever got anything yet (:
 

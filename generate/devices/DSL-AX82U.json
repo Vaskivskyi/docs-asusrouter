@@ -1,82 +1,66 @@
 {
-    "model": "DSL-AX82U",
-    "wifi": "6",
-    "links": {
-        "asus": "https://www.asus.com/networking-iot-servers/modem-routers/all-series/dsl-ax82u/",
-        "amazon": "https://amzn.to/3G87vyR"
+  "model": "DSL-AX82U",
+  "wifi": "6",
+  "links": {
+    "asus": "https://www.asus.com/networking-iot-servers/modem-routers/all-series/dsl-ax82u/",
+    "amazon": "https://amzn.to/454pmmP"
+  },
+  "firmware": {
+    "386": true,
+    "388": true
+  },
+  "tested": {
+    "state": true,
+    "stock": [],
+    "merlin": ["386.07_0-gnuton0_beta2"]
+  },
+  "features": {
+    "main": {},
+    "aimesh": {},
+    "connected-devices": {},
+    "cpu": {
+      "cores": 3,
+      "frequency": "1.5 GHz"
     },
-    "firmware": {
-        "386": true,
-        "388": true
-    },
-    "tested": {
-        "state": true,
-        "stock": [
-            
-        ],
-        "merlin": [
-            "386.07_0-gnuton0_beta2"
-        ]
-    },
-    "features": {
-        "main": {
-        },
-        "aimesh": {
-        },
-        "connected-devices": {
-        },
-        "cpu": {
-            "cores": 3,
-            "frequency": "1.5 GHz"
-        },
-        "guest-wlan": {
-        },
-        "led": {
-        },
-        "load-average": {
-        },
-        "network": {
-        },
-        "openvpn": {
-        },
-        "parental-control": {
-        },
-        "port-forwarding": {
-        },
-        "ports": {
-            "lan": [
-                {
-                    "id": [1, 4],
-                    "speed": 1000
-                }
-            ],
-            "lan_aggr": false,
-            "wan": [
-                {
-                    "id": 0,
-                    "speed": 1000
-                }
-            ],
-            "wan_aggr": false
-        },
-        "ram": {
-            "capacity": 512,
-            "units": "MB"
-        },
-        "temperature": {
-        },
-        "wan": {
-            "dual_wan": true
-        },
-        "wireguard": {
-        },
-        "wlan": {
-            "2ghz": {
-                "speed": 574
-            },
-            "5ghz": {
-                "speed": 4808
-            }
+    "guest-wlan": {},
+    "led": {},
+    "load-average": {},
+    "network": {},
+    "openvpn": {},
+    "parental-control": {},
+    "port-forwarding": {},
+    "ports": {
+      "lan": [
+        {
+          "id": [1, 4],
+          "speed": 1000
         }
+      ],
+      "lan_aggr": false,
+      "wan": [
+        {
+          "id": 0,
+          "speed": 1000
+        }
+      ],
+      "wan_aggr": false
+    },
+    "ram": {
+      "capacity": 512,
+      "units": "MB"
+    },
+    "temperature": {},
+    "wan": {
+      "dual_wan": true
+    },
+    "wireguard": {},
+    "wlan": {
+      "2ghz": {
+        "speed": 574
+      },
+      "5ghz": {
+        "speed": 4808
+      }
     }
+  }
 }

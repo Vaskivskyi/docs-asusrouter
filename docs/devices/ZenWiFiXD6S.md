@@ -10,7 +10,7 @@ description: "Integrate your ZenWiFi XD6S into Home Assistant with AsusRouter"
 |ZenWiFi XD6S|Tested / reported firmware|
 |---|---|
 |<img src="https://asusrouter.vaskivskyi.com/devices/ZenWiFiXD6S.png" width="300">|<b>Stock:</b><li>`388.21380`</li><b>Merlin:</b><li>` `</li>|
-|<li><a href="https://www.asus.com/networking-iot-servers/whole-home-mesh-wifi-system/zenwifi-wifi-systems/asus-zenwifi-xd6/" rel="nofollow" target="_blank">Official webpage</a></li><li><a href="https://amzn.to/3YMbyIZ" rel="nofollow sponsored" target="_blank">Buy it on Amazon [^amazon]</a></li>|<li>:green_heart: Tested to work with AsusRouter</li><li><a href="https://github.com/Vaskivskyi/ha-asusrouter/issues/new/choose" rel="nofollow" target="_blank">Add you report about this device</a></li>|
+|<li><a href="https://www.asus.com/networking-iot-servers/whole-home-mesh-wifi-system/zenwifi-wifi-systems/asus-zenwifi-xd6/" rel="nofollow" target="_blank">Official webpage</a></li><li><a href="https://amzn.to/44PvAZ2" rel="nofollow sponsored" target="_blank">Buy it on Amazon [^amazon]</a></li>|<li>:green_heart: Tested to work with AsusRouter</li><li><a href="https://github.com/Vaskivskyi/ha-asusrouter/issues/new/choose" rel="nofollow" target="_blank">Add you report about this device</a></li>|
 
 [^amazon]: As an Amazon Associate I earn from qualifying purchases. Not like I ever got anything yet (:
 

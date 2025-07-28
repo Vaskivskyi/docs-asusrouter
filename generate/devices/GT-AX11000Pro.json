@@ -4,7 +4,7 @@
   "wifi": "6",
   "links": {
     "asus": "https://rog.asus.com/networking/rog-rapture-gt-ax11000-pro-model/",
-    "amazon": "https://amzn.to/3VUNbHl"
+    "amazon": "https://amzn.to/4l4c7bH"
   },
   "firmware": {
     "386": true,
@@ -12,7 +12,7 @@
   },
   "tested": {
     "state": true,
-    "stock": ["388.24198"],
+    "stock": ["388.24198", "102_34735"],
     "merlin": ["388.7_0_rog"]
   },
   "features": {

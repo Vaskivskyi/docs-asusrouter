@@ -1,89 +1,73 @@
 {
-    "model": "ZenWiFi Pro XT12",
-    "wifi": "6",
-    "links": {
-        "asus": "https://www.asus.com/networking-iot-servers/whole-home-mesh-wifi-system/zenwifi-wifi-systems/asus-zenwifi-pro-xt12/",
-        "amazon": "https://amzn.to/3im6UC5"
+  "model": "ZenWiFi Pro XT12",
+  "wifi": "6",
+  "links": {
+    "asus": "https://www.asus.com/networking-iot-servers/whole-home-mesh-wifi-system/zenwifi-wifi-systems/asus-zenwifi-pro-xt12/",
+    "amazon": "https://amzn.to/3H3Mdai"
+  },
+  "firmware": {
+    "386": true,
+    "388": true
+  },
+  "tested": {
+    "state": true,
+    "stock": ["388.22127"],
+    "merlin": []
+  },
+  "features": {
+    "main": {},
+    "aimesh": {},
+    "connected-devices": {},
+    "cpu": {
+      "cores": 4,
+      "frequency": "2.0 GHz"
     },
-    "firmware": {
-        "386": true,
-        "388": true
-    },
-    "tested": {
-        "state": true,
-        "stock": [
-            "388.22127"
-        ],
-        "merlin": [
-            
-        ]
-    },
-    "features": {
-        "main": {
+    "guest-wlan": {},
+    "led": {},
+    "load-average": {},
+    "network": {},
+    "openvpn": {},
+    "parental-control": {},
+    "port-forwarding": {},
+    "ports": {
+      "lan": [
+        {
+          "id": [1, 2],
+          "speed": 1000
         },
-        "aimesh": {
-        },
-        "connected-devices": {
-        },
-        "cpu": {
-            "cores": 4,
-            "frequency": "2.0 GHz"
-        },
-        "guest-wlan": {
-        },
-        "led": {
-        },
-        "load-average": {
-        },
-        "network": {
-        },
-        "openvpn": {
-        },
-        "parental-control": {
-        },
-        "port-forwarding": {
-        },
-        "ports": {
-            "lan": [
-                {
-                    "id": [1, 2],
-                    "speed": 1000
-                },
-                {
-                    "id": 3,
-                    "speed": 2500
-                }
-            ],
-            "lan_aggr": true,
-            "wan": [
-                {
-                    "id": 0,
-                    "speed": 2500
-                }
-            ],
-            "wan_aggr": true
-        },
-        "ram": {
-            "capacity": 1,
-            "units": "GB"
-        },
-        "temperature": {
-        },
-        "wan": {
-            "dual_wan": true
-        },
-        "wireguard": {
-        },
-        "wlan": {
-            "2ghz": {
-                "speed": 1148
-            },
-            "5ghz": {
-                "speed": 4804
-            },
-            "5ghz2": {
-                "speed": 4804
-            }
+        {
+          "id": 3,
+          "speed": 2500
         }
+      ],
+      "lan_aggr": true,
+      "wan": [
+        {
+          "id": 0,
+          "speed": 2500
+        }
+      ],
+      "wan_aggr": true
+    },
+    "ram": {
+      "capacity": 1,
+      "units": "GB"
+    },
+    "temperature": {},
+    "wan": {
+      "dual_wan": true
+    },
+    "wireguard": {},
+    "wlan": {
+      "2ghz": {
+        "speed": 1148
+      },
+      "5ghz": {
+        "speed": 4804
+      },
+      "5ghz2": {
+        "speed": 4804
+      }
     }
+  }
 }

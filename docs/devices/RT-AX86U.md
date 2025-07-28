@@ -10,7 +10,7 @@ description: "Integrate your RT-AX86U into Home Assistant with AsusRouter"
 |RT-AX86U|Tested / reported firmware|
 |---|---|
 |<img src="https://asusrouter.vaskivskyi.com/devices/RT-AX86U.png" width="300">|<b>Stock:</b><li>`386.46061`</li><li>`386.48260`</li><li>`386.49447`</li><li>`388.22525`</li><b>Merlin:</b><li>`386.7_2`</li><li>`388.4_0`</li><li>`388.7_beta1`</li>|
-|<li><a href="https://www.asus.com/networking-iot-servers/wifi-routers/asus-gaming-routers/rt-ax86u/" rel="nofollow" target="_blank">Official webpage</a></li><li><a href="https://amzn.to/3WCBcPO" rel="nofollow sponsored" target="_blank">Buy it on Amazon [^amazon]</a></li>|<li>:green_heart: Tested to work with AsusRouter</li><li><a href="https://github.com/Vaskivskyi/ha-asusrouter/issues/new/choose" rel="nofollow" target="_blank">Add you report about this device</a></li>|
+|<li><a href="https://www.asus.com/networking-iot-servers/wifi-routers/asus-gaming-routers/rt-ax86u/" rel="nofollow" target="_blank">Official webpage</a></li><li><a href="https://amzn.to/3U0Xg6Y" rel="nofollow sponsored" target="_blank">Buy it on Amazon [^amazon]</a></li>|<li>:green_heart: Tested to work with AsusRouter</li><li><a href="https://github.com/Vaskivskyi/ha-asusrouter/issues/new/choose" rel="nofollow" target="_blank">Add you report about this device</a></li>|
 
 [^amazon]: As an Amazon Associate I earn from qualifying purchases. Not like I ever got anything yet (:
 

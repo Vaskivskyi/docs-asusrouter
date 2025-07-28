@@ -1,84 +1,66 @@
 {
-    "model": "RT-AC58U",
-    "alternative": [
-        "RT-ACRH13"
-    ],
-    "wifi": "5",
-    "links": {
-        "amazon": "https://amzn.to/3G98Mpl"
+  "model": "RT-AC58U",
+  "alternative": ["RT-ACRH13"],
+  "wifi": "5",
+  "links": {
+    "amazon": "https://amzn.to/457m0zp"
+  },
+  "firmware": {
+    "386": false,
+    "388": false
+  },
+  "tested": {
+    "state": true,
+    "stock": [],
+    "merlin": []
+  },
+  "features": {
+    "main": {},
+    "aimesh": {},
+    "connected-devices": {},
+    "cpu": {
+      "cores": 1,
+      "frequency": "717 MHz"
     },
-    "firmware": {
-        "386": false,
-        "388": false
-    },
-    "tested": {
-        "state": true,
-        "stock": [
-            
-        ],
-        "merlin": [
-            
-        ]
-    },
-    "features": {
-        "main": {
-        },
-        "aimesh": {
-        },
-        "connected-devices": {
-        },
-        "cpu": {
-            "cores": 1,
-            "frequency": "717 MHz"
-        },
-        "guest-wlan": {
-        },
-        "led": {
-        },
-        "load-average": {
-        },
-        "network": {
-        },
-        "openvpn": {
-        },
-        "parental-control": {
-        },
-        "port-forwarding": {
-        },
-        "ports": {
-            "lan": [
-                {
-                    "id": [1, 4],
-                    "speed": 1000
-                }
-            ],
-            "lan_aggr": false,
-            "wan": [
-                {
-                    "id": 0,
-                    "speed": 1000
-                }
-            ],
-            "wan_aggr": false
-        },
-        "ram": {
-            "capacity": 128,
-            "units": "MB"
-        },
-        "temperature": {
-        },
-        "wan": {
-            "dual_wan": false
-        },
-        "wireguard": {
-        },
-        "wlan": {
-            "2ghz": {
-                "speed": 400
-            },
-            "5ghz": {
-                "speed": 867
-            }
+    "guest-wlan": {},
+    "led": {},
+    "load-average": {},
+    "network": {},
+    "openvpn": {},
+    "parental-control": {},
+    "port-forwarding": {},
+    "ports": {
+      "lan": [
+        {
+          "id": [1, 4],
+          "speed": 1000
         }
+      ],
+      "lan_aggr": false,
+      "wan": [
+        {
+          "id": 0,
+          "speed": 1000
+        }
+      ],
+      "wan_aggr": false
+    },
+    "ram": {
+      "capacity": 128,
+      "units": "MB"
+    },
+    "temperature": {},
+    "wan": {
+      "dual_wan": false
+    },
+    "wireguard": {},
+    "wlan": {
+      "2ghz": {
+        "speed": 400
+      },
+      "5ghz": {
+        "speed": 867
+      }
     }
+  }
 }
