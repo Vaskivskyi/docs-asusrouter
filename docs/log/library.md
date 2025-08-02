@@ -1,5 +1,22 @@
 # Library change log
 
+## 1.16.0 🐣 AsusSystem members and GitHub Actions
+
+`2025-08-02`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.16.0)
+
+### 🚀 Features
+
+- Added new `AsusSystem` members for onboarding (`AIMESH_ADD_NODE`, `AIMESH_ONBOARDING`)
+- Adjusted FW parsing warning to be triggered only once for each unique FW string
+
+### 🐣 GitHub
+
+- Added Python 3.13 to the testing matrix
+- Improved Actions workflows for better safety and performance
+- Removed the release drafter, which was not in use
+
 ## 1.15.1 ⌚ Uptime fix
 
 `2025-07-27`
