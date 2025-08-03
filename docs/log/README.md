@@ -4,6 +4,12 @@ This page contains the main changes in the project. For the full list of changes
 
 ## Library
 
+**2025-08-03 [[1.17.0]](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.17.0) 🐣 Node control**
+
+Added support for single node control from the main AiMesh router
+
+---
+
 **2024-09-07 [[1.13.0]](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.13.0) ☎️ DSL connection**
 
 Added DSL connection support

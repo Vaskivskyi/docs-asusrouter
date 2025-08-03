@@ -1,5 +1,18 @@
 # Library change log
 
+## 1.17.0 🐣 ARConfig, node control and optimistic temperature
+
+`2025-08-03`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.17.0)
+
+### 🚀 Features
+
+- Added global `ARConfig` configuration to store settings during the library usage
+- Added optimistic temperature conversion for automatic data fix when it is obviously wrong (controlled via the corresponding config)
+- Added single AiMesh node reboot via `AsusSystem.NODE_REBOOT` state (requires MAC of the target node)
+- Added config control for target node via `AsusSystem.NODE_CONFIG_CHANGE` state (requires MAC of the target node and config data)
+
 ## 1.16.0 🐣 AsusSystem members and GitHub Actions
 
 `2025-08-02`
