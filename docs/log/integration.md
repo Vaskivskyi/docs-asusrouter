@@ -1,5 +1,25 @@
 # Integration change log
 
+## 0.36.0 🌡️ Temperature bug fixes and a new uptime sensor
+
+`2025-08-03`
+
+### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.36.0)
+
+### 🚀 Features
+
+- Added `uptime` sensor to show the device uptime (native units - seconds)
+- Added optimistic temperature reading from `asusrouter` backend library
+
+### 🐛 Bug fixes
+
+- Fixed issue with temperature readings being scaled 3 orders of magnitude off on some newer FW and devices (report [#906](https://github.com/Vaskivskyi/ha-asusrouter/issues/906))
+- Fixed issue when a wrongly formatted firmware string was spamming in the log. Now it will log only once per unique string per integration instance (report [#940](https://github.com/Vaskivskyi/ha-asusrouter/issues/940))
+
+### 📦 Dependencies
+
+- Bumped `asusrouter` library to [`1.17.0`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.17.0)
+
 ## 0.35.2 🐛 Fix for legacy devices
 
 `2025-06-14`
