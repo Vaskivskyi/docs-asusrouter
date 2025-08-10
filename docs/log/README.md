@@ -4,6 +4,12 @@ This page contains the main changes in the project. For the full list of changes
 
 ## Library
 
+**2025-08-10 [[1.18.0]](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.18.0) 🛠️ DDNS**
+
+Added support for DDNS monitoring
+
+---
+
 **2025-08-03 [[1.17.0]](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.17.0) 🐣 Node control**
 
 Added support for single node control from the main AiMesh router
