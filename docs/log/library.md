@@ -1,5 +1,30 @@
 # Library change log
 
+## 🛠️ 1.18.0 DDNS, robust boottime and many dev improvements
+
+`2025-08-10`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.18.0)
+
+### 🚀 Features
+
+- Added DDNS support via `AsusData.DDNS`
+  - Full compatibility with Asus DDNS servers (`.com` and `.cn`)
+- Added `ARConfigKey` enum to help with configuration management. This is now the only supported way to get and set `ARConfig` keys
+- Added robust boot time measurement to fix 1-second jitter. Optional, can be set via `ARConfigKey.ROBUST_BOOTTIME` (default: `False`)
+
+### 🐣 GitHub & Development
+
+- Added `ruff` configurations
+- Added `pre-commit` hooks
+- Added CI check on `ruff`
+- Improved the `CONTRIBUTING.md` documentation
+
+### 📦 Dependencies
+
+- Bumped `ruff` to `0.12.8`
+- Set `pre-commit` to `4.3.0`
+
 ## 1.17.0 🐣 ARConfig, node control and optimistic temperature
 
 `2025-08-03`
