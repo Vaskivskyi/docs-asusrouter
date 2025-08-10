@@ -1,5 +1,23 @@
 # Integration change log
 
+## 0.37.0 🌐 DDNS and better boot time handling
+
+`2025-08-10`
+
+### [→ 🐙GitHub release ←](https://github.com/Vaskivskyi/ha-asusrouter/releases/tag/0.37.0)
+
+### 🚀 Features
+
+- Added DDNS binary sensor
+
+### 🐛 Bug fixes
+
+- Fixed issue with boot time sensor 1-second jitter (when the value between integration / HA reboots would be 1 second off), causing extra data to be saved to the database
+
+### 📦 Dependencies
+
+- Bumped `asusrouter` library to [`1.18.0`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.18.0)
+
 ## 0.36.0 🌡️ Temperature bug fixes and a new uptime sensor
 
 `2025-08-03`
