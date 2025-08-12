@@ -1,5 +1,19 @@
 # Library change log
 
+## ⛏️ 1.18.1 Development release
+
+`2025-08-12`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.18.1)
+
+### 🐣 GitHub & Development
+
+- Added `py.typed` and marked project as typed
+- Bumped and fixed setuptools to `80.9.0`
+- Updated deprecated fields in package description
+- Updated dependabot configuration
+- Bumped CI dependencies
+
 ## 🛠️ 1.18.0 DDNS, robust boottime and many dev improvements
 
 `2025-08-10`
