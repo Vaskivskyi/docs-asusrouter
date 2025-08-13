@@ -1,5 +1,24 @@
 # Library change log
 
+## 🌡️ 1.18.2 More config controls
+
+`2025-08-13`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.18.2)
+
+### 🚀 Features
+
+- Added `ARConfigKey.NOTIFIED_OPTIMISTIC_TEMPERATURE` value for custom control of the optimistic temperature notification warning
+
+### 🐣 GitHub & Development
+
+- Bumped `uv.lock` dependencies:
+  - `pytest` to `8.4.1`
+  - `pytest-asyncio` to `1.1.0`
+  - `pydantic` to `2.11.7`
+  - `mypy` to `1.17.1`
+  - `urllib3` to `2.5.0`
+
 ## ⛏️ 1.18.1 Development release
 
 `2025-08-12`
