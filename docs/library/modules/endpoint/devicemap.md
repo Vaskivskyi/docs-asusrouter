@@ -21,6 +21,17 @@ This module provides read and process methods for the [devicemap endpoint](#).
 
 ## Exposed API
 
+- **Functions**
+
+  - `read(content)`: Read a raw string loaded from the devicemap endpoint into a standard data dictionary.
+  - `read_index(xml_content)`: Read the XML content and extract the relevant information by index.
+  - `read_key(xml_content, key)`: Read the XML content and extract the relevant information by key.
+  - `read_special(xml_content)`: Read the XML content and extract special information.
+  - `read_uptime_string(content)`: Read the raw uptime string and convert it to a standard `datetime` object + uptime value.
+  - `process(data)`: Process the raw data into a standardized `AsusData`-compliant format.
+  - `process_boottime(data, prev_boottime)`: Process the boottime information using (if provided) information from the previous query.
+  - `process_ovpn(data)`: Process the OpenVPN data.
+
 ---
 
 ## `read_uptime_string()`
