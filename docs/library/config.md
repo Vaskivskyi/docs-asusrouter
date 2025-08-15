@@ -65,8 +65,6 @@ This module provides configuration management for the AsusRouter library. These 
 
 - `ARConfigKey.OPTIMISTIC_DATA` (default `false`)
 
-  Not implemented
-
 ---
 
 ### Optimistic Temperature
