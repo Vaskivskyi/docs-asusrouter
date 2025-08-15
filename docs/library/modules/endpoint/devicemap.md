@@ -14,9 +14,6 @@ This module provides read and process methods for the [devicemap endpoint](#).
 > [!tip]
 > This is an internal module. This means it is optimised for internal use rather for the direct user interaction.
 
-> [!warning]
-> MISSING DOCUMENTATION. This page might be not full
-
 ---
 
 ## Exposed API
