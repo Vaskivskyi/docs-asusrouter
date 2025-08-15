@@ -57,7 +57,7 @@ This module provides configuration management for the AsusRouter library. These 
 
 - `ARConfigKey.DEBUG_PAYLOAD` (default `ARSecurityLevel.DEFAULT`)
 
-Controls which data in included in the debug logging. Refer to [`ARSecurityLevel`](/library/tools/security.md#arsecuritylevel) for the available security levels.
+  Controls which data in included in the debug logging. Refer to [`ARSecurityLevel`](/library/tools/security.md#arsecuritylevel) for the available security levels.
 
 ---
 
