@@ -14,9 +14,18 @@ export const sidebar: SidebarConfig = {
       link: "/library/",
       children: [
         {
+          text: "Configuration",
+          link: "/library/config.md",
+        },
+        {
           text: "Modules",
           link: "/library/modules/",
           children: getFilesRecursive("library/modules"),
+        },
+        {
+          text: "Tools",
+          link: "/library/tools/",
+          children: getFilesRecursive("library/tools"),
         },
       ],
     },
