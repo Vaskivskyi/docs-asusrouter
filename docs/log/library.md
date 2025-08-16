@@ -1,5 +1,46 @@
 # Library change log
 
+## ⚙️ 1.19.0 Connection configurations
+
+`2025-08-16`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.19.0)
+
+### 🚀 Features
+
+- Added `asusrouter.tools.security` module and `ARSecurityLevel` level definition
+- Added universal configuration manager base `ARConfigBase` and key base `ARConfigKeyBase`
+- Added `ARConfigKey.DEBUG_PAYLOAD` configuration key to define which data can be exposed in the debug logging. Defaults to `ARSecurityLevel.DEFAULT`, which will automatically block any sensitive data (from the known sensitive endpoints + login endpoint)
+- Added configuration management for connection settings in `asusrouter.connection_config` module
+  - `ARConnectionConfig` connection configuration class
+  - `ARConnectionConfigKey` connection configuration parameters
+  - Configurations are set per instance of the `Connection` class and can be passed during `AsusRouter`, direct `Connection` initialisation, or dynamically set during runtime.
+- Added fallback features for the connection:
+  - To be enabled manually via `ARConnectionConfigKey.ALLOW_FALLBACK`
+  - Fallback matrix follows:
+    - HTTPS @ Custom port -> HTTPS @ Default port
+    - HTTPS @ Default port -> HTTP @ Default port (if `ARConnectionConfigKey.STRICT_SSL` is `false`, default)
+    - HTTP @ Custom port -> HTTP @ Default port
+    - HTTP @ Default port -> HTTPS @ Default port (if `ARConnectionConfigKey.ALLOW_UPGRADE_HTTP_TO_HTTPS` is `true`, default)
+  - Loop protection via tracking which fallback was already used
+- Added new exceptions to the `asusrouter.error` module (SSL certificate errors, fallback errors)
+
+### 🐞 Bug Fixes
+
+- Fixed issue when SSL certificate verification relied on the provided session configs rather than AR settings
+
+### 🐣 GitHub & Development
+
+- Improved and extended unit tests for the `asusrouter.connection` module
+- Bumped `uv.lock` dependencies:
+  - `aiohttp` to `3.12.15`
+  - `pytest-cov` to `6.2.1`
+  - `ruff` to `0.12.9`
+
+### 📖 Documentation
+
+- Updated documentation for the latest features
+
 ## 🌡️ 1.18.2 More config controls
 
 `2025-08-13`
