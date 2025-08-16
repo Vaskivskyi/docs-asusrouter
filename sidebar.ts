@@ -14,6 +14,10 @@ export const sidebar: SidebarConfig = {
       link: "/library/",
       children: [
         {
+          text: "Connection Configuration",
+          link: "/library/connection_config.md",
+        },
+        {
           text: "Configuration",
           link: "/library/config.md",
         },
