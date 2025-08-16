@@ -25,6 +25,10 @@
   - Loop protection via tracking which fallback was already used
 - Added new exceptions to the `asusrouter.error` module (SSL certificate errors, fallback errors)
 
+### 🐞 Bug Fixes
+
+- Fixed issue when SSL certificate verification relied on the provided session configs rather than AR settings
+
 ### 🐣 GitHub & Development
 
 - Improved and extended unit tests for the `asusrouter.connection` module
