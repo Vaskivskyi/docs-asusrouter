@@ -32,7 +32,7 @@ This module provides configuration management for the AsusRouter library. These 
 
 - **Classes**
 
-  - `ConfigBase`: Base class for thread-safe configuration managers to inherit from.
+  - `ARConfigBase`: Base class for thread-safe configuration managers to inherit from.
 
     - `set(key, value)`: Set a configuration option.
     - `get(key)`: Get a configuration option.
@@ -43,11 +43,11 @@ This module provides configuration management for the AsusRouter library. These 
     - `types`: Property exposing the type converters.
     - `__contains__(key)`: Standard function to support `key in config` checks.
 
-  - `Config`: Global AsusRouter configuration manager.
+  - `ARGlobalConfig`: Global AsusRouter configuration manager.
 
 - **Instances**
 
-  - `ARConfig`: Singleton instance of `Config` for global use.
+  - `ARConfig`: Singleton instance of `ARGlobalConfig` for global use.
 
 ---
 
