@@ -1,5 +1,27 @@
 # Integration change log
 
+## 0.38.0 🪪 Device identifiers
+
+`2025-08-23`
+
+### 🚀 Features
+
+- Added device `model_id` parameter
+- Added device `serial_number` parameter
+
+### 🐞 Bug Fixes
+
+- Fixed bug in HA sensors list generation on raw data failure
+
+### 📦 Dependencies
+
+- Bumped `asusrouter` library to [`1.20.1`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.20.1)
+
+### 🐣 GitHub & Development
+
+- Improved code quality
+- Improved development workflow
+
 ## 0.37.0 🌐 DDNS and better boot time handling
 
 `2025-08-10`
