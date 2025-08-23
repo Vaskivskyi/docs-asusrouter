@@ -1,5 +1,30 @@
 # Library change log
 
+## ⚙️ 1.20.0 Instance configurations
+
+`2025-08-23`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.20.0)
+
+### 🚀 Features
+
+- Added instance configuration management to `AsusRouter` class via `ARInstanceConfig` class in `asusrouter.config` module
+- Added enum tools with `FromIntMixin` and `FromStrMixin` mixins to standardise value-to-enum conversion
+- Added `DeviceOperationMode` definition in `asusrouter.modules.device`
+- Added `dict_to_request` writer
+
+### 🧑‍🚀 v2 preparation
+
+This release starts implementing non-breaking changes to the library in preparation for the v2 upgrade. Such changes will be gradually introduced and will not be directly available without an explicit call.
+
+- Added `ARCallableRegistry` via `asusrouter.registry`
+- Added `MacAddress` class in `asusrouter.tools.identifiers`
+- Added masking tools for `MacAddress` instances in `asusrouter.tools.masking`
+
+### 🐣 GitHub & Development
+
+- Bumped `codecov-action` to `5.5.0`
+
 ## ⚙️ 1.19.0 Connection configurations
 
 `2025-08-16`
