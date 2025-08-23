@@ -1,5 +1,15 @@
 # Library change log
 
+## 🐞 1.20.1 Bug fix
+
+`2025-08-23`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.20.1)
+
+### 🐞 Bug Fixes
+
+- Fixed bug in HA sensors list generation on raw data failure
+
 ## ⚙️ 1.20.0 Instance configurations
 
 `2025-08-23`
