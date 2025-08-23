@@ -15,7 +15,7 @@
 
 ### 🧑‍🚀 v2 preparation
 
-This release starts implementing non-breaking changes to the library in preparation for the v2 upgrade. Such changes will be gradually introduced and will not be directly available without an explicit request.
+This release starts implementing non-breaking changes to the library in preparation for the v2 upgrade. Such changes will be gradually introduced and will not be directly available without an explicit call.
 
 - Added `ARCallableRegistry` via `asusrouter.registry`
 - Added `MacAddress` class in `asusrouter.tools.identifiers`
