@@ -6,6 +6,12 @@ This page contains the main changes in the project. For the full list of changes
 
 ## Library
 
+**2025-09-03 [[1.21.0]](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.21.0) 🌐 AiMesh network monitoring**
+
+- Added support for data rate monitoring for each node of AiMesh.
+
+---
+
 **2025-08-16 [[1.19.0]](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.19.0) ⚙️ Connection configurations**
 
 - Added support for changing connection configurations at runtime.

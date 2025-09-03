@@ -1,5 +1,36 @@
 # Library change log
 
+## 🌐 1.21.0 AiMesh network monitoring
+
+`2025-09-03`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.21.0)
+
+### 🚀 Features
+
+- Added traffic monitoring for the AiMesh network via `asusrouter.modules.traffic`
+  - Data rates can be independently monitored for any of the nodes (routers) connected to the AiMesh
+  - Wired traffic (fronthaul or backhaul) via `ARTrafficSourceEthernet`
+  - Wireless fronthaul (per band via its MAC address) via `ARTrafficSourceWiFi`
+  - Wireless backhaul via `ARTrafficSourceBackhaul`
+- Added units (and corresponding converters) for data and data rate in `asusrouter.tools.units`
+
+### 🐞 Bug Fixes
+
+- Improved error handling on data fetch
+
+### 🧑‍🚀 v2 preparation
+
+- Added new data fetch flow
+  - Already in use for traffic monitoring (directly accessible through v1 calls)
+- Added universal source module in `asusrouter.modules.source` for handling data sources
+
+### 🐣 GitHub & Development
+
+- Added new exception type `AsusRouterRequestFormatError`
+- Other code improvements
+- Bumped `ruff` to `0.12.11`
+
 ## 🐞 1.20.1 Bug fix
 
 `2025-08-23`
