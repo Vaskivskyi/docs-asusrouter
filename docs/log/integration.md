@@ -1,5 +1,49 @@
 # Integration change log
 
+## 🛠️ 0.39.0 Backend improvements and compatibility with HA 2025-9-x
+
+`2025-09-03`
+
+### 💥 Please, read this introduction to the release notes
+
+Hello there. Probably you did not know yet, but starting with Home Assistant 2025-9-0, the in-built `asuswrt` integration starts using my `asusrouter` library as the backend (same as the `asusrouter` custom integration you are using). With this collaboration, I will help improve the user experience of the core integration. So, here is a summary of what it means to you:
+
+#### Compatibility
+
+- 🤔 **You can use both integrations simultaneously without any issues**
+- ❓ Do you need to do anything special? **No**. Just ensure you are installing the updates, and that's it
+
+#### `asusrouter` path
+
+- 📦 `asusrouter` will stay a completely independent custom integration available through HACS
+- 🛠️ `asusrouter` will be developed fully independently, will receive new features and bug fixes
+
+#### `asuswrt` path
+
+- ⛏️ `asuswrt` will benefit from the improvements made to `asusrouter` integration and backend
+- 🚶‍➡️ `asuswrt` will focus on the stability of basic features
+- 🏎️ `asuswrt` will NOT get all the features of `asusrouter`. While some basic features may overlap, `asusrouter` will stay a more advanced and customised integration
+
+#### Support
+
+- ⁉️ You have to report bugs for `asuswrt` to the HA Core repository as usual. You have to report bugs for `asusrouter` in its repository as usual. You might not get support if you fail to do so
+
+### 🚀 Features
+
+- Unpinned `asusrouter` dependency from the exact version to `greater than` to ensure compatibility with any future HA version
+
+### 🐞 Bug Fixes
+
+- Improved error handling on data fetch
+
+### 📦 Dependencies
+
+- Bumped `asusrouter` library to [`1.21.0`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.21.0)
+
+### 🐣 GitHub & Development
+
+- Improved issue templates
+
 ## 0.38.0 🪪 Device identifiers
 
 `2025-08-23`
