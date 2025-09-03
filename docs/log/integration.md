@@ -1,5 +1,25 @@
 # Integration change log
 
+## 🛠️ 0.39.0 Backend improvements and compatibility with HA 2025-9-x
+
+`2025-09-03`
+
+### 🚀 Features
+
+- Unpinned `asusrouter` dependency from the exact version to `greater than` to ensure compatibility with any future HA version
+
+### 🐞 Bug Fixes
+
+- Improved error handling on data fetch
+
+### 📦 Dependencies
+
+- Bumped `asusrouter` library to [`1.21.0`](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.21.0)
+
+### 🐣 GitHub & Development
+
+- Improved issue templates
+
 ## 0.38.0 🪪 Device identifiers
 
 `2025-08-23`
