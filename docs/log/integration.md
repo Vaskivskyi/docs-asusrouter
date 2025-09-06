@@ -1,5 +1,26 @@
 # Integration change log
 
+## 💥 0.40.0 Solution to the merged devices
+
+`2025-09-06`
+
+### 🚀 Features
+
+- Improved handling of device properties
+
+### 🐞 Bug Fixes
+
+- Fixed the issue with some devices being merged into one
+
+### 💥 Breaking Changes
+
+- Removed migration from before version `0.21.0`
+
+### 🐣 GitHub & Development
+
+- Improved automatic testing
+- Improved development workflows
+
 ## 🛠️ 0.39.0 Backend improvements and compatibility with HA 2025-9-x
 
 `2025-09-03`
