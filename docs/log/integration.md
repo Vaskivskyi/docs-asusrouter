@@ -1,5 +1,13 @@
 # Integration change log
 
+## 🐞 0.40.1 Property bugfix
+
+`2025-09-12`
+
+### 🐞 Bug Fixes
+
+- Fixed issue with the `webpanel` property failing the integration startup
+
 ## 💥 0.40.0 Solution to the merged devices
 
 `2025-09-06`
