@@ -1,5 +1,15 @@
 # Library change log
 
+## 🐞 1.21.1 Bug Fix for new FW
+
+`2025-12-07`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.21.1)
+
+### 🐞 Bug Fixes
+
+- Fixed issue with onboarding endpoint parsing (client data) for the new firmware versions
+
 ## 🌐 1.21.0 AiMesh network monitoring
 
 `2025-09-03`
