@@ -1,5 +1,23 @@
 # Library change log
 
+## 🐞 1.21.2 Bug fix for a bug fix
+
+`2025-12-09`
+
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.21.2)
+
+### 🚀 Features
+
+- Added exception protection for device data processing. The library should not crash fully on faulty data received from a single endpoint.
+
+### 🐞 Bug Fixes
+
+- Fixed complex JS variables parsing
+
+### 🐣 GitHub & Development
+
+- Extended unit tests for the JS parser
+
 ## 🐞 1.21.1 Bug Fix for new FW
 
 `2025-12-07`
