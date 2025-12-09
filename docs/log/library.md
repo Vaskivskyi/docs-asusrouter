@@ -1,10 +1,10 @@
 # Library change log
 
-## 🐞 1.21.2 Bug fix for a bug fix
+## 🐞 1.21.3 Bug fix for a bug fix
 
 `2025-12-09`
 
-#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.21.2)
+#### [→ 🐙 GitHub release ←](https://github.com/Vaskivskyi/asusrouter/releases/tag/1.21.3)
 
 ### 🚀 Features
 
