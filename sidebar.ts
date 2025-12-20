@@ -5,7 +5,7 @@ import {
   getFilesRecursive,
   getFilesRev,
 } from "./navbar";
-import { default as deviceList } from "./docs/devices/map.json" assert { type: "json" };
+import { default as deviceList } from "./docs/devices/map.json" with { type: "json" };
 
 export const sidebar: SidebarConfig = {
   "/library/": [
