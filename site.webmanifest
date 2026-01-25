@@ -1,0 +1,7 @@
+{
+    "name": "AsusRouter",
+    "short_name": "AsusRouter",
+    "theme_color": "#1982ff",
+    "background_color": "#22272e",
+    "display": "standalone"
+}
